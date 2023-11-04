@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 084d3c4ce54d80740bac2d4c2c3717b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6417390424102860804
+    second: Minifantasy_GuiButtons_BW_0
+  - first:
+      213: 6616845915635854023
+    second: Minifantasy_GuiButtons_BW_1
+  - first:
+      213: 3216896322813538474
+    second: Minifantasy_GuiButtons_BW_2
+  - first:
+      213: 3167383670359140745
+    second: Minifantasy_GuiButtons_BW_3
+  - first:
+      213: -4573961009895225182
+    second: Minifantasy_GuiButtons_BW_4
+  - first:
+      213: -9096297066179411385
+    second: Minifantasy_GuiButtons_BW_5
+  - first:
+      213: -5308662832190413224
+    second: Minifantasy_GuiButtons_BW_6
+  - first:
+      213: -8091636113006267980
+    second: Minifantasy_GuiButtons_BW_7
+  - first:
+      213: 5263688508180773161
+    second: Minifantasy_GuiButtons_BW_8
+  - first:
+      213: -5161657315463317456
+    second: Minifantasy_GuiButtons_BW_9
+  - first:
+      213: -6579356722081739017
+    second: Minifantasy_GuiButtons_BW_10
+  - first:
+      213: 884706378887693011
+    second: Minifantasy_GuiButtons_BW_11
+  - first:
+      213: -8647712777014440392
+    second: Minifantasy_GuiButtons_BW_12
+  - first:
+      213: 6474535085872382303
+    second: Minifantasy_GuiButtons_BW_13
+  - first:
+      213: -1294723033913107974
+    second: Minifantasy_GuiButtons_BW_14
+  - first:
+      213: -3286339714222356896
+    second: Minifantasy_GuiButtons_BW_15
+  - first:
+      213: -5231856782140622978
+    second: Minifantasy_GuiButtons_BW_16
+  - first:
+      213: -4618717853997643527
+    second: Minifantasy_GuiButtons_BW_17
+  - first:
+      213: 1031172687396730966
+    second: Minifantasy_GuiButtons_BW_18
+  - first:
+      213: -2684025544515892654
+    second: Minifantasy_GuiButtons_BW_19
+  - first:
+      213: -8837671941956207633
+    second: Minifantasy_GuiButtons_BW_20
+  - first:
+      213: -2080327649645115938
+    second: Minifantasy_GuiButtons_BW_21
+  - first:
+      213: -2660708540651767206
+    second: Minifantasy_GuiButtons_BW_22
+  - first:
+      213: 2054393221365590730
+    second: Minifantasy_GuiButtons_BW_23
+  - first:
+      213: -8246405681630834531
+    second: Minifantasy_GuiButtons_BW_24
+  - first:
+      213: -6707260384201008005
+    second: Minifantasy_GuiButtons_BW_25
+  - first:
+      213: 2215512855623336108
+    second: Minifantasy_GuiButtons_BW_26
+  - first:
+      213: -4693986625521146487
+    second: Minifantasy_GuiButtons_BW_27
+  - first:
+      213: -3830083889196918679
+    second: Minifantasy_GuiButtons_BW_28
+  - first:
+      213: 2663781142354784501
+    second: Minifantasy_GuiButtons_BW_29
+  - first:
+      213: -7433724321772847119
+    second: Minifantasy_GuiButtons_BW_30
+  - first:
+      213: 8262235427865118798
+    second: Minifantasy_GuiButtons_BW_31
+  - first:
+      213: 2760491599618701675
+    second: Minifantasy_GuiButtons_BW_32
+  - first:
+      213: -6269995785381971567
+    second: Minifantasy_GuiButtons_BW_33
+  - first:
+      213: 4167028436824717601
+    second: Minifantasy_GuiButtons_BW_34
+  - first:
+      213: 3173353777863289171
+    second: Minifantasy_GuiButtons_BW_35
+  - first:
+      213: -7166599894418271339
+    second: Minifantasy_GuiButtons_BW_36
+  - first:
+      213: -4757250304041952296
+    second: Minifantasy_GuiButtons_BW_37
+  - first:
+      213: -2995754370112883139
+    second: Minifantasy_GuiButtons_BW_38
+  - first:
+      213: -5385263141092208308
+    second: Minifantasy_GuiButtons_BW_39
+  - first:
+      213: -484812528441026299
+    second: Minifantasy_GuiButtons_BW_40
+  - first:
+      213: -8676225655019596995
+    second: Minifantasy_GuiButtons_BW_41
+  - first:
+      213: -4820594320716635358
+    second: Minifantasy_GuiButtons_BW_42
+  - first:
+      213: -6066294245002122806
+    second: Minifantasy_GuiButtons_BW_43
+  - first:
+      213: -6672189236099270658
+    second: Minifantasy_GuiButtons_BW_44
+  - first:
+      213: -8011412917195584192
+    second: Minifantasy_GuiButtons_BW_45
+  - first:
+      213: -7461066948961474398
+    second: Minifantasy_GuiButtons_BW_46
+  - first:
+      213: -6425715131873821946
+    second: Minifantasy_GuiButtons_BW_47
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_Button_Neutral
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 5, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408f4a507962f0950800000000000000
+      internalID: 6417390424102860804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_Button_Pressed
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 5, z: 3, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0950a41914c9324ba247a8cd84355b8
+      internalID: 1399421500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_Button_Hover
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 5, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8549a58a02a10b4ab308ac0a11905ea
+      internalID: 1899522755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_Button_Disabled
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 5, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c778198a2a9ec4ba78b32c2386c6aa
+      internalID: 1289335849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 29772d54e68578a4991f205c84a241d4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_Button_Disabled: 1289335849
+      Minifantasy_Button_Hover: 1899522755
+      Minifantasy_Button_Neutral: 6417390424102860804
+      Minifantasy_Button_Pressed: 1399421500
+      Minifantasy_GuiButtons_BW_1: 6616845915635854023
+      Minifantasy_GuiButtons_BW_10: -6579356722081739017
+      Minifantasy_GuiButtons_BW_11: 884706378887693011
+      Minifantasy_GuiButtons_BW_12: -8647712777014440392
+      Minifantasy_GuiButtons_BW_13: 6474535085872382303
+      Minifantasy_GuiButtons_BW_14: -1294723033913107974
+      Minifantasy_GuiButtons_BW_15: -3286339714222356896
+      Minifantasy_GuiButtons_BW_16: -5231856782140622978
+      Minifantasy_GuiButtons_BW_17: -4618717853997643527
+      Minifantasy_GuiButtons_BW_18: 1031172687396730966
+      Minifantasy_GuiButtons_BW_19: -2684025544515892654
+      Minifantasy_GuiButtons_BW_2: 3216896322813538474
+      Minifantasy_GuiButtons_BW_20: -8837671941956207633
+      Minifantasy_GuiButtons_BW_21: -2080327649645115938
+      Minifantasy_GuiButtons_BW_22: -2660708540651767206
+      Minifantasy_GuiButtons_BW_23: 2054393221365590730
+      Minifantasy_GuiButtons_BW_24: -8246405681630834531
+      Minifantasy_GuiButtons_BW_25: -6707260384201008005
+      Minifantasy_GuiButtons_BW_26: 2215512855623336108
+      Minifantasy_GuiButtons_BW_27: -4693986625521146487
+      Minifantasy_GuiButtons_BW_28: -3830083889196918679
+      Minifantasy_GuiButtons_BW_29: 2663781142354784501
+      Minifantasy_GuiButtons_BW_3: 3167383670359140745
+      Minifantasy_GuiButtons_BW_30: -7433724321772847119
+      Minifantasy_GuiButtons_BW_31: 8262235427865118798
+      Minifantasy_GuiButtons_BW_32: 2760491599618701675
+      Minifantasy_GuiButtons_BW_33: -6269995785381971567
+      Minifantasy_GuiButtons_BW_34: 4167028436824717601
+      Minifantasy_GuiButtons_BW_35: 3173353777863289171
+      Minifantasy_GuiButtons_BW_36: -7166599894418271339
+      Minifantasy_GuiButtons_BW_37: -4757250304041952296
+      Minifantasy_GuiButtons_BW_38: -2995754370112883139
+      Minifantasy_GuiButtons_BW_39: -5385263141092208308
+      Minifantasy_GuiButtons_BW_4: -4573961009895225182
+      Minifantasy_GuiButtons_BW_40: -484812528441026299
+      Minifantasy_GuiButtons_BW_41: -8676225655019596995
+      Minifantasy_GuiButtons_BW_42: -4820594320716635358
+      Minifantasy_GuiButtons_BW_43: -6066294245002122806
+      Minifantasy_GuiButtons_BW_44: -6672189236099270658
+      Minifantasy_GuiButtons_BW_45: -8011412917195584192
+      Minifantasy_GuiButtons_BW_46: -7461066948961474398
+      Minifantasy_GuiButtons_BW_47: -6425715131873821946
+      Minifantasy_GuiButtons_BW_48: -2120423918
+      Minifantasy_GuiButtons_BW_5: -9096297066179411385
+      Minifantasy_GuiButtons_BW_6: -5308662832190413224
+      Minifantasy_GuiButtons_BW_7: -8091636113006267980
+      Minifantasy_GuiButtons_BW_8: 5263688508180773161
+      Minifantasy_GuiButtons_BW_9: -5161657315463317456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
