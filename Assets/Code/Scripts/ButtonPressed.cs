@@ -11,10 +11,12 @@ public class ButtonPressed : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     public float textClickOffset = 20f;
 
     Button button;
+    AudioManager audioManager;
 
     private void Awake()
     {
         button = GetComponent<Button>();
+        audioManager = FindFirstObjectByType<AudioManager>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -22,6 +24,7 @@ public class ButtonPressed : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         if (!button.IsInteractable()) return;
         var textPos = textMeshPro.rectTransform.localPosition;
         textMeshPro.rectTransform.localPosition = new Vector3(textPos.x, textPos.y - textClickOffset);
+        audioManager.Play("ButtonClick");
     }
 
     public void OnPointerUp(PointerEventData eventData)
