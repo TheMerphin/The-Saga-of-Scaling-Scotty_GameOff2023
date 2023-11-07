@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Toolbox;
 
 public class PlayerController : MonoBehaviour
 {
@@ -43,32 +44,55 @@ public class PlayerController : MonoBehaviour
 
     private void HandleInput()
     {
+        HandleMovement();
+        HandleActions();
+    }
+
+    private void HandleMovement()
+    {
         horizontalMovement = Input.GetAxisRaw("Horizontal");
         verticalMovement = Input.GetAxisRaw("Vertical");
 
-        if (horizontalMovement < -0.01f && verticalMovement > 0.01f)
+        Vector2 playerPos = transform.position;
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var mouseDirection = (mousePos - playerPos).normalized;
+
+        switch (GetDiagonalDirection(mouseDirection))
         {
-            animator.SetBool("movingTL", true);
+            case DiagonalDirection.UpRight:
+                animator.SetBool("isFacingTR", true);
+                break;
+            case DiagonalDirection.UpLeft:
+                animator.SetBool("isFacingTL", true);
+                break;
+            case DiagonalDirection.DownRight:
+                animator.SetBool("isFacingBR", true);
+                break;
+            case DiagonalDirection.DownLeft:
+                animator.SetBool("isFacingBL", true);
+                break;
         }
-        else if ((horizontalMovement < -0.01f && verticalMovement == 0f) | (horizontalMovement < -0.01f && verticalMovement < -0.01f))
+
+        if (horizontalMovement != 0f | verticalMovement != 0f)
         {
-            animator.SetBool("movingBL", true);
+            animator.SetBool("isMoving", true);
         }
-        else if ((verticalMovement > 0.01f && horizontalMovement == 0f) | (horizontalMovement > 0.01f && verticalMovement > 0.01f))
+    }
+
+    private void HandleActions()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            animator.SetBool("movingTR", true);
-        }
-        else if ((horizontalMovement > 0.01f && verticalMovement == 0f) | (verticalMovement < -0.01f && horizontalMovement == 0f) | (horizontalMovement > 0.01f && verticalMovement < -0.01f))
-        {
-            animator.SetBool("movingBR", true);
+            animator.SetTrigger("Attack");
         }
     }
 
     private void ResetValuesBeforeFrame()
     {
-        animator.SetBool("movingTR", false);
-        animator.SetBool("movingTL", false);
-        animator.SetBool("movingBR", false);
-        animator.SetBool("movingBL", false);
+        animator.SetBool("isFacingTR", false);
+        animator.SetBool("isFacingTL", false);
+        animator.SetBool("isFacingBR", false);
+        animator.SetBool("isFacingBL", false);
+        animator.SetBool("isMoving", false);
     }
 }
