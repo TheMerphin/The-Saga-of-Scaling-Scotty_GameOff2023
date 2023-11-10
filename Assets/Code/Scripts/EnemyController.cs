@@ -4,20 +4,48 @@ using UnityEngine;
 using Pathfinding;
 public class EnemyController : MonoBehaviour
 {
+    public enum MonsterType
+    {
+        Skeleton,
+        Goblin,
+        Slime
+    }
+
     private AIPath aiPath;
     private Transform target;
     private float horizontalMovement, verticalMovement;
     private Animator animator;
-    private bool attack=false;
+    private bool attack = false;
+
+    // Settings for the monster
+    public MonsterType monsterType;
+    public float movementSpeed = 1;
+    public float detectionRange = 3f;
+
+    public RuntimeAnimatorController skeletonAnimator;
+    public Sprite skeletonSprite;
+    public RuntimeAnimatorController goblinAnimator;
+    public Sprite goblinSprite;
     void Awake()
     {
         aiPath = GetComponent<AIPath>();
-        GameObject player = GameObject.Find("Player");
+        aiPath.maxSpeed = movementSpeed;
+
+        GameObject player = GameObject.FindWithTag("Player");
         target = player.transform;
 
         animator = GetComponentInChildren<Animator>();
+        SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
 
-
+        if (monsterType.Equals(MonsterType.Skeleton))
+        {
+            animator.runtimeAnimatorController = skeletonAnimator;
+            monsterSprite.sprite = skeletonSprite;
+        }
+        else if (monsterType.Equals(MonsterType.Goblin))
+        {
+            Debug.Log("Sneaky Gobbos");
+        }
     }
 
     void Update()
@@ -28,15 +56,26 @@ public class EnemyController : MonoBehaviour
 
     private void EnemyAnimation()
     {
+        
         horizontalMovement = aiPath.desiredVelocity.x;
         verticalMovement = aiPath.desiredVelocity.y;
 
-        
-        float detectionRange = 0.8f;
-        float distanceToPlayer = Vector3.Distance(transform.position, target.position);
 
-        
-        if (horizontalMovement < -0.01f && verticalMovement > 0.01f)
+
+        float distanceToPlayer = Vector3.Distance(transform.position, target.position);
+        if (distanceToPlayer >= 5f)
+        {
+            animator.SetBool("laying", true);
+            aiPath.canMove = false;
+            return;
+        }
+        else
+        {
+            
+            animator.SetBool("laying", false);
+            aiPath.canMove = true;
+        }
+        if (horizontalMovement < 0f && verticalMovement > 0f)
         {
             if (distanceToPlayer <= detectionRange)
             {
@@ -48,9 +87,9 @@ public class EnemyController : MonoBehaviour
                 animator.SetBool("movingTL", true);
                 attack = false;
             }
-                
+
         }
-        else if ((horizontalMovement < -0.01f && verticalMovement == 0f) | (horizontalMovement < -0.01f && verticalMovement < -0.01f))
+        else if ((horizontalMovement < 0f && verticalMovement == 0f) | (horizontalMovement < 0f && verticalMovement < 0f))
         {
             if (distanceToPlayer <= detectionRange)
             {
@@ -62,9 +101,9 @@ public class EnemyController : MonoBehaviour
                 animator.SetBool("movingBL", true);
                 attack = false;
             }
-          
+
         }
-        else if ((verticalMovement > 0.01f && horizontalMovement == 0f) | (horizontalMovement > 0.01f && verticalMovement > 0.01f))
+        else if ((verticalMovement > 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement > 0f))
         {
             if (distanceToPlayer <= detectionRange)
             {
@@ -76,9 +115,9 @@ public class EnemyController : MonoBehaviour
                 animator.SetBool("movingTR", true);
                 attack = false;
             }
-          
+
         }
-        else if ((horizontalMovement > 0.01f && verticalMovement == 0f) | (verticalMovement < -0.01f && horizontalMovement == 0f) | (horizontalMovement > 0.01f && verticalMovement < -0.01f))
+        else if ((horizontalMovement > 0f && verticalMovement == 0f) | (verticalMovement < 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement < 0f))
         {
             if (distanceToPlayer <= detectionRange)
             {
@@ -90,9 +129,14 @@ public class EnemyController : MonoBehaviour
                 animator.SetBool("movingBR", true);
                 attack = false;
             }
-           
+
         }
     }
+    public void getAttacked(float damage)
+    {
+        Debug.Log("I got attacked");
+    }
+
 
     private void ResetValuesBeforeFrame()
     {

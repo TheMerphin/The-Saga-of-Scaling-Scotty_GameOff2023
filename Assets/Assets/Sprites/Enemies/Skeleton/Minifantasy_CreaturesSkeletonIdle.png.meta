@@ -131,10 +131,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 76
-        width: 17
-        height: 6
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 44
-        width: 17
-        height: 6
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_2
       rect:
         serializedVersion: 2
-        x: 37
-        y: 44
-        width: 14
-        height: 10
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 44
-        width: 12
-        height: 11
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 44
-        width: 10
-        height: 10
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_5
       rect:
         serializedVersion: 2
-        x: 139
-        y: 44
-        width: 10
-        height: 9
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 12
-        width: 10
-        height: 9
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_7
       rect:
         serializedVersion: 2
-        x: 41
-        y: 12
-        width: 10
-        height: 10
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 12
-        width: 12
-        height: 11
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_9
       rect:
         serializedVersion: 2
-        x: 101
-        y: 12
-        width: 14
-        height: 10
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonIdle_10
       rect:
         serializedVersion: 2
-        x: 131
-        y: 12
-        width: 17
-        height: 6
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,7 +361,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10fece43fb94dce4cafa7b03b8001b21
     internalID: 0
     vertices: []
     indices: 
