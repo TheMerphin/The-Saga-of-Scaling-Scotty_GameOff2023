@@ -51,6 +51,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _FillCorners: 0
+    - _OutlineAlpha: 0
     - _Toggle: 1
     m_Colors:
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}

@@ -9,7 +9,7 @@ public class GameMenuController : MonoBehaviour
     public RectTransform inventorySelector;
     public Image[] itemIcons;
 
-    void Start()
+    void Awake()
     {
         Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
     }

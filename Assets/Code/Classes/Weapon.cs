@@ -15,6 +15,10 @@ public abstract class Weapon : Item
     public int Damage { get { return damage; } set { damage = value; } }
 
     [SerializeField]
+    private float attackSpeedMultiplier = 1f;
+    public float AttackSpeedMultiplier { get { return attackSpeedMultiplier; } set { attackSpeedMultiplier = value; } }
+
+    [SerializeField]
     private Sound attackSound;
     public Sound AttackSound { get { return attackSound; } set { attackSound = value; } }
 
@@ -29,8 +33,6 @@ public abstract class Weapon : Item
     private AnimationClip[] attackAnimations;
     public AnimationClip[] AttackAnimations { get { return attackAnimations; } set { attackAnimations = value; } }
 
-    protected AudioManager audioManager;
-
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -39,7 +41,6 @@ public abstract class Weapon : Item
     protected override void OnStart()
     {
         base.OnStart();
-        audioManager = FindFirstObjectByType<AudioManager>();
         audioManager.AddSound(attackSound);
     }
 

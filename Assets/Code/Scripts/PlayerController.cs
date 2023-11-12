@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
 
+    private float pickUpCooldown;
+
     /**
      * Contains four items with the following mapping:
      * 0 -> WeaponType.Melee
@@ -28,14 +30,12 @@ public class PlayerController : MonoBehaviour
      */
     private Item[] items;
 
-    [SerializeReference]
-    public Item startWeapon;
-
     private void Awake()
     {
         items = new Item[4];
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
         selectedSlot = 0;
+        pickUpCooldown = 0f;
     }
 
     void Start()
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController.SelectSlot(selectedSlot);
 
-        PickUpItem(startWeapon);
+        SetSelectedSlot(0);
     }
 
     // Update is called once per frame
@@ -150,20 +150,26 @@ public class PlayerController : MonoBehaviour
             SetSelectedSlot(selectedSlot - 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && pickUpCooldown <= 0f)
         {
-            var circleCast = Physics2D.CircleCast(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Item"));
+            var circleCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Item"));
 
-            if (circleCast.collider != null)
+            if (circleCast.Length > 0 && circleCast[0].collider != null)
             {
-                var item = circleCast.collider.GetComponent<Item>();
+                var item = circleCast[0].collider.GetComponent<Item>();
 
                 if (item != null)
                 {
+                    pickUpCooldown = 1f;
                     PickUpItem(item);
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) && selectedSlot != 0) SetSelectedSlot(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2) && selectedSlot != 1) SetSelectedSlot(1);
+        if (Input.GetKeyDown(KeyCode.Alpha3) && selectedSlot != 2) SetSelectedSlot(2);
+        if (Input.GetKeyDown(KeyCode.Alpha4) && selectedSlot != 3) SetSelectedSlot(3);
     }
 
     private void ResetValuesBeforeFrame()
@@ -175,12 +181,19 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isFacingBR", false);
         animator.SetBool("isFacingBL", false);
         animator.SetBool("isMoving", false);
+
+        if(pickUpCooldown > 0f) pickUpCooldown -= 0.01f;
     }
 
     private void SetSelectedSlot(int slot)
     {
         selectedSlot = slot;
+        UpdateItemAnimations();
+        gameMenuController.SelectSlot(selectedSlot);
+    }
 
+    private void UpdateItemAnimations()
+    {
         if (items[selectedSlot] is Weapon)
         {
             var weapon = (Weapon)items[selectedSlot];
@@ -193,15 +206,15 @@ public class PlayerController : MonoBehaviour
 
             animator.Rebind();
             animatorOverrideController.ApplyOverrides(attackClipOverrides);
+            animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
         }
-
-        gameMenuController.SelectSlot(selectedSlot);
     }
 
     private void PickUpItem(Item item)
     {
         item.PickUp(transform);
         UpdateInventory(item);
+        UpdateItemAnimations();
     }
 
     private void UpdateInventory(Item item)

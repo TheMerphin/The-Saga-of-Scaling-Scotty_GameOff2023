@@ -6,7 +6,7 @@ using UnityEngine;
 using static Toolbox;
 using static UnityEditor.Progress;
 
-public class Dagger : Weapon
+public class Sword : Weapon
 {
     ParticleSystem attackParticles;
 
@@ -40,7 +40,7 @@ public class Dagger : Weapon
         var attackDirection = player.GetPlayerFacingDirection();
         var attackPos = (Vector2)player.transform.position;
 
-        var attackBoxSize = new Vector2(1.0f, 1.0f);
+        var attackBoxSize = new Vector2(1.2f, 1.2f);
         var attackOffset = new Vector2(0.5f, 0.5f);
         Vector2 particlesOffset = Vector2.zero;
         Quaternion particlesRotation = Quaternion.identity;
