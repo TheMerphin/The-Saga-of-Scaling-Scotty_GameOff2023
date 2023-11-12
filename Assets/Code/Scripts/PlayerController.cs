@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -61,6 +62,30 @@ public class PlayerController : MonoBehaviour
     {
         ResetValuesBeforeFrame();
         HandleInput();
+    }
+
+    private void LateUpdate()
+    {
+        var circleCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
+
+        Array.ForEach(circleCast, interactable => {
+            var item = interactable.collider.GetComponent<Item>();
+            var prompter = interactable.collider.GetComponent<ObjectPrompter>();
+            if (Input.GetKeyDown(KeyCode.F) && item != null)
+            {
+                pickUpCooldown = 1f;
+                PickUpItem(item);
+                return;
+            }
+
+            if (prompter != null)
+            {
+                // Item just dropped, skip
+                if (item != null && item.transform.rotation.z != 0f) return;
+
+                prompter.ShowPrompt(true);
+            }
+        });
     }
 
     private void FixedUpdate()
@@ -150,22 +175,6 @@ public class PlayerController : MonoBehaviour
             SetSelectedSlot(selectedSlot - 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && pickUpCooldown <= 0f)
-        {
-            var circleCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Item"));
-
-            if (circleCast.Length > 0 && circleCast[0].collider != null)
-            {
-                var item = circleCast[0].collider.GetComponent<Item>();
-
-                if (item != null)
-                {
-                    pickUpCooldown = 1f;
-                    PickUpItem(item);
-                }
-            }
-        }
-
         if (Input.GetKeyDown(KeyCode.Alpha1) && selectedSlot != 0) SetSelectedSlot(0);
         if (Input.GetKeyDown(KeyCode.Alpha2) && selectedSlot != 1) SetSelectedSlot(1);
         if (Input.GetKeyDown(KeyCode.Alpha3) && selectedSlot != 2) SetSelectedSlot(2);
@@ -226,17 +235,17 @@ public class PlayerController : MonoBehaviour
             var weapon = (Weapon)item;
             switch (weapon.WeaponType)
             {
-                case WeaponType.MELEE:
+                case WeaponType.Melee:
                     slot = 0;
                     previousItem = items[slot];
                     items[slot] = item;
                     break;
-                case WeaponType.RANGE:
+                case WeaponType.Range:
                     slot = 1;
                     previousItem = items[slot];
                     items[slot] = item;
                     break;
-                case WeaponType.SPECIAL:
+                case WeaponType.Special:
                     slot = 2;
                     previousItem = items[slot];
                     items[slot] = item;

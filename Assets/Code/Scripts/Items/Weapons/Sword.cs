@@ -29,10 +29,10 @@ public class Sword : Weapon
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position + new Vector3(0.5f, -0.5f, 0f), new Vector2(1.0f, 1.0f));
-        Gizmos.DrawWireCube(transform.position + new Vector3(0.5f, 0.5f, 0f), new Vector2(1.0f, 1.0f));
-        Gizmos.DrawWireCube(transform.position + new Vector3(-0.5f, 0.5f, 0f), new Vector2(1.0f, 1.0f));
-        Gizmos.DrawWireCube(transform.position + new Vector3(-0.5f, -0.5f, 0f), new Vector2(1.0f, 1.0f));
+        Gizmos.DrawWireCube(transform.position + new Vector3(0.6f, -0.6f, 0f), new Vector2(1.2f, 1.2f));
+        Gizmos.DrawWireCube(transform.position + new Vector3(0.6f, 0.6f, 0f), new Vector2(1.2f, 1.2f));
+        Gizmos.DrawWireCube(transform.position + new Vector3(-0.6f, 0.6f, 0f), new Vector2(1.2f, 1.2f));
+        Gizmos.DrawWireCube(transform.position + new Vector3(-0.6f, -0.6f, 0f), new Vector2(1.2f, 1.2f));
     }
 
     public override void Attack()
@@ -41,7 +41,7 @@ public class Sword : Weapon
         var attackPos = (Vector2)player.transform.position;
 
         var attackBoxSize = new Vector2(1.2f, 1.2f);
-        var attackOffset = new Vector2(0.5f, 0.5f);
+        var attackOffset = new Vector2(0.6f, 0.6f);
         Vector2 particlesOffset = Vector2.zero;
         Quaternion particlesRotation = Quaternion.identity;
 

@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -41,6 +44,13 @@ public abstract class Weapon : Item
     protected override void OnStart()
     {
         base.OnStart();
+
+        Array.ForEach(gameObject.GetComponentsInChildren<TextMeshProUGUI>(), text => {
+            if (text.name.Equals("#AUTOFILL_WeaponType")) { text.text = WeaponType.ToString(); }
+            if (text.name.Equals("#AUTOFILL_Damage")) { text.text = Damage.ToString(); }
+            if (text.name.Equals("#AUTOFILL_AttackSpeed")) { text.text = AttackSpeedMultiplier > 0.8 ? AttackSpeedMultiplier > 1.2 ? "Fast" : "Medium" : "Slow"; }
+        });
+
         audioManager.AddSound(attackSound);
     }
 
@@ -49,7 +59,7 @@ public abstract class Weapon : Item
 
 public enum WeaponType
 {
-    MELEE,
-    RANGE,
-    SPECIAL
+    Melee,
+    Range,
+    Special
 }

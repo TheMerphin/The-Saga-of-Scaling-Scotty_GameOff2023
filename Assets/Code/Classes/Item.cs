@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using static UnityEditor.MaterialProperty;
 
 public abstract class Item : MonoBehaviour
 {
@@ -48,6 +51,11 @@ public abstract class Item : MonoBehaviour
 
     protected virtual void OnStart()
     {
+        Array.ForEach(gameObject.GetComponentsInChildren<TextMeshProUGUI>(), text => {
+            if (text.name.Equals("#AUTOFILL_Name")) { text.text = ItemName; }
+            if (text.name.Equals("#AUTOFILL_Description")) { text.text = Description; }
+        });
+
         audioManager = FindFirstObjectByType<AudioManager>();
     }
 
