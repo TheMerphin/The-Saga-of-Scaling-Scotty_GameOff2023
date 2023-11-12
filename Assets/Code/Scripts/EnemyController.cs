@@ -16,11 +16,14 @@ public class EnemyController : MonoBehaviour
     private float horizontalMovement, verticalMovement;
     private Animator animator;
     private bool attack = false;
+    private bool gotHit = false;
 
     // Settings for the monster
     public MonsterType monsterType;
     public float movementSpeed = 1;
     public float detectionRange = 3f;
+    public float health;
+
 
     public RuntimeAnimatorController skeletonAnimator;
     public Sprite skeletonSprite;
@@ -52,18 +55,23 @@ public class EnemyController : MonoBehaviour
     {
         ResetValuesBeforeFrame();
         EnemyAnimation();
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            getAttacked(0);
+        }
+
     }
 
     private void EnemyAnimation()
     {
         
-        horizontalMovement = aiPath.desiredVelocity.x;
-        verticalMovement = aiPath.desiredVelocity.y;
-
-
+        horizontalMovement = aiPath.velocity.x;
+        verticalMovement = aiPath.velocity.y;
+        float attackRange = 1f;
 
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
-        if (distanceToPlayer >= 5f)
+        if (distanceToPlayer >= detectionRange)
         {
             animator.SetBool("laying", true);
             aiPath.canMove = false;
@@ -77,56 +85,89 @@ public class EnemyController : MonoBehaviour
         }
         if (horizontalMovement < 0f && verticalMovement > 0f)
         {
-            if (distanceToPlayer <= detectionRange)
+            animator.SetBool("TL", true);
+            if (gotHit)
             {
-                animator.SetBool("attackTL", true);
+                animator.SetTrigger("getsHit");
+                gotHit = false;
+
+            }
+
+            if (distanceToPlayer <= attackRange)
+            {
+                
+                animator.SetBool("attack", true);
                 attack = true;
             }
             else
             {
-                animator.SetBool("movingTL", true);
+                animator.SetBool("moving", true);
                 attack = false;
             }
 
         }
         else if ((horizontalMovement < 0f && verticalMovement == 0f) | (horizontalMovement < 0f && verticalMovement < 0f))
         {
-            if (distanceToPlayer <= detectionRange)
+            animator.SetBool("BL", true);
+            if (gotHit)
             {
-                animator.SetBool("attackBL", true);
+                animator.SetTrigger("getsHit");
+                gotHit = false;
+
+            }
+
+            if (distanceToPlayer <= attackRange)
+            {
+                animator.SetBool("attack", true);
                 attack = true;
             }
             else
             {
-                animator.SetBool("movingBL", true);
+                animator.SetBool("moving", true);
                 attack = false;
             }
 
         }
         else if ((verticalMovement > 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement > 0f))
         {
-            if (distanceToPlayer <= detectionRange)
+            animator.SetBool("TR", true);
+            if (gotHit)
             {
-                animator.SetBool("attackTR", true);
+                animator.SetTrigger("getsHit");
+                gotHit = false;
+
+            }
+
+            if (distanceToPlayer <= attackRange)
+            {
+                animator.SetBool("attack", true);
                 attack = true;
             }
             else
             {
-                animator.SetBool("movingTR", true);
+                animator.SetBool("moving", true);
                 attack = false;
             }
 
         }
         else if ((horizontalMovement > 0f && verticalMovement == 0f) | (verticalMovement < 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement < 0f))
         {
-            if (distanceToPlayer <= detectionRange)
+
+            animator.SetBool("BR", true);
+            if (gotHit)
             {
-                animator.SetBool("attackBR", true);
+                animator.SetTrigger("getsHit");
+                gotHit = false;
+            }
+
+            if (distanceToPlayer <= attackRange)
+            {
+                animator.SetBool("attack", true);
                 attack = true;
             }
             else
             {
-                animator.SetBool("movingBR", true);
+                animator.SetBool("moving", true);
                 attack = false;
             }
 
@@ -134,23 +175,24 @@ public class EnemyController : MonoBehaviour
     }
     public void getAttacked(float damage)
     {
+        gotHit = true;
         Debug.Log("I got attacked");
     }
 
 
     private void ResetValuesBeforeFrame()
     {
-        animator.SetBool("movingTR", false);
-        animator.SetBool("movingTL", false);
-        animator.SetBool("movingBR", false);
-        animator.SetBool("movingBL", false);
+        animator.SetBool("TR", false);
+        animator.SetBool("TL", false);
+        animator.SetBool("BR", false);
+        animator.SetBool("BL", false);
+
+        
+        animator.SetBool("moving", false);
 
         if (!attack)
         {
-            animator.SetBool("attackTR", false);
-            animator.SetBool("attackTL", false);
-            animator.SetBool("attackBR", false);
-            animator.SetBool("attackBL", false);
+            animator.SetBool("attack", false);
         }
     }
 }
