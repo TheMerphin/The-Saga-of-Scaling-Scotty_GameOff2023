@@ -75,7 +75,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: ItemPickUp
     clip: {fileID: 8300000, guid: b12a91c9d2d349946a4c685dfe258757, type: 3}
-    volume: 0.8
+    volume: 0.6
     volumeVariance: 0.2
     pitch: 1
     pitchVariance: 0.1
@@ -83,8 +83,35 @@ MonoBehaviour:
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: ItemDrop
-    clip: {fileID: 8300000, guid: 9ed2b443ea1c919439e52582b302a0d2, type: 3}
+    clip: {fileID: 8300000, guid: 6f518abd3a1ada3469e00f8fe1345012, type: 3}
+    volume: 0.3
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ChestOpening
+    clip: {fileID: 8300000, guid: 352d463698573aa498a99071c3f47801, type: 3}
     volume: 0.6
+    volumeVariance: 0.2
+    pitch: 1.2
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: DoorOpening
+    clip: {fileID: 8300000, guid: f82b68ea30796594781f125eec391916, type: 3}
+    volume: 0.3
+    volumeVariance: 0.2
+    pitch: 0.8
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Locked
+    clip: {fileID: 8300000, guid: 1005bb55d3dd48f4c8f7ac6cf6f5cd9b, type: 3}
+    volume: 1
     volumeVariance: 0.2
     pitch: 1
     pitchVariance: 0.1

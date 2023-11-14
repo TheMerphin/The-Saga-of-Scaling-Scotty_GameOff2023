@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283e10389c40ce5489bb3673e3966b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 5598360874559544065, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
+  icon: {fileID: -550149155661188792, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
   itemName: Treasure Key
   description: An unassuming tool, perfectly suited for opening everyday treasures
     with practical efficiency
@@ -96,7 +96,7 @@ SpriteRenderer:
   m_SortingLayerID: -2011121071
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5598360874559544065, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
+  m_Sprite: {fileID: -550149155661188792, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

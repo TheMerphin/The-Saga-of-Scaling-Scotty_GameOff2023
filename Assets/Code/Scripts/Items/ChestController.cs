@@ -22,6 +22,9 @@ public class ChestController : MonoBehaviour
     private AudioManager audioManager;
     private ParticleSystem openingParticles;
 
+    private GameObject noKeyPrompt;
+    private GameObject keyPrompt;
+
     private void Awake()
     {
         if (DropsRandomItem && DropsSpecificItem) Debug.LogError("Chest " + transform.name + " is configured to drop a random and a specific item. This results in a conflict, please select either one of them.");
@@ -33,26 +36,17 @@ public class ChestController : MonoBehaviour
         audioManager = FindFirstObjectByType<AudioManager>();
         openingParticles = GetComponentInChildren<ParticleSystem>();
 
+        keyPrompt = transform.Find("#Chest_Prompt/Prompt_KeyRequired").gameObject;
+        noKeyPrompt = transform.Find("#Chest_Prompt/Prompt_Unrestricted").gameObject;
+
         if (KeyRequired)
         {
-            transform.Find("#Chest_Prompt/Prompt_KeyRequired").gameObject.SetActive(true);
+            keyPrompt.SetActive(true);
         }
         else
         {
-            transform.Find("#Chest_Prompt/Prompt_Unrestricted").gameObject.SetActive(true);
+            noKeyPrompt.SetActive(true);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     /**
@@ -84,6 +78,8 @@ public class ChestController : MonoBehaviour
             DisableChest();
             return true;
         }
+
+        audioManager.Play("Locked");
         return false;
     }
 
@@ -94,5 +90,12 @@ public class ChestController : MonoBehaviour
         objectPrompter.DisablePrompt = true;
         objectPrompter.enabled = false;
         GetComponent<ChestController>().enabled = false;
+    }
+
+    public void UpdatePrompt(bool hasKey)
+    {
+        if (!KeyRequired) return;
+        noKeyPrompt.SetActive(hasKey);
+        keyPrompt.SetActive(!hasKey);
     }
 }

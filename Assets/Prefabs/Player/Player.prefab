@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
-  startWeapon: {fileID: 0}
 --- !u!50 &4980124221196295346
 Rigidbody2D:
   serializedVersion: 4

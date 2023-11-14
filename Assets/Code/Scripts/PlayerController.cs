@@ -73,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
         Array.ForEach(circleCast, interactable => {
             var item = interactable.collider.GetComponent<Item>();
+            var door = interactable.collider.GetComponent<DoorController>();
             var chest = interactable.collider.GetComponent<ChestController>();
             var prompter = interactable.collider.GetComponent<ObjectPrompter>();
             if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null)
@@ -82,21 +83,42 @@ public class PlayerController : MonoBehaviour
                 return;
             }
 
-            if (Input.GetKeyDown(KeyCode.F) && chest != null)
+            if (chest != null)
             {
-                if (chest.OpenChest(items[4]) && chest.KeyRequired)
+                if (chest.KeyRequired && chest.KeyReference == items[4])
+                {
+                    chest.UpdatePrompt(true);
+                }
+                else
+                {
+                    chest.UpdatePrompt(false);
+                }
+
+                if (Input.GetKeyDown(KeyCode.F) && chest.OpenChest(items[4]) && chest.KeyRequired)
                 {
                     items[4] = null;
-                    return;
                 }
-                return;
+            }
+
+            if (door != null)
+            {
+                if (door.KeyReference == items[4])
+                {
+                    door.UpdatePrompt(true);
+                }
+                else
+                {
+                    door.UpdatePrompt(false);
+                }
+
+                if (Input.GetKeyDown(KeyCode.F) && door.OpenDoor(items[4]))
+                {
+                    items[4] = null;
+                }
             }
 
             if (prompter != null)
             {
-                // Item can not be picked up, skip
-                //if (item != null && item.CanBePickedUp == 0) return;
-
                 prompter.ShowPrompt(true);
             }
         });
