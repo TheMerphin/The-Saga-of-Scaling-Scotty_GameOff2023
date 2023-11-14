@@ -36,14 +36,9 @@ public abstract class Weapon : Item
     private AnimationClip[] attackAnimations;
     public AnimationClip[] AttackAnimations { get { return attackAnimations; } set { attackAnimations = value; } }
 
-    protected override void OnAwake()
+    protected override void Start()
     {
-        base.OnAwake();
-    }
-
-    protected override void OnStart()
-    {
-        base.OnStart();
+        base.Start();
 
         Array.ForEach(gameObject.GetComponentsInChildren<TextMeshProUGUI>(), text => {
             if (text.name.Equals("#AUTOFILL_WeaponType")) { text.text = WeaponType.ToString(); }

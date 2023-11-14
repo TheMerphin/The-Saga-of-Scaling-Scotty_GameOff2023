@@ -8,9 +8,18 @@ public class ObjectPrompter : MonoBehaviour
 
     public bool ShowAlways = false;
 
+    public bool DisablePrompt = false;
+
     private void Start()
     {
-        if (ShowAlways) promptCanvas.enabled = true;
+        if (ShowAlways && !DisablePrompt)
+        {
+            promptCanvas.enabled = true;
+        }
+        else
+        {
+            promptCanvas.enabled = false;
+        }
     }
 
     private void Update()
@@ -20,6 +29,6 @@ public class ObjectPrompter : MonoBehaviour
 
     public void ShowPrompt(bool show)
     {
-        if (!ShowAlways) promptCanvas.enabled = show;
+        if (!ShowAlways && !DisablePrompt) promptCanvas.enabled = show;
     }
 }

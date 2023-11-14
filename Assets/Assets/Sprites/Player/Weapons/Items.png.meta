@@ -6131,7 +6131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_242
+      name: Items_242_key_0
       rect:
         serializedVersion: 2
         x: 199
@@ -6152,7 +6152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_243
+      name: Items_243_key_1
       rect:
         serializedVersion: 2
         x: 215
@@ -7813,8 +7813,8 @@ TextureImporter:
       Items_24: -6822941647383629172
       Items_240: -5728130718780682508
       Items_241: 6641753785953051027
-      Items_242: -550149155661188792
-      Items_243: 5598360874559544065
+      Items_242_key_0: -550149155661188792
+      Items_243_key_1: 5598360874559544065
       Items_244: -5531883876159954926
       Items_245: 84398056094592796
       Items_246: 8042407633840695603

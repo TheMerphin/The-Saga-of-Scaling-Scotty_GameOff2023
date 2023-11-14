@@ -1331,7 +1331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonProps_53
+      name: DungeonProps_53_chest_closed
       rect:
         serializedVersion: 2
         x: 216
@@ -1352,7 +1352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonProps_54
+      name: DungeonProps_54_chest_open
       rect:
         serializedVersion: 2
         x: 216
@@ -2325,8 +2325,8 @@ TextureImporter:
       DungeonProps_50: 2102702690
       DungeonProps_51: -1268225124
       DungeonProps_52: 1451599107
-      DungeonProps_53: -284548494
-      DungeonProps_54: -228329286
+      DungeonProps_53_chest_closed: -284548494
+      DungeonProps_54_chest_open: -228329286
       DungeonProps_55: 775487044
       DungeonProps_56: 1862808742
       DungeonProps_57: 2006361521

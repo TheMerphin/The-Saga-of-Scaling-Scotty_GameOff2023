@@ -56,6 +56,7 @@ MonoBehaviour:
     your arsenal, striking a balance between functionality and maneuverability without
     reaching the pinnacle of elite weaponry
   tierClass: 0
+  canBePickedUp: 1
   weaponType: 0
   damage: 5
   attackSpeedMultiplier: 0.8
@@ -175,7 +176,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 93e9c66f15dd7ca44b3708168289559f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -198,6 +199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   promptCanvas: {fileID: 4251237846205324132}
   ShowAlways: 0
+  DisablePrompt: 0
 --- !u!1 &2906235630697012252
 GameObject:
   m_ObjectHideFlags: 0

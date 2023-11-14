@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using static Toolbox;
 using static UnityEditor.Progress;
 
@@ -20,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
 
-    private float pickUpCooldown;
+    private float interactCooldown;
 
     /**
      * Contains four items with the following mapping:
@@ -28,15 +30,16 @@ public class PlayerController : MonoBehaviour
      * 1 -> WeaponType.Range
      * 2 -> WeaponType.Special
      * 3 -> Consumable
+     * 4 -> invisible Key slot
      */
     private Item[] items;
 
     private void Awake()
     {
-        items = new Item[4];
+        items = new Item[5];
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
         selectedSlot = 0;
-        pickUpCooldown = 0f;
+        interactCooldown = 0f;
     }
 
     void Start()
@@ -70,18 +73,29 @@ public class PlayerController : MonoBehaviour
 
         Array.ForEach(circleCast, interactable => {
             var item = interactable.collider.GetComponent<Item>();
+            var chest = interactable.collider.GetComponent<ChestController>();
             var prompter = interactable.collider.GetComponent<ObjectPrompter>();
-            if (Input.GetKeyDown(KeyCode.F) && item != null)
+            if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null)
             {
-                pickUpCooldown = 1f;
+                interactCooldown = 1f;
                 PickUpItem(item);
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.F) && chest != null)
+            {
+                if (chest.OpenChest(items[4]) && chest.KeyRequired)
+                {
+                    items[4] = null;
+                    return;
+                }
                 return;
             }
 
             if (prompter != null)
             {
-                // Item just dropped, skip
-                if (item != null && item.transform.rotation.z != 0f) return;
+                // Item can not be picked up, skip
+                //if (item != null && item.CanBePickedUp == 0) return;
 
                 prompter.ShowPrompt(true);
             }
@@ -191,7 +205,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isFacingBL", false);
         animator.SetBool("isMoving", false);
 
-        if(pickUpCooldown > 0f) pickUpCooldown -= 0.01f;
+        if(interactCooldown > 0f) interactCooldown -= 0.01f;
     }
 
     private void SetSelectedSlot(int slot)
@@ -267,11 +281,16 @@ public class PlayerController : MonoBehaviour
                 items[slot] = consumable;
             }
         }
+        else if (item is Key)
+        {
+            previousItem = items[4];
+            items[4] = item;
+        }
 
         if (previousItem != null) previousItem.Drop();
 
         // Update UI
-        gameMenuController.SetInventorySlot(item.Icon, slot);
+        if(item is not Key)gameMenuController.SetInventorySlot(item.Icon, slot);
     }
 
     public DiagonalDirection GetPlayerFacingDirection()

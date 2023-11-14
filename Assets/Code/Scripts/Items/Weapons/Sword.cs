@@ -10,20 +10,10 @@ public class Sword : Weapon
 {
     ParticleSystem attackParticles;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         attackParticles = GetComponentInChildren<ParticleSystem>();
-        OnAwake();
-    }
-
-    void Start()
-    {
-        OnStart();
-    }
-
-    void Update()
-    {
-
     }
 
     private void OnDrawGizmos()

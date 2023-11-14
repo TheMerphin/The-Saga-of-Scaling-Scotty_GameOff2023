@@ -8,21 +8,6 @@ using static UnityEditor.Progress;
 
 public class Dagger : Weapon
 {
-    void Awake()
-    {
-        OnAwake();
-    }
-
-    void Start()
-    {
-        OnStart();
-    }
-
-    void Update()
-    {
-
-    }
-
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

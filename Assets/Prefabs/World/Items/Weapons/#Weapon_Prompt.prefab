@@ -256,10 +256,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  m_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a4a5704805a1224fb616720b8a27579, type: 2}
   m_sharedMaterial: {fileID: 6424678381082771400, guid: 6a4a5704805a1224fb616720b8a27579, type: 2}
@@ -1776,7 +1774,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8520548108262189990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
@@ -1791,7 +1789,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &5891309966922307392
 MonoBehaviour:
   m_ObjectHideFlags: 0

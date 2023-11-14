@@ -17,6 +17,8 @@ public abstract class Item : MonoBehaviour
 
     protected AudioManager audioManager;
 
+    protected ObjectPrompter objectPrompter;
+
     [Header("Item Settings")]
     [SerializeField]
     private Sprite icon;
@@ -34,11 +36,16 @@ public abstract class Item : MonoBehaviour
     private int tierClass;
     public int TierClass { get { return tierClass; } set { tierClass = value; } }
 
-    protected virtual void OnAwake()
+    [SerializeField]
+    private bool canBePickedUp = true;
+    public int CanBePickedUp { get { return canBePickedUp ? 1 : 0; } set { canBePickedUp = value == 1 ? true : false; objectPrompter.DisablePrompt = !canBePickedUp; } }
+
+    protected virtual void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         pickUpCollider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
+        objectPrompter = GetComponent<ObjectPrompter>();
 
         pickUpCollider.enabled = true;
         spriteRenderer.sprite = icon;
@@ -49,7 +56,7 @@ public abstract class Item : MonoBehaviour
         spriteRenderer.material.SetTexture("_MainTex", icon.texture);
     }
 
-    protected virtual void OnStart()
+    protected virtual void Start()
     {
         Array.ForEach(gameObject.GetComponentsInChildren<TextMeshProUGUI>(), text => {
             if (text.name.Equals("#AUTOFILL_Name")) { text.text = ItemName; }
@@ -74,6 +81,7 @@ public abstract class Item : MonoBehaviour
         // Bind gameobject to player, disable spriterenderer
         transform.SetParent(null, true);
         transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
+        transform.localRotation = Quaternion.identity;
         spriteRenderer.enabled = true;
         player = null;
         pickUpCollider.enabled = true;
