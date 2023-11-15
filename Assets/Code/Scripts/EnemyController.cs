@@ -17,6 +17,10 @@ public class EnemyController : MonoBehaviour
     private Animator animator;
     private bool attack = false;
     private bool gotHit = false;
+    private bool idle = true;
+    private bool moving = false;
+    private MonsterSounds monsterSounds;
+
 
     // Settings for the monster
     public MonsterType monsterType;
@@ -31,6 +35,9 @@ public class EnemyController : MonoBehaviour
     public Sprite goblinSprite;
     void Awake()
     {
+        monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
+        monsterSounds.setAudioSource(gameObject.GetComponentInChildren<AudioSource>());
+
         aiPath = GetComponent<AIPath>();
         aiPath.maxSpeed = movementSpeed;
 
@@ -60,10 +67,96 @@ public class EnemyController : MonoBehaviour
         {
             getAttacked(0);
         }
-
     }
 
+
+
+
     private void EnemyAnimation()
+    {
+
+        horizontalMovement = aiPath.velocity.x;
+        verticalMovement = aiPath.velocity.y;
+        float attackRange = 1f;
+
+        float distanceToPlayer = Vector3.Distance(transform.position, target.position);
+
+        if (gotHit)
+        {
+            animator.SetTrigger("getsHit");
+            gotHit = false;
+
+        }
+
+        //out of player range
+        if (distanceToPlayer >= detectionRange)
+        {
+            if (!idle)
+            {
+                idleSound();
+                idle = true;
+            }
+            moving = false;
+            animator.SetBool("idle", true);
+            aiPath.canMove = false;
+            return;
+        }
+        //in attack range
+        else if (distanceToPlayer <= attackRange)
+        {
+            animator.SetBool("attack", true);
+            moving = false;
+            if (!attack)
+            {
+                attackSound();
+                attack = true;
+            }
+            
+
+        }
+        // wants to move towards the player
+        else
+        {
+            idle = false;
+            animator.SetBool("idle", false);
+            aiPath.canMove = true;
+            if (!moving)
+            {
+                movingSound();
+                moving = true;
+            }
+             animator.SetBool("moving", true);
+             attack = false;
+        }
+
+
+
+
+        if (horizontalMovement < 0f && verticalMovement > 0f)
+        {
+            animator.SetBool("TL", true);
+        }
+        else if ((horizontalMovement < 0f && verticalMovement == 0f) | (horizontalMovement < 0f && verticalMovement < 0f))
+        {
+            animator.SetBool("BL", true);
+          
+
+        }
+        else if ((verticalMovement > 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement > 0f))
+        {
+            animator.SetBool("TR", true);
+            
+
+        }
+        else if ((horizontalMovement > 0f && verticalMovement == 0f) | (verticalMovement < 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement < 0f))
+        {
+
+            animator.SetBool("BR", true);
+
+        }
+    }
+
+    private void EnemyAnimationOLD()
     {
         
         horizontalMovement = aiPath.velocity.x;
@@ -73,14 +166,20 @@ public class EnemyController : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
         if (distanceToPlayer >= detectionRange)
         {
-            animator.SetBool("laying", true);
+            if (!idle)
+            {
+                idleSound();
+                idle = true;
+            }
+            moving = false;
+            animator.SetBool("idle", true);
             aiPath.canMove = false;
             return;
         }
         else
         {
-            
-            animator.SetBool("laying", false);
+            idle = false;
+            animator.SetBool("idle", false);
             aiPath.canMove = true;
         }
         if (horizontalMovement < 0f && verticalMovement > 0f)
@@ -91,16 +190,24 @@ public class EnemyController : MonoBehaviour
                 animator.SetTrigger("getsHit");
                 gotHit = false;
 
-            }
+            }else  if (distanceToPlayer <= attackRange)
+            { 
+                if (!attack)
+                {
+                    attackSound();
+                    attack = true;
+                }
 
-            if (distanceToPlayer <= attackRange)
-            {
-                
-                animator.SetBool("attack", true);
-                attack = true;
+            animator.SetBool("attack", true);
+              
             }
             else
             {
+                if (!moving)
+                {
+                    movingSound();
+                    moving = true;
+                }
                 animator.SetBool("moving", true);
                 attack = false;
             }
@@ -114,17 +221,27 @@ public class EnemyController : MonoBehaviour
                 animator.SetTrigger("getsHit");
                 gotHit = false;
 
-            }
-
-            if (distanceToPlayer <= attackRange)
+            }else  if (distanceToPlayer <= attackRange)
             {
+                if (!attack)
+                {
+                    attackSound();
+                    attack = true;
+                }
+                moving = false;
                 animator.SetBool("attack", true);
-                attack = true;
             }
             else
             {
+                if (!moving)
+                {
+                    Debug.Log("I start moving");
+                    movingSound();
+                    moving = true;
+                }
                 animator.SetBool("moving", true);
                 attack = false;
+
             }
 
         }
@@ -136,17 +253,22 @@ public class EnemyController : MonoBehaviour
                 animator.SetTrigger("getsHit");
                 gotHit = false;
 
-            }
-
-            if (distanceToPlayer <= attackRange)
+            }else   if (distanceToPlayer <= attackRange)
             {
+                if (!attack)
+                {
+                    attackSound();
+                   
+                    attack = true;
+                }
+
                 animator.SetBool("attack", true);
-                attack = true;
             }
             else
             {
                 animator.SetBool("moving", true);
                 attack = false;
+                moving = false;
             }
 
         }
@@ -158,17 +280,21 @@ public class EnemyController : MonoBehaviour
             {
                 animator.SetTrigger("getsHit");
                 gotHit = false;
-            }
-
-            if (distanceToPlayer <= attackRange)
+            }else  if (distanceToPlayer <= attackRange)
             {
+
+                if (!attack)
+                {
+                    attackSound();
+                    attack = true;
+                }
                 animator.SetBool("attack", true);
-                attack = true;
             }
             else
             {
                 animator.SetBool("moving", true);
                 attack = false;
+                moving = false;
             }
 
         }
@@ -177,8 +303,47 @@ public class EnemyController : MonoBehaviour
     {
         gotHit = true;
         Debug.Log("I got attacked");
+        if(monsterType.Equals(MonsterType.Skeleton))
+        {
+            monsterSounds.playSkeletonHurt();
+        }
     }
 
+    public void attackSound()
+    {
+      /*  if(monsterType.Equals(MonsterType.Skeleton))
+        {
+            monsterSounds.playSkeletonAttack();
+        }else if(monsterType.Equals(MonsterType.Goblin))
+        {
+
+        }*/
+    }
+    public void deathSound()
+    {
+        /*
+        if (monsterType.Equals(MonsterType.Skeleton))
+        {
+            monsterSounds.playSkeletonDeath();
+        }*/
+       
+    }
+
+    public void idleSound()
+    {/*
+        if (monsterType.Equals(MonsterType.Skeleton))
+        {
+            monsterSounds.playSkeletonDeath();
+        }*/
+    }
+
+    public void movingSound()
+    {/*
+        if (monsterType.Equals(MonsterType.Skeleton))
+        {
+            monsterSounds.playSkeletonStep();
+        }*/
+    }
 
     private void ResetValuesBeforeFrame()
     {

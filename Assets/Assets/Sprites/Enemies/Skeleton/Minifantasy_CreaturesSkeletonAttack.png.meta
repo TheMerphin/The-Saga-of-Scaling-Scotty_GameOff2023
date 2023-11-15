@@ -158,10 +158,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 108
-        width: 10
-        height: 9
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 108
-        width: 9
-        height: 9
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 106
-        width: 11
-        height: 11
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_3
       rect:
         serializedVersion: 2
-        x: 108
-        y: 106
-        width: 10
-        height: 11
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 108
-        width: 10
-        height: 9
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_5
       rect:
         serializedVersion: 2
-        x: 12
-        y: 76
-        width: 10
-        height: 9
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_6
       rect:
         serializedVersion: 2
-        x: 45
-        y: 76
-        width: 9
-        height: 9
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_7
       rect:
         serializedVersion: 2
-        x: 73
-        y: 74
-        width: 11
-        height: 11
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_8
       rect:
         serializedVersion: 2
-        x: 106
-        y: 74
-        width: 10
-        height: 11
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_9
       rect:
         serializedVersion: 2
-        x: 138
-        y: 76
-        width: 10
-        height: 9
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_10
       rect:
         serializedVersion: 2
-        x: 10
-        y: 44
-        width: 10
-        height: 9
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_11
       rect:
         serializedVersion: 2
-        x: 42
-        y: 44
-        width: 9
-        height: 9
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_12
       rect:
         serializedVersion: 2
-        x: 76
-        y: 44
-        width: 11
-        height: 10
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_13
       rect:
         serializedVersion: 2
-        x: 108
-        y: 44
-        width: 10
-        height: 9
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_14
       rect:
         serializedVersion: 2
-        x: 140
-        y: 44
-        width: 10
-        height: 9
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_15
       rect:
         serializedVersion: 2
-        x: 12
-        y: 12
-        width: 10
-        height: 9
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_16
       rect:
         serializedVersion: 2
-        x: 45
-        y: 12
-        width: 9
-        height: 9
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_17
       rect:
         serializedVersion: 2
-        x: 73
-        y: 12
-        width: 11
-        height: 10
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_18
       rect:
         serializedVersion: 2
-        x: 106
-        y: 12
-        width: 10
-        height: 9
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,10 +557,10 @@ TextureImporter:
       name: Minifantasy_CreaturesSkeletonAttack_19
       rect:
         serializedVersion: 2
-        x: 138
-        y: 12
-        width: 10
-        height: 9
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,7 +577,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f5c035e81c77e424194bfae722c8ad31
     internalID: 0
     vertices: []
     indices: 
