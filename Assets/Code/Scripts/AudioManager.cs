@@ -1,6 +1,7 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Unity.VisualScripting;
 using System.Collections.Generic;
@@ -13,6 +14,8 @@ public class AudioManager : MonoBehaviour
 	public AudioMixerGroup mixerGroup;
 
 	public List<Sound> sounds;
+
+    public Slider volumeSlider;
 
 	void Awake()
 	{
@@ -28,15 +31,51 @@ public class AudioManager : MonoBehaviour
 
 		foreach (Sound s in sounds)
 		{
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.loop = s.loop;
+			s.source = gameObject.AddComponent<AudioSource>();
+			s.source.clip = s.clip;
+			s.source.loop = s.loop;
 
-            s.source.outputAudioMixerGroup = mixerGroup;
-        }
+			s.source.outputAudioMixerGroup = mixerGroup;
+		}
+
+		//volumeSlider = FindFirstObjectByType<Slider>();
+
+		if (volumeSlider != null)
+		{
+			float volume;
+
+			if (mixerGroup.audioMixer.GetFloat("Volume", out volume))
+			{
+				volumeSlider.value = volume;
+			}
+			else
+			{
+				Debug.LogError("Failed to get the volume value from the AudioMixer.");
+			}
+
+			volumeSlider.onValueChanged.AddListener(ChangeVolume);
+		}
+		else
+		{
+			Debug.LogError("Volume Slider not found. Please assign the Volume Slider in the inspector.");
+		}
+
 	}
 
-	public void AddSound(Sound sound)
+	public void setVolume(float volume) 
+	{
+	Debug.Log(volume);
+			
+	}
+
+	// Methode, um die Lautstärke zu ändern, wenn sich der Slider-Wert ändert
+	public void ChangeVolume(float volume)
+    {
+        // Aktualisiere die Lautstärke im AudioManager
+        mixerGroup.audioMixer.SetFloat("Volume", volume);
+    }
+
+    public void AddSound(Sound sound)
 	{
 		sounds.Add(sound);
 
