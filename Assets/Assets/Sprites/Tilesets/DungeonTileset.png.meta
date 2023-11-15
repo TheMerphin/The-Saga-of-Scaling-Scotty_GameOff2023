@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTileset_34
+      name: DungeonTileset_34_door_closed
       rect:
         serializedVersion: 2
         x: 136
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonTileset_44
+      name: DungeonTileset_44_door_open
       rect:
         serializedVersion: 2
         x: 136
@@ -2228,7 +2228,7 @@ TextureImporter:
       DungeonTileset_31: 1222524925
       DungeonTileset_32: 1757849705
       DungeonTileset_33: 354237900
-      DungeonTileset_34: -2093193721
+      DungeonTileset_34_door_closed: -2093193721
       DungeonTileset_35: -362877549
       DungeonTileset_36: -1830417938
       DungeonTileset_37: 699292739
@@ -2239,7 +2239,7 @@ TextureImporter:
       DungeonTileset_41: 723148581
       DungeonTileset_42: 491208519
       DungeonTileset_43: -193054366
-      DungeonTileset_44: -1367313364
+      DungeonTileset_44_door_open: -1367313364
       DungeonTileset_45: -802345565
       DungeonTileset_46: -15714534
       DungeonTileset_47: -1720103324
@@ -2297,6 +2297,7 @@ TextureImporter:
       DungeonTileset_94: 444410159
       DungeonTileset_95: -293026920
       DungeonTileset_96: 544993635
+      DungeonTileset_97: 1232850685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
