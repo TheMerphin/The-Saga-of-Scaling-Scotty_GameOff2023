@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 231196413306928107}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_CastsShadows: 1
   m_SelfShadows: 0
   m_AlphaCutoff: 0.58
-  m_ApplyToSortingLayers: 00000000952f64c4455333a751ba2088
+  m_ApplyToSortingLayers: 00000000952f64c4455333a7
   m_ShapePath:
   - {x: -0.2497797, y: -0.37499785, z: 0}
   - {x: -0.25382853, y: 0.25097513, z: 0}
