@@ -5,6 +5,7 @@ using System.Xml.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using static Toolbox;
 
 public abstract class Weapon : Item
 {
@@ -14,12 +15,14 @@ public abstract class Weapon : Item
     public WeaponType WeaponType { get { return weaponType; } set { weaponType = value; } }
 
     [SerializeField]
-    private int damage;
-    public int Damage { get { return damage; } set { damage = value; } }
+    private float damage;
+    private float _damage;
+    public float Damage { get { return _damage; } set { _damage = value; } }
 
     [SerializeField]
     private float attackSpeedMultiplier = 1f;
-    public float AttackSpeedMultiplier { get { return attackSpeedMultiplier; } set { attackSpeedMultiplier = value; } }
+    private float _attackSpeedMultiplier;
+    public float AttackSpeedMultiplier { get { return _attackSpeedMultiplier; } set { _attackSpeedMultiplier = value; } }
 
     [SerializeField]
     private Sound attackSound;
@@ -36,6 +39,14 @@ public abstract class Weapon : Item
     private AnimationClip[] attackAnimations;
     public AnimationClip[] AttackAnimations { get { return attackAnimations; } set { attackAnimations = value; } }
 
+    protected override void Awake()
+    {
+        base.Awake();
+
+        _attackSpeedMultiplier = attackSpeedMultiplier;
+        _damage = damage;
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -47,6 +58,13 @@ public abstract class Weapon : Item
         });
 
         audioManager.AddSound(attackSound);
+    }
+
+    public override void OnPlayerScaleChange(PlayerScalingInfo updatedScalingLevelInfo)
+    {
+        base.OnPlayerScaleChange(updatedScalingLevelInfo);
+        _attackSpeedMultiplier = attackSpeedMultiplier * updatedScalingLevelInfo.AttackSpeedModifier;
+        _damage = damage * updatedScalingLevelInfo.AttackDamageModifier;
     }
 
     public abstract void Attack();

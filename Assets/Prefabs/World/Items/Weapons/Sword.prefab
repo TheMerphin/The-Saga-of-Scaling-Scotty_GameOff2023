@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7405232557161393945}
   - component: {fileID: 4861987256724621764}
   - component: {fileID: 3003830926548682702}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,6 +75,8 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 71f4230f4296af245bb1b5711e0c8f79, type: 2}
   - {fileID: 7400000, guid: 14ac50cff698d714fa2707628d181be8, type: 2}
   - {fileID: 7400000, guid: 4a4e098a95f05ae469357a84f9469fa3, type: 2}
+  attackBoxSize: {x: 1.2, y: 1.2}
+  attackOffset: {x: 0.6, y: 0.6}
 --- !u!212 &4843075939401372654
 SpriteRenderer:
   m_ObjectHideFlags: 0

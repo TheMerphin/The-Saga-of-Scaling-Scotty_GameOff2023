@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using static Toolbox;
 using static UnityEditor.MaterialProperty;
 
 public abstract class Item : MonoBehaviour
@@ -78,10 +79,11 @@ public abstract class Item : MonoBehaviour
 
     public virtual void Drop()
     {
-        // Bind gameobject to player, disable spriterenderer
         transform.SetParent(null, true);
         transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
         transform.localRotation = Quaternion.identity;
+        transform.localScale = Vector3.one;
+
         spriteRenderer.enabled = true;
         player = null;
         pickUpCollider.enabled = true;
@@ -94,6 +96,7 @@ public abstract class Item : MonoBehaviour
         animator.SetBool("IsPickedUp", true);
 
         player = playerTransform.GetComponent<PlayerController>();
+        OnPlayerScaleChange(player.ScalingLevelInfo);
         pickUpCollider.enabled = false;
 
         for (int i = 0; i < steps - 15f; i++)
@@ -120,4 +123,10 @@ public abstract class Item : MonoBehaviour
     {
         audioManager.Play("ItemDrop");
     }
+
+    /**
+     * Gets called by the player in case the player is carrying the respective item and changing it's scale.
+     * This method should be used in order to adjust other necessary sub components of the item, such as particles of an attack animation.
+     */
+    public virtual void OnPlayerScaleChange(PlayerScalingInfo updatedScalingLevelInfo) { }
 }

@@ -44,7 +44,7 @@ public static class Toolbox
          * Two clip names are equals either if they have the same DirectionalActionIdentifier at the last token
          * separated by underscores (e.g. "XXXX_AttackBL") or otherwise they fully match.
          */
-        private  bool AnimationClipNameEquals(string clipName1, string clipName2)
+        private bool AnimationClipNameEquals(string clipName1, string clipName2)
         {
             var stringTokens = clipName2.Split("_");
 
@@ -57,6 +57,26 @@ public static class Toolbox
             {
                 return clipName1.Equals(clipName2);
             }
+        }
+    }
+
+    public enum ScaleLevel
+    {
+        Small = -1,
+        Normal = 0, // Default state
+        Big = 1
+    }
+
+    public static PlayerScalingInfo GetScaleStructByScaleLevel(ScaleLevel scaleLevel)
+    {
+        switch (scaleLevel)
+        {
+            case ScaleLevel.Small:
+                return new PlayerScalingInfo(ScaleLevel.Small, 0.5f, 1.1f, 1.1f, 0.8f, -1);
+            case ScaleLevel.Big:
+                return new PlayerScalingInfo(ScaleLevel.Big, 1.75f, 0.8f, 0.8f, 1.2f, -1);
+            default: // ScaleLevel.Normal
+                return new PlayerScalingInfo(ScaleLevel.Normal, 1f, 1f, 1f, 1f, -1);
         }
     }
 }
