@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SortingLayerID: -2011121071
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2093193721, guid: df304558cd442b9488a3b59dd0c64db0, type: 3}
+  m_Sprite: {fileID: -1340669132, guid: 68717e0ac721cac469fd71cf7ff7c5cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!61 &2532062609357044077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -137,10 +137,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.37}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.125}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -281,6 +281,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7205448683237081058, guid: 810400ac9c0dde24fb152f6d59c1605c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 810400ac9c0dde24fb152f6d59c1605c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -347,7 +351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 810400ac9c0dde24fb152f6d59c1605c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.1
+      value: 0.37
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 810400ac9c0dde24fb152f6d59c1605c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

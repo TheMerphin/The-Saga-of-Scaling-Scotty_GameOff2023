@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283e10389c40ce5489bb3673e3966b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: -550149155661188792, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
+  icon: {fileID: 5598360874559544065, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
   itemName: Treasure Key
   description: An unassuming tool, perfectly suited for opening everyday treasures
     with practical efficiency
@@ -106,7 +106,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!58 &6200738760602397147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -141,7 +141,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.26}
   m_Radius: 0.625
 --- !u!95 &6270298661969501746
 Animator:
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 793e390428907c0459afa1214aba5262, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 793e390428907c0459afa1214aba5262, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
