@@ -6,46 +6,38 @@ using UnityEngine.Tilemaps;
 public class StepSoundScript : MonoBehaviour
 {
     [Tooltip("order: stone,wood,sand,water.")]
-    public Sound[] stepsounds;
+    public Sound[] Stepsounds;
     [Tooltip("please attach the tilemap \"Floortype\" here.")]
-    public Tilemap floortypes;
+    public Tilemap Floortypes;
 
-    private AudioSource stepplayer;
+    private AudioSource stepPlayer;
     private string currentFloortype;
 
     private void Awake()
     {
-        stepplayer = gameObject.AddComponent<AudioSource>();
+        stepPlayer = gameObject.AddComponent<AudioSource>();
     }
 
     public void doStep()
     {
-       if(floortypes != null)
+        if (Floortypes != null)
         {
-            currentFloortype = floortypes.GetTile(new Vector3Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y), 0)).name;
-            if (currentFloortype == "Floortypes_Stone")
+            currentFloortype = Floortypes.GetTile(new Vector3Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y), 0)).name;
+            if (currentFloortype.Equals("Floortypes_Stone"))
             {
-                Sound currentStep = stepsounds[0];
-                stepplayer.PlayOneShot(currentStep.clip);
-                //print(currentFloortype); //Debug
+                stepPlayer.PlayOneShot(Stepsounds[0].clip);
             }
-            if (currentFloortype == "Floortypes_Wood")
+            if (currentFloortype.Equals("Floortypes_Wood"))
             {
-                Sound currentStep = stepsounds[1];
-                stepplayer.PlayOneShot(currentStep.clip);
-                //print(currentFloortype); //Debug
+                stepPlayer.PlayOneShot(Stepsounds[1].clip);
             }
-            if (currentFloortype == "Floortypes_Sand")
+            if (currentFloortype.Equals("Floortypes_Sand"))
             {
-                Sound currentStep = stepsounds[2];
-                stepplayer.PlayOneShot(currentStep.clip);
-                //print(currentFloortype); //Debug
+                stepPlayer.PlayOneShot(Stepsounds[2].clip);
             }
-            if (currentFloortype == "Floortypes_Water")
+            if (currentFloortype.Equals("Floortypes_Water"))
             {
-                Sound currentStep = stepsounds[3];
-                stepplayer.PlayOneShot(currentStep.clip);
-                //print(currentFloortype); //Debug
+                stepPlayer.PlayOneShot(Stepsounds[3].clip);
             }
         }
     }
