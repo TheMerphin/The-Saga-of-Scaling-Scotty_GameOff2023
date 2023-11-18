@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private int selectedSlot;
 
     private GameMenuController gameMenuController;
+    private AudioManager audioManager;
 
     private float interactCooldown;
 
@@ -62,6 +63,7 @@ public class PlayerController : MonoBehaviour
         animatorOverrideController.GetOverrides(attackClipOverrides);
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
+        audioManager = FindFirstObjectByType<AudioManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
 
@@ -210,18 +212,23 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.LeftShift)) && scaleCooldown > 0f)
+        {
+            audioManager.Play("OnCooldown");
+        }
+
         if (Input.GetKeyDown(KeyCode.LeftShift) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel < 1)
         {
             ScalePlayerUp();
-            scaleCooldown = 1f;
+            scaleCooldown = 4f;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftControl) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel > -1)
         {
             ScalePlayerDown();
-            scaleCooldown = 1f;
+            scaleCooldown = 4f;
         }
-
+        
         float mouseScroll = Input.GetAxis("Mouse ScrollWheel");
         if (mouseScroll < 0f && selectedSlot < 3)
         {
@@ -383,6 +390,15 @@ public class PlayerController : MonoBehaviour
 
         var totalDuration = 1f;
         var ticks = 20f;
+
+        if ((int) scalingLevelInfo.ScaleLevel < (int) targetScalingInfo.ScaleLevel)
+        {
+            audioManager.Play("Inflate");
+        }
+        else
+        {
+            audioManager.Play("Deflate");
+        }
 
         for (int i = 0; i <= ticks; i++)
         {
