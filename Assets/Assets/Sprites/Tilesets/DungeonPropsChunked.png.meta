@@ -1,0 +1,1285 @@
+fileFormatVersion: 2
+guid: 606f4e46e64c1f64881558ff706ff05f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5657785086538796155
+    second: DungeonPropsChunked_0
+  - first:
+      213: -3215301564238865800
+    second: DungeonPropsChunked_1
+  - first:
+      213: -7528063191233213972
+    second: DungeonPropsChunked_2
+  - first:
+      213: -1046875588675947809
+    second: DungeonPropsChunked_3
+  - first:
+      213: -8078036767263443614
+    second: DungeonPropsChunked_4
+  - first:
+      213: -5538075616258901815
+    second: DungeonPropsChunked_5
+  - first:
+      213: -3688521493809802708
+    second: DungeonPropsChunked_6
+  - first:
+      213: 4460355164512150503
+    second: DungeonPropsChunked_7
+  - first:
+      213: 4147423801974585300
+    second: DungeonPropsChunked_8
+  - first:
+      213: 3110851267260633057
+    second: DungeonPropsChunked_9
+  - first:
+      213: 966844131479705483
+    second: DungeonPropsChunked_10
+  - first:
+      213: 7899090005981982066
+    second: DungeonPropsChunked_11
+  - first:
+      213: -3595024098043503714
+    second: DungeonPropsChunked_12
+  - first:
+      213: -5320096936994269050
+    second: DungeonPropsChunked_13
+  - first:
+      213: 6785865841298751744
+    second: DungeonPropsChunked_14
+  - first:
+      213: 1161327948011616358
+    second: DungeonPropsChunked_15
+  - first:
+      213: 7497857374871164088
+    second: DungeonPropsChunked_16
+  - first:
+      213: 4637115575663612169
+    second: DungeonPropsChunked_17
+  - first:
+      213: -7758762456315553973
+    second: DungeonPropsChunked_18
+  - first:
+      213: 8187912454594638553
+    second: DungeonPropsChunked_19
+  - first:
+      213: -7847895364999148669
+    second: DungeonPropsChunked_20
+  - first:
+      213: -5217288801952162815
+    second: DungeonPropsChunked_21
+  - first:
+      213: 6440747985408752924
+    second: DungeonPropsChunked_22
+  - first:
+      213: -4954333293415834771
+    second: DungeonPropsChunked_23
+  - first:
+      213: -7262847078008803253
+    second: DungeonPropsChunked_24
+  - first:
+      213: -1470793717581749854
+    second: DungeonPropsChunked_25
+  - first:
+      213: -5939511419820266849
+    second: DungeonPropsChunked_26
+  - first:
+      213: 3842547709100148806
+    second: DungeonPropsChunked_27
+  - first:
+      213: -1893210065707199207
+    second: DungeonPropsChunked_28
+  - first:
+      213: 5125931566004382394
+    second: DungeonPropsChunked_29
+  - first:
+      213: -3363393089058370813
+    second: DungeonPropsChunked_30
+  - first:
+      213: -8086599928735472759
+    second: DungeonPropsChunked_31
+  - first:
+      213: -7331475458240063433
+    second: DungeonPropsChunked_32
+  - first:
+      213: 3973724185182216363
+    second: DungeonPropsChunked_33
+  - first:
+      213: 9104709213107499241
+    second: DungeonPropsChunked_34
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonPropsChunked_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 72
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc5aa5f8d748e40800000000000000
+      internalID: 5657785086538796155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 72
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ad8c14344f063d0800000000000000
+      internalID: -3215301564238865800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 72
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9c9d7b962f68790800000000000000
+      internalID: -7528063191233213972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 72
+        width: 17
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd231fcd230c871f0800000000000000
+      internalID: -1046875588675947809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 72
+        width: 17
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b7b40c5c05ef80800000000000000
+      internalID: -8078036767263443614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8b2a9a19dc423b0800000000000000
+      internalID: -5538075616258901815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 73
+        width: 10
+        height: 5
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22d2177e3dbfccc0800000000000000
+      internalID: -3688521493809802708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 73
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e363d0e36d56ed30800000000000000
+      internalID: 4460355164512150503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7f1b159fb9e8930800000000000000
+      internalID: 4147423801974585300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 73
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efc42edeb6fb2b20800000000000000
+      internalID: 3110851267260633057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 75
+        width: 4
+        height: 3
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87d4027d9bea6d00800000000000000
+      internalID: 966844131479705483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 75
+        width: 4
+        height: 3
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27de46f52843f9d60800000000000000
+      internalID: 7899090005981982066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_12
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 75
+        width: 4
+        height: 3
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bd52d41a8eb1ec0800000000000000
+      internalID: -3595024098043503714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68810dbd5083b26b0800000000000000
+      internalID: -5320096936994269050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 72
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001c114970d3c2e50800000000000000
+      internalID: 6785865841298751744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 72
+        width: 11
+        height: 7
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66837f0ad9ddd1010800000000000000
+      internalID: 1161327948011616358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 72
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b41dbd9e8dbd0860800000000000000
+      internalID: 7497857374871164088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_17_chest_closed
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 64
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9015cdd2c085a5040800000000000000
+      internalID: 4637115575663612169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_18_chest_open
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 56
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b479ca657a6535490800000000000000
+      internalID: -7758762456315553973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 49
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d23c1cfefe41a170800000000000000
+      internalID: 8187912454594638553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 49
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b8ac6debca61390800000000000000
+      internalID: -7847895364999148669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c940d1a777897b0800000000000000
+      internalID: -5217288801952162815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1df91e0b22226950800000000000000
+      internalID: 6440747985408752924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bde0b6e1cae3bb0800000000000000
+      internalID: -4954333293415834771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b403d41101f253b90800000000000000
+      internalID: -7262847078008803253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1e9ad08e0b69be0800000000000000
+      internalID: -1470793717581749854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aac3225dd929da0800000000000000
+      internalID: -5939511419820266849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648c76168c8735530800000000000000
+      internalID: 3842547709100148806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 48
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9151454d977f9b5e0800000000000000
+      internalID: -1893210065707199207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 48
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba27a6d997f22740800000000000000
+      internalID: 5125931566004382394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_30
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 9
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b0ca63ec3d251d0800000000000000
+      internalID: -3363393089058370813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 48
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e50f9530a6cf80800000000000000
+      internalID: -8086599928735472759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 48
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7385b102aed514a90800000000000000
+      internalID: -7331475458240063433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 28
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba02a2db711852730800000000000000
+      internalID: 3973724185182216363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0bf7e5acc6a5e70800000000000000
+      internalID: 9104709213107499241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 45
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c34b58f49e50b4ab053e8e8f734210
+      internalID: -1007763928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb86f7c8a3708646864aeaffb201c71
+      internalID: -741835982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 4
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972a0c1109f6a774c817bb8174eb6810
+      internalID: 878266462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0dddd6855124e4ab418a37c3f81b90
+      internalID: 179056145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aca1d5c55fa9f4da41e7c0d22e81a2
+      internalID: 348690902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 28
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30754bc7f3133c64785a58f5ea0e9785
+      internalID: -999488227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a068cb28d2369c458db3cf3f2f84aa7
+      internalID: -228249525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78718fa52542904887c97e87f638726
+      internalID: -135695515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a3666774ba0da4f9d14dcd357361db
+      internalID: -1888926351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 28
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad14839b0ef1dd44ea51565e8737b7e2
+      internalID: 215558380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_43
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 18
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303746094d38c8445acdfe51236f9766
+      internalID: 48726904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 4
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118898735d6ea1d43a7c7ac5b911d002
+      internalID: -1264308012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPropsChunked_45
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 34
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a70fe057ab6c4f989c1b86a1e68ad
+      internalID: -344591489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 70aeee48cd94aaa48a97bbf1ec81bead
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DungeonPropsChunked_0: 5657785086538796155
+      DungeonPropsChunked_1: -3215301564238865800
+      DungeonPropsChunked_10: 966844131479705483
+      DungeonPropsChunked_11: 7899090005981982066
+      DungeonPropsChunked_12: -3595024098043503714
+      DungeonPropsChunked_13: -5320096936994269050
+      DungeonPropsChunked_14: 6785865841298751744
+      DungeonPropsChunked_15: 1161327948011616358
+      DungeonPropsChunked_16: 7497857374871164088
+      DungeonPropsChunked_17: -1007763928
+      DungeonPropsChunked_17_chest_closed: 4637115575663612169
+      DungeonPropsChunked_18: -741835982
+      DungeonPropsChunked_18_chest_open: -7758762456315553973
+      DungeonPropsChunked_19: 8187912454594638553
+      DungeonPropsChunked_2: -7528063191233213972
+      DungeonPropsChunked_20: -7847895364999148669
+      DungeonPropsChunked_21: -5217288801952162815
+      DungeonPropsChunked_22: 6440747985408752924
+      DungeonPropsChunked_23: -4954333293415834771
+      DungeonPropsChunked_24: -7262847078008803253
+      DungeonPropsChunked_25: -1470793717581749854
+      DungeonPropsChunked_26: -5939511419820266849
+      DungeonPropsChunked_27: 3842547709100148806
+      DungeonPropsChunked_28: -1893210065707199207
+      DungeonPropsChunked_29: 5125931566004382394
+      DungeonPropsChunked_3: -1046875588675947809
+      DungeonPropsChunked_30: -3363393089058370813
+      DungeonPropsChunked_31: -8086599928735472759
+      DungeonPropsChunked_32: -7331475458240063433
+      DungeonPropsChunked_33: 3973724185182216363
+      DungeonPropsChunked_34: 9104709213107499241
+      DungeonPropsChunked_35: 878266462
+      DungeonPropsChunked_36: 179056145
+      DungeonPropsChunked_37: 348690902
+      DungeonPropsChunked_38: -999488227
+      DungeonPropsChunked_39: -228249525
+      DungeonPropsChunked_4: -8078036767263443614
+      DungeonPropsChunked_40: -135695515
+      DungeonPropsChunked_41: -1888926351
+      DungeonPropsChunked_42: 215558380
+      DungeonPropsChunked_43: 48726904
+      DungeonPropsChunked_44: -1264308012
+      DungeonPropsChunked_45: -344591489
+      DungeonPropsChunked_5: -5538075616258901815
+      DungeonPropsChunked_6: -3688521493809802708
+      DungeonPropsChunked_7: 4460355164512150503
+      DungeonPropsChunked_8: 4147423801974585300
+      DungeonPropsChunked_9: 3110851267260633057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

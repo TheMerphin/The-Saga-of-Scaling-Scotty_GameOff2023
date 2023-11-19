@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3976480693654630718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4902,7 +4902,7 @@ GameObject:
   - component: {fileID: 3096877492806581397}
   - component: {fileID: 8137992970135969069}
   - component: {fileID: 3538680031271219167}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4967,7 +4967,7 @@ SpriteRenderer:
   m_SortingLayerID: -2011121071
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -284548494, guid: 1b42e054c051d754e80b9938f8d282c9, type: 3}
+  m_Sprite: {fileID: 4637115575663612169, guid: 606f4e46e64c1f64881558ff706ff05f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4977,7 +4977,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &7614985264597138681
 Animator:
   serializedVersion: 7
@@ -5068,7 +5068,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.24}
   m_Radius: 0.5
 --- !u!1001 &5109865657304244702
 PrefabInstance:
@@ -5272,7 +5272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 896c0b9693e9e6646a8866d2df14fae5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 896c0b9693e9e6646a8866d2df14fae5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
