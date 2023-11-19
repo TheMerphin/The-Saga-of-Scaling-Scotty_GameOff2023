@@ -9,7 +9,7 @@ using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
-    public float movementSpeed = 1f;
+    public float movementSpeedFactor = 1f;
     private Rigidbody2D rb;
 
     private Animator animator;
@@ -21,8 +21,14 @@ public class PlayerController : MonoBehaviour
     private int selectedSlot;
 
     private GameMenuController gameMenuController;
+    private AudioManager audioManager;
 
     private float interactCooldown;
+
+    private PlayerScalingInfo scalingLevelInfo;
+    public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
+
+    private float scaleCooldown;
 
     /**
      * Contains four items with the following mapping:
@@ -40,6 +46,9 @@ public class PlayerController : MonoBehaviour
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
         selectedSlot = 0;
         interactCooldown = 0f;
+        scaleCooldown = 0f;
+        scalingLevelInfo = GetScaleStructByScaleLevel(ScaleLevel.Normal);
+        transform.localScale = Vector3.one;
     }
 
     void Start()
@@ -54,6 +63,7 @@ public class PlayerController : MonoBehaviour
         animatorOverrideController.GetOverrides(attackClipOverrides);
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
+        audioManager = FindFirstObjectByType<AudioManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
 
@@ -71,7 +81,8 @@ public class PlayerController : MonoBehaviour
     {
         var circleCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
 
-        Array.ForEach(circleCast, interactable => {
+        Array.ForEach(circleCast, interactable =>
+        {
             var item = interactable.collider.GetComponent<Item>();
             var door = interactable.collider.GetComponent<DoorController>();
             var chest = interactable.collider.GetComponent<ChestController>();
@@ -128,12 +139,12 @@ public class PlayerController : MonoBehaviour
     {
         if (horizontalMovement > 0.01f || horizontalMovement < -0.01f)
         {
-            rb.AddForce(new Vector2(horizontalMovement * movementSpeed, 0f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(horizontalMovement * movementSpeedFactor * 2f, 0f), ForceMode2D.Impulse);
         }
 
         if (verticalMovement > 0.01f || verticalMovement < -0.01f)
         {
-            rb.AddForce(new Vector2(0f, verticalMovement * movementSpeed), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(0f, verticalMovement * movementSpeedFactor * 1.75f), ForceMode2D.Impulse);
         }
     }
 
@@ -197,10 +208,27 @@ public class PlayerController : MonoBehaviour
             }
             else if (items[selectedSlot] is Consumable)
             {
-
+                (items[selectedSlot] as Consumable).Consume();
             }
         }
 
+        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.LeftShift)) && scaleCooldown > 0f)
+        {
+            audioManager.Play("OnCooldown");
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel < 1)
+        {
+            ScalePlayerUp();
+            scaleCooldown = 4f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftControl) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel > -1)
+        {
+            ScalePlayerDown();
+            scaleCooldown = 4f;
+        }
+        
         float mouseScroll = Input.GetAxis("Mouse ScrollWheel");
         if (mouseScroll < 0f && selectedSlot < 3)
         {
@@ -227,7 +255,8 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isFacingBL", false);
         animator.SetBool("isMoving", false);
 
-        if(interactCooldown > 0f) interactCooldown -= 0.01f;
+        if (interactCooldown > 0f) interactCooldown -= 0.01f;
+        if (scaleCooldown > 0f) scaleCooldown -= 0.01f;
     }
 
     private void SetSelectedSlot(int slot)
@@ -251,7 +280,7 @@ public class PlayerController : MonoBehaviour
 
             animator.Rebind();
             animatorOverrideController.ApplyOverrides(attackClipOverrides);
-            animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
+            UpdatePlayerScaling();
         }
     }
 
@@ -312,7 +341,37 @@ public class PlayerController : MonoBehaviour
         if (previousItem != null) previousItem.Drop();
 
         // Update UI
-        if(item is not Key)gameMenuController.SetInventorySlot(item.Icon, slot);
+        if (item is not Key) gameMenuController.SetInventorySlot(item.Icon, slot);
+    }
+
+    private void ScalePlayerUp()
+    {
+        ScaleLevel targetScaleLevel;
+        if (scalingLevelInfo.ScaleLevel.Equals(ScaleLevel.Normal))
+        {
+            targetScaleLevel = ScaleLevel.Big;
+        }
+        else  // ScaleLevel.Small
+        {
+            targetScaleLevel = ScaleLevel.Normal;
+        }
+
+        StartCoroutine(Scale(targetScaleLevel));
+    }
+
+    private void ScalePlayerDown()
+    {
+        ScaleLevel targetScaleLevel;
+        if (scalingLevelInfo.ScaleLevel.Equals(ScaleLevel.Normal))
+        {
+            targetScaleLevel = ScaleLevel.Small;
+        }
+        else // ScaleLevel.Big
+        {
+            targetScaleLevel = ScaleLevel.Normal;
+        }
+
+        StartCoroutine(Scale(targetScaleLevel));
     }
 
     public DiagonalDirection GetPlayerFacingDirection()
@@ -321,6 +380,53 @@ public class PlayerController : MonoBehaviour
         if (isFacingTR) return DiagonalDirection.UpRight;
         if (isFacingBL) return DiagonalDirection.DownLeft;
         return DiagonalDirection.DownRight;
+    }
+
+    private IEnumerator Scale(ScaleLevel targetScaleLevel)
+    {
+        var targetScalingInfo = GetScaleStructByScaleLevel(targetScaleLevel);
+        var currentTransformScale = scalingLevelInfo.TransformScale;
+        var currentMovementSpeed = scalingLevelInfo.MovementSpeedModifier;
+
+        var totalDuration = 1f;
+        var ticks = 20f;
+
+        if ((int) scalingLevelInfo.ScaleLevel < (int) targetScalingInfo.ScaleLevel)
+        {
+            audioManager.Play("Inflate");
+        }
+        else
+        {
+            audioManager.Play("Deflate");
+        }
+
+        for (int i = 0; i <= ticks; i++)
+        {
+            var transformLerp = Mathf.Lerp(currentTransformScale, targetScalingInfo.TransformScale, i / ticks);
+            transform.localScale = new Vector2(transformLerp, transformLerp);
+
+            var movementSpeedLerp = Mathf.Lerp(currentMovementSpeed, targetScalingInfo.MovementSpeedModifier, i / ticks);
+            animator.SetFloat("movementSpeedMultiplier", movementSpeedLerp);
+            movementSpeedFactor = movementSpeedLerp;
+
+            if (i == ticks / 2f) scalingLevelInfo = targetScalingInfo;
+            yield return new WaitForSeconds(totalDuration / ticks);
+        }
+
+        // Update items
+        Array.ForEach(items, item => { if (item != null) item.OnPlayerScaleChange(scalingLevelInfo); });
+
+        var weapon = items[selectedSlot] as Weapon;
+        if(weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
+    }
+
+    private void UpdatePlayerScaling()
+    {
+        animator.SetFloat("movementSpeedMultiplier", scalingLevelInfo.MovementSpeedModifier);
+        movementSpeedFactor = scalingLevelInfo.MovementSpeedModifier;
+
+        var weapon = items[selectedSlot] as Weapon;
+        if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
 
 }

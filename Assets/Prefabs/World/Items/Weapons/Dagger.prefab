@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6200738760602397147}
   - component: {fileID: 6270298661969501746}
   - component: {fileID: 2557758384063928062}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Dagger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,6 +75,8 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 3b16c5d13960cdd498d5ceec3d7ee8c6, type: 2}
   - {fileID: 7400000, guid: 64ee8c0506cc4d54c802a34137ebfe3f, type: 2}
   - {fileID: 7400000, guid: 1d273f1ba2fa421489ad7646316a487e, type: 2}
+  attackBoxSize: {x: 1, y: 1}
+  attackOffset: {x: 0.5, y: 0.5}
 --- !u!212 &1774876079990947437
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -126,7 +128,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!58 &6200738760602397147
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -161,7 +163,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.26}
   m_Radius: 0.625
 --- !u!95 &6270298661969501746
 Animator:
@@ -5374,6 +5376,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7205448683237081058, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7324839518936989243, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5456,7 +5462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7666562981579034809, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

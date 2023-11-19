@@ -277,6 +277,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1592,7 +1604,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minifantasy_CreaturesSkeletonAnimations_0: 5544720751865894309
+      Minifantasy_CreaturesSkeletonAnimations_1: 4751091914059452103
+      Minifantasy_CreaturesSkeletonAnimations_10: -372087519428642359
+      Minifantasy_CreaturesSkeletonAnimations_11: 1328419472761903363
+      Minifantasy_CreaturesSkeletonAnimations_12: 2236467963661393314
+      Minifantasy_CreaturesSkeletonAnimations_13: 6484126320660341565
+      Minifantasy_CreaturesSkeletonAnimations_14: -6143240272520591641
+      Minifantasy_CreaturesSkeletonAnimations_15: -5103199443166478049
+      Minifantasy_CreaturesSkeletonAnimations_16: -154846241968435883
+      Minifantasy_CreaturesSkeletonAnimations_17: -6548486758673396186
+      Minifantasy_CreaturesSkeletonAnimations_18: -4067566553188879401
+      Minifantasy_CreaturesSkeletonAnimations_19: 6546657433645998595
+      Minifantasy_CreaturesSkeletonAnimations_2: -102202896525208636
+      Minifantasy_CreaturesSkeletonAnimations_20: -97649998944473405
+      Minifantasy_CreaturesSkeletonAnimations_21: 245926835403107010
+      Minifantasy_CreaturesSkeletonAnimations_22: 1633892728471293375
+      Minifantasy_CreaturesSkeletonAnimations_23: -3290985306852839901
+      Minifantasy_CreaturesSkeletonAnimations_24: -3848670992595805372
+      Minifantasy_CreaturesSkeletonAnimations_25: 3410982072913245831
+      Minifantasy_CreaturesSkeletonAnimations_26: 7868574237420309214
+      Minifantasy_CreaturesSkeletonAnimations_27: 3873000264386150406
+      Minifantasy_CreaturesSkeletonAnimations_28: -3344128939358456958
+      Minifantasy_CreaturesSkeletonAnimations_29: -7277513079506383671
+      Minifantasy_CreaturesSkeletonAnimations_3: -1324017503103255910
+      Minifantasy_CreaturesSkeletonAnimations_30: -8261463071385904943
+      Minifantasy_CreaturesSkeletonAnimations_31: 8294260057124471707
+      Minifantasy_CreaturesSkeletonAnimations_32: 3299703502307797318
+      Minifantasy_CreaturesSkeletonAnimations_33: 37442578352454058
+      Minifantasy_CreaturesSkeletonAnimations_34: 6907512475029357391
+      Minifantasy_CreaturesSkeletonAnimations_35: 1727467366408793752
+      Minifantasy_CreaturesSkeletonAnimations_36: -1110581925511469948
+      Minifantasy_CreaturesSkeletonAnimations_37: 7883771252060709559
+      Minifantasy_CreaturesSkeletonAnimations_38: 5627045318373384689
+      Minifantasy_CreaturesSkeletonAnimations_39: -2281813799883579435
+      Minifantasy_CreaturesSkeletonAnimations_4: 5913686645372300202
+      Minifantasy_CreaturesSkeletonAnimations_40: -7074668868542634961
+      Minifantasy_CreaturesSkeletonAnimations_41: -7287853598428948771
+      Minifantasy_CreaturesSkeletonAnimations_42: 7319546546760913359
+      Minifantasy_CreaturesSkeletonAnimations_43: -5447751757525646360
+      Minifantasy_CreaturesSkeletonAnimations_44: 8550260912969384380
+      Minifantasy_CreaturesSkeletonAnimations_45: 3198406844122540500
+      Minifantasy_CreaturesSkeletonAnimations_46: -7194359319900603233
+      Minifantasy_CreaturesSkeletonAnimations_47: -4672107202233303297
+      Minifantasy_CreaturesSkeletonAnimations_48: -3105276516641835536
+      Minifantasy_CreaturesSkeletonAnimations_49: -4810862294576398873
+      Minifantasy_CreaturesSkeletonAnimations_5: -7757011301214449998
+      Minifantasy_CreaturesSkeletonAnimations_50: -4761146626823024229
+      Minifantasy_CreaturesSkeletonAnimations_51: -2095433231616941533
+      Minifantasy_CreaturesSkeletonAnimations_52: 8041456446185587695
+      Minifantasy_CreaturesSkeletonAnimations_53: 849140890893662727
+      Minifantasy_CreaturesSkeletonAnimations_54: 7666238217017154517
+      Minifantasy_CreaturesSkeletonAnimations_55: -8318430832567002678
+      Minifantasy_CreaturesSkeletonAnimations_56: -4004161347774746580
+      Minifantasy_CreaturesSkeletonAnimations_57: -220805557086839904
+      Minifantasy_CreaturesSkeletonAnimations_58: -3465986997293810877
+      Minifantasy_CreaturesSkeletonAnimations_59: 3324420433731519462
+      Minifantasy_CreaturesSkeletonAnimations_6: -1423417813334665335
+      Minifantasy_CreaturesSkeletonAnimations_60: -8758492829028361397
+      Minifantasy_CreaturesSkeletonAnimations_61: -6242055489961103104
+      Minifantasy_CreaturesSkeletonAnimations_7: -1523950580951610905
+      Minifantasy_CreaturesSkeletonAnimations_8: 2117825751292136758
+      Minifantasy_CreaturesSkeletonAnimations_9: 6252448370092426703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
