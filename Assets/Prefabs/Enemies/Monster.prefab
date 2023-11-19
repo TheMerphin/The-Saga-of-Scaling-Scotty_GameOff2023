@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundVolume: 1
   monsterType: 0
   movementSpeed: 1
   detectionRange: 6

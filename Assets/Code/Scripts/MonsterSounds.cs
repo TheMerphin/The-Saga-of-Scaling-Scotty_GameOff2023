@@ -18,6 +18,11 @@ public class MonsterSounds : MonoBehaviour
         MonsterAudioSource =audioSource;
     }
 
+    public void changeVolume(float volume)
+    {
+        MonsterAudioSource.volume=volume;
+    }
+
       public void playSkeletonHurt()
     {
         MonsterAudioSource.PlayOneShot(SkeletonHurt);
