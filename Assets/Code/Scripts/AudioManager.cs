@@ -38,6 +38,8 @@ public class AudioManager : MonoBehaviour
 
 	public void AddSound(Sound sound)
 	{
+		if (sounds.Exists(item => item.name.Equals(sound.name))) return;
+
 		sounds.Add(sound);
 
         sound.source = gameObject.AddComponent<AudioSource>();

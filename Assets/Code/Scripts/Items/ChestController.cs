@@ -89,7 +89,7 @@ public class ChestController : MonoBehaviour
         var objectPrompter = GetComponent<ObjectPrompter>();
         objectPrompter.DisablePrompt = true;
         objectPrompter.enabled = false;
-        GetComponent<ChestController>().enabled = false;
+        this.enabled = false;
     }
 
     public void UpdatePrompt(bool hasKey)

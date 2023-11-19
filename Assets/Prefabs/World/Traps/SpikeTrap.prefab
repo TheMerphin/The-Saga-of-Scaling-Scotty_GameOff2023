@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8945836518310664575}
-  - component: {fileID: 7170904888530154487}
+  - component: {fileID: 960789499712628127}
   - component: {fileID: 1545534489576124573}
   - component: {fileID: 4461492012391929625}
   - component: {fileID: 7284428432103305591}
   m_Layer: 15
-  m_Name: BladeTrap_Right
+  m_Name: SpikeTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7170904888530154487
+--- !u!114 &960789499712628127
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,17 +44,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 7958762034904723910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3f01ed1e995dd4bb273c34d8d3e218, type: 3}
+  m_Script: {fileID: 11500000, guid: 23dbeb3616648d641a2ed1b38d9b54e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trapName: Blade Trap
+  trapName: Spike Trap
   active: 1
   damage: 1
-  trapAnimation: {fileID: 7400000, guid: 53983f0151dcc5247b7e698a5031917d, type: 2}
+  trapAnimation: {fileID: 0}
   trapSound:
-    name: BladeTrap
-    clip: {fileID: 8300000, guid: a64f002959e864247a62ee995d568f48, type: 3}
-    volume: 0.3
+    name: SpikeTrap
+    clip: {fileID: 8300000, guid: 7a98dcbd235979c41bf358d01af7a6aa, type: 3}
+    volume: 0.5
     volumeVariance: 0.1
     pitch: 1
     pitchVariance: 0.1
@@ -102,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: -2011121071
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -148294921, guid: af2d55caafec489439c6b1aa6806ce7e, type: 3}
+  m_Sprite: {fileID: -5735551943972598527, guid: af2d55caafec489439c6b1aa6806ce7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -169,15 +169,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.75, y: 0.375}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 1, y: 0.375}
+    pivot: {x: 0.5, y: 0.7916667}
     oldSize: {x: 3, y: 3}
     newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 2}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0

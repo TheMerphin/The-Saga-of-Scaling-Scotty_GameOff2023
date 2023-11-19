@@ -10,7 +10,7 @@ public abstract class Trap : MonoBehaviour
     protected AnimatorOverrideController animatorOverrideController;
     protected AnimationClipOverrides activateClipOverrides;
 
-    private Collider2D triggerAreaCollider;
+    protected Collider2D triggerAreaCollider;
     protected AudioManager audioManager;
 
     [SerializeField]
@@ -61,14 +61,17 @@ public abstract class Trap : MonoBehaviour
         audioManager.AddSound(trapSound);
     }
 
-    public virtual void TriggerTrap(Transform player)
+    public virtual void TriggerTrap(PlayerController player)
     {
         if (!active) return;
         active = false;
 
-        audioManager.Play(TrapSound.name);
+        audioManager.Play(trapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
 
-        print(trapName + "-Trap was activated. Applying " + damage + " Damage to " + player.name);
+        if(player != null) print(trapName + " was activated. Applying " + damage + " Damage to " + player.name);
+
+        triggerAreaCollider.enabled = false;
+        this.enabled = false;
     }
 }

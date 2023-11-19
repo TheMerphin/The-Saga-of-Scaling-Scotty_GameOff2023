@@ -53,8 +53,8 @@ MonoBehaviour:
   trapAnimation: {fileID: 7400000, guid: 31d47429a3de4544195e9e199d173364, type: 2}
   trapSound:
     name: BladeTrap
-    clip: {fileID: 8300000, guid: 1ff820811c8522a40bf500c3a52ad922, type: 3}
-    volume: 0.75
+    clip: {fileID: 8300000, guid: a64f002959e864247a62ee995d568f48, type: 3}
+    volume: 0.3
     volumeVariance: 0.1
     pitch: 1
     pitchVariance: 0.1
@@ -169,10 +169,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.875, y: 0.375}
+  m_Offset: {x: 0.75, y: 0.375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.375}
+    pivot: {x: 0, y: 0.375}
     oldSize: {x: 3, y: 3}
     newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
