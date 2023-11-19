@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterType: 0
+  monsterType: 3
   movementSpeed: 1
   detectionRange: 6
   health: 1
@@ -394,6 +394,8 @@ MonoBehaviour:
   skeletonSprite: {fileID: -1347213925559123952, guid: 8cbc87d494bcd8e49986fae6b48a9f64, type: 3}
   goblinAnimator: {fileID: 9100000, guid: f6a38817ec2d954409c844dea6f30a67, type: 2}
   goblinSprite: {fileID: 4035959289877228764, guid: eff6d091fc8995a4ca89d4c37306795c, type: 3}
+  wolfAnimator: {fileID: 9100000, guid: 9231687042af1d843a91593b126b600a, type: 2}
+  wolfSprite: {fileID: -3373793927158656445, guid: 95822818f2ad09a46a74038900e09d50, type: 3}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

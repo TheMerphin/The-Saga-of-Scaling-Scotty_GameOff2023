@@ -8,7 +8,8 @@ public class EnemyController : MonoBehaviour
     {
         Skeleton,
         Goblin,
-        Slime
+        Slime,
+        Wolf
     }
 
     private AIPath aiPath;
@@ -31,6 +32,8 @@ public class EnemyController : MonoBehaviour
     public Sprite skeletonSprite;
     public RuntimeAnimatorController goblinAnimator;
     public Sprite goblinSprite;
+    public RuntimeAnimatorController wolfAnimator;
+    public Sprite wolfSprite;
     void Awake()
     {
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
@@ -45,15 +48,30 @@ public class EnemyController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
 
-        if (monsterType.Equals(MonsterType.Skeleton))
-        {
-            animator.runtimeAnimatorController = skeletonAnimator;
-            monsterSprite.sprite = skeletonSprite;
+        switch (monsterType) {
+            case MonsterType.Skeleton:
+                animator.runtimeAnimatorController = skeletonAnimator;
+                monsterSprite.sprite = skeletonSprite;
+                break;
+
+            case MonsterType.Wolf:
+                animator.runtimeAnimatorController = wolfAnimator;
+                monsterSprite.sprite = wolfSprite;
+                break;
+
+            case MonsterType.Slime:
+                break;
+
+            case MonsterType.Goblin:
+                Debug.Log("Sneaky Gobbos");
+                break;
+
+            default:
+                Debug.Log("No Monster");
+                break;
+
         }
-        else if (monsterType.Equals(MonsterType.Goblin))
-        {
-            Debug.Log("Sneaky Gobbos");
-        }
+
     }
 
     void Update()
