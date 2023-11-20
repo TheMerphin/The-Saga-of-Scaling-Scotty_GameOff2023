@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
     private bool attack = false;
     private MonsterSounds monsterSounds;
 
-    public float soundVolume = 1f;
+    //public float soundVolume = 1f;
 
 
     // Settings for the monster
@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
         monsterSounds.setAudioSource(gameObject.GetComponentInChildren<AudioSource>());
 
-        monsterSounds.changeVolume(soundVolume);
+        //monsterSounds.changeVolume(soundVolume);
 
         aiPath = GetComponent<AIPath>();
         aiPath.maxSpeed = movementSpeed;
@@ -77,10 +77,10 @@ public class EnemyController : MonoBehaviour
 
 
 
-    public void changeSoundVolume(float volume)
-    {
-        soundVolume = volume; 
-    }
+    //public void changeSoundVolume(float volume)
+    //{
+    //    soundVolume = volume; 
+    //}
     private void EnemyAnimation()
     {
 
