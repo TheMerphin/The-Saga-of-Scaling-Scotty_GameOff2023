@@ -3,6 +3,10 @@
 - Orchestral Hero Theme by TheoJT under CC0 at https://freesound.org/people/TheoJT/sounds/510955/
 - UI Button Click by el_boss under CC0 at https://freesound.org/people/el_boss/sounds/677861/
 - swishing_swoosh_whoosh_sound.wav by mediatheksuche under CC0 at https://freesound.org/people/mediatheksuche/sounds/623710/
+- waterstepsound by nathanaelj83 under CC0 at https://freesound.org/people/nathanaelj83/sounds/145242/
+- woodstepsound by kretopi under CC0 at https://freesound.org/people/kretopi/sounds/406750/
+- stonestepsound by carringsound under CC0 at https://freesound.org/people/carrigsound/sounds/32638/
+- sandstepsound by JuanD20 under CC0 at https://freesound.org/people/JuanD20/sounds/392512/
 - LightFlicker Script by LaneFox, Will Lacey at https://discussions.unity.com/t/camp-fire-light-flicker-control/109898
 - Basic Melee Swing / Miss / Whoosh by SypherZent under CC0 at https://freesound.org/people/SypherZent/sounds/420668/
 - Item or Material Pickup Pop 1 of 3 by el_boss under CC0 at https://freesound.org/people/el_boss/sounds/665183/
