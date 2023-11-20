@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 231196413306928107}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,7 +33,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.54, y: 1.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacf4b3def0f1974cbc4a72395f55729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 2
+  movementSpeedFactor: 1
 --- !u!50 &4980124221196295346
 Rigidbody2D:
   serializedVersion: 4
@@ -185,8 +185,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.06, y: -0.31}
-  m_Size: {x: 0.5, y: 0.13}
+  m_Offset: {x: -0.06, y: -0.06}
+  m_Size: {x: 0.6, y: 0.13}
   m_Direction: 1
 --- !u!114 &231196413306928107
 MonoBehaviour:
@@ -208,13 +208,13 @@ MonoBehaviour:
   m_CastsShadows: 1
   m_SelfShadows: 0
   m_AlphaCutoff: 0.58
-  m_ApplyToSortingLayers: 00000000952f64c4455333a751ba2088
+  m_ApplyToSortingLayers: 00000000952f64c4455333a7
   m_ShapePath:
-  - {x: -0.2497797, y: -0.37499785, z: 0}
-  - {x: -0.25382853, y: 0.25097513, z: 0}
-  - {x: 0.117785454, y: 0.24586844, z: 0}
-  - {x: 0.12872076, y: -0.37233973, z: 0}
-  m_ShapePathHash: -1073633051
+  - {x: -0.2497797, y: -0.12318432, z: 0}
+  - {x: -0.25382853, y: 0.50278854, z: 0}
+  - {x: 0.12541628, y: 0.50149703, z: 0}
+  - {x: 0.124905586, y: -0.11671114, z: 0}
+  m_ShapePathHash: 155149909
   m_InstanceId: 0
   m_ShadowShape2DComponent: {fileID: 0}
   m_ShadowShape2DProvider:
@@ -223,8 +223,8 @@ MonoBehaviour:
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: -0.06255388, y: -0.06201136, z: 0}
-      m_Extent: {x: 0.19127464, y: 0.3129865, z: 0}
+      m_Center: {x: -0.06420612, y: 0.18980211, z: 0}
+      m_Extent: {x: 0.1896224, y: 0.31298643, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0.2
     m_FlipX: 0
