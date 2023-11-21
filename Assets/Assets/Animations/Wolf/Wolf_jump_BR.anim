@@ -22,18 +22,18 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 6374068173710301249, guid: 10163a86550398045a2c23aac7e7eae7, type: 3}
-    - time: 0.083333336
+    - time: 0.125
       value: {fileID: 8663145729989985333, guid: 10163a86550398045a2c23aac7e7eae7, type: 3}
-    - time: 0.16666667
-      value: {fileID: 2578869068461065451, guid: 10163a86550398045a2c23aac7e7eae7, type: 3}
     - time: 0.25
+      value: {fileID: 2578869068461065451, guid: 10163a86550398045a2c23aac7e7eae7, type: 3}
+    - time: 0.375
       value: {fileID: -8217554506411712316, guid: 10163a86550398045a2c23aac7e7eae7, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -59,7 +59,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -80,9 +80,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: 
+    functionName: playWolfStep
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: b6bde0773eafa7b44b097b9a912efcfb, type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

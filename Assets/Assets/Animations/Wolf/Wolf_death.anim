@@ -22,26 +22,26 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 273276796840770470, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
-    - time: 0.083333336
+    - time: 0.125
       value: {fileID: 6203780614270977568, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
-    - time: 0.16666667
-      value: {fileID: 4363735336550054006, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
     - time: 0.25
+      value: {fileID: 4363735336550054006, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
+    - time: 0.375
       value: {fileID: -7012890484990002207, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
-    - time: 0.33333334
-      value: {fileID: -1461899181130171756, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
-    - time: 0.41666666
-      value: {fileID: 9207991633951576449, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
     - time: 0.5
+      value: {fileID: -1461899181130171756, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
+    - time: 0.625
+      value: {fileID: 9207991633951576449, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
+    - time: 0.75
       value: {fileID: 153534620, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
-    - time: 0.5833333
+    - time: 0.875
       value: {fileID: -1509230536, guid: 0738a5d9f1b228f4db027e7d3f85736e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -71,7 +71,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666666
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,7 +91,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.16666667
+  - time: 0.125
+    functionName: playWolfHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.25
     functionName: 
     data: 
     objectReferenceParameter: {fileID: 8300000, guid: c22620439dfe3624ea80a3bcdc5e8928, type: 3}
