@@ -8,9 +8,12 @@ public class MonsterSounds : MonoBehaviour
    public AudioClip SkeletonHurt;
    public AudioClip SkeletonDeath;
    public AudioClip SkeletonAttack;
-    public AudioClip SkeletonStep;
-    public AudioClip SkeletonAssemble;
-    public AudioClip SkeletonDisassemble;
+   public AudioClip SkeletonStep;
+   public AudioClip SkeletonAssemble;
+   public AudioClip SkeletonDisassemble;
+   public AudioClip WolfStep;
+   public AudioClip WolfHurt;
+   public AudioClip WolfAttack;
 
     private AudioSource MonsterAudioSource;
     public void setAudioSource(AudioSource audioSource)
@@ -49,5 +52,21 @@ public class MonsterSounds : MonoBehaviour
     {
         MonsterAudioSource.PlayOneShot(SkeletonAssemble);
     }
-    
+
+    public void playWolfStep()
+    {
+        MonsterAudioSource.PlayOneShot(WolfStep);
+    }
+
+    public void playWolfAttack()
+    {
+        MonsterAudioSource.PlayOneShot(WolfAttack);
+    }
+
+    public void playWolfHurt()
+    {
+        MonsterAudioSource.PlayOneShot(WolfHurt);
+    }
+
+
 }

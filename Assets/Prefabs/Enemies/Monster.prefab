@@ -223,6 +223,9 @@ MonoBehaviour:
   SkeletonStep: {fileID: 8300000, guid: 309cbc87e0bd8c647bd4b19fd3e724f7, type: 3}
   SkeletonAssemble: {fileID: 8300000, guid: 3d049663f15b89a4ea850911d44eff75, type: 3}
   SkeletonDisassemble: {fileID: 8300000, guid: 94e15345f201a914494b56fb75fbe226, type: 3}
+  WolfStep: {fileID: 8300000, guid: 721d1fd76a9373d4482ca0a4a6127a38, type: 3}
+  WolfHurt: {fileID: 8300000, guid: c22620439dfe3624ea80a3bcdc5e8928, type: 3}
+  WolfAttack: {fileID: 8300000, guid: 0cfa5d128b7522444ba60fdc2c47def0, type: 3}
 --- !u!1 &7781424995959787776
 GameObject:
   m_ObjectHideFlags: 0

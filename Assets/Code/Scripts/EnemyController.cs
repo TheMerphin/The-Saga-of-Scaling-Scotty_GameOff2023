@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
     {
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
         monsterSounds.setAudioSource(gameObject.GetComponentInChildren<AudioSource>());
-
+  
         aiPath = GetComponent<AIPath>();
         aiPath.maxSpeed = movementSpeed;
         
@@ -163,10 +163,30 @@ public class EnemyController : MonoBehaviour
     public void getAttacked(float damage)
     {
         gotHit = true;
-        if(monsterType.Equals(MonsterType.Skeleton))
+
+        switch (monsterType)
         {
-            monsterSounds.playSkeletonHurt();
+            case MonsterType.Skeleton:
+                monsterSounds.playSkeletonHurt();
+                break;
+
+            case MonsterType.Wolf:
+                monsterSounds.playWolfHurt();
+                break;
+
+            case MonsterType.Slime:
+                break;
+
+            case MonsterType.Goblin:
+                Debug.Log("Sneaky Gobbos");
+                break;
+
+            default:
+                Debug.Log("No Monster");
+                break;
+
         }
+        
     }
 
 
