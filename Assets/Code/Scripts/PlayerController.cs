@@ -82,8 +82,8 @@ public class PlayerController : MonoBehaviour
     {
         if (disableInputs) return;
 
-        var interactableCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
-        Array.ForEach(interactableCast, interactable =>
+        var interactable = Physics2D.CircleCast(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
+        if (interactable.collider != null)
         {
             var item = interactable.collider.GetComponent<Item>();
             var door = interactable.collider.GetComponent<DoorController>();
@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
             {
                 prompter.ShowPrompt(true);
             }
-        });
+        }
 
         var trapCast = Physics2D.CircleCastAll(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Trap"));
         Array.ForEach(trapCast, trap =>
