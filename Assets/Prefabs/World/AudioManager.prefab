@@ -145,3 +145,12 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: PlayerFalling
+    clip: {fileID: 8300000, guid: b97505a2569aac647b58efe1a8dcee63, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 0.9
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

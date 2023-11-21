@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
 using UnityEngine;
 
 public static class Toolbox
@@ -41,7 +39,7 @@ public static class Toolbox
         }
 
         /**
-         * Two clip names are equals either if they have the same DirectionalActionIdentifier at the last token
+         * Two clip names are equals either if they have the same Identifier at the last token
          * separated by underscores (e.g. "XXXX_AttackBL") or otherwise they fully match.
          */
         private bool AnimationClipNameEquals(string clipName1, string clipName2)

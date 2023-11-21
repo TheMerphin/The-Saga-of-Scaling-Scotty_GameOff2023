@@ -1,0 +1,973 @@
+fileFormatVersion: 2
+guid: af2d55caafec489439c6b1aa6806ce7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5735551943972598527
+    second: Minifantasy_DungeonBladeTrap_0
+  - first:
+      213: 6096200345916896390
+    second: Minifantasy_DungeonBladeTrap_1
+  - first:
+      213: -3079509696138193991
+    second: Minifantasy_DungeonBladeTrap_2
+  - first:
+      213: -8023055613972463487
+    second: Minifantasy_DungeonBladeTrap_3
+  - first:
+      213: 2135882652530684615
+    second: Minifantasy_DungeonBladeTrap_4
+  - first:
+      213: -7107911891502720160
+    second: Minifantasy_DungeonBladeTrap_5
+  - first:
+      213: 1007373031285338221
+    second: Minifantasy_DungeonBladeTrap_6
+  - first:
+      213: -4724251617743604831
+    second: Minifantasy_DungeonBladeTrap_7
+  - first:
+      213: 4034492143412229649
+    second: Minifantasy_DungeonBladeTrap_8
+  - first:
+      213: -8984264286220135725
+    second: Minifantasy_DungeonBladeTrap_9
+  - first:
+      213: -5307983703943378179
+    second: Minifantasy_DungeonBladeTrap_10
+  - first:
+      213: -1155643367898666494
+    second: Minifantasy_DungeonBladeTrap_11
+  - first:
+      213: -2322308466027822814
+    second: Minifantasy_DungeonBladeTrap_12
+  - first:
+      213: 3708376798560599441
+    second: Minifantasy_DungeonBladeTrap_13
+  - first:
+      213: -2596952519459472292
+    second: Minifantasy_DungeonBladeTrap_14
+  - first:
+      213: -4325048882901045438
+    second: Minifantasy_DungeonBladeTrap_15
+  - first:
+      213: 3714609172621660579
+    second: Minifantasy_DungeonBladeTrap_16
+  - first:
+      213: 8865040406146143553
+    second: Minifantasy_DungeonBladeTrap_17
+  - first:
+      213: -4692240414588615616
+    second: Minifantasy_DungeonBladeTrap_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d46bc25e93760b0800000000000000
+      internalID: -5735551943972598527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6847df16aed0a9450800000000000000
+      internalID: 6096200345916896390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3df4f4f326345d0800000000000000
+      internalID: -3079509696138193991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180c7f35d6168a090800000000000000
+      internalID: -8023055613972463487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2b202c4fd24ad10800000000000000
+      internalID: 2135882652530684615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b94344bcf9b5d90800000000000000
+      internalID: -7107911891502720160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6032164f68eafd00800000000000000
+      internalID: 1007373031285338221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3f3de0f26107eb0800000000000000
+      internalID: -4724251617743604831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116b0319a356df730800000000000000
+      internalID: 4034492143412229649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2de9b7b3b715380800000000000000
+      internalID: -8984264286220135725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa84e4b1f04656b0800000000000000
+      internalID: -5307983703943378179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a2d51da7456ffe0800000000000000
+      internalID: -1155643367898666494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221878711c085cfd0800000000000000
+      internalID: -2322308466027822814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d318bec0dc67330800000000000000
+      internalID: 3708376798560599441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cff0b5175c5fbd0800000000000000
+      internalID: -2596952519459472292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fab72c4f65af3c0800000000000000
+      internalID: -4325048882901045438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a195859c51fc8330800000000000000
+      internalID: 3714609172621660579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14553d7c743f60b70800000000000000
+      internalID: 8865040406146143553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044c6b71430d1eeb0800000000000000
+      internalID: -4692240414588615616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8153d1361bda3458f6122a962e6dc1
+      internalID: 664413550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb2a5f62dc6e4540a3805b04fee9b56
+      internalID: 1351623201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebd2b075aabbf841afa2e5ffa147796
+      internalID: 1847485608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401b252f9bfeb7e49a2a5dcbfdc0f8ee
+      internalID: -954767137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f16da6d0f8084caacab108348e5da
+      internalID: 1112687462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e17ef9160f7f84a889fbca6d027f8f
+      internalID: -148294921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b9fd2c821f94e4bbe0b161dbe93de3
+      internalID: -460748845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42a723359c8d14997fb640933e2d01
+      internalID: 1783144817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547fb7a1dcab24e49bce7f55fd34c303
+      internalID: -1406728962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8edcfaa9641bab4bbbb656d8f2eb5a5
+      internalID: -1279022288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d27b80bfa37df946b98c8a47b1b33ac
+      internalID: 236724225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cddc93c85f4b334bb4aa50babd6aa62
+      internalID: 148462487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23327ab57e38c1b4396f12e8691b23c4
+      internalID: -1922393788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d6ad11f407f954c90ae8e78ed863a4
+      internalID: 754257174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c4493a817680142a915dd49ac87608
+      internalID: 586112480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bf0b36b231f94f8b0817adc438554
+      internalID: 1505328271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_DungeonBladeTrap_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241244b38b8e2774f93988d281efc0fa
+      internalID: -1171364039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c0514f9414c785c458fb688faae6ebe8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_DungeonBladeTrap_0: -5735551943972598527
+      Minifantasy_DungeonBladeTrap_1: 6096200345916896390
+      Minifantasy_DungeonBladeTrap_10: -5307983703943378179
+      Minifantasy_DungeonBladeTrap_11: -1155643367898666494
+      Minifantasy_DungeonBladeTrap_12: -2322308466027822814
+      Minifantasy_DungeonBladeTrap_13: 3708376798560599441
+      Minifantasy_DungeonBladeTrap_14: -2596952519459472292
+      Minifantasy_DungeonBladeTrap_15: -4325048882901045438
+      Minifantasy_DungeonBladeTrap_16: 3714609172621660579
+      Minifantasy_DungeonBladeTrap_17: 8865040406146143553
+      Minifantasy_DungeonBladeTrap_18: -4692240414588615616
+      Minifantasy_DungeonBladeTrap_19: 664413550
+      Minifantasy_DungeonBladeTrap_2: -3079509696138193991
+      Minifantasy_DungeonBladeTrap_20: 1351623201
+      Minifantasy_DungeonBladeTrap_21: 1847485608
+      Minifantasy_DungeonBladeTrap_22: -954767137
+      Minifantasy_DungeonBladeTrap_23: 1112687462
+      Minifantasy_DungeonBladeTrap_24: -148294921
+      Minifantasy_DungeonBladeTrap_25: -460748845
+      Minifantasy_DungeonBladeTrap_26: 1783144817
+      Minifantasy_DungeonBladeTrap_27: -1406728962
+      Minifantasy_DungeonBladeTrap_28: -1279022288
+      Minifantasy_DungeonBladeTrap_29: 236724225
+      Minifantasy_DungeonBladeTrap_3: -8023055613972463487
+      Minifantasy_DungeonBladeTrap_30: 148462487
+      Minifantasy_DungeonBladeTrap_31: -1922393788
+      Minifantasy_DungeonBladeTrap_32: 754257174
+      Minifantasy_DungeonBladeTrap_33: 586112480
+      Minifantasy_DungeonBladeTrap_34: 1505328271
+      Minifantasy_DungeonBladeTrap_35: -1171364039
+      Minifantasy_DungeonBladeTrap_4: 2135882652530684615
+      Minifantasy_DungeonBladeTrap_5: -7107911891502720160
+      Minifantasy_DungeonBladeTrap_6: 1007373031285338221
+      Minifantasy_DungeonBladeTrap_7: -4724251617743604831
+      Minifantasy_DungeonBladeTrap_8: 4034492143412229649
+      Minifantasy_DungeonBladeTrap_9: -8984264286220135725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

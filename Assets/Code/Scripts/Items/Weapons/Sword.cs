@@ -1,10 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using static Toolbox;
-using static UnityEditor.Progress;
 
 public class Sword : Weapon
 {
@@ -54,22 +50,22 @@ public class Sword : Weapon
         {
             case DiagonalDirection.UpRight:
                 _attackOffset = attackOffset * new Vector2(1f, 1f) * playerTransformFactor;
-                particlesOffset = new Vector2(0.25f, -0.1f);
+                particlesOffset = new Vector2(0.25f, 0.15f);
                 particlesRotation = Quaternion.Euler(0, 0, 10f);
                 break;
             case DiagonalDirection.UpLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, 1f) * playerTransformFactor;
-                particlesOffset = new Vector2(-0.25f, -0.1f);
+                particlesOffset = new Vector2(-0.25f, 0.15f);
                 particlesRotation = Quaternion.Euler(0, 0, 70f);
                 break;
             case DiagonalDirection.DownLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, -1f) * playerTransformFactor;
-                particlesOffset = new Vector2(-0.25f, 0.2f);
+                particlesOffset = new Vector2(-0.25f, 0.45f);
                 particlesRotation = Quaternion.Euler(0, 0, 190f);
                 break;
             default: // DiagonalDirection.DownRight
                 _attackOffset = attackOffset * new Vector2(1f, -1f) * playerTransformFactor;
-                particlesOffset = new Vector2(0.25f, 0.2f);
+                particlesOffset = new Vector2(0.25f, 0.45f);
                 particlesRotation = Quaternion.Euler(0, 0, 250f);
                 break;
         }
