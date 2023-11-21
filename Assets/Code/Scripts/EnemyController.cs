@@ -9,7 +9,8 @@ public class EnemyController : MonoBehaviour
         Skeleton,
         Goblin,
         Slime,
-        Wolf
+        Wolf,
+        Troll
     }
 
     private AIPath aiPath;
@@ -34,6 +35,8 @@ public class EnemyController : MonoBehaviour
     public Sprite goblinSprite;
     public RuntimeAnimatorController wolfAnimator;
     public Sprite wolfSprite;
+    public RuntimeAnimatorController trollAnimator;
+    public Sprite trollSprite;
     void Awake()
     {
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
@@ -57,6 +60,13 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Wolf:
                 animator.runtimeAnimatorController = wolfAnimator;
                 monsterSprite.sprite = wolfSprite;
+                //ToDO more speed, less health
+                break;
+
+            case MonsterType.Troll:
+                animator.runtimeAnimatorController = trollAnimator;
+                monsterSprite.sprite = trollSprite;
+                //TodDo less speed, more health?
                 break;
 
             case MonsterType.Slime:
@@ -172,6 +182,10 @@ public class EnemyController : MonoBehaviour
 
             case MonsterType.Wolf:
                 monsterSounds.playWolfHurt();
+                break;
+
+            case MonsterType.Troll:
+                monsterSounds.playTrollHurt();
                 break;
 
             case MonsterType.Slime:

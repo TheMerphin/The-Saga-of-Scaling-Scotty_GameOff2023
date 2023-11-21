@@ -226,6 +226,9 @@ MonoBehaviour:
   WolfStep: {fileID: 8300000, guid: 721d1fd76a9373d4482ca0a4a6127a38, type: 3}
   WolfHurt: {fileID: 8300000, guid: c22620439dfe3624ea80a3bcdc5e8928, type: 3}
   WolfAttack: {fileID: 8300000, guid: 0cfa5d128b7522444ba60fdc2c47def0, type: 3}
+  TrollStep: {fileID: 8300000, guid: 0fe16c1e870ef5041a70964bbb1802f6, type: 3}
+  TrollHurt: {fileID: 0}
+  TrollAttack: {fileID: 8300000, guid: b95ca7a1989498c4cb256a940a9748dc, type: 3}
 --- !u!1 &7781424995959787776
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +402,8 @@ MonoBehaviour:
   goblinSprite: {fileID: 4035959289877228764, guid: eff6d091fc8995a4ca89d4c37306795c, type: 3}
   wolfAnimator: {fileID: 9100000, guid: 9231687042af1d843a91593b126b600a, type: 2}
   wolfSprite: {fileID: -3373793927158656445, guid: 95822818f2ad09a46a74038900e09d50, type: 3}
+  trollAnimator: {fileID: 0}
+  trollSprite: {fileID: 0}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
