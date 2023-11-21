@@ -26,6 +26,6 @@ public class GameMenuController : MonoBehaviour
 
     public void SelectSlot(int slot)
     {
-        inventorySelector.anchoredPosition = new Vector2(-111f + (74f * slot), inventorySelector.anchoredPosition.y);
+        inventorySelector.anchoredPosition = new Vector2(-75f + (50f * slot), inventorySelector.anchoredPosition.y);
     }
 }
