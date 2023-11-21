@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpikeTrap : Trap 
@@ -16,7 +15,7 @@ public class SpikeTrap : Trap
 
     private IEnumerator ActivateDelay(PlayerController player)
     {
-        yield return new WaitForSeconds(0.265f);
+        yield return new WaitForSeconds(0.21f);
         audioManager.Play(TrapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
         var boxCast = Physics2D.BoxCast(transform.position, Vector2.one, 0f, Vector2.zero, 0f, LayerMask.GetMask("Player"));

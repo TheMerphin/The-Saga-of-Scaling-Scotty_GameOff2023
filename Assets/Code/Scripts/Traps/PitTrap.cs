@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PitTrap : Trap 
@@ -34,11 +33,14 @@ public class PitTrap : Trap
         if (player != null)
         {
             Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null));
-            player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f);
-            StartCoroutine(ActivateDynamicCollider());
+            if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
+            {
+                player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f);
+            }
         }
 
-        base.TriggerTrap(player);
+        StartCoroutine(ActivateDynamicCollider());
+        base.TriggerTrap(null);
     }
 
     private IEnumerator ActivateDynamicCollider()

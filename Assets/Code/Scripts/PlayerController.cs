@@ -1,12 +1,8 @@
 using Cinemachine;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 using static Toolbox;
-using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
@@ -144,7 +140,6 @@ public class PlayerController : MonoBehaviour
         var trapCast = Physics2D.CircleCastAll(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Trap"));
         Array.ForEach(trapCast, trap =>
         {
-
             var trapController = trap.collider.GetComponent<Trap>();
             if (trapController != null) trapController.TriggerTrap(this);
         });
