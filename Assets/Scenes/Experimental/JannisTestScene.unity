@@ -2216,18 +2216,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5347638355515017482, guid: 5db5d9b7a46e6fe48be7313b11970b0b, type: 3}
   m_PrefabInstance: {fileID: 1436565531528841517}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1987617651 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4421738863831462885, guid: 7723308b5a8d74c4993978ef4f7898b7, type: 3}
-  m_PrefabInstance: {fileID: 1471211369}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!43 &2104581346
+--- !u!43 &1845396253
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2392,6 +2381,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1987617651 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4421738863831462885, guid: 7723308b5a8d74c4993978ef4f7898b7, type: 3}
+  m_PrefabInstance: {fileID: 1471211369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1436565531528841517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2739,11 +2739,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5977943258634902625, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[0].second.m_AnimationSpeed
-      value: 10.526029
+      value: 6.6732936
       objectReference: {fileID: 0}
     - target: {fileID: 5977943258634902625, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[1].second.m_AnimationSpeed
-      value: 6.7201066
+      value: 7.1223106
       objectReference: {fileID: 0}
     - target: {fileID: 6443703083019291094, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_TileColorArray.Array.size

@@ -55,21 +55,27 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Skeleton:
                 animator.runtimeAnimatorController = skeletonAnimator;
                 monsterSprite.sprite = skeletonSprite;
+                health = 4;
                 break;
 
             case MonsterType.Wolf:
                 animator.runtimeAnimatorController = wolfAnimator;
                 monsterSprite.sprite = wolfSprite;
+                movementSpeed = 2f;
+                health = 5;
                 //ToDO more speed, less health
                 break;
 
             case MonsterType.Troll:
                 animator.runtimeAnimatorController = trollAnimator;
                 monsterSprite.sprite = trollSprite;
+                movementSpeed = 0.5f;
+                health = 10; 
                 //TodDo less speed, more health?, BIGGER!
                 break;
 
             case MonsterType.Slime:
+                health = 8;
                 break;
 
             case MonsterType.Goblin:
@@ -81,6 +87,8 @@ public class EnemyController : MonoBehaviour
                 break;
 
         }
+
+        aiPath.maxSpeed = movementSpeed;
 
     }
 
@@ -173,6 +181,12 @@ public class EnemyController : MonoBehaviour
     public void getAttacked(float damage)
     {
         gotHit = true;
+        health = health - damage;
+        if (health <= 0f) 
+        {
+        //deathanimation
+        
+        }
 
         switch (monsterType)
         {
