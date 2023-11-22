@@ -10,6 +10,8 @@ public class GameMenuController : MonoBehaviour
     public Image[] itemIcons;
     public Image[] itemPlaceholder;
 
+    public Slider health;
+
     void Awake()
     {
         Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
@@ -29,5 +31,15 @@ public class GameMenuController : MonoBehaviour
     public void SelectSlot(int slot)
     {
         inventorySelector.anchoredPosition = new Vector2(-111f + (74f * slot), inventorySelector.anchoredPosition.y);
+    }
+
+    public void SetMaxHealth(int maxHealth)
+    {
+        health.maxValue = maxHealth;
+        health.value = maxHealth;
+    }
+    public void SetHealth(int tHealth)
+    {
+        health.value = tHealth;
     }
 }

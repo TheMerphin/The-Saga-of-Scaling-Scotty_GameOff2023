@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     private PlayerScalingInfo scalingLevelInfo;
     public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
 
+    public int maxHealth = 5;
+    public int currentHealth;
+
     private float scaleCooldown;
 
     /**
@@ -66,7 +69,8 @@ public class PlayerController : MonoBehaviour
         audioManager = FindFirstObjectByType<AudioManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
-
+        gameMenuController.SetMaxHealth(maxHealth);
+        currentHealth = maxHealth;
         SetSelectedSlot(0);
     }
 
@@ -429,4 +433,26 @@ public class PlayerController : MonoBehaviour
         if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
 
+    /*
+     * positive for heal 
+     * negative for damage
+    */
+    public void updateHealth(int newHealth)
+    {
+        if(currentHealth+newHealth<=0)
+        {
+            Debug.Log("GAME OVER");
+        }else if(currentHealth+newHealth>=maxHealth)
+        {
+            currentHealth = maxHealth;
+
+        }
+        else
+        {
+            currentHealth = currentHealth + newHealth;
+        }
+        gameMenuController.SetHealth(currentHealth);
+
+
+    }
 }
