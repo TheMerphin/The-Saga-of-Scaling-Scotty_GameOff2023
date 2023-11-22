@@ -223,12 +223,14 @@ MonoBehaviour:
   SkeletonStep: {fileID: 8300000, guid: 309cbc87e0bd8c647bd4b19fd3e724f7, type: 3}
   SkeletonAssemble: {fileID: 8300000, guid: 3d049663f15b89a4ea850911d44eff75, type: 3}
   SkeletonDisassemble: {fileID: 8300000, guid: 94e15345f201a914494b56fb75fbe226, type: 3}
-  WolfStep: {fileID: 8300000, guid: 721d1fd76a9373d4482ca0a4a6127a38, type: 3}
-  WolfHurt: {fileID: 8300000, guid: c22620439dfe3624ea80a3bcdc5e8928, type: 3}
-  WolfAttack: {fileID: 8300000, guid: 0cfa5d128b7522444ba60fdc2c47def0, type: 3}
+  WolfStep: {fileID: 8300000, guid: a5b5095a7b6b83e44806d22f66fa9e63, type: 3}
+  WolfHurt: {fileID: 8300000, guid: 9f19636aa997aba41a1ca228d51a7344, type: 3}
+  WolfAttack: {fileID: 8300000, guid: 7290e4b3fc76ebc4aa4a1735459e9d3e, type: 3}
+  WolfDeath: {fileID: 8300000, guid: d8cfa12688e49d74b818b19c8e766d4c, type: 3}
   TrollStep: {fileID: 8300000, guid: 0fe16c1e870ef5041a70964bbb1802f6, type: 3}
-  TrollHurt: {fileID: 0}
+  TrollHurt: {fileID: 8300000, guid: 9f19636aa997aba41a1ca228d51a7344, type: 3}
   TrollAttack: {fileID: 8300000, guid: b95ca7a1989498c4cb256a940a9748dc, type: 3}
+  TrollDeath: {fileID: 8300000, guid: 6ab00c0e7b42bb64b8090fcd8c28302f, type: 3}
 --- !u!1 &7781424995959787776
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,8 +404,8 @@ MonoBehaviour:
   goblinSprite: {fileID: 4035959289877228764, guid: eff6d091fc8995a4ca89d4c37306795c, type: 3}
   wolfAnimator: {fileID: 9100000, guid: 9231687042af1d843a91593b126b600a, type: 2}
   wolfSprite: {fileID: -3373793927158656445, guid: 95822818f2ad09a46a74038900e09d50, type: 3}
-  trollAnimator: {fileID: 0}
-  trollSprite: {fileID: 0}
+  trollAnimator: {fileID: 9100000, guid: f8b6c2e34d88a0e41bb0313da85d58c6, type: 2}
+  trollSprite: {fileID: -4917857245902143833, guid: f27fa621bb673e74b84609c9d18bbb60, type: 3}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

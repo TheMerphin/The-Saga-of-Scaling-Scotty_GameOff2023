@@ -5,18 +5,22 @@ using UnityEngine;
 public class MonsterSounds : MonoBehaviour
 {
    //Skeleton Sounds
-   public AudioClip SkeletonHurt;
-   public AudioClip SkeletonDeath;
-   public AudioClip SkeletonAttack;
-   public AudioClip SkeletonStep;
-   public AudioClip SkeletonAssemble;
-   public AudioClip SkeletonDisassemble;
-   public AudioClip WolfStep;
-   public AudioClip WolfHurt;
-   public AudioClip WolfAttack;
+    public AudioClip SkeletonHurt;
+    public AudioClip SkeletonDeath;
+    public AudioClip SkeletonAttack;
+    public AudioClip SkeletonStep;
+    public AudioClip SkeletonAssemble;
+    public AudioClip SkeletonDisassemble;
+    //Wolf Sounds
+    public AudioClip WolfStep;
+    public AudioClip WolfHurt;
+    public AudioClip WolfAttack;
+    public AudioClip WolfDeath;
+    //Troll Sounds
     public AudioClip TrollStep;
     public AudioClip TrollHurt;
     public AudioClip TrollAttack;
+    public AudioClip TrollDeath;
 
     private AudioSource MonsterAudioSource;
     public void setAudioSource(AudioSource audioSource)

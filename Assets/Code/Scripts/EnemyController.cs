@@ -66,7 +66,7 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Troll:
                 animator.runtimeAnimatorController = trollAnimator;
                 monsterSprite.sprite = trollSprite;
-                //TodDo less speed, more health?
+                //TodDo less speed, more health?, BIGGER!
                 break;
 
             case MonsterType.Slime:
