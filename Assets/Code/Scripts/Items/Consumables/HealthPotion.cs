@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class HealthPotion : Consumable
 {
 
@@ -10,6 +6,5 @@ public class HealthPotion : Consumable
     {
         base.player.updateHealth(healthRegenerated);
         Destroy(this.gameObject);
-        // destroy potion
     }
 }

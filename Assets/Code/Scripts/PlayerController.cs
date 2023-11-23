@@ -226,11 +226,7 @@ public class PlayerController : MonoBehaviour
             {
                 (items[selectedSlot] as Consumable).Consume();
                 items[3] = null;
-                gameMenuController.DeleteFromSlot(3);
-
-
-
-                // Delete item from array + update ui
+                gameMenuController.SetInventorySlot(null, 3);
             }
         }
 
@@ -343,13 +339,10 @@ public class PlayerController : MonoBehaviour
         }
         else if (item is Consumable)
         {
-            var consumable = (Consumable)item;
             slot = 3;
 
-
-
             previousItem = items[slot];
-            items[slot] = consumable;
+            items[slot] = (Consumable)item;
 
         }
         else if (item is Key)
