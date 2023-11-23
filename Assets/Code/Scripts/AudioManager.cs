@@ -37,9 +37,6 @@ public class AudioManager : MonoBehaviour
 
 			s.source.outputAudioMixerGroup = mixerGroup;
 		}
-
-		//volumeSlider = FindFirstObjectByType<Slider>();
-
 		if (volumeSlider != null)
 		{
 			float volume;
@@ -65,13 +62,9 @@ public class AudioManager : MonoBehaviour
 	public void setVolume(float volume) 
 	{
 	Debug.Log(volume);
-			
 	}
-
-	// Methode, um die Lautstärke zu ändern, wenn sich der Slider-Wert ändert
 	public void ChangeVolume(float volume)
     {
-        // Aktualisiere die Lautstärke im AudioManager
         mixerGroup.audioMixer.SetFloat("Volume", volume);
     }
 
