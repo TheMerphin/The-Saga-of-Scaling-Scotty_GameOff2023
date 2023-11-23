@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 44dfcb860c6b56f479db74e9a50ecd34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5891247719420888945
+    second: Dungeon_entrances_0
+  - first:
+      213: -1303844519380863825
+    second: Dungeon_entrances_1
+  - first:
+      213: -2021048017742387558
+    second: Dungeon_entrances_2
+  - first:
+      213: 430778827858697763
+    second: Dungeon_entrances_3
+  - first:
+      213: 7143320066690920772
+    second: Dungeon_entrances_4
+  - first:
+      213: -3022671631590025525
+    second: Dungeon_entrances_5
+  - first:
+      213: -2290046665105244769
+    second: Dungeon_entrances_6
+  - first:
+      213: -4705974606999657234
+    second: Dungeon_entrances_7
+  - first:
+      213: 2115339437359044478
+    second: Dungeon_entrances_8
+  - first:
+      213: -4949672944102194875
+    second: Dungeon_entrances_9
+  - first:
+      213: 7367474250241018795
+    second: Dungeon_entrances_10
+  - first:
+      213: -5712935771139034515
+    second: Dungeon_entrances_11
+  - first:
+      213: -834198743604327474
+    second: Dungeon_entrances_12
+  - first:
+      213: -4659328311497829930
+    second: Dungeon_entrances_13
+  - first:
+      213: 5623947220417352699
+    second: Dungeon_entrances_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon_entrances_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88761099651e3ea0800000000000000
+      internalID: -5891247719420888945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_entrances_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4b6f35150d7ede0800000000000000
+      internalID: -1303844519380863825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_entrances_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4e6cb370501beb0800000000000000
+      internalID: -4705974606999657234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_entrances_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77192fb2023b5d10800000000000000
+      internalID: 2115339437359044478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6e3e47b86918e554882ec4b592cbafac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dungeon_entrances_0: -5891247719420888945
+      Dungeon_entrances_1: -1303844519380863825
+      Dungeon_entrances_10: 7367474250241018795
+      Dungeon_entrances_11: -5712935771139034515
+      Dungeon_entrances_12: -834198743604327474
+      Dungeon_entrances_13: -4659328311497829930
+      Dungeon_entrances_14: 5623947220417352699
+      Dungeon_entrances_2: -2021048017742387558
+      Dungeon_entrances_3: 430778827858697763
+      Dungeon_entrances_4: 7143320066690920772
+      Dungeon_entrances_5: -3022671631590025525
+      Dungeon_entrances_6: -2290046665105244769
+      Dungeon_entrances_7: -4705974606999657234
+      Dungeon_entrances_8: 2115339437359044478
+      Dungeon_entrances_9: -4949672944102194875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

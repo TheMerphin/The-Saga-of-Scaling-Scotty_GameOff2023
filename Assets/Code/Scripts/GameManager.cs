@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.LookDev;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -8,6 +9,9 @@ public class GameManager : MonoBehaviour
 
     AudioManager audioManager;
 
+    public string[] levelSceneNames;
+    private int levelIndex = 0;
+
     void Awake()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -15,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(FadeOut());
+        StartCoroutine(SwitchLevel(false));
     }
 
     void Update()
@@ -48,13 +52,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private IEnumerator FadeIn()
+    private IEnumerator FadeIn(bool exitGame)
     {
         audioManager.Play("Swoosh");
         yield return new WaitForSeconds(0.1f);
         GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("MenuScene");
+        if(exitGame) SceneManager.LoadScene("MenuScene");
     }
 
     private IEnumerator FadeOut()
@@ -67,6 +71,22 @@ public class GameManager : MonoBehaviour
     public void OnExitClicked()
     {
         PauseGame(false);
-        StartCoroutine(FadeIn());
+        StartCoroutine(FadeIn(true));
+    }
+
+    public void ProgressToNextLevel()
+    {
+        levelIndex++;
+        StartCoroutine(SwitchLevel(true));
+    }
+
+    private IEnumerator SwitchLevel(bool fadeIn)
+    {
+        if(fadeIn) yield return StartCoroutine(FadeIn(false));
+
+        yield return SceneManager.LoadSceneAsync(levelSceneNames[levelIndex], LoadSceneMode.Additive);
+        if (levelIndex > 0) yield return SceneManager.UnloadSceneAsync(levelSceneNames[levelIndex - 1]);
+
+        StartCoroutine(FadeOut());
     }
 }

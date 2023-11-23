@@ -9,10 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Productive/MenuScene.unity
     guid: fac9d01c6c495134dae6de6bcc0bc115
   - enabled: 1
-    path: Assets/Scenes/Experimental/FloTestScene.unity
-    guid: 694c39cd77a150247b10028412e18384
+    path: Assets/Scenes/Productive/GameBaseScene.unity
+    guid: 10f901061b91a954aac51721bea6f221
   - enabled: 1
-    path: Assets/Scenes/Productive/MainScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Productive/Levels/Level_1.unity
+    guid: f944aa98e23ca834cb6f6dc6329e46ad
+  - enabled: 1
+    path: Assets/Scenes/Productive/Levels/Level_0_Tutorial.unity
+    guid: e5504e0c937c561468974b520a611eba
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -1,6 +1,7 @@
 using Cinemachine;
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using static Toolbox;
 
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
+
+    GameManager gameManager;
 
     private float interactCooldown;
 
@@ -65,6 +68,8 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
+
+        gameManager = FindFirstObjectByType<GameManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
 
@@ -143,6 +148,13 @@ public class PlayerController : MonoBehaviour
             var trapController = trap.collider.GetComponent<Trap>();
             if (trapController != null) trapController.TriggerTrap(this);
         });
+
+        var exitCast = Physics2D.CircleCast(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Exit"));
+        if(exitCast.collider != null)
+        {
+            var exitController = exitCast.collider.GetComponent<ExitController>();
+            if (exitController != null) StartCoroutine(ExitLevelViaStair(exitController));
+        };
     }
 
     private void FixedUpdate()
@@ -498,5 +510,48 @@ public class PlayerController : MonoBehaviour
         // lose health
 
         disableInputs = false;
+    }
+
+    private IEnumerator ExitLevelViaStair(ExitController stair)
+    {
+        disableInputs = true;
+        rb.velocity = Vector2.zero;
+        playerCollider.enabled = false;
+        var spriteRenderer = GetComponent<SpriteRenderer>();
+
+        var startingPosX = transform.position.x;
+        var walkingDirection = new Vector2(((int) stair.Direction) * 1, 0.5f);
+
+        if (stair.Direction == StairDirection.Left)
+        {
+            animator.SetBool("isExitingLeft", true);
+        }
+        else
+        {
+            animator.SetBool("isExitingRight", true);
+        }
+
+        while (Mathf.Abs(transform.position.x - startingPosX) < 2.3f)
+        {
+            transform.Translate(walkingDirection * Time.deltaTime * 2.5f);
+
+            if (Mathf.Abs(transform.position.x - startingPosX) >= 1f && spriteRenderer.sortingOrder == 0) spriteRenderer.sortingOrder = 1;
+            if (Mathf.Abs(transform.position.x - startingPosX) >= 1f) spriteRenderer.color = spriteRenderer.color.WithAlpha(2f - Mathf.Abs(transform.position.x - startingPosX));
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        gameManager.ProgressToNextLevel();
+
+        yield return new WaitForSeconds(1);
+
+        animator.SetBool("isExitingLeft", false);
+        animator.SetBool("isExitingRight", false);
+
+        transform.position = Vector2.zero;
+        disableInputs = false;
+        playerCollider.enabled = true;
+        spriteRenderer.sortingOrder = 0;
+        spriteRenderer.color = Color.white;
     }
 }

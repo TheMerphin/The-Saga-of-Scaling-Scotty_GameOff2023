@@ -57,6 +57,6 @@ public class MainMenuController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("GameBaseScene");
     }
 }
