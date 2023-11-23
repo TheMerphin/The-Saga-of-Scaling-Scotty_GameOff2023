@@ -486,8 +486,22 @@ public class PlayerController : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+        rb.gravityScale = 0f;
+        rb.drag = originalDrag;
 
+        // Respawn
+        yield return new WaitForSeconds(1f);
+
+        cinemachineCamera.Follow = transform;
+
+        transform.position = respawnPosition;
+        playerCollider.enabled = true;
+
+        spriteRenderer.sortingLayerName = "1_OnGround";
+        spriteRenderer.sortingOrder = 0;
+        disableInputs = false;
     }
+
 
     /*
      * positive for heal 
