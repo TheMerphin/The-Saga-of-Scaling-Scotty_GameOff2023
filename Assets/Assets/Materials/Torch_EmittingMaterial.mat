@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TorchEmittingMaterial
+  m_Name: Torch_EmittingMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 4e2277e5542584c44a9949ba4b6ce6c3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

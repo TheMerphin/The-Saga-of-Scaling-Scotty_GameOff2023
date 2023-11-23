@@ -1,8 +1,6 @@
 using UnityEngine.Audio;
-using System;
 using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
 using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
@@ -38,6 +36,8 @@ public class AudioManager : MonoBehaviour
 
 	public void AddSound(Sound sound)
 	{
+		if (sounds.Exists(item => item.name.Equals(sound.name))) return;
+
 		sounds.Add(sound);
 
         sound.source = gameObject.AddComponent<AudioSource>();
