@@ -1,6 +1,7 @@
 using Cinemachine;
 using System;
 using System.Collections;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using static Toolbox;
@@ -104,7 +105,7 @@ public class PlayerController : MonoBehaviour
 
             if (chest != null)
             {
-                if (chest.KeyRequired && chest.KeyReference == items[4])
+                if (chest.KeyRequired && items[4] != null && (items[4] as Key).Unlocks.Contains(chest.LockType))
                 {
                     chest.UpdatePrompt(true);
                 }
@@ -113,15 +114,19 @@ public class PlayerController : MonoBehaviour
                     chest.UpdatePrompt(false);
                 }
 
-                if (Input.GetKeyDown(KeyCode.F) && chest.OpenChest(items[4]) && chest.KeyRequired)
+                if (Input.GetKeyDown(KeyCode.F) && chest.KeyRequired && items[4] != null && chest.OpenChest(items[4] as Key))
                 {
                     items[4] = null;
+                }
+                else if (Input.GetKeyDown(KeyCode.F) && !chest.KeyRequired)
+                {
+                    chest.OpenChest();
                 }
             }
 
             if (door != null)
             {
-                if (door.KeyReference == items[4])
+                if (!door.KeyRequired || (door.KeyRequired && items[4] != null && (items[4] as Key).Unlocks.Contains(door.LockType)))
                 {
                     door.UpdatePrompt(true);
                 }
@@ -130,9 +135,13 @@ public class PlayerController : MonoBehaviour
                     door.UpdatePrompt(false);
                 }
 
-                if (Input.GetKeyDown(KeyCode.F) && door.OpenDoor(items[4]))
+                if (Input.GetKeyDown(KeyCode.F) && door.KeyRequired && items[4] != null && door.OpenDoor(items[4] as Key))
                 {
                     items[4] = null;
+                }
+                else if (Input.GetKeyDown(KeyCode.F) && !door.KeyRequired)
+                {
+                    door.OpenDoor();
                 }
             }
 

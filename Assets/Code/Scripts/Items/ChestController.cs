@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class ChestController : MonoBehaviour
@@ -11,7 +12,7 @@ public class ChestController : MonoBehaviour
 
     [Space(10)]
     public bool KeyRequired;
-    public Item KeyReference;
+    public Unlocks LockType = Unlocks.None;
 
     private Animator animator;
     private AudioManager audioManager;
@@ -25,7 +26,7 @@ public class ChestController : MonoBehaviour
         if (DropsRandomItem && DropsSpecificItem) Debug.LogError("Chest " + transform.name + " is configured to drop a random and a specific item. This results in a conflict, please select either one of them.");
         if (DropsRandomItem && RandomItemPool.Length == 0) Debug.LogError("Chest " + transform.name + " is configured to drop a random item, but no items are declared in the item pool. Please add at least one to the item pool.");
         if (DropsSpecificItem && SpecificItem == null) Debug.LogError("Chest " + transform.name + " is configured to drop a specific item, but none is declared. Please add the item reference.");
-        if (KeyRequired && KeyReference == null) Debug.LogError("Chest " + transform.name + " is configured to require a key, but none is declared. Please add the key reference.");
+        if (KeyRequired) Debug.LogError("Chest " + transform.name + " is configured to require a key, but none is declared. Please add the lock type.");
 
         animator = GetComponent<Animator>();
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -48,9 +49,9 @@ public class ChestController : MonoBehaviour
      * Opens the chest if all conditions are fulfilled.
      * Returns whether opening the chest was successful or not.
      */
-    public bool OpenChest(Item keyReference = null)
+    public bool OpenChest(Key keyReference = null)
     {
-        if (!KeyRequired || (KeyRequired && keyReference == KeyReference))
+        if (!KeyRequired || (KeyRequired && keyReference != null && keyReference.Unlocks.Contains(LockType)))
         {
             animator.SetTrigger("opening");
             audioManager.Play("ChestOpening");

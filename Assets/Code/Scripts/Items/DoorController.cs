@@ -1,8 +1,11 @@
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-    public Item KeyReference;
+    public bool KeyRequired = true;
+    public Unlocks LockType;
 
     private Animator animator;
     private AudioManager audioManager;
@@ -21,11 +24,31 @@ public class DoorController : MonoBehaviour
     {
         hasKeyPrompt = transform.Find("#Door_Prompt/Prompt_HasKey").gameObject;
         hasNoKeyPrompt = transform.Find("#Door_Prompt/Prompt_HasNoKey").gameObject;
+
+        if (KeyRequired)
+        {
+            hasNoKeyPrompt.SetActive(true);
+            hasKeyPrompt.SetActive(false);
+        }
+        else
+        {
+            hasNoKeyPrompt.SetActive(false);
+            hasKeyPrompt.SetActive(true);
+        }
     }
 
-    public bool OpenDoor(Item keyReference = null)
+    public bool OpenDoor(Key keyReference = null)
     {
-        if (KeyReference == keyReference)
+        if (KeyRequired && keyReference != null && keyReference.Unlocks.Contains(LockType))
+        {
+            animator.SetTrigger("opening");
+            audioManager.Play("DoorOpening");
+
+            DisableDoor();
+            return true;
+        }
+
+        if (!KeyRequired)
         {
             animator.SetTrigger("opening");
             audioManager.Play("DoorOpening");
@@ -49,6 +72,7 @@ public class DoorController : MonoBehaviour
 
     public void UpdatePrompt(bool hasKey)
     {
+        if (!KeyRequired) return;
         hasKeyPrompt.SetActive(hasKey);
         hasNoKeyPrompt.SetActive(!hasKey);
     }

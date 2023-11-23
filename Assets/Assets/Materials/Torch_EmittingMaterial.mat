@@ -74,6 +74,6 @@ Material:
     - _EnableExternalAlpha: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 8, g: 1.146077, b: 0.34030914, a: 0}
+    - _EmissionColor: {r: 4, g: 0.5730385, b: 0.17015457, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
