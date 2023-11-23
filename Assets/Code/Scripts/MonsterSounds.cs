@@ -28,6 +28,12 @@ public class MonsterSounds : MonoBehaviour
         MonsterAudioSource =audioSource;
     }
 
+
+    public void destroyParentMonster()
+    {
+        Destroy(this.transform.parent.gameObject);
+    }
+
     //skeleton
 
       public void playSkeletonHurt()
@@ -77,7 +83,12 @@ public class MonsterSounds : MonoBehaviour
     {
         MonsterAudioSource.PlayOneShot(WolfHurt);
     }
+    public void playWolfDeath()
+    {
 
+        MonsterAudioSource.PlayOneShot(WolfHurt);
+
+    }
     //Troll
     public void playTrollStep()
     {
@@ -92,5 +103,12 @@ public class MonsterSounds : MonoBehaviour
     public void playTrollHurt()
     {
         MonsterAudioSource.PlayOneShot(TrollHurt);
+    }
+
+    public void playTrollDeath()
+    {
+
+        MonsterAudioSource.PlayOneShot(TrollDeath);
+
     }
 }

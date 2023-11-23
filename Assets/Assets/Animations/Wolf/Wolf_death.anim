@@ -98,10 +98,10 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.25
-    functionName: 
+  - time: 0.875
+    functionName: destroyParentMonster
     data: 
-    objectReferenceParameter: {fileID: 8300000, guid: c22620439dfe3624ea80a3bcdc5e8928, type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

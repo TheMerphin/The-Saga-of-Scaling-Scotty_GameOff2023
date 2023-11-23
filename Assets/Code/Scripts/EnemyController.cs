@@ -19,6 +19,7 @@ public class EnemyController : MonoBehaviour
     private Animator animator;
     private bool gotHit = false;
     private bool attack = false;
+    private bool dead = false;
     private MonsterSounds monsterSounds;
 
 
@@ -99,12 +100,12 @@ public class EnemyController : MonoBehaviour
 
 
         // Test Method:
-        /*
+        
         if (Input.GetKeyDown(KeyCode.F))
         {
-            getAttacked(0);
+            getAttacked(1);
         }
-        */
+        
     }
 
 
@@ -112,13 +113,16 @@ public class EnemyController : MonoBehaviour
 
     private void EnemyAnimation()
     {
-
+        if(dead)
+        {
+            return;
+        }
         horizontalMovement = aiPath.velocity.x;
         verticalMovement = aiPath.velocity.y;
         float attackRange = 1f;
-
+        
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
-
+       
         if (gotHit)
         {
             animator.SetTrigger("getsHit");
@@ -141,7 +145,7 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("attack", true);
         }
         // wants to move towards the player
-        else
+        else 
         {
             animator.SetBool("idle", false);
             aiPath.canMove = true;
@@ -180,43 +184,20 @@ public class EnemyController : MonoBehaviour
     
     public void getAttacked(float damage)
     {
-        gotHit = true;
+        
         health = health - damage;
         if (health <= 0f) 
         {
-        //deathanimation
-        
+            dead = true;
+            aiPath.canMove = false;
+            aiPath.enabled = false;
+            animator.SetBool("dead", true);
         }
-
-        switch (monsterType)
+        else
         {
-            case MonsterType.Skeleton:
-                monsterSounds.playSkeletonHurt();
-                break;
-
-            case MonsterType.Wolf:
-                monsterSounds.playWolfHurt();
-                break;
-
-            case MonsterType.Troll:
-                monsterSounds.playTrollHurt();
-                break;
-
-            case MonsterType.Slime:
-                break;
-
-            case MonsterType.Goblin:
-                Debug.Log("Sneaky Gobbos");
-                break;
-
-            default:
-                Debug.Log("No Monster");
-                break;
-
+            gotHit = true;
         }
-        
     }
-
 
 
     private void ResetValuesBeforeFrame()
