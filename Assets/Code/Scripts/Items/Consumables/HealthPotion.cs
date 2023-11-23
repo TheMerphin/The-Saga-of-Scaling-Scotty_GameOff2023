@@ -5,11 +5,11 @@ using UnityEngine;
 public class HealthPotion : Consumable
 {
 
-    public int healthRegenerated=1;
+    public int healthRegenerated=2;
     public override void Consume()
     {
         base.player.updateHealth(healthRegenerated);
-        Destroy(this);
+        Destroy(this.gameObject);
         // destroy potion
     }
 }

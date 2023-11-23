@@ -14,6 +14,7 @@ public class GameMenuController : MonoBehaviour
     {
         Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
         Array.ForEach(itemPlaceholder, itemPlaceholder => itemPlaceholder.enabled = true);
+        health = gameObject.GetComponentInChildren<Slider>();
     }
 
     public void SetInventorySlot(Sprite itemIcon, int slot)
@@ -30,7 +31,15 @@ public class GameMenuController : MonoBehaviour
     {
         inventorySelector.anchoredPosition = new Vector2(-75f + (50f * slot), inventorySelector.anchoredPosition.y);
     }
+    public void DeleteFromSlot(int slot)
+    {
+       
 
+        itemIcons[slot].enabled = false;
+        itemIcons[slot].sprite = null;
+
+        itemPlaceholder[slot].enabled = true;
+    }
     public void SetMaxHealth(int maxHealth)
     {
         health.maxValue = maxHealth;

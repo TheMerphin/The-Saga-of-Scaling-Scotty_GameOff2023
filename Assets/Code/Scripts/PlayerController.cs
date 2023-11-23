@@ -226,6 +226,10 @@ public class PlayerController : MonoBehaviour
             {
                 (items[selectedSlot] as Consumable).Consume();
                 items[3] = null;
+                gameMenuController.DeleteFromSlot(3);
+
+
+
                 // Delete item from array + update ui
             }
         }
@@ -493,6 +497,7 @@ public class PlayerController : MonoBehaviour
     {
         if (currentHealth + newHealth <= 0)
         {
+            currentHealth = 0;
             Debug.Log("GAME OVER");
         }
         else if (currentHealth + newHealth >= maxHealth)

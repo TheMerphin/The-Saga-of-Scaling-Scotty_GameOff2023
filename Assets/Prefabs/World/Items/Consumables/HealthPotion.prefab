@@ -167,9 +167,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 232830337001176902}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.1166496, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1.1166496, y: -0.5331}
   m_SizeDelta: {x: 2, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &3494142501257198752
@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 4024102000472272292}
   - component: {fileID: 1540348616788482636}
   - component: {fileID: 2010846470986819077}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HealthPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,12 +533,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 791727208999207606, guid: e3379d98c3ad7cf4c9625d289aaf3094, type: 3}
   itemName: Health Potion
-  description: It is red, for now.
+  description: 'A revitalizing concoction that, while not the most potent, provides
+    a modest restoration of health for those in need of a swift recovery. '
   tierClass: 0
   canBePickedUp: 1
   count: 1
   healthRegenerated: 1
-  charges: 1
 --- !u!212 &1102174674330116066
 SpriteRenderer:
   m_ObjectHideFlags: 0
