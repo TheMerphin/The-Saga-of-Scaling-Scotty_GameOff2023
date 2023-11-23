@@ -213,6 +213,8 @@ public class PlayerController : MonoBehaviour
             else if (items[selectedSlot] is Consumable)
             {
                 (items[selectedSlot] as Consumable).Consume();
+                items[3] = null;
+                // Delete item from array + update ui
             }
         }
 
@@ -326,15 +328,11 @@ public class PlayerController : MonoBehaviour
             var consumable = (Consumable)item;
             slot = 3;
 
-            if (items[slot] != null && items[slot].GetType().Equals(consumable.GetType()))
-            {
-                (items[slot] as Consumable).Count++;
-            }
-            else
-            {
-                previousItem = items[slot];
-                items[slot] = consumable;
-            }
+     
+            
+           previousItem = items[slot];
+           items[slot] = consumable;
+            
         }
         else if (item is Key)
         {
@@ -452,7 +450,5 @@ public class PlayerController : MonoBehaviour
             currentHealth = currentHealth + newHealth;
         }
         gameMenuController.SetHealth(currentHealth);
-
-
     }
 }
