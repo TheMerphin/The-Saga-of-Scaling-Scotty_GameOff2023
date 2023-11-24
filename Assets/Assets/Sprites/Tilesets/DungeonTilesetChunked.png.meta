@@ -1687,6 +1687,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DungeonTilesetChunked_70
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75d7220c4c9a524bb778bcbcc487d80
+      internalID: 2137580339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1768,6 +1789,7 @@ TextureImporter:
       DungeonTilesetChunked_68: -623250143
       DungeonTilesetChunked_69: -1153147834
       DungeonTilesetChunked_7: 8198019081775283351
+      DungeonTilesetChunked_70: 2137580339
       DungeonTilesetChunked_8: -9125831980311156947
       DungeonTilesetChunked_9: -6080772787321104508
   mipmapLimitGroupName: 

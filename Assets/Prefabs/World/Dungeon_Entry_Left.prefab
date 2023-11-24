@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1789345014818929214}
   - component: {fileID: 608372851457330224}
   - component: {fileID: 2792383789561520303}
-  - component: {fileID: 1140361410726303727}
   - component: {fileID: 3083075377588773926}
   m_Layer: 0
   m_Name: Dungeon_Entry_Left
@@ -133,19 +132,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!114 &1140361410726303727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635727424207677162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4255760fcb1b1d644a28566268caa6ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Direction: -1
 --- !u!50 &3083075377588773926
 Rigidbody2D:
   serializedVersion: 4
@@ -154,7 +140,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635727424207677162}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

@@ -493,7 +493,7 @@ public class PlayerController : MonoBehaviour
 
         audioManager.Play("PlayerFalling");
 
-        while (startingPosY - 5 < transform.position.y)
+        while (startingPosY - 8 < transform.position.y)
         {
             if (Mathf.Abs(transform.position.y - (int)transform.position.y) >= 0.875f && spriteRenderer.sortingLayerName.Equals("1_OnGround"))
             {
@@ -507,7 +507,7 @@ public class PlayerController : MonoBehaviour
         rb.drag = originalDrag;
 
         // Respawn
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         cinemachineCamera.Follow = transform;
 

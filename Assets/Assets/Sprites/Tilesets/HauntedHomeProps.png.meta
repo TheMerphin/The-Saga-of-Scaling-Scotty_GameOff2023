@@ -370,7 +370,7 @@ TextureImporter:
         width: 19
         height: 10
       alignment: 9
-      pivot: {x: 0.5263158, y: -0.3}
+      pivot: {x: 0.5263158, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,6 +466,153 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 200
+        width: 10
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fea030fa5e0ec4e9339305f25c0b7f
+      internalID: -1094372472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 200
+        width: 10
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e94c33384d516a43a14d258fcaa00c6
+      internalID: 668998193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 200
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8357a5fc25bb34191bf8cc2b765d4d
+      internalID: 1279987219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 217
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ceac783e5335249912a9a832711bd3
+      internalID: -531497160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d02cc9b22ba9fe4fa0d7224f4bd4b22
+      internalID: -1519580515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 200
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c721107e73055664d8ae21895fbc4af0
+      internalID: -1935813505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 200
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4234800430ba034fa8eb4d2c866bc43
+      internalID: -1180967113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -479,10 +626,17 @@ TextureImporter:
     nameFileIdTable:
       HauntedHomeProps_0: 6926658362281961199
       HauntedHomeProps_1: -4849188369586929498
+      HauntedHomeProps_10: -1519580515
+      HauntedHomeProps_11: -1935813505
+      HauntedHomeProps_12: -1180967113
       HauntedHomeProps_2: 2172656086373776722
       HauntedHomeProps_3: 1604122865933089016
       HauntedHomeProps_4: -5382143942292334976
       HauntedHomeProps_5: -3784596508406716230
+      HauntedHomeProps_6: -1094372472
+      HauntedHomeProps_7: 668998193
+      HauntedHomeProps_8: 1279987219
+      HauntedHomeProps_9: -531497160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
