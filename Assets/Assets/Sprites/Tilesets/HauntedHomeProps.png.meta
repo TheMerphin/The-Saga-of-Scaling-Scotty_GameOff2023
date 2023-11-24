@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: e8588a3a6abc108409f5a5dad9783aa7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6926658362281961199
+    second: HauntedHomeProps_0
+  - first:
+      213: -4849188369586929498
+    second: HauntedHomeProps_1
+  - first:
+      213: 2172656086373776722
+    second: HauntedHomeProps_2
+  - first:
+      213: 1604122865933089016
+    second: HauntedHomeProps_3
+  - first:
+      213: -5382143942292334976
+    second: HauntedHomeProps_4
+  - first:
+      213: -3784596508406716230
+    second: HauntedHomeProps_5
+  - first:
+      213: 3717482542895069169
+    second: HauntedHomeProps_6
+  - first:
+      213: 6126117727838970546
+    second: HauntedHomeProps_7
+  - first:
+      213: -7110054865216838203
+    second: HauntedHomeProps_8
+  - first:
+      213: -6519588244610437458
+    second: HauntedHomeProps_9
+  - first:
+      213: 1544882528963851764
+    second: HauntedHomeProps_10
+  - first:
+      213: -2507433415498125090
+    second: HauntedHomeProps_11
+  - first:
+      213: 1914726257081696480
+    second: HauntedHomeProps_12
+  - first:
+      213: -6774526895925013723
+    second: HauntedHomeProps_13
+  - first:
+      213: 374290232560234183
+    second: HauntedHomeProps_14
+  - first:
+      213: -7017800649303666648
+    second: HauntedHomeProps_15
+  - first:
+      213: 6631784731089354364
+    second: HauntedHomeProps_16
+  - first:
+      213: -8457993939208112046
+    second: HauntedHomeProps_17
+  - first:
+      213: -4511235915752944336
+    second: HauntedHomeProps_18
+  - first:
+      213: 5875994366251956756
+    second: HauntedHomeProps_19
+  - first:
+      213: -7087619490523895452
+    second: HauntedHomeProps_20
+  - first:
+      213: -942369034056751792
+    second: HauntedHomeProps_21
+  - first:
+      213: -680467806038063110
+    second: HauntedHomeProps_22
+  - first:
+      213: 1122135734049138924
+    second: HauntedHomeProps_23
+  - first:
+      213: -1266716914821807748
+    second: HauntedHomeProps_24
+  - first:
+      213: 2232453416830137247
+    second: HauntedHomeProps_25
+  - first:
+      213: 1778085234650960221
+    second: HauntedHomeProps_26
+  - first:
+      213: -2608319311150319679
+    second: HauntedHomeProps_27
+  - first:
+      213: -4860418897346056388
+    second: HauntedHomeProps_28
+  - first:
+      213: 4082318735712923381
+    second: HauntedHomeProps_29
+  - first:
+      213: 3455814994509536771
+    second: HauntedHomeProps_30
+  - first:
+      213: -844252829748979481
+    second: HauntedHomeProps_31
+  - first:
+      213: -724595461512788568
+    second: HauntedHomeProps_32
+  - first:
+      213: 3396853501857017055
+    second: HauntedHomeProps_33
+  - first:
+      213: 6801782824270867466
+    second: HauntedHomeProps_34
+  - first:
+      213: -5173206473352229733
+    second: HauntedHomeProps_35
+  - first:
+      213: 6208947093974904854
+    second: HauntedHomeProps_36
+  - first:
+      213: 9104930313798836980
+    second: HauntedHomeProps_37
+  - first:
+      213: -4820204877119102514
+    second: HauntedHomeProps_38
+  - first:
+      213: -560263400993909594
+    second: HauntedHomeProps_39
+  - first:
+      213: -6479052260411931174
+    second: HauntedHomeProps_40
+  - first:
+      213: -3620968565186347286
+    second: HauntedHomeProps_41
+  - first:
+      213: 3058898330539797283
+    second: HauntedHomeProps_42
+  - first:
+      213: 2371181933252225807
+    second: HauntedHomeProps_43
+  - first:
+      213: -8784322058605173480
+    second: HauntedHomeProps_44
+  - first:
+      213: 7151105107158348974
+    second: HauntedHomeProps_45
+  - first:
+      213: -4202406222437059418
+    second: HauntedHomeProps_46
+  - first:
+      213: 6110640701599038269
+    second: HauntedHomeProps_47
+  - first:
+      213: -8055517601926500349
+    second: HauntedHomeProps_48
+  - first:
+      213: -6710713535506399227
+    second: HauntedHomeProps_49
+  - first:
+      213: 5987237281577829812
+    second: HauntedHomeProps_50
+  - first:
+      213: 5670155102461227401
+    second: HauntedHomeProps_51
+  - first:
+      213: -4869745972364945980
+    second: HauntedHomeProps_52
+  - first:
+      213: 3095376118818228329
+    second: HauntedHomeProps_53
+  - first:
+      213: 9058173634089098450
+    second: HauntedHomeProps_54
+  - first:
+      213: 6045908917439838094
+    second: HauntedHomeProps_55
+  - first:
+      213: 4937643658586009477
+    second: HauntedHomeProps_56
+  - first:
+      213: 7232281124602126383
+    second: HauntedHomeProps_57
+  - first:
+      213: -8302294277621957506
+    second: HauntedHomeProps_58
+  - first:
+      213: 3160938566813896760
+    second: HauntedHomeProps_59
+  - first:
+      213: -2411119395834520363
+    second: HauntedHomeProps_60
+  - first:
+      213: -4018673743680223921
+    second: HauntedHomeProps_61
+  - first:
+      213: -7805031128035887370
+    second: HauntedHomeProps_62
+  - first:
+      213: -308481707588765194
+    second: HauntedHomeProps_63
+  - first:
+      213: 8276766843277148753
+    second: HauntedHomeProps_64
+  - first:
+      213: 3642063430200965688
+    second: HauntedHomeProps_65
+  - first:
+      213: -9161129222660009331
+    second: HauntedHomeProps_66
+  - first:
+      213: 7988300454866698214
+    second: HauntedHomeProps_67
+  - first:
+      213: 6375226825746980687
+    second: HauntedHomeProps_68
+  - first:
+      213: -7650735858728631454
+    second: HauntedHomeProps_69
+  - first:
+      213: -6744297423671758367
+    second: HauntedHomeProps_70
+  - first:
+      213: -8267568233064461888
+    second: HauntedHomeProps_71
+  - first:
+      213: 3296534284912842600
+    second: HauntedHomeProps_72
+  - first:
+      213: 4127853709117906922
+    second: HauntedHomeProps_73
+  - first:
+      213: 703420544004418263
+    second: HauntedHomeProps_74
+  - first:
+      213: 3349719601294543549
+    second: HauntedHomeProps_75
+  - first:
+      213: -430809260300252679
+    second: HauntedHomeProps_76
+  - first:
+      213: -3718441054252461558
+    second: HauntedHomeProps_77
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HauntedHomeProps_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 200
+        width: 19
+        height: 10
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe62e4cd41f602060800000000000000
+      internalID: 6926658362281961199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 217
+        width: 19
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5263158, y: -0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e75254ccb6dba4aa9c175195274c86
+      internalID: -4849188369586929498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 78
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: -0.071428575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1d1259f687d8d49bff39388f81ee93
+      internalID: 2172656086373776722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 78
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.54545456, y: -0.09090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b974aa6546314449806f9f68c299e0c
+      internalID: 1604122865933089016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: -0.09090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf9d746a4078da42bd3f96f338be02b
+      internalID: -5382143942292334976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HauntedHomeProps_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 78
+        width: 11
+        height: 13
+      alignment: 9
+      pivot: {x: 0.45454547, y: -0.07692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273dfcea20999a45805381b6f6e87ff
+      internalID: -3784596508406716230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b87393e06e65f63468a78131fe5f554c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HauntedHomeProps_0: 6926658362281961199
+      HauntedHomeProps_1: -4849188369586929498
+      HauntedHomeProps_2: 2172656086373776722
+      HauntedHomeProps_3: 1604122865933089016
+      HauntedHomeProps_4: -5382143942292334976
+      HauntedHomeProps_5: -3784596508406716230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

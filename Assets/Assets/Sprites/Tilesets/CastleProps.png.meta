@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 0379030c54fd9b347ac0a3a904ae019c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6694640087409255197
+    second: CastleProps_0
+  - first:
+      213: 2479920610139556412
+    second: CastleProps_1
+  - first:
+      213: -1321635030261946293
+    second: CastleProps_2
+  - first:
+      213: 8186987604815396031
+    second: CastleProps_3
+  - first:
+      213: -5788641329798376408
+    second: CastleProps_4
+  - first:
+      213: -2176775079002044510
+    second: CastleProps_5
+  - first:
+      213: 6279104363808404302
+    second: CastleProps_6
+  - first:
+      213: -7451166753344734319
+    second: CastleProps_7
+  - first:
+      213: -9169531492717559902
+    second: CastleProps_8
+  - first:
+      213: -649950132470598828
+    second: CastleProps_9
+  - first:
+      213: -6990128750957351021
+    second: CastleProps_10
+  - first:
+      213: 8592092196514144309
+    second: CastleProps_11
+  - first:
+      213: -5896252259328304838
+    second: CastleProps_12
+  - first:
+      213: -2586635057956355803
+    second: CastleProps_13
+  - first:
+      213: -2002037923225301273
+    second: CastleProps_14
+  - first:
+      213: 9196366656958613702
+    second: CastleProps_15
+  - first:
+      213: 1962522010662606589
+    second: CastleProps_16
+  - first:
+      213: -4548406782900792338
+    second: CastleProps_17
+  - first:
+      213: 7102434555287711853
+    second: CastleProps_18
+  - first:
+      213: 3896222324798457476
+    second: CastleProps_19
+  - first:
+      213: -2280625567583906008
+    second: CastleProps_20
+  - first:
+      213: 5363435688371971758
+    second: CastleProps_21
+  - first:
+      213: 1542452469114932703
+    second: CastleProps_22
+  - first:
+      213: -3597569519248854891
+    second: CastleProps_23
+  - first:
+      213: -4598347184812813331
+    second: CastleProps_24
+  - first:
+      213: 5663176669327336295
+    second: CastleProps_25
+  - first:
+      213: -3281465064857646083
+    second: CastleProps_26
+  - first:
+      213: -8601625505131535317
+    second: CastleProps_27
+  - first:
+      213: 3360238684632203056
+    second: CastleProps_28
+  - first:
+      213: -5042540401321089648
+    second: CastleProps_29
+  - first:
+      213: -1552040525176692471
+    second: CastleProps_30
+  - first:
+      213: -1104178046311276914
+    second: CastleProps_31
+  - first:
+      213: 8948287157100125468
+    second: CastleProps_32
+  - first:
+      213: -7885416364937621352
+    second: CastleProps_33
+  - first:
+      213: 5621641554873809323
+    second: CastleProps_34
+  - first:
+      213: -5254945529641673160
+    second: CastleProps_35
+  - first:
+      213: 5644655203638868550
+    second: CastleProps_36
+  - first:
+      213: -5004119210762988470
+    second: CastleProps_37
+  - first:
+      213: -952689505723908545
+    second: CastleProps_38
+  - first:
+      213: 99393787379494394
+    second: CastleProps_39
+  - first:
+      213: -7263381503390869275
+    second: CastleProps_40
+  - first:
+      213: 9049121298598344522
+    second: CastleProps_41
+  - first:
+      213: 5094997749711929043
+    second: CastleProps_42
+  - first:
+      213: -4155282548172222695
+    second: CastleProps_43
+  - first:
+      213: 1842483855413754571
+    second: CastleProps_44
+  - first:
+      213: 5190609937106501435
+    second: CastleProps_45
+  - first:
+      213: 6339120495163852195
+    second: CastleProps_46
+  - first:
+      213: -1272298334601035834
+    second: CastleProps_47
+  - first:
+      213: -3562785562601280554
+    second: CastleProps_48
+  - first:
+      213: 1937764607323385975
+    second: CastleProps_49
+  - first:
+      213: -493962872471758003
+    second: CastleProps_50
+  - first:
+      213: -6603829950499313183
+    second: CastleProps_51
+  - first:
+      213: 8871894892409061011
+    second: CastleProps_52
+  - first:
+      213: 9012307103690701455
+    second: CastleProps_53
+  - first:
+      213: 9039939144125429735
+    second: CastleProps_54
+  - first:
+      213: -6956351926433778957
+    second: CastleProps_55
+  - first:
+      213: 2505213613829397213
+    second: CastleProps_56
+  - first:
+      213: -7167244712603224832
+    second: CastleProps_57
+  - first:
+      213: -1888016334218739162
+    second: CastleProps_58
+  - first:
+      213: -6576651532587692638
+    second: CastleProps_59
+  - first:
+      213: 3863975293695331507
+    second: CastleProps_60
+  - first:
+      213: -6349221499596325344
+    second: CastleProps_61
+  - first:
+      213: -1933486533789184799
+    second: CastleProps_62
+  - first:
+      213: -3529650280941865360
+    second: CastleProps_63
+  - first:
+      213: -1195311534347089574
+    second: CastleProps_64
+  - first:
+      213: -8642390870150983328
+    second: CastleProps_65
+  - first:
+      213: 8273738337061921535
+    second: CastleProps_66
+  - first:
+      213: 6498819481711404664
+    second: CastleProps_67
+  - first:
+      213: 7763738959199981870
+    second: CastleProps_68
+  - first:
+      213: 8459592953950932331
+    second: CastleProps_69
+  - first:
+      213: -9189616492464390791
+    second: CastleProps_70
+  - first:
+      213: -8039313252984585316
+    second: CastleProps_71
+  - first:
+      213: 8005170629865770123
+    second: CastleProps_72
+  - first:
+      213: 7393254386510803832
+    second: CastleProps_73
+  - first:
+      213: 5174576675053635798
+    second: CastleProps_74
+  - first:
+      213: 1015626150658696368
+    second: CastleProps_75
+  - first:
+      213: 5105983230169875067
+    second: CastleProps_76
+  - first:
+      213: -9084911301148002831
+    second: CastleProps_77
+  - first:
+      213: -4736375172945032106
+    second: CastleProps_78
+  - first:
+      213: -8186154008805958549
+    second: CastleProps_79
+  - first:
+      213: -4373974516646654632
+    second: CastleProps_80
+  - first:
+      213: -1080942267772774997
+    second: CastleProps_81
+  - first:
+      213: -5535697396847234341
+    second: CastleProps_82
+  - first:
+      213: -5102487446109271555
+    second: CastleProps_83
+  - first:
+      213: 2876066725154187726
+    second: CastleProps_84
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CastleProps_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 60
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5714286, y: -0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec91ea6f4cd713a0800000000000000
+      internalID: -6694640087409255197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleProps_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 60
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: -0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e87d92df79ee2488545e8b4783bac4
+      internalID: -1901238811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleProps_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 60
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.54545456, y: -0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01301e77c13c6dc439e9f37813b9b74f
+      internalID: -2018393038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleProps_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.54545456, y: -0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901d1a8ad0dc13a4e8c543a683644571
+      internalID: -1802953946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleProps_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 82
+        width: 10
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: -0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d24207590423745ba14513f3abf648
+      internalID: -1730697077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastleProps_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 82
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.52380955, y: -0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce4ee1d562ac948b7fdd5755c45b41
+      internalID: 1472591622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 58017475e24d9414ab2691b49edc8ceb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CastleProps_0: -6694640087409255197
+      CastleProps_1: -1901238811
+      CastleProps_2: -2018393038
+      CastleProps_3: -1802953946
+      CastleProps_4: -1730697077
+      CastleProps_5: 1472591622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

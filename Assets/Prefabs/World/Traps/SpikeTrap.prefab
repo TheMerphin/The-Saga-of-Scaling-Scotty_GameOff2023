@@ -50,7 +50,7 @@ MonoBehaviour:
   trapName: Spike Trap
   active: 1
   damage: 1
-  trapAnimation: {fileID: 0}
+  trapAnimation: {fileID: 7400000, guid: 9d23e2b3fb52d1a40a3a7ac279cce67e, type: 2}
   trapSound:
     name: SpikeTrap
     clip: {fileID: 8300000, guid: 7a98dcbd235979c41bf358d01af7a6aa, type: 3}
@@ -99,10 +99,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2011121071
-  m_SortingLayer: 3
+  m_SortingLayerID: -1489808571
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5735551943972598527, guid: af2d55caafec489439c6b1aa6806ce7e, type: 3}
+  m_Sprite: {fileID: 20375361, guid: 68717e0ac721cac469fd71cf7ff7c5cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -172,8 +172,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.7916667}
-    oldSize: {x: 3, y: 3}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

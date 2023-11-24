@@ -5,6 +5,7 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using static Toolbox;
+using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
@@ -96,7 +97,7 @@ public class PlayerController : MonoBehaviour
             var chest = interactable.collider.GetComponent<ChestController>();
             var prompter = interactable.collider.GetComponent<ObjectPrompter>();
 
-            if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null)
+            if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null && item.CanBePickedUp == 1)
             {
                 interactCooldown = 1f;
                 PickUpItem(item);
@@ -118,7 +119,7 @@ public class PlayerController : MonoBehaviour
                 {
                     items[4] = null;
                 }
-                else if (Input.GetKeyDown(KeyCode.F) && !chest.KeyRequired)
+                else if (Input.GetKeyDown(KeyCode.F))
                 {
                     chest.OpenChest();
                 }
@@ -139,7 +140,7 @@ public class PlayerController : MonoBehaviour
                 {
                     items[4] = null;
                 }
-                else if (Input.GetKeyDown(KeyCode.F) && !door.KeyRequired)
+                else if (Input.GetKeyDown(KeyCode.F))
                 {
                     door.OpenDoor();
                 }
@@ -562,5 +563,15 @@ public class PlayerController : MonoBehaviour
         playerCollider.enabled = true;
         spriteRenderer.sortingOrder = 0;
         spriteRenderer.color = Color.white;
+    }
+
+    public void ClearInventory()
+    {
+        gameMenuController.SetInventorySlot(null, 0);
+        gameMenuController.SetInventorySlot(null, 1);
+        gameMenuController.SetInventorySlot(null, 2);
+        gameMenuController.SetInventorySlot(null, 3);
+
+        items = new Item[5];
     }
 }

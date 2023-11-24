@@ -18,13 +18,24 @@ public class TutorialController : MonoBehaviour
     [SerializeField]
     private Collider2D stageExitCollider;
 
-    [Header("Stage 1")]
+    [Header("Stage 1 - Items")]
     [SerializeField]
     private DoorController door1;
 
-    [Header("Stage 2")]
+    [Header("Stage 2 - Enemies")]
     [SerializeField]
-    private EnemyController enemy1;
+    private DoorController door2;
+
+    [Header("Stage 3 - Traps")]
+    [SerializeField]
+    private DoorController door3;
+
+    [Header("Stage 4 - Scaling")]
+    [SerializeField]
+    private DoorController door4;
+    [SerializeField]
+    private GameObject pitTrapPrefab;
+    private PitTrap pitTrap;
 
     private void Awake()
     {
@@ -32,14 +43,18 @@ public class TutorialController : MonoBehaviour
         {
             () => player.transform.position.y >= 6f,
             () => !door1.enabled,
-            () => enemy1.health <= 0
+            () => !door2.enabled,
+            () => !door3.enabled,
+            () => !door4.enabled,
         };
 
         stageActions = new Action[]
 {
             () => { stageExitCollider.enabled = true; },
             () => { },
-            () => { }
+            () => { },
+            () => { pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f , 0f), Quaternion.identity).GetComponent<PitTrap>(); pitTrap.PlayerRespawnPosition = new Vector2(34.5f, 41.5f); },
+            () => { player.ClearInventory(); },
 };
     }
 
@@ -52,7 +67,21 @@ public class TutorialController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tutorialPrompts[tutorialStage].transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 1.4f);
+        tutorialPrompts[tutorialStage].transform.position = new Vector2(player.transform.position.x - 3f, player.transform.position.y + 0.4f);
+
+        if (tutorialStage == 4 && pitTrap != null && !pitTrap.Active)
+        {
+            StartCoroutine(ReplacePitTrap());
+        }
+    }
+
+    private IEnumerator ReplacePitTrap()
+    {
+        Destroy(pitTrap.gameObject);
+        pitTrap = null;
+        yield return new WaitForSeconds(1);
+        pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f, 0f), Quaternion.identity).GetComponent<PitTrap>();
+        pitTrap.PlayerRespawnPosition = new Vector2(34.5f, 41.5f);
     }
 
     private void LateUpdate()
@@ -62,7 +91,7 @@ public class TutorialController : MonoBehaviour
 
     void ProceedToNextStage()
     {
-        if (stageConditions[tutorialStage]())
+        if (tutorialStage < stageConditions.Length && stageConditions[tutorialStage]())
         {
             tutorialPrompts[tutorialStage].enabled = false;
             stageActions[tutorialStage].Invoke();

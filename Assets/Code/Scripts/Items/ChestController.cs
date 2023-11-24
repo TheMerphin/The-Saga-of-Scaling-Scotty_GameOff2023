@@ -26,7 +26,7 @@ public class ChestController : MonoBehaviour
         if (DropsRandomItem && DropsSpecificItem) Debug.LogError("Chest " + transform.name + " is configured to drop a random and a specific item. This results in a conflict, please select either one of them.");
         if (DropsRandomItem && RandomItemPool.Length == 0) Debug.LogError("Chest " + transform.name + " is configured to drop a random item, but no items are declared in the item pool. Please add at least one to the item pool.");
         if (DropsSpecificItem && SpecificItem == null) Debug.LogError("Chest " + transform.name + " is configured to drop a specific item, but none is declared. Please add the item reference.");
-        if (KeyRequired) Debug.LogError("Chest " + transform.name + " is configured to require a key, but none is declared. Please add the lock type.");
+        if (KeyRequired && LockType == Unlocks.None) Debug.LogError("Chest " + transform.name + " is configured to require a key, but none is declared. Please add the lock type.");
 
         animator = GetComponent<Animator>();
         audioManager = FindFirstObjectByType<AudioManager>();

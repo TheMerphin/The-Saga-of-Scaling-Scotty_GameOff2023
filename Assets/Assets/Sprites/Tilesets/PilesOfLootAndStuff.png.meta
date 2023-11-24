@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 85db2084f5892e547b0c93c4ef6cf293
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1485917107146208190
+    second: PilesOfLootAndStuff_0
+  - first:
+      213: 2759979779669380481
+    second: PilesOfLootAndStuff_1
+  - first:
+      213: -548093292131388588
+    second: PilesOfLootAndStuff_2
+  - first:
+      213: 214863020021829881
+    second: PilesOfLootAndStuff_3
+  - first:
+      213: -7734254163568334686
+    second: PilesOfLootAndStuff_4
+  - first:
+      213: 8777231936755020467
+    second: PilesOfLootAndStuff_5
+  - first:
+      213: -2540197651141451506
+    second: PilesOfLootAndStuff_6
+  - first:
+      213: -740434479760934606
+    second: PilesOfLootAndStuff_7
+  - first:
+      213: 3570207666628085251
+    second: PilesOfLootAndStuff_8
+  - first:
+      213: -362909956760398034
+    second: PilesOfLootAndStuff_9
+  - first:
+      213: -1323359311269612752
+    second: PilesOfLootAndStuff_10
+  - first:
+      213: -2852232965190969013
+    second: PilesOfLootAndStuff_11
+  - first:
+      213: -5576488634186000180
+    second: PilesOfLootAndStuff_12
+  - first:
+      213: -3968961993079474505
+    second: PilesOfLootAndStuff_13
+  - first:
+      213: -8734591320255370677
+    second: PilesOfLootAndStuff_14
+  - first:
+      213: 1181879832538506349
+    second: PilesOfLootAndStuff_15
+  - first:
+      213: 6848579801211533724
+    second: PilesOfLootAndStuff_16
+  - first:
+      213: -835324890272384801
+    second: PilesOfLootAndStuff_17
+  - first:
+      213: -376326602184209811
+    second: PilesOfLootAndStuff_18
+  - first:
+      213: -4541499862486809167
+    second: PilesOfLootAndStuff_19
+  - first:
+      213: -9105195589858691331
+    second: PilesOfLootAndStuff_20
+  - first:
+      213: 4893246152477105124
+    second: PilesOfLootAndStuff_21
+  - first:
+      213: -3953704867275982009
+    second: PilesOfLootAndStuff_22
+  - first:
+      213: 5098028514361727365
+    second: PilesOfLootAndStuff_23
+  - first:
+      213: -4681838219656646020
+    second: PilesOfLootAndStuff_24
+  - first:
+      213: 6928654974837694363
+    second: PilesOfLootAndStuff_25
+  - first:
+      213: -5421244294826954417
+    second: PilesOfLootAndStuff_26
+  - first:
+      213: 5963778894050984604
+    second: PilesOfLootAndStuff_27
+  - first:
+      213: 3005794849411848324
+    second: PilesOfLootAndStuff_28
+  - first:
+      213: -8010459096747971442
+    second: PilesOfLootAndStuff_29
+  - first:
+      213: -8582720301475001765
+    second: PilesOfLootAndStuff_30
+  - first:
+      213: -3125955875228168983
+    second: PilesOfLootAndStuff_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 176
+        width: 28
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb330297cb90f9410800000000000000
+      internalID: 1485917107146208190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 176
+        width: 22
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d44729cfa6d4620800000000000000
+      internalID: 2759979779669380481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 176
+        width: 16
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453fbb20e08c468f0800000000000000
+      internalID: -548093292131388588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 176
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0d4cf37c85bf200800000000000000
+      internalID: 214863020021829881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 152
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a86ce9e0d86aa490800000000000000
+      internalID: -7734254163568334686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 152
+        width: 22
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23f7551fdfec970800000000000000
+      internalID: 8777231936755020467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 152
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01ae60e1b76fbcd0800000000000000
+      internalID: -2540197651141451506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 152
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239f56e73c279b5f0800000000000000
+      internalID: -740434479760934606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 128
+        width: 25
+        height: 18
+      alignment: 9
+      pivot: {x: 0.48, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3064ebff4fceb8130800000000000000
+      internalID: 3570207666628085251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 128
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.40000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2718dd215fa6faf0800000000000000
+      internalID: -362909956760398034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 128
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.4166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033b195c7bb72ade0800000000000000
+      internalID: -1323359311269612752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 128
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49122dda35da68d0800000000000000
+      internalID: -2852232965190969013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc81759f1255c92b0800000000000000
+      internalID: -5576488634186000180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 104
+        width: 22
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6b873881a6be8c0800000000000000
+      internalID: -3968961993079474505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ae7f9d87f78c680800000000000000
+      internalID: -8734591320255370677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 104
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64e7a12271e66010800000000000000
+      internalID: 1181879832538506349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 80
+        width: 28
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99f02b3b0b0b0f50800000000000000
+      internalID: 6848579801211533724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 80
+        width: 22
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8b54320745864f0800000000000000
+      internalID: -835324890272384801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ac74df2f407caf0800000000000000
+      internalID: -376326602184209811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 80
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b50dfcdfe959f0c0800000000000000
+      internalID: -4541499862486809167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6f4083ad8d3a180800000000000000
+      internalID: -9105195589858691331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 56
+        width: 25
+        height: 14
+      alignment: 9
+      pivot: {x: 0.52, y: 0.42857146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebd1fc337d48e340800000000000000
+      internalID: 4893246152477105124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 17
+        height: 12
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.4166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b384fee5e9129c0800000000000000
+      internalID: -3953704867275982009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 56
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.4615385, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589d75d5ce5dfb640800000000000000
+      internalID: 5098028514361727365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 32
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b485d1f4c60fb0800000000000000
+      internalID: -4681838219656646020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.40000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f91727df6872060800000000000000
+      internalID: 6928654974837694363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41f93e690fd3c4b0800000000000000
+      internalID: -5421244294826954417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_27
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 32
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.4615385, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9281e28e4993c250800000000000000
+      internalID: 5963778894050984604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48854ea7d7ab6b920800000000000000
+      internalID: 3005794849411848324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c6a8a84e125d090800000000000000
+      internalID: -8010459096747971442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a8c08eb5d04e880800000000000000
+      internalID: -8582720301475001765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilesOfLootAndStuff_31
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 6
+        width: 13
+        height: 13
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecca7981bf5e94d0800000000000000
+      internalID: -3125955875228168983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 30f88003c83492943878e65a617b1b7f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PilesOfLootAndStuff_0: 1485917107146208190
+      PilesOfLootAndStuff_1: 2759979779669380481
+      PilesOfLootAndStuff_10: -1323359311269612752
+      PilesOfLootAndStuff_11: -2852232965190969013
+      PilesOfLootAndStuff_12: -5576488634186000180
+      PilesOfLootAndStuff_13: -3968961993079474505
+      PilesOfLootAndStuff_14: -8734591320255370677
+      PilesOfLootAndStuff_15: 1181879832538506349
+      PilesOfLootAndStuff_16: 6848579801211533724
+      PilesOfLootAndStuff_17: -835324890272384801
+      PilesOfLootAndStuff_18: -376326602184209811
+      PilesOfLootAndStuff_19: -4541499862486809167
+      PilesOfLootAndStuff_2: -548093292131388588
+      PilesOfLootAndStuff_20: -9105195589858691331
+      PilesOfLootAndStuff_21: 4893246152477105124
+      PilesOfLootAndStuff_22: -3953704867275982009
+      PilesOfLootAndStuff_23: 5098028514361727365
+      PilesOfLootAndStuff_24: -4681838219656646020
+      PilesOfLootAndStuff_25: 6928654974837694363
+      PilesOfLootAndStuff_26: -5421244294826954417
+      PilesOfLootAndStuff_27: 5963778894050984604
+      PilesOfLootAndStuff_28: 3005794849411848324
+      PilesOfLootAndStuff_29: -8010459096747971442
+      PilesOfLootAndStuff_3: 214863020021829881
+      PilesOfLootAndStuff_30: -8582720301475001765
+      PilesOfLootAndStuff_31: -3125955875228168983
+      PilesOfLootAndStuff_4: -7734254163568334686
+      PilesOfLootAndStuff_5: 8777231936755020467
+      PilesOfLootAndStuff_6: -2540197651141451506
+      PilesOfLootAndStuff_7: -740434479760934606
+      PilesOfLootAndStuff_8: 3570207666628085251
+      PilesOfLootAndStuff_9: -362909956760398034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
