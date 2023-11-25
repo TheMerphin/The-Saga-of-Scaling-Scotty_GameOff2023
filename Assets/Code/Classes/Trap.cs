@@ -69,7 +69,6 @@ public abstract class Trap : MonoBehaviour
         if (player != null)
         {
             player.updateHealth((int)-damage); 
-            print(trapName + " was activated. Applying " + damage + " Damage to " + player.name);
         }
 
         triggerAreaCollider.enabled = false;

@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
+    private GameManager gameManager;
 
     private float interactCooldown;
 
@@ -68,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
         gameMenuController.SetMaxHealth(maxHealth);
@@ -225,6 +227,7 @@ public class PlayerController : MonoBehaviour
             else if (items[selectedSlot] is Consumable)
             {
                 (items[selectedSlot] as Consumable).Consume();
+                audioManager.Play("Chug");
                 items[3] = null;
                 gameMenuController.DeleteFromSlot(3);
 
@@ -491,15 +494,18 @@ public class PlayerController : MonoBehaviour
 
         // Respawn
         yield return new WaitForSeconds(1f);
+        if (currentHealth > 0)
+        {
+            cinemachineCamera.Follow = transform;
 
-        cinemachineCamera.Follow = transform;
+            transform.position = respawnPosition;
+            playerCollider.enabled = true;
 
-        transform.position = respawnPosition;
-        playerCollider.enabled = true;
-
-        spriteRenderer.sortingLayerName = "1_OnGround";
-        spriteRenderer.sortingOrder = 0;
-        disableInputs = false;
+            spriteRenderer.sortingLayerName = "1_OnGround";
+            spriteRenderer.sortingOrder = 0;
+      
+            disableInputs = false;
+        }
     }
 
 
@@ -512,7 +518,9 @@ public class PlayerController : MonoBehaviour
         if (currentHealth + newHealth <= 0)
         {
             currentHealth = 0;
-            Debug.Log("GAME OVER");
+            disableInputs = true;
+            gameManager.GameOver();
+            
         }
         else if (currentHealth + newHealth >= maxHealth)
         {

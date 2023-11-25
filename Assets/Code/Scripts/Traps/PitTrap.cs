@@ -36,11 +36,12 @@ public class PitTrap : Trap
             if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
             {
                 player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f);
+               
             }
         }
 
         StartCoroutine(ActivateDynamicCollider());
-        base.TriggerTrap(null);
+        base.TriggerTrap(player);
     }
 
     private IEnumerator ActivateDynamicCollider()
