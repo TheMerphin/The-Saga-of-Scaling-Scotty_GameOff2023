@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MonsterSounds : MonoBehaviour
 {
-   //Skeleton Sounds
+    //Skeleton Sounds
     public AudioClip SkeletonHurt;
     public AudioClip SkeletonDeath;
     public AudioClip SkeletonAttack;
@@ -22,10 +22,16 @@ public class MonsterSounds : MonoBehaviour
     public AudioClip TrollAttack;
     public AudioClip TrollDeath;
 
+    //Slime Sounds
+    public AudioClip SlimeStep;
+    public AudioClip SlimeHurt;
+    public AudioClip SlimeAttack;
+    public AudioClip SlimeDeath;
+
     private AudioSource MonsterAudioSource;
     public void setAudioSource(AudioSource audioSource)
     {
-        MonsterAudioSource =audioSource;
+        MonsterAudioSource = audioSource;
     }
 
 
@@ -36,22 +42,19 @@ public class MonsterSounds : MonoBehaviour
 
     //skeleton
 
-      public void playSkeletonHurt()
+    public void playSkeletonHurt()
     {
         MonsterAudioSource.PlayOneShot(SkeletonHurt);
     }
 
     public void playSkeletonDeath()
     {
-        
         MonsterAudioSource.PlayOneShot(SkeletonDeath);
-
     }
 
     public void playSkeletonAttack()
     {
         MonsterAudioSource.PlayOneShot(SkeletonAttack);
-
     }
     public void playSkeletonStep()
     {
@@ -85,9 +88,7 @@ public class MonsterSounds : MonoBehaviour
     }
     public void playWolfDeath()
     {
-
         MonsterAudioSource.PlayOneShot(WolfHurt);
-
     }
     //Troll
     public void playTrollStep()
@@ -107,8 +108,33 @@ public class MonsterSounds : MonoBehaviour
 
     public void playTrollDeath()
     {
-
         MonsterAudioSource.PlayOneShot(TrollDeath);
+    }
 
+    //Slime
+    public void playSlimeStep()
+    {
+        MonsterAudioSource.PlayOneShot(SlimeStep);
+    }
+
+    public void playSlimeAttack()
+    {
+        MonsterAudioSource.PlayOneShot(SlimeAttack);
+    }
+
+    public void playSlimeHurt()
+    {
+        MonsterAudioSource.PlayOneShot(SlimeHurt);
+    }
+
+    public void playSlimeDeath()
+    {
+        MonsterAudioSource.PlayOneShot(SlimeDeath);
+    }
+
+    public void hitPLayer()
+    {
+        EnemyController enemyController = GetComponentInParent<EnemyController>();
+        enemyController.hitPLayer();
     }
 }

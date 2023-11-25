@@ -2,16 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using Unity.VisualScripting;
+using UnityEngine.UIElements;
+
 public class EnemyController : MonoBehaviour
 {
     public enum MonsterType
     {
         Skeleton,
         Goblin,
-        Slime,
         Wolf,
-        Troll
+        Troll,
+        BlueBigSlime,
+        BlueSmallSlime
     }
+
+    //new monster
+    public GameObject objectToSpawn;
 
     private AIPath aiPath;
     private Transform target;
@@ -28,6 +35,8 @@ public class EnemyController : MonoBehaviour
     public float movementSpeed = 1;
     public float detectionRange = 3f;
     public float health;
+    public float damage;
+    private PlayerController playerController;
 
 
     public RuntimeAnimatorController skeletonAnimator;
@@ -38,8 +47,14 @@ public class EnemyController : MonoBehaviour
     public Sprite wolfSprite;
     public RuntimeAnimatorController trollAnimator;
     public Sprite trollSprite;
+    public RuntimeAnimatorController blueBigSlimeAnimator;
+    public Sprite blueBigSlimeSprite;
+    public RuntimeAnimatorController blueSmallSlimeAnimator;
+    public Sprite blueSmallSlimeSprite;
     void Awake()
     {
+
+
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
         monsterSounds.setAudioSource(gameObject.GetComponentInChildren<AudioSource>());
   
@@ -48,6 +63,7 @@ public class EnemyController : MonoBehaviour
         
         GameObject player = GameObject.FindWithTag("Player");
         target = player.transform;
+        playerController = player.GetComponent<PlayerController>();
 
         animator = GetComponentInChildren<Animator>();
         SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
@@ -75,8 +91,17 @@ public class EnemyController : MonoBehaviour
                 //TodDo less speed, more health?, BIGGER!
                 break;
 
-            case MonsterType.Slime:
-                health = 8;
+            case MonsterType.BlueBigSlime:
+                animator.runtimeAnimatorController = blueBigSlimeAnimator;
+                monsterSprite.sprite = blueBigSlimeSprite;
+                health = 10;
+                break;
+
+            case MonsterType.BlueSmallSlime:
+                animator.runtimeAnimatorController = blueSmallSlimeAnimator;
+                monsterSprite.sprite = blueSmallSlimeSprite;
+                movementSpeed = 3f;
+                health = 3;
                 break;
 
             case MonsterType.Goblin:
@@ -105,7 +130,7 @@ public class EnemyController : MonoBehaviour
         {
             getAttacked(1);
         }
-        
+
     }
 
 
@@ -113,16 +138,16 @@ public class EnemyController : MonoBehaviour
 
     private void EnemyAnimation()
     {
-        if(dead)
+        if (dead)
         {
             return;
         }
         horizontalMovement = aiPath.velocity.x;
         verticalMovement = aiPath.velocity.y;
         float attackRange = 1f;
-        
+
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
-       
+
         if (gotHit)
         {
             animator.SetTrigger("getsHit");
@@ -145,13 +170,13 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("attack", true);
         }
         // wants to move towards the player
-        else 
+        else
         {
             animator.SetBool("idle", false);
             aiPath.canMove = true;
             aiPath.enabled = true;
-            
-             animator.SetBool("moving", true);
+
+            animator.SetBool("moving", true);
         }
 
 
@@ -164,13 +189,13 @@ public class EnemyController : MonoBehaviour
         else if ((horizontalMovement < 0f && verticalMovement == 0f) | (horizontalMovement < 0f && verticalMovement < 0f))
         {
             animator.SetBool("BL", true);
-          
+
 
         }
         else if ((verticalMovement > 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement > 0f))
         {
             animator.SetBool("TR", true);
-            
+
 
         }
         else if ((horizontalMovement > 0f && verticalMovement == 0f) | (verticalMovement < 0f && horizontalMovement == 0f) | (horizontalMovement > 0f && verticalMovement < 0f))
@@ -179,9 +204,49 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("BR", true);
 
         }
+        
     }
 
     
+    
+
+    void SpawnNewMonsters(MonsterType monsterType)
+    {
+        //Instantiate(objectToSpawn);
+        Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
+        //GameObject newMonster = Instantiate(gameObject, transform.position, Quaternion.identity);
+
+        //EnemyController newController = newMonster.GetComponent<EnemyController>();
+        //SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
+
+
+        //switch (monsterType)
+        //{
+        //    case MonsterType.BlueBigSlime:
+        //        newController.monsterType = MonsterType.BlueSmallSlime;
+        //        animator.runtimeAnimatorController = blueSmallSlimeAnimator;
+        //        monsterSprite.sprite = blueSmallSlimeSprite;
+        //        movementSpeed = 3f;
+        //        health = 3;
+        //        break;
+
+       //     case MonsterType.BlueSmallSlime:
+       //         animator.runtimeAnimatorController = blueSmallSlimeAnimator;
+       //         monsterSprite.sprite = blueSmallSlimeSprite;
+       //         movementSpeed = 3f;
+       //         health = 3;
+       //         break;
+       // }
+    }
+
+    public void hitPLayer()
+    {
+       // playerController.updateHealth((int) -damage);
+    }
+
+
+
+
     public void getAttacked(float damage)
     {
         
@@ -192,11 +257,20 @@ public class EnemyController : MonoBehaviour
             aiPath.canMove = false;
             aiPath.enabled = false;
             animator.SetBool("dead", true);
+            if (monsterType.Equals(MonsterType.BlueBigSlime))
+            {
+                //spawn two smaller slimes
+                SpawnNewMonsters(monsterType);
+                SpawnNewMonsters(monsterType);
+            }
+            //else if((monsterType.Equals(MonsterType.GreenBigSlime))
         }
         else
         {
             gotHit = true;
         }
+
+        
     }
 
 
