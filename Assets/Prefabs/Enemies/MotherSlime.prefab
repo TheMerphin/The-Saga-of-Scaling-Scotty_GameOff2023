@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 6618268834628518971}
   - component: {fileID: 1258807401323717084}
   m_Layer: 0
-  m_Name: MiniSlime
+  m_Name: MotherSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,8 +398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 0}
-  monsterType: 6
+  objectToSpawn: {fileID: 7781424995959787776, guid: b52b16aaf7692604c95daa7cf77d9cec, type: 3}
+  monsterType: 4
   movementSpeed: 1
   detectionRange: 6
   health: 1
@@ -412,8 +412,8 @@ MonoBehaviour:
   wolfSprite: {fileID: -3373793927158656445, guid: 95822818f2ad09a46a74038900e09d50, type: 3}
   trollAnimator: {fileID: 9100000, guid: f8b6c2e34d88a0e41bb0313da85d58c6, type: 2}
   trollSprite: {fileID: -4917857245902143833, guid: f27fa621bb673e74b84609c9d18bbb60, type: 3}
-  blueMotherSlimeAnimator: {fileID: 0}
-  blueMotherSlimeSprite: {fileID: 0}
+  blueMotherSlimeAnimator: {fileID: 9100000, guid: 89984791a0b66b34691a24f453d5c83c, type: 2}
+  blueMotherSlimeSprite: {fileID: 2667469912053840694, guid: 7840b3dcc83cff44c9b7b449353ed3b7, type: 3}
   blueBigSlimeAnimator: {fileID: 9100000, guid: 79df79877eed8b840a7c466400bf1506, type: 2}
   blueBigSlimeSprite: {fileID: 5521048995198281748, guid: 0c3d2e1a035fcde42a1bcfbb76aa9708, type: 3}
   blueSmallSlimeAnimator: {fileID: 9100000, guid: 969decce2a5ca8e4b989550f5eaa55dc, type: 2}

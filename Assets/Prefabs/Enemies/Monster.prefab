@@ -231,6 +231,10 @@ MonoBehaviour:
   TrollHurt: {fileID: 8300000, guid: 9f19636aa997aba41a1ca228d51a7344, type: 3}
   TrollAttack: {fileID: 8300000, guid: b95ca7a1989498c4cb256a940a9748dc, type: 3}
   TrollDeath: {fileID: 8300000, guid: 6ab00c0e7b42bb64b8090fcd8c28302f, type: 3}
+  SlimeStep: {fileID: 8300000, guid: 0f13e26caeaac1b4a91ccb659ed2cac5, type: 3}
+  SlimeHurt: {fileID: 8300000, guid: 0f13e26caeaac1b4a91ccb659ed2cac5, type: 3}
+  SlimeAttack: {fileID: 8300000, guid: 582e6265c53ff8a4088fb1012aa08594, type: 3}
+  SlimeDeath: {fileID: 8300000, guid: d57e8388430f2be4bbbab9bad804dd51, type: 3}
 --- !u!1 &7781424995959787776
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,10 +398,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterType: 3
+  objectToSpawn: {fileID: 0}
+  monsterType: 5
   movementSpeed: 1
   detectionRange: 6
   health: 1
+  damage: 0
   skeletonAnimator: {fileID: 9100000, guid: 24674092ed078604db2b6a20b93af436, type: 2}
   skeletonSprite: {fileID: -1347213925559123952, guid: 8cbc87d494bcd8e49986fae6b48a9f64, type: 3}
   goblinAnimator: {fileID: 9100000, guid: f6a38817ec2d954409c844dea6f30a67, type: 2}
@@ -406,6 +412,12 @@ MonoBehaviour:
   wolfSprite: {fileID: -3373793927158656445, guid: 95822818f2ad09a46a74038900e09d50, type: 3}
   trollAnimator: {fileID: 9100000, guid: f8b6c2e34d88a0e41bb0313da85d58c6, type: 2}
   trollSprite: {fileID: -4917857245902143833, guid: f27fa621bb673e74b84609c9d18bbb60, type: 3}
+  blueMotherSlimeAnimator: {fileID: 9100000, guid: 89984791a0b66b34691a24f453d5c83c, type: 2}
+  blueMotherSlimeSprite: {fileID: 2667469912053840694, guid: 7840b3dcc83cff44c9b7b449353ed3b7, type: 3}
+  blueBigSlimeAnimator: {fileID: 9100000, guid: 79df79877eed8b840a7c466400bf1506, type: 2}
+  blueBigSlimeSprite: {fileID: 5521048995198281748, guid: 0c3d2e1a035fcde42a1bcfbb76aa9708, type: 3}
+  blueSmallSlimeAnimator: {fileID: 9100000, guid: 969decce2a5ca8e4b989550f5eaa55dc, type: 2}
+  blueSmallSlimeSprite: {fileID: 5521048995198281748, guid: 2307097563c86854782bd1ac71ae42d6, type: 3}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

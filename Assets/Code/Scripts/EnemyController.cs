@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
         Goblin,
         Wolf,
         Troll,
+        MotherSlime,
         BlueBigSlime,
         BlueSmallSlime
     }
@@ -47,6 +48,8 @@ public class EnemyController : MonoBehaviour
     public Sprite wolfSprite;
     public RuntimeAnimatorController trollAnimator;
     public Sprite trollSprite;
+    public RuntimeAnimatorController blueMotherSlimeAnimator;
+    public Sprite blueMotherSlimeSprite;
     public RuntimeAnimatorController blueBigSlimeAnimator;
     public Sprite blueBigSlimeSprite;
     public RuntimeAnimatorController blueSmallSlimeAnimator;
@@ -89,6 +92,13 @@ public class EnemyController : MonoBehaviour
                 movementSpeed = 0.5f;
                 health = 10; 
                 //TodDo less speed, more health?, BIGGER!
+                break;
+
+            case MonsterType.MotherSlime:
+                animator.runtimeAnimatorController = blueMotherSlimeAnimator;
+                monsterSprite.sprite = blueMotherSlimeSprite;
+                health = 15; //test 15 sonst 25?
+                //movementSpeed =?; 
                 break;
 
             case MonsterType.BlueBigSlime:
@@ -210,33 +220,9 @@ public class EnemyController : MonoBehaviour
     
     
 
-    void SpawnNewMonsters(MonsterType monsterType)
+    void SpawnNewMonsters()
     {
-        //Instantiate(objectToSpawn);
         Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
-        //GameObject newMonster = Instantiate(gameObject, transform.position, Quaternion.identity);
-
-        //EnemyController newController = newMonster.GetComponent<EnemyController>();
-        //SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
-
-
-        //switch (monsterType)
-        //{
-        //    case MonsterType.BlueBigSlime:
-        //        newController.monsterType = MonsterType.BlueSmallSlime;
-        //        animator.runtimeAnimatorController = blueSmallSlimeAnimator;
-        //        monsterSprite.sprite = blueSmallSlimeSprite;
-        //        movementSpeed = 3f;
-        //        health = 3;
-        //        break;
-
-       //     case MonsterType.BlueSmallSlime:
-       //         animator.runtimeAnimatorController = blueSmallSlimeAnimator;
-       //         monsterSprite.sprite = blueSmallSlimeSprite;
-       //         movementSpeed = 3f;
-       //         health = 3;
-       //         break;
-       // }
     }
 
     public void hitPLayer()
@@ -257,11 +243,18 @@ public class EnemyController : MonoBehaviour
             aiPath.canMove = false;
             aiPath.enabled = false;
             animator.SetBool("dead", true);
+
+            if (monsterType.Equals(MonsterType.MotherSlime)) 
+            {
+                //könnte auch immer wieder slimes beschwören nicht erst beim tod
+                SpawnNewMonsters();
+                SpawnNewMonsters();
+            }
             if (monsterType.Equals(MonsterType.BlueBigSlime))
             {
                 //spawn two smaller slimes
-                SpawnNewMonsters(monsterType);
-                SpawnNewMonsters(monsterType);
+                SpawnNewMonsters();
+                SpawnNewMonsters();
             }
             //else if((monsterType.Equals(MonsterType.GreenBigSlime))
         }
