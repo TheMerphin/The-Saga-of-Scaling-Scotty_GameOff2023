@@ -19,27 +19,19 @@ public class GameMenuController : MonoBehaviour
 
     public void SetInventorySlot(Sprite itemIcon, int slot)
     {
-        Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
+        //Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
 
-        itemIcons[slot].enabled = true;
+        itemIcons[slot].enabled = itemIcon != null;
         itemIcons[slot].sprite = itemIcon;
 
-        itemPlaceholder[slot].enabled = false;
+        itemPlaceholder[slot].enabled = itemIcon == null;
     }
 
     public void SelectSlot(int slot)
     {
         inventorySelector.anchoredPosition = new Vector2(-75f + (50f * slot), inventorySelector.anchoredPosition.y);
     }
-    public void DeleteFromSlot(int slot)
-    {
-       
 
-        itemIcons[slot].enabled = false;
-        itemIcons[slot].sprite = null;
-
-        itemPlaceholder[slot].enabled = true;
-    }
     public void SetMaxHealth(int maxHealth)
     {
         health.maxValue = maxHealth;
