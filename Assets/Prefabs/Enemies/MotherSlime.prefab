@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 2635214574862303370}
   - component: {fileID: 6618268834628518971}
   - component: {fileID: 1258807401323717084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MotherSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}

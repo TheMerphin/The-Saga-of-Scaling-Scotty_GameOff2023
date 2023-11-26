@@ -235,6 +235,10 @@ MonoBehaviour:
   SlimeHurt: {fileID: 8300000, guid: 0f13e26caeaac1b4a91ccb659ed2cac5, type: 3}
   SlimeAttack: {fileID: 8300000, guid: 582e6265c53ff8a4088fb1012aa08594, type: 3}
   SlimeDeath: {fileID: 8300000, guid: d57e8388430f2be4bbbab9bad804dd51, type: 3}
+  MinotaurStep: {fileID: 0}
+  MinotaurHurt: {fileID: 0}
+  MinotaurAttack: {fileID: 0}
+  MinotaurDeath: {fileID: 0}
 --- !u!1 &7781424995959787776
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +255,7 @@ GameObject:
   - component: {fileID: 2635214574862303370}
   - component: {fileID: 6618268834628518971}
   - component: {fileID: 1258807401323717084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,6 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7781424995959787776, guid: 1276bdcf728128244a3f9b2bb1a41385, type: 3}
+  keyToSpawn: {fileID: 0}
   monsterType: 5
   movementSpeed: 1
   detectionRange: 6
@@ -418,6 +423,8 @@ MonoBehaviour:
   blueBigSlimeSprite: {fileID: 5521048995198281748, guid: 0c3d2e1a035fcde42a1bcfbb76aa9708, type: 3}
   blueSmallSlimeAnimator: {fileID: 9100000, guid: 969decce2a5ca8e4b989550f5eaa55dc, type: 2}
   blueSmallSlimeSprite: {fileID: 5521048995198281748, guid: 2307097563c86854782bd1ac71ae42d6, type: 3}
+  minotaurAnimator: {fileID: 0}
+  minotaurSprite: {fileID: 0}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
