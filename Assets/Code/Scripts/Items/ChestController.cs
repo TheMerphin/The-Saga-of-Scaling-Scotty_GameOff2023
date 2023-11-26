@@ -1,9 +1,4 @@
-using NUnit.Framework;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class ChestController : MonoBehaviour
 {
@@ -89,7 +84,7 @@ public class ChestController : MonoBehaviour
         var objectPrompter = GetComponent<ObjectPrompter>();
         objectPrompter.DisablePrompt = true;
         objectPrompter.enabled = false;
-        GetComponent<ChestController>().enabled = false;
+        this.enabled = false;
     }
 
     public void UpdatePrompt(bool hasKey)

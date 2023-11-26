@@ -1,0 +1,2819 @@
+fileFormatVersion: 2
+guid: 34ad332c464a66243a58d413b0ed4604
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7755864807043767182
+    second: Minifantasy_GuiBars_0
+  - first:
+      213: -7009083405604517966
+    second: Minifantasy_GuiBars_1
+  - first:
+      213: -4341461525718060902
+    second: Minifantasy_GuiBars_2
+  - first:
+      213: 5237449095034144784
+    second: Minifantasy_GuiBars_3
+  - first:
+      213: -633503503770293537
+    second: Minifantasy_GuiBars_4
+  - first:
+      213: -3529608117634441021
+    second: Minifantasy_GuiBars_5
+  - first:
+      213: 2026391087204530973
+    second: Minifantasy_GuiBars_6
+  - first:
+      213: -4855748827117204066
+    second: Minifantasy_GuiBars_7
+  - first:
+      213: 7780360785949143015
+    second: Minifantasy_GuiBars_8
+  - first:
+      213: 5117919871179948114
+    second: Minifantasy_GuiBars_9
+  - first:
+      213: -3009342360376587043
+    second: Minifantasy_GuiBars_10
+  - first:
+      213: 9123067376988341977
+    second: Minifantasy_GuiBars_11
+  - first:
+      213: -3916031312763274169
+    second: Minifantasy_GuiBars_12
+  - first:
+      213: -9189274816101669121
+    second: Minifantasy_GuiBars_13
+  - first:
+      213: -4258857819511447248
+    second: Minifantasy_GuiBars_14
+  - first:
+      213: -7305102803434825888
+    second: Minifantasy_GuiBars_15
+  - first:
+      213: 3138219583583929980
+    second: Minifantasy_GuiBars_16
+  - first:
+      213: -4611649093789462672
+    second: Minifantasy_GuiBars_17
+  - first:
+      213: 8353711685463392518
+    second: Minifantasy_GuiBars_18
+  - first:
+      213: 3871996640108911336
+    second: Minifantasy_GuiBars_19
+  - first:
+      213: -2962258326651543611
+    second: Minifantasy_GuiBars_20
+  - first:
+      213: 5091722202337104213
+    second: Minifantasy_GuiBars_21
+  - first:
+      213: -2873638958324664597
+    second: Minifantasy_GuiBars_22
+  - first:
+      213: 7850803979900612683
+    second: Minifantasy_GuiBars_23
+  - first:
+      213: 1132610952904770266
+    second: Minifantasy_GuiBars_24
+  - first:
+      213: -7672251092474371479
+    second: Minifantasy_GuiBars_25
+  - first:
+      213: -1245483561545291866
+    second: Minifantasy_GuiBars_26
+  - first:
+      213: 5868851674094284738
+    second: Minifantasy_GuiBars_27
+  - first:
+      213: 3943260334503410625
+    second: Minifantasy_GuiBars_28
+  - first:
+      213: 7308974476515086153
+    second: Minifantasy_GuiBars_29
+  - first:
+      213: 5803465010874491951
+    second: Minifantasy_GuiBars_30
+  - first:
+      213: 6481535191697317555
+    second: Minifantasy_GuiBars_31
+  - first:
+      213: -7544367537387670283
+    second: Minifantasy_GuiBars_32
+  - first:
+      213: 5177839578525396860
+    second: Minifantasy_GuiBars_33
+  - first:
+      213: 2184421638324337449
+    second: Minifantasy_GuiBars_34
+  - first:
+      213: 219859290644691303
+    second: Minifantasy_GuiBars_35
+  - first:
+      213: 8955321371935566236
+    second: Minifantasy_GuiBars_36
+  - first:
+      213: -4298425602067125247
+    second: Minifantasy_GuiBars_37
+  - first:
+      213: 1947744628132557012
+    second: Minifantasy_GuiBars_38
+  - first:
+      213: -1662319704441844476
+    second: Minifantasy_GuiBars_39
+  - first:
+      213: -5545074968597934402
+    second: Minifantasy_GuiBars_40
+  - first:
+      213: -1181273614094969388
+    second: Minifantasy_GuiBars_41
+  - first:
+      213: 6730097157701634144
+    second: Minifantasy_GuiBars_42
+  - first:
+      213: -571033573840917626
+    second: Minifantasy_GuiBars_43
+  - first:
+      213: -4425145947813988483
+    second: Minifantasy_GuiBars_44
+  - first:
+      213: -1017634662889545348
+    second: Minifantasy_GuiBars_45
+  - first:
+      213: 8327660938184340841
+    second: Minifantasy_GuiBars_46
+  - first:
+      213: -4494734391095943740
+    second: Minifantasy_GuiBars_47
+  - first:
+      213: 6751140151712631779
+    second: Minifantasy_GuiBars_48
+  - first:
+      213: 2819237779778236510
+    second: Minifantasy_GuiBars_49
+  - first:
+      213: -5790303208713072534
+    second: Minifantasy_GuiBars_50
+  - first:
+      213: -8147586757644297404
+    second: Minifantasy_GuiBars_51
+  - first:
+      213: -4769994563987491200
+    second: Minifantasy_GuiBars_52
+  - first:
+      213: 624711695413480744
+    second: Minifantasy_GuiBars_53
+  - first:
+      213: -2723752680158377470
+    second: Minifantasy_GuiBars_54
+  - first:
+      213: -3411949307960452834
+    second: Minifantasy_GuiBars_55
+  - first:
+      213: -7569710883612639088
+    second: Minifantasy_GuiBars_56
+  - first:
+      213: -7891484536576955290
+    second: Minifantasy_GuiBars_57
+  - first:
+      213: 3180895675189964337
+    second: Minifantasy_GuiBars_58
+  - first:
+      213: -8352572733673791641
+    second: Minifantasy_GuiBars_59
+  - first:
+      213: -2512234138092260654
+    second: Minifantasy_GuiBars_60
+  - first:
+      213: 419827808229239712
+    second: Minifantasy_GuiBars_61
+  - first:
+      213: -6458093520769886399
+    second: Minifantasy_GuiBars_62
+  - first:
+      213: -5255240401082505664
+    second: Minifantasy_GuiBars_63
+  - first:
+      213: -4810436265569783648
+    second: Minifantasy_GuiBars_64
+  - first:
+      213: 4520776420066990179
+    second: Minifantasy_GuiBars_65
+  - first:
+      213: 7035162079214210390
+    second: Minifantasy_GuiBars_66
+  - first:
+      213: -3123770109586896823
+    second: Minifantasy_GuiBars_67
+  - first:
+      213: -5904377508988286953
+    second: Minifantasy_GuiBars_68
+  - first:
+      213: -4812665629733267772
+    second: Minifantasy_GuiBars_69
+  - first:
+      213: 9053733019321858940
+    second: Minifantasy_GuiBars_70
+  - first:
+      213: 4070876090339275086
+    second: Minifantasy_GuiBars_71
+  - first:
+      213: -623320496698047338
+    second: Minifantasy_GuiBars_72
+  - first:
+      213: -1390764725037748311
+    second: Minifantasy_GuiBars_73
+  - first:
+      213: -1525057864515767264
+    second: Minifantasy_GuiBars_74
+  - first:
+      213: -5536748582227714707
+    second: Minifantasy_GuiBars_75
+  - first:
+      213: -8797512880178767041
+    second: Minifantasy_GuiBars_76
+  - first:
+      213: 5123481958347005013
+    second: Minifantasy_GuiBars_77
+  - first:
+      213: -2376250796766719198
+    second: Minifantasy_GuiBars_78
+  - first:
+      213: -2029199837602263442
+    second: Minifantasy_GuiBars_79
+  - first:
+      213: 2068295324173483155
+    second: Minifantasy_GuiBars_80
+  - first:
+      213: -508638890754734408
+    second: Minifantasy_GuiBars_81
+  - first:
+      213: -539714314181023075
+    second: Minifantasy_GuiBars_82
+  - first:
+      213: 4692519865054793304
+    second: Minifantasy_GuiBars_83
+  - first:
+      213: 3846748900976577701
+    second: Minifantasy_GuiBars_84
+  - first:
+      213: 3840340475661381132
+    second: Minifantasy_GuiBars_85
+  - first:
+      213: -5283896919188809602
+    second: Minifantasy_GuiBars_86
+  - first:
+      213: 1003942379686339794
+    second: Minifantasy_GuiBars_87
+  - first:
+      213: -4150826919756763804
+    second: Minifantasy_GuiBars_88
+  - first:
+      213: -2936142299053470586
+    second: Minifantasy_GuiBars_89
+  - first:
+      213: -1611619065384547195
+    second: Minifantasy_GuiBars_90
+  - first:
+      213: 3424969039396482415
+    second: Minifantasy_GuiBars_91
+  - first:
+      213: 2327553838757375043
+    second: Minifantasy_GuiBars_92
+  - first:
+      213: -534085398833493900
+    second: Minifantasy_GuiBars_93
+  - first:
+      213: -7162305046169782717
+    second: Minifantasy_GuiBars_94
+  - first:
+      213: 8409615448893955302
+    second: Minifantasy_GuiBars_95
+  - first:
+      213: -7676715633968100301
+    second: Minifantasy_GuiBars_96
+  - first:
+      213: -1181251506614958313
+    second: Minifantasy_GuiBars_97
+  - first:
+      213: 2019722850334604092
+    second: Minifantasy_GuiBars_98
+  - first:
+      213: 694263023274498040
+    second: Minifantasy_GuiBars_99
+  - first:
+      213: -7532869162760649499
+    second: Minifantasy_GuiBars_100
+  - first:
+      213: 2659979462228632586
+    second: Minifantasy_GuiBars_101
+  - first:
+      213: 8868585755147501839
+    second: Minifantasy_GuiBars_102
+  - first:
+      213: -5166722704983928327
+    second: Minifantasy_GuiBars_103
+  - first:
+      213: 8227877244417343553
+    second: Minifantasy_GuiBars_104
+  - first:
+      213: -7186616727083613840
+    second: Minifantasy_GuiBars_105
+  - first:
+      213: -257924795343185796
+    second: Minifantasy_GuiBars_106
+  - first:
+      213: 8154668176459441234
+    second: Minifantasy_GuiBars_107
+  - first:
+      213: -6693714873791877245
+    second: Minifantasy_GuiBars_108
+  - first:
+      213: -7520436818958015415
+    second: Minifantasy_GuiBars_109
+  - first:
+      213: -1265286846397454236
+    second: Minifantasy_GuiBars_110
+  - first:
+      213: 7835706691625465535
+    second: Minifantasy_GuiBars_111
+  - first:
+      213: -598452561609194777
+    second: Minifantasy_GuiBars_112
+  - first:
+      213: -1758075200468786353
+    second: Minifantasy_GuiBars_113
+  - first:
+      213: 4209332689500370914
+    second: Minifantasy_GuiBars_114
+  - first:
+      213: -6977483283940691131
+    second: Minifantasy_GuiBars_115
+  - first:
+      213: 264570270340363858
+    second: Minifantasy_GuiBars_116
+  - first:
+      213: 1683392874628122157
+    second: Minifantasy_GuiBars_117
+  - first:
+      213: 9028926441348185670
+    second: Minifantasy_GuiBars_118
+  - first:
+      213: -7307537369217207881
+    second: Minifantasy_GuiBars_119
+  - first:
+      213: 7570563327941906832
+    second: Minifantasy_GuiBars_120
+  - first:
+      213: 5377247444100197903
+    second: Minifantasy_GuiBars_121
+  - first:
+      213: 8890830143323812878
+    second: Minifantasy_GuiBars_122
+  - first:
+      213: -7999594810031614277
+    second: Minifantasy_GuiBars_123
+  - first:
+      213: -8909052338817850295
+    second: Minifantasy_GuiBars_124
+  - first:
+      213: 3854428810915304978
+    second: Minifantasy_GuiBars_125
+  - first:
+      213: 149279574613361663
+    second: Minifantasy_GuiBars_126
+  - first:
+      213: 5794048068020047260
+    second: Minifantasy_GuiBars_127
+  - first:
+      213: 5396014137448874435
+    second: Minifantasy_GuiBars_128
+  - first:
+      213: 1219157645039205722
+    second: Minifantasy_GuiBars_129
+  - first:
+      213: -2273043086203736342
+    second: Minifantasy_GuiBars_130
+  - first:
+      213: 3617091382982861056
+    second: Minifantasy_GuiBars_131
+  - first:
+      213: 5925017226940125325
+    second: Minifantasy_GuiBars_132
+  - first:
+      213: 3438711173025305604
+    second: Minifantasy_GuiBars_133
+  - first:
+      213: -8858870332819747734
+    second: Minifantasy_GuiBars_134
+  - first:
+      213: 6640888499999619007
+    second: Minifantasy_GuiBars_135
+  - first:
+      213: 6128154979644720848
+    second: Minifantasy_GuiBars_136
+  - first:
+      213: -2636987888261168353
+    second: Minifantasy_GuiBars_137
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 661
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b1ccd13fd52ab60800000000000000
+      internalID: 7755864807043767182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 567
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0679e8154bf0f9a90800000000000000
+      internalID: -7305102803434825888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 567
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f4def25912000c0800000000000000
+      internalID: -4611649093789462672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 568
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea9231fd681cb530800000000000000
+      internalID: 3871996640108911336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 645
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6b554b798ce18d0800000000000000
+      internalID: -2873638958324664597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 581
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad20b9c29a7d7bf00800000000000000
+      internalID: 1132610952904770266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 629
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962667dd740b68590800000000000000
+      internalID: -7672251092474371479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 565
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a72184bc4727bee0800000000000000
+      internalID: -1245483561545291866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 644
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbb6f6c16649b630800000000000000
+      internalID: 3943260334503410625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 628
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0411df81be6560800000000000000
+      internalID: 7308974476515086153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 612
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f242597edac0a8050800000000000000
+      internalID: 5803465010874491951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 596
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bedf4c8ae903f950800000000000000
+      internalID: 6481535191697317555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 580
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4f40f42b50d4790800000000000000
+      internalID: -7544367537387670283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 564
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fe6fdc9a16bd740800000000000000
+      internalID: 5177839578525396860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 549
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bbfff08ef905e10800000000000000
+      internalID: 2184421638324337449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_36
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 644
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99eea72751b74c70800000000000000
+      internalID: 8955321371935566236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 628
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c285f50bce854c0800000000000000
+      internalID: -4298425602067125247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_38
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 612
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d034017b67c70b10800000000000000
+      internalID: 1947744628132557012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_39
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 596
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d8c9149014ee8e0800000000000000
+      internalID: -1662319704441844476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_40
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 580
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe4fc3f1bfeb03b0800000000000000
+      internalID: -5545074968597934402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_41
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 564
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5d35918e54b9fe0800000000000000
+      internalID: -1181273614094969388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_42
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 549
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0680ca415bb166d50800000000000000
+      internalID: 6730097157701634144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_43
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 550
+        width: 284
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68be3647df74318f0800000000000000
+      internalID: -571033573840917626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_44
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 644
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77b945b439b692c0800000000000000
+      internalID: -4425145947813988483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_45
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 628
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71285f6aa2a0e1f0800000000000000
+      internalID: -1017634662889545348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_46
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 612
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965bf5e508bc19370800000000000000
+      internalID: 8327660938184340841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_47
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 596
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd9efaa2ee7f91c0800000000000000
+      internalID: -4494734391095943740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_48
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 580
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb45bbe23ed0bd50800000000000000
+      internalID: 6751140151712631779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_49
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 564
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50fa01e2d1ff1720800000000000000
+      internalID: 2819237779778236510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_50
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 549
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a605ad6f8e5b4afa0800000000000000
+      internalID: -5790303208713072534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 531
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1990638e2256a0d0800000000000000
+      internalID: -3411949307960452834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_60
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 504
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 3, z: 1, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2b66e9c50c22dd0800000000000000
+      internalID: -2512234138092260654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_61
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 504
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aba550da2783d500800000000000000
+      internalID: 419827808229239712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_62
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 504
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1475248c82e3066a0800000000000000
+      internalID: -6458093520769886399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_63
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 504
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046223cd2b2a117b0800000000000000
+      internalID: -5255240401082505664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_64
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 504
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07e0804b5ed3db0800000000000000
+      internalID: -4810436265569783648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_65
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 504
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3681e03b3360dbe30800000000000000
+      internalID: 4520776420066990179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_67
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 516
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480712c2a326a4d0800000000000000
+      internalID: -3123770109586896823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_68
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 504
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71882f430ff6f0ea0800000000000000
+      internalID: -5904377508988286953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 504
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6540dbb1af53db0800000000000000
+      internalID: -4812665629733267772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_70
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 504
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b77eb563255ad70800000000000000
+      internalID: 9053733019321858940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_71
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 504
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41bd495c38ae7830800000000000000
+      internalID: 4070876090339275086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_72
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 504
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694c71d8f458957f0800000000000000
+      internalID: -623320496698047338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_73
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 504
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af2bf5e9d203bce0800000000000000
+      internalID: -1390764725037748311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_74
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 504
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0243f9bc3f7e5dae0800000000000000
+      internalID: -1525057864515767264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_75
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 504
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d5ba9df748923b0800000000000000
+      internalID: -5536748582227714707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_76
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 504
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b550e85a4f8e580800000000000000
+      internalID: -8797512880178767041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_77
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 504
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c556c12b34a1740800000000000000
+      internalID: 5123481958347005013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_78
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 504
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2231b718d7cd50fd0800000000000000
+      internalID: -2376250796766719198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_79
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 504
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ecf65bf75d6d3e0800000000000000
+      internalID: -2029199837602263442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_82
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 500
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aeb07d0bc8288f0800000000000000
+      internalID: -539714314181023075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_83
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 485
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e0e0a84fd2f1140800000000000000
+      internalID: 4692519865054793304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_86
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 308
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7858fd4fb3dba6b0800000000000000
+      internalID: -5283896919188809602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_87
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 292
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d42a247648beed00800000000000000
+      internalID: 1003942379686339794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 276
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46de4c398ec4566c0800000000000000
+      internalID: -4150826919756763804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_89
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 260
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c4be6a22ab047d0800000000000000
+      internalID: -2936142299053470586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_90
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 244
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cc18eaff062a9e0800000000000000
+      internalID: -1611619065384547195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_91
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 228
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d20ffe13fe78f20800000000000000
+      internalID: 3424969039396482415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_92
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ceaba62e12d4020800000000000000
+      internalID: 2327553838757375043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_93
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4788ec2d82c8698f0800000000000000
+      internalID: -534085398833493900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_96
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 308
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cc4abcdc3d67590800000000000000
+      internalID: -7676715633968100301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_97
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 292
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71702d5630a5b9fe0800000000000000
+      internalID: -1181251506614958313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_98
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 276
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bfeee3b3f770c10800000000000000
+      internalID: 2019722850334604092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_99
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 260
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f717f29a8482a900800000000000000
+      internalID: 694263023274498040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_100
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 244
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e44826486fd57790800000000000000
+      internalID: -7532869162760649499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_101
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 228
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04e8fb4a352ae420800000000000000
+      internalID: 2659979462228632586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_102
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0108aba1cb831b70800000000000000
+      internalID: 8868585755147501839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_103
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1dc74031d1c48b0800000000000000
+      internalID: -5166722704983928327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_105
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 324
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0710d4db922044c90800000000000000
+      internalID: -7186616727083613840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_106
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 308
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78ddc2e3caab6cf0800000000000000
+      internalID: -257924795343185796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_107
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 292
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2542c0f40833b2170800000000000000
+      internalID: 8154668176459441234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_108
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 276
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fe2ef79c52b13a0800000000000000
+      internalID: -6693714873791877245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_109
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 260
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9442d32ee8a02a790800000000000000
+      internalID: -7520436818958015415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_110
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 244
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686185215cc07ee0800000000000000
+      internalID: -1265286846397454236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_111
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 228
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6bc7e78b50ebc60800000000000000
+      internalID: 7835706691625465535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_112
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e28c52e09ed1b7f0800000000000000
+      internalID: -598452561609194777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_113
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4362ab7bef0a97e0800000000000000
+      internalID: -1758075200468786353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_114
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 168
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7fb1377cd8a6a30800000000000000
+      internalID: 4209332689500370914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_115
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 26
+        width: 117
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5433d7aebeffa2f90800000000000000
+      internalID: -6977483283940691131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_116
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 168
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25634c55241fba300800000000000000
+      internalID: 264570270340363858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_117
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 168
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2602a586ec9c5710800000000000000
+      internalID: 1683392874628122157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_118
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 168
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64eb0b7d2c03d4d70800000000000000
+      internalID: 9028926441348185670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_119
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 168
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b17aecca79669a90800000000000000
+      internalID: -7307537369217207881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_120
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 168
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09193977c3b001960800000000000000
+      internalID: 7570563327941906832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_121
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e28fe7f02df9a40800000000000000
+      internalID: 5377247444100197903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_122
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 168
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04b623e8e2926b70800000000000000
+      internalID: 8890830143323812878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_123
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 26
+        width: 117
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6d10967eabbf090800000000000000
+      internalID: -7999594810031614277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_124
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 168
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944266b9910bc5480800000000000000
+      internalID: -8909052338817850295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_125
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 168
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21653a6f49ead7530800000000000000
+      internalID: 3854428810915304978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_126
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 168
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff30d017bf8521200800000000000000
+      internalID: 149279574613361663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_127
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 168
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d8fd90508986050800000000000000
+      internalID: 5794048068020047260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_128
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 168
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c140a9c44e72ea40800000000000000
+      internalID: 5396014137448874435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_129
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d73c53b615be010800000000000000
+      internalID: 1219157645039205722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_130
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 168
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee2baf2b578470e0800000000000000
+      internalID: -2273043086203736342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_131
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 26
+        width: 117
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001e1dad27d723230800000000000000
+      internalID: 3617091382982861056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_132
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 168
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8016db96c3e93250800000000000000
+      internalID: 5925017226940125325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_133
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 168
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4041751c791c8bf20800000000000000
+      internalID: 3438711173025305604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_134
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 168
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c480d5e58fe0580800000000000000
+      internalID: -8858870332819747734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_135
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 168
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb73473e7ec292c50800000000000000
+      internalID: 6640888499999619007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_136
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 168
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6c3425c749b0550800000000000000
+      internalID: 6128154979644720848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_137
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f138f2bac79876bd0800000000000000
+      internalID: -2636987888261168353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiBars_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 530
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 4, z: 5, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb4e4d69a48a2a4cae4b9e33c9c14c2
+      internalID: -4341461525718060902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3d543c9adbff2c94d9ef99459cc2f7d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_GuiBars_0: 7755864807043767182
+      Minifantasy_GuiBars_1: -3411949307960452834
+      Minifantasy_GuiBars_10: -3009342360376587043
+      Minifantasy_GuiBars_100: -7532869162760649499
+      Minifantasy_GuiBars_101: 2659979462228632586
+      Minifantasy_GuiBars_102: 8868585755147501839
+      Minifantasy_GuiBars_103: -5166722704983928327
+      Minifantasy_GuiBars_104: 8227877244417343553
+      Minifantasy_GuiBars_105: -7186616727083613840
+      Minifantasy_GuiBars_106: -257924795343185796
+      Minifantasy_GuiBars_107: 8154668176459441234
+      Minifantasy_GuiBars_108: -6693714873791877245
+      Minifantasy_GuiBars_109: -7520436818958015415
+      Minifantasy_GuiBars_11: 9123067376988341977
+      Minifantasy_GuiBars_110: -1265286846397454236
+      Minifantasy_GuiBars_111: 7835706691625465535
+      Minifantasy_GuiBars_112: -598452561609194777
+      Minifantasy_GuiBars_113: -1758075200468786353
+      Minifantasy_GuiBars_114: 4209332689500370914
+      Minifantasy_GuiBars_115: -6977483283940691131
+      Minifantasy_GuiBars_116: 264570270340363858
+      Minifantasy_GuiBars_117: 1683392874628122157
+      Minifantasy_GuiBars_118: 9028926441348185670
+      Minifantasy_GuiBars_119: -7307537369217207881
+      Minifantasy_GuiBars_12: -3916031312763274169
+      Minifantasy_GuiBars_120: 7570563327941906832
+      Minifantasy_GuiBars_121: 5377247444100197903
+      Minifantasy_GuiBars_122: 8890830143323812878
+      Minifantasy_GuiBars_123: -7999594810031614277
+      Minifantasy_GuiBars_124: -8909052338817850295
+      Minifantasy_GuiBars_125: 3854428810915304978
+      Minifantasy_GuiBars_126: 149279574613361663
+      Minifantasy_GuiBars_127: 5794048068020047260
+      Minifantasy_GuiBars_128: 5396014137448874435
+      Minifantasy_GuiBars_129: 1219157645039205722
+      Minifantasy_GuiBars_13: -9189274816101669121
+      Minifantasy_GuiBars_130: -2273043086203736342
+      Minifantasy_GuiBars_131: 3617091382982861056
+      Minifantasy_GuiBars_132: 5925017226940125325
+      Minifantasy_GuiBars_133: 3438711173025305604
+      Minifantasy_GuiBars_134: -8858870332819747734
+      Minifantasy_GuiBars_135: 6640888499999619007
+      Minifantasy_GuiBars_136: 6128154979644720848
+      Minifantasy_GuiBars_137: -2636987888261168353
+      Minifantasy_GuiBars_138: 1971132609
+      Minifantasy_GuiBars_139: -923165044
+      Minifantasy_GuiBars_14: -4258857819511447248
+      Minifantasy_GuiBars_15: -7305102803434825888
+      Minifantasy_GuiBars_16: 3138219583583929980
+      Minifantasy_GuiBars_17: -4611649093789462672
+      Minifantasy_GuiBars_18: 8353711685463392518
+      Minifantasy_GuiBars_19: 3871996640108911336
+      Minifantasy_GuiBars_2: -4341461525718060902
+      Minifantasy_GuiBars_20: -2962258326651543611
+      Minifantasy_GuiBars_21: 5091722202337104213
+      Minifantasy_GuiBars_22: -2873638958324664597
+      Minifantasy_GuiBars_23: 7850803979900612683
+      Minifantasy_GuiBars_24: 1132610952904770266
+      Minifantasy_GuiBars_25: -7672251092474371479
+      Minifantasy_GuiBars_26: -1245483561545291866
+      Minifantasy_GuiBars_27: 5868851674094284738
+      Minifantasy_GuiBars_28: 3943260334503410625
+      Minifantasy_GuiBars_29: 7308974476515086153
+      Minifantasy_GuiBars_3: 5237449095034144784
+      Minifantasy_GuiBars_30: 5803465010874491951
+      Minifantasy_GuiBars_31: 6481535191697317555
+      Minifantasy_GuiBars_32: -7544367537387670283
+      Minifantasy_GuiBars_33: 5177839578525396860
+      Minifantasy_GuiBars_34: 2184421638324337449
+      Minifantasy_GuiBars_35: 219859290644691303
+      Minifantasy_GuiBars_36: 8955321371935566236
+      Minifantasy_GuiBars_37: -4298425602067125247
+      Minifantasy_GuiBars_38: 1947744628132557012
+      Minifantasy_GuiBars_39: -1662319704441844476
+      Minifantasy_GuiBars_4: -633503503770293537
+      Minifantasy_GuiBars_40: -5545074968597934402
+      Minifantasy_GuiBars_41: -1181273614094969388
+      Minifantasy_GuiBars_42: 6730097157701634144
+      Minifantasy_GuiBars_43: -571033573840917626
+      Minifantasy_GuiBars_44: -4425145947813988483
+      Minifantasy_GuiBars_45: -1017634662889545348
+      Minifantasy_GuiBars_46: 8327660938184340841
+      Minifantasy_GuiBars_47: -4494734391095943740
+      Minifantasy_GuiBars_48: 6751140151712631779
+      Minifantasy_GuiBars_49: 2819237779778236510
+      Minifantasy_GuiBars_5: -3529608117634441021
+      Minifantasy_GuiBars_50: -5790303208713072534
+      Minifantasy_GuiBars_51: -8147586757644297404
+      Minifantasy_GuiBars_52: -4769994563987491200
+      Minifantasy_GuiBars_53: 624711695413480744
+      Minifantasy_GuiBars_54: -2723752680158377470
+      Minifantasy_GuiBars_56: -7569710883612639088
+      Minifantasy_GuiBars_57: -7891484536576955290
+      Minifantasy_GuiBars_58: 3180895675189964337
+      Minifantasy_GuiBars_59: -8352572733673791641
+      Minifantasy_GuiBars_6: 2026391087204530973
+      Minifantasy_GuiBars_60: -2512234138092260654
+      Minifantasy_GuiBars_61: 419827808229239712
+      Minifantasy_GuiBars_62: -6458093520769886399
+      Minifantasy_GuiBars_63: -5255240401082505664
+      Minifantasy_GuiBars_64: -4810436265569783648
+      Minifantasy_GuiBars_65: 4520776420066990179
+      Minifantasy_GuiBars_66: 7035162079214210390
+      Minifantasy_GuiBars_67: -3123770109586896823
+      Minifantasy_GuiBars_68: -5904377508988286953
+      Minifantasy_GuiBars_69: -4812665629733267772
+      Minifantasy_GuiBars_7: -4855748827117204066
+      Minifantasy_GuiBars_70: 9053733019321858940
+      Minifantasy_GuiBars_71: 4070876090339275086
+      Minifantasy_GuiBars_72: -623320496698047338
+      Minifantasy_GuiBars_73: -1390764725037748311
+      Minifantasy_GuiBars_74: -1525057864515767264
+      Minifantasy_GuiBars_75: -5536748582227714707
+      Minifantasy_GuiBars_76: -8797512880178767041
+      Minifantasy_GuiBars_77: 5123481958347005013
+      Minifantasy_GuiBars_78: -2376250796766719198
+      Minifantasy_GuiBars_79: -2029199837602263442
+      Minifantasy_GuiBars_8: 7780360785949143015
+      Minifantasy_GuiBars_80: 2068295324173483155
+      Minifantasy_GuiBars_81: -508638890754734408
+      Minifantasy_GuiBars_82: -539714314181023075
+      Minifantasy_GuiBars_83: 4692519865054793304
+      Minifantasy_GuiBars_84: 3846748900976577701
+      Minifantasy_GuiBars_85: 3840340475661381132
+      Minifantasy_GuiBars_86: -5283896919188809602
+      Minifantasy_GuiBars_87: 1003942379686339794
+      Minifantasy_GuiBars_88: -4150826919756763804
+      Minifantasy_GuiBars_89: -2936142299053470586
+      Minifantasy_GuiBars_9: 5117919871179948114
+      Minifantasy_GuiBars_90: -1611619065384547195
+      Minifantasy_GuiBars_91: 3424969039396482415
+      Minifantasy_GuiBars_92: 2327553838757375043
+      Minifantasy_GuiBars_93: -534085398833493900
+      Minifantasy_GuiBars_94: -7162305046169782717
+      Minifantasy_GuiBars_95: 8409615448893955302
+      Minifantasy_GuiBars_96: -7676715633968100301
+      Minifantasy_GuiBars_97: -1181251506614958313
+      Minifantasy_GuiBars_98: 2019722850334604092
+      Minifantasy_GuiBars_99: 694263023274498040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

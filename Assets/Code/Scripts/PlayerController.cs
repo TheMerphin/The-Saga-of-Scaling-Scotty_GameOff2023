@@ -1,16 +1,14 @@
+using Cinemachine;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 using static Toolbox;
-using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
     public float movementSpeedFactor = 1f;
     private Rigidbody2D rb;
+    private Collider2D playerCollider;
 
     private Animator animator;
     private AnimatorOverrideController animatorOverrideController;
@@ -22,13 +20,19 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
+    private GameManager gameManager;
 
     private float interactCooldown;
 
     private PlayerScalingInfo scalingLevelInfo;
     public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
 
+    public int maxHealth = 5;
+    public int currentHealth;
+
     private float scaleCooldown;
+
+    private bool disableInputs = false;
 
     /**
      * Contains four items with the following mapping:
@@ -54,6 +58,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
 
         animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
@@ -64,9 +69,11 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
-
+        gameMenuController.SetMaxHealth(maxHealth);
+        currentHealth = maxHealth;
         SetSelectedSlot(0);
     }
 
@@ -79,14 +86,16 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
-        var circleCast = Physics2D.CircleCastAll(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
+        if (disableInputs) return;
 
-        Array.ForEach(circleCast, interactable =>
+        var interactable = Physics2D.CircleCast(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
+        if (interactable.collider != null)
         {
             var item = interactable.collider.GetComponent<Item>();
             var door = interactable.collider.GetComponent<DoorController>();
             var chest = interactable.collider.GetComponent<ChestController>();
             var prompter = interactable.collider.GetComponent<ObjectPrompter>();
+
             if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null)
             {
                 interactCooldown = 1f;
@@ -132,6 +141,13 @@ public class PlayerController : MonoBehaviour
             {
                 prompter.ShowPrompt(true);
             }
+        }
+
+        var trapCast = Physics2D.CircleCastAll(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Trap"));
+        Array.ForEach(trapCast, trap =>
+        {
+            var trapController = trap.collider.GetComponent<Trap>();
+            if (trapController != null) trapController.TriggerTrap(this);
         });
     }
 
@@ -150,6 +166,8 @@ public class PlayerController : MonoBehaviour
 
     private void HandleInput()
     {
+        if (disableInputs) return;
+
         HandleMovement();
         HandleActions();
     }
@@ -209,6 +227,9 @@ public class PlayerController : MonoBehaviour
             else if (items[selectedSlot] is Consumable)
             {
                 (items[selectedSlot] as Consumable).Consume();
+                audioManager.Play("Chug");
+                items[3] = null;
+                gameMenuController.SetInventorySlot(null, 3);
             }
         }
 
@@ -217,18 +238,18 @@ public class PlayerController : MonoBehaviour
             audioManager.Play("OnCooldown");
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel < 1)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && scaleCooldown <= 0f && (int)scalingLevelInfo.ScaleLevel < 1)
         {
             ScalePlayerUp();
             scaleCooldown = 4f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftControl) && scaleCooldown <= 0f && (int) scalingLevelInfo.ScaleLevel > -1)
+        if (Input.GetKeyDown(KeyCode.LeftControl) && scaleCooldown <= 0f && (int)scalingLevelInfo.ScaleLevel > -1)
         {
             ScalePlayerDown();
             scaleCooldown = 4f;
         }
-        
+
         float mouseScroll = Input.GetAxis("Mouse ScrollWheel");
         if (mouseScroll < 0f && selectedSlot < 3)
         {
@@ -257,6 +278,8 @@ public class PlayerController : MonoBehaviour
 
         if (interactCooldown > 0f) interactCooldown -= 0.01f;
         if (scaleCooldown > 0f) scaleCooldown -= 0.01f;
+
+        horizontalMovement = verticalMovement = 0f;
     }
 
     private void SetSelectedSlot(int slot)
@@ -319,18 +342,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (item is Consumable)
         {
-            var consumable = (Consumable)item;
             slot = 3;
 
-            if (items[slot] != null && items[slot].GetType().Equals(consumable.GetType()))
-            {
-                (items[slot] as Consumable).Count++;
-            }
-            else
-            {
-                previousItem = items[slot];
-                items[slot] = consumable;
-            }
+            previousItem = items[slot];
+            items[slot] = (Consumable)item;
+
         }
         else if (item is Key)
         {
@@ -391,7 +407,7 @@ public class PlayerController : MonoBehaviour
         var totalDuration = 1f;
         var ticks = 20f;
 
-        if ((int) scalingLevelInfo.ScaleLevel < (int) targetScalingInfo.ScaleLevel)
+        if ((int)scalingLevelInfo.ScaleLevel < (int)targetScalingInfo.ScaleLevel)
         {
             audioManager.Play("Inflate");
         }
@@ -417,7 +433,7 @@ public class PlayerController : MonoBehaviour
         Array.ForEach(items, item => { if (item != null) item.OnPlayerScaleChange(scalingLevelInfo); });
 
         var weapon = items[selectedSlot] as Weapon;
-        if(weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
+        if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
 
     private void UpdatePlayerScaling()
@@ -428,5 +444,86 @@ public class PlayerController : MonoBehaviour
         var weapon = items[selectedSlot] as Weapon;
         if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
+    public void FallOffGround(Vector2 respawnPosition)
+    {
+        FallOffGround(respawnPosition, 0);
+    }
 
+    public void FallOffGround(Vector2 respawnPosition, float initialDelay)
+    {
+        disableInputs = true;
+        StartCoroutine(FallOffGround_Coroutine(respawnPosition, initialDelay));
+    }
+
+    private IEnumerator FallOffGround_Coroutine(Vector2 respawnPosition, float initialDelay)
+    {
+        rb.velocity = Vector2.zero;
+        yield return new WaitForSeconds(initialDelay);
+
+        playerCollider.enabled = false;
+        var startingPosY = transform.position.y;
+        var originalDrag = rb.drag;
+        var spriteRenderer = GetComponent<SpriteRenderer>();
+        var cinemachineCamera = FindFirstObjectByType<CinemachineVirtualCamera>();
+        cinemachineCamera.Follow = null;
+
+        rb.gravityScale = 0.7f;
+        rb.drag = 0f;
+        rb.velocityY = -1f;
+
+        audioManager.Play("PlayerFalling");
+
+        while (startingPosY - 5 < transform.position.y)
+        {
+            if (Mathf.Abs(transform.position.y - (int)transform.position.y) >= 0.875f && spriteRenderer.sortingLayerName.Equals("1_OnGround"))
+            {
+                spriteRenderer.sortingLayerName = "-1_BelowGround";
+                spriteRenderer.sortingOrder = 1;
+            }
+            yield return new WaitForEndOfFrame();
+        }
+        rb.gravityScale = 0f;
+        rb.drag = originalDrag;
+
+        // Respawn
+        yield return new WaitForSeconds(1f);
+        if (currentHealth > 0)
+        {
+            cinemachineCamera.Follow = transform;
+
+            transform.position = respawnPosition;
+            playerCollider.enabled = true;
+
+            spriteRenderer.sortingLayerName = "1_OnGround";
+            spriteRenderer.sortingOrder = 0;
+      
+            disableInputs = false;
+        }
+    }
+
+
+    /*
+     * positive for heal 
+     * negative for damage
+    */
+    public void updateHealth(int newHealth)
+    {
+        if (currentHealth + newHealth <= 0)
+        {
+            currentHealth = 0;
+            disableInputs = true;
+            gameManager.GameOver();
+            
+        }
+        else if (currentHealth + newHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
+
+        }
+        else
+        {
+            currentHealth = currentHealth + newHealth;
+        }
+        gameMenuController.SetHealth(currentHealth);
+    }
 }

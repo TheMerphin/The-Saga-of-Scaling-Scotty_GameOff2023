@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 using Unity.VisualScripting;
@@ -19,9 +17,11 @@ public class EnemyController : MonoBehaviour
         Minotaur
     }
 
+
     //new monster
     public GameObject objectToSpawn;
     public GameObject keyToSpawn;
+
 
     private AIPath aiPath;
     private Transform target;
@@ -160,7 +160,6 @@ public class EnemyController : MonoBehaviour
 
 
 
-
     private void EnemyAnimation()
     {
         if (dead)
@@ -260,7 +259,7 @@ public class EnemyController : MonoBehaviour
 
             if (monsterType.Equals(MonsterType.MotherSlime)) 
             {
-                //könnte auch immer wieder slimes beschwören nicht erst beim tod
+                //kï¿½nnte auch immer wieder slimes beschwï¿½ren nicht erst beim tod
                 SpawnNewMonsters();
                 SpawnNewMonsters();
             }

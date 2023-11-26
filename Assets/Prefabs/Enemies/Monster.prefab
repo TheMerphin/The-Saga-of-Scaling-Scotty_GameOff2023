@@ -118,7 +118,7 @@ AudioSource:
   m_GameObject: {fileID: 7011653192300353251}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
@@ -402,8 +402,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
   objectToSpawn: {fileID: 0}
   monsterType: 5
+
+  soundVolume: 1
+  monsterType: 0
+
   movementSpeed: 1
   detectionRange: 6
   health: 1
