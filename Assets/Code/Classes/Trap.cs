@@ -66,7 +66,10 @@ public abstract class Trap : MonoBehaviour
         audioManager.Play(trapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
 
-        if(player != null) print(trapName + " was activated. Applying " + damage + " Damage to " + player.name);
+        if (player != null)
+        {
+            player.updateHealth((int)-damage); 
+        }
 
         triggerAreaCollider.enabled = false;
         this.enabled = false;

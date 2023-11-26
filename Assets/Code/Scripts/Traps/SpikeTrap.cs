@@ -22,7 +22,7 @@ public class SpikeTrap : Trap
 
         if (boxCast.collider != null && boxCast.collider.GetComponent<PlayerController>() != null)
         {
-            //player.GetDamage();
+            player.updateHealth((int)-Damage);
             print(TrapName + " was activated. Applying " + Damage + " Damage to " + player.name);
         }
 

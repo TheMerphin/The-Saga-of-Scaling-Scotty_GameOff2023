@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject menuContainer;
-
+    bool gameHasEnded;
     AudioManager audioManager;
-
+    public GameObject gameOverScreen;
     void Awake()
     {
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -62,6 +62,18 @@ public class GameManager : MonoBehaviour
         audioManager.Play("Swoosh");
         GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("FadeOut");
         yield return new WaitForSeconds(0.5f);
+    }
+
+    public void GameOver()
+    {
+        if(!gameHasEnded)
+        {
+            gameHasEnded = true;
+            gameOverScreen.SetActive(true);
+            audioManager.Play("LoseLaugh");
+            Invoke("OnExitClicked", 8f);
+        }
+        
     }
 
     public void OnExitClicked()

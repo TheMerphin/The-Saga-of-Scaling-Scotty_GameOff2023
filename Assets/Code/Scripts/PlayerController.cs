@@ -20,11 +20,15 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
+    private GameManager gameManager;
 
     private float interactCooldown;
 
     private PlayerScalingInfo scalingLevelInfo;
     public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
+
+    public int maxHealth = 5;
+    public int currentHealth;
 
     private float scaleCooldown;
 
@@ -65,9 +69,11 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
-
+        gameMenuController.SetMaxHealth(maxHealth);
+        currentHealth = maxHealth;
         SetSelectedSlot(0);
     }
 
@@ -221,6 +227,9 @@ public class PlayerController : MonoBehaviour
             else if (items[selectedSlot] is Consumable)
             {
                 (items[selectedSlot] as Consumable).Consume();
+                audioManager.Play("Chug");
+                items[3] = null;
+                gameMenuController.SetInventorySlot(null, 3);
             }
         }
 
@@ -333,18 +342,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (item is Consumable)
         {
-            var consumable = (Consumable)item;
             slot = 3;
 
-            if (items[slot] != null && items[slot].GetType().Equals(consumable.GetType()))
-            {
-                (items[slot] as Consumable).Count++;
-            }
-            else
-            {
-                previousItem = items[slot];
-                items[slot] = consumable;
-            }
+            previousItem = items[slot];
+            items[slot] = (Consumable)item;
+
         }
         else if (item is Key)
         {
@@ -480,23 +482,48 @@ public class PlayerController : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
-
         rb.gravityScale = 0f;
         rb.drag = originalDrag;
 
         // Respawn
         yield return new WaitForSeconds(1f);
+        if (currentHealth > 0)
+        {
+            cinemachineCamera.Follow = transform;
 
-        cinemachineCamera.Follow = transform;
+            transform.position = respawnPosition;
+            playerCollider.enabled = true;
 
-        transform.position = respawnPosition;
-        playerCollider.enabled = true;
+            spriteRenderer.sortingLayerName = "1_OnGround";
+            spriteRenderer.sortingOrder = 0;
+      
+            disableInputs = false;
+        }
+    }
 
-        spriteRenderer.sortingLayerName = "1_OnGround";
-        spriteRenderer.sortingOrder = 0;
 
-        // lose health
+    /*
+     * positive for heal 
+     * negative for damage
+    */
+    public void updateHealth(int newHealth)
+    {
+        if (currentHealth + newHealth <= 0)
+        {
+            currentHealth = 0;
+            disableInputs = true;
+            gameManager.GameOver();
+            
+        }
+        else if (currentHealth + newHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
 
-        disableInputs = false;
+        }
+        else
+        {
+            currentHealth = currentHealth + newHealth;
+        }
+        gameMenuController.SetHealth(currentHealth);
     }
 }
