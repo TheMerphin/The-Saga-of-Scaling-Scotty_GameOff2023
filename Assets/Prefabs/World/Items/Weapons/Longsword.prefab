@@ -9,13 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7489760637804032663}
-  - component: {fileID: 3508123087469910764}
+  - component: {fileID: 6821461098888196775}
   - component: {fileID: 1774876079990947437}
   - component: {fileID: 6200738760602397147}
   - component: {fileID: 6270298661969501746}
   - component: {fileID: 2557758384063928062}
   m_Layer: 10
-  m_Name: Axe
+  m_Name: Longsword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 5445533177857711032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3508123087469910764
+--- !u!114 &6821461098888196775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,23 +47,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4818266114581667192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841f4f1b88646f14cac0e8e73735a00d, type: 3}
+  m_Script: {fileID: 11500000, guid: c93ad36de0c87be4082a91481b416ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 1969185590929313799, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
-  itemName: Axe
-  description: A meager weapon, its short blade and feeble strikes mark it as the
-    weakest choice in your arsenal, suitable only for those facing dire circumstances
-    with no better options
+  icon: {fileID: -7375459094207900620, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
+  itemName: Longsword
+  description: A versatile blade, striking a balance between speed and power, making
+    it an ideal choice for those seeking a reliable weapon with a graceful and lethal
+    finesse.
   tierClass: 0
   canBePickedUp: 1
   weaponType: 0
-  damage: 1
-  attackSpeedMultiplier: 1.2
+  damage: 6.5
+  attackSpeedMultiplier: 0.7
   attackSound:
-    name: MeleeAttack_Dagger
-    clip: {fileID: 8300000, guid: 1ff820811c8522a40bf500c3a52ad922, type: 3}
-    volume: 0.75
+    name: LongswordAttack
+    clip: {fileID: 8300000, guid: 4490b69481d012341a91a89eef8913b4, type: 3}
+    volume: 1
     volumeVariance: 0.1
     pitch: 1.7
     pitchVariance: 0.1
@@ -71,12 +71,12 @@ MonoBehaviour:
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   attackAnimations:
-  - {fileID: 7400000, guid: be752e5fe6a42e64bafc5fef7df1b7e8, type: 2}
-  - {fileID: 7400000, guid: 3b16c5d13960cdd498d5ceec3d7ee8c6, type: 2}
-  - {fileID: 7400000, guid: 64ee8c0506cc4d54c802a34137ebfe3f, type: 2}
-  - {fileID: 7400000, guid: 1d273f1ba2fa421489ad7646316a487e, type: 2}
-  attackBoxSize: {x: 1, y: 1}
-  attackOffset: {x: 0.5, y: 0.5}
+  - {fileID: 7400000, guid: 9d30a373c7f7dbf40801df3c9c46360f, type: 2}
+  - {fileID: 7400000, guid: f1159bb2a2e417343ba482a3560c325e, type: 2}
+  - {fileID: 7400000, guid: defeb9f3a55bc184a947ffa343591869, type: 2}
+  - {fileID: 7400000, guid: 7e7ca49919168814295b8f8de5afb897, type: 2}
+  attackBoxSize: {x: 1.5, y: 1.5}
+  attackOffset: {x: 0.75, y: 0.75}
 --- !u!212 &1774876079990947437
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ SpriteRenderer:
   m_SortingLayerID: -2011121071
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1969185590929313799, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
+  m_Sprite: {fileID: -7375459094207900620, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

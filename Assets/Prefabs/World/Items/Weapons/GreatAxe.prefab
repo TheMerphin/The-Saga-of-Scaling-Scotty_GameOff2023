@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7489760637804032663}
-  - component: {fileID: 3508123087469910764}
+  - component: {fileID: -1628569958390519892}
   - component: {fileID: 1774876079990947437}
   - component: {fileID: 6200738760602397147}
   - component: {fileID: 6270298661969501746}
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 5445533177857711032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3508123087469910764
+--- !u!114 &-1628569958390519892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,23 +47,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 4818266114581667192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841f4f1b88646f14cac0e8e73735a00d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dafb17006adc7546bb585d223c85a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 6556423590491304310, guid: e9b54abadbf521c44b94ceb10413d9f1, type: 3}
-  itemName: GreatAxe
-  description: A meager weapon, its short blade and feeble strikes mark it as the
-    weakest choice in your arsenal, suitable only for those facing dire circumstances
-    with no better options
+  itemName: Greataxe
+  description: A colossal powerhouse, delivering devastating blows with uncompromising
+    force on the battlefield.
   tierClass: 0
   canBePickedUp: 1
   weaponType: 0
-  damage: 1
-  attackSpeedMultiplier: 1.2
+  damage: 7
+  attackSpeedMultiplier: 0.6
   attackSound:
-    name: MeleeAttack_Dagger
-    clip: {fileID: 8300000, guid: 1ff820811c8522a40bf500c3a52ad922, type: 3}
-    volume: 0.75
+    name: GreatAxeAttack
+    clip: {fileID: 8300000, guid: a47aaf075514f634193a471289850da3, type: 3}
+    volume: 1
     volumeVariance: 0.1
     pitch: 1.7
     pitchVariance: 0.1
@@ -71,12 +70,12 @@ MonoBehaviour:
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   attackAnimations:
-  - {fileID: 7400000, guid: be752e5fe6a42e64bafc5fef7df1b7e8, type: 2}
-  - {fileID: 7400000, guid: 3b16c5d13960cdd498d5ceec3d7ee8c6, type: 2}
-  - {fileID: 7400000, guid: 64ee8c0506cc4d54c802a34137ebfe3f, type: 2}
-  - {fileID: 7400000, guid: 1d273f1ba2fa421489ad7646316a487e, type: 2}
-  attackBoxSize: {x: 1, y: 1}
-  attackOffset: {x: 0.5, y: 0.5}
+  - {fileID: 7400000, guid: 02737ed81d0a77643a83ff8a29fce800, type: 2}
+  - {fileID: 7400000, guid: d8a98b11da5920d4188696e0ce797f30, type: 2}
+  - {fileID: 7400000, guid: e012dc6537d95984eb76ba70264488cc, type: 2}
+  - {fileID: 7400000, guid: 6112877f9801f0f4e9314ac5316b35ee, type: 2}
+  attackBoxSize: {x: 1.4, y: 1.4}
+  attackOffset: {x: 0.7, y: 0.7}
 --- !u!212 &1774876079990947437
 SpriteRenderer:
   m_ObjectHideFlags: 0
