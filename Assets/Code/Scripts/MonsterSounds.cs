@@ -114,21 +114,26 @@ public class MonsterSounds : MonoBehaviour
     //Slime
     public void playSlimeStep()
     {
+        MonsterAudioSource.pitch = 1f;
         MonsterAudioSource.PlayOneShot(SlimeStep);
     }
 
     public void playSlimeAttack()
     {
+        MonsterAudioSource.pitch = 1f;
         MonsterAudioSource.PlayOneShot(SlimeAttack);
     }
 
     public void playSlimeHurt()
     {
-        MonsterAudioSource.PlayOneShot(SlimeHurt);
+        MonsterAudioSource.pitch = 2f;
+        MonsterAudioSource.PlayOneShot(SlimeDeath);
+        
     }
 
     public void playSlimeDeath()
     {
+        MonsterAudioSource.pitch = 1f;
         MonsterAudioSource.PlayOneShot(SlimeDeath);
     }
 
