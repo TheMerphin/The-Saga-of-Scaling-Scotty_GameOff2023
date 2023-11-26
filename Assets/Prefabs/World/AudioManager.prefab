@@ -158,3 +158,30 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: Chug
+    clip: {fileID: 8300000, guid: 34db9aba345359d4eb5e06e30d4b637a, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 0.9
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: StartLaugh
+    clip: {fileID: 8300000, guid: b9ad16c8fdaba2c48b5330a5d89aadbf, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 0.9
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: LoseLaugh
+    clip: {fileID: 8300000, guid: da3d725a4acc526428010024dc53579f, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 0.9
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
