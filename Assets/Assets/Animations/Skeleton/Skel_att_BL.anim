@@ -83,7 +83,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.25
-    functionName: playSkeletonAttack
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.25
+    functionName: hitPLayer
     data: 
     objectReferenceParameter: {fileID: 7781424995959787776, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
     floatParameter: 0

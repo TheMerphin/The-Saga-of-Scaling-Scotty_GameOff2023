@@ -76,6 +76,7 @@ public class EnemyController : MonoBehaviour
                 animator.runtimeAnimatorController = skeletonAnimator;
                 monsterSprite.sprite = skeletonSprite;
                 health = 4;
+                damage = 1;
                 break;
 
             case MonsterType.Wolf:
@@ -83,28 +84,29 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = wolfSprite;
                 movementSpeed = 2f;
                 health = 5;
-                //ToDO more speed, less health
+                damage = 1;
                 break;
 
             case MonsterType.Troll:
                 animator.runtimeAnimatorController = trollAnimator;
                 monsterSprite.sprite = trollSprite;
                 movementSpeed = 0.5f;
-                health = 10; 
-                //TodDo less speed, more health?, BIGGER!
+                health = 10;
+                damage = 3;
                 break;
 
             case MonsterType.MotherSlime:
                 animator.runtimeAnimatorController = blueMotherSlimeAnimator;
                 monsterSprite.sprite = blueMotherSlimeSprite;
-                health = 15; //test 15 sonst 25?
-                //movementSpeed =?; 
+                health = 15;
+                damage = 3; 
                 break;
 
             case MonsterType.BlueBigSlime:
                 animator.runtimeAnimatorController = blueBigSlimeAnimator;
                 monsterSprite.sprite = blueBigSlimeSprite;
                 health = 10;
+                damage = 2;
                 break;
 
             case MonsterType.BlueSmallSlime:
@@ -112,6 +114,7 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = blueSmallSlimeSprite;
                 movementSpeed = 3f;
                 health = 3;
+                damage = 1;
                 break;
 
             case MonsterType.Goblin:
