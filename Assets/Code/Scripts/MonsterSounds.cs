@@ -28,6 +28,12 @@ public class MonsterSounds : MonoBehaviour
     public AudioClip SlimeAttack;
     public AudioClip SlimeDeath;
 
+    //Minotaur Sounds
+    public AudioClip MinotaurStep;
+    public AudioClip MinotaurHurt;
+    public AudioClip MinotaurAttack;
+    public AudioClip MinotaurDeath;
+
     private AudioSource MonsterAudioSource;
     public void setAudioSource(AudioSource audioSource)
     {
@@ -128,7 +134,7 @@ public class MonsterSounds : MonoBehaviour
     {
         MonsterAudioSource.pitch = 2f;
         MonsterAudioSource.PlayOneShot(SlimeDeath);
-        
+
     }
 
     public void playSlimeDeath()
@@ -142,4 +148,27 @@ public class MonsterSounds : MonoBehaviour
         EnemyController enemyController = GetComponentInParent<EnemyController>();
         enemyController.hitPLayer();
     }
+
+    //Minotaur
+    public void playMinoStep()
+    {
+        MonsterAudioSource.PlayOneShot(MinotaurStep);
+    }
+
+    public void playMinoAttack()
+    {
+        MonsterAudioSource.PlayOneShot(MinotaurAttack);
+    }
+
+    public void playMinoHurt()
+    {
+        MonsterAudioSource.PlayOneShot(MinotaurHurt);
+    }
+
+    public void playMinoDeath()
+    {
+        MonsterAudioSource.PlayOneShot(MinotaurDeath);
+    }
+
+
 }

@@ -15,7 +15,8 @@ public class EnemyController : MonoBehaviour
         Troll,
         MotherSlime,
         BlueBigSlime,
-        BlueSmallSlime
+        BlueSmallSlime,
+        Minotaur
     }
 
     //new monster
@@ -54,6 +55,8 @@ public class EnemyController : MonoBehaviour
     public Sprite blueBigSlimeSprite;
     public RuntimeAnimatorController blueSmallSlimeAnimator;
     public Sprite blueSmallSlimeSprite;
+    public RuntimeAnimatorController minotaurAnimator;
+    public Sprite minotaurSprite;
     void Awake()
     {
 
@@ -115,6 +118,14 @@ public class EnemyController : MonoBehaviour
                 movementSpeed = 3f;
                 health = 3;
                 damage = 1;
+                break;
+
+            case MonsterType.Minotaur:
+                animator.runtimeAnimatorController = minotaurAnimator;
+                monsterSprite.sprite = minotaurSprite;
+                movementSpeed = 0.8f;
+                health = 20;
+                damage = 5;
                 break;
 
             case MonsterType.Goblin:
@@ -188,7 +199,6 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("idle", false);
             aiPath.canMove = true;
             aiPath.enabled = true;
-
             animator.SetBool("moving", true);
         }
 
@@ -255,11 +265,9 @@ public class EnemyController : MonoBehaviour
             }
             if (monsterType.Equals(MonsterType.BlueBigSlime))
             {
-                //spawn two smaller slimes
                 SpawnNewMonsters();
                 SpawnNewMonsters();
             }
-            //else if((monsterType.Equals(MonsterType.GreenBigSlime))
         }
         else
         {
