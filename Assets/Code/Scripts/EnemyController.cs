@@ -21,6 +21,7 @@ public class EnemyController : MonoBehaviour
 
     //new monster
     public GameObject objectToSpawn;
+    public GameObject keyToSpawn;
 
     private AIPath aiPath;
     private Transform target;
