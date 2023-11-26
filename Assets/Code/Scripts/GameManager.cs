@@ -66,19 +66,14 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        if(gameHasEnded==false)
+        if(!gameHasEnded)
         {
             gameHasEnded = true;
             gameOverScreen.SetActive(true);
             audioManager.Play("LoseLaugh");
-            Invoke("ToMenu", 8f);
+            Invoke("OnExitClicked", 8f);
         }
         
-    }
-
-    void ToMenu()
-    {
-        SceneManager.LoadScene("MenuScene");
     }
 
     public void OnExitClicked()
