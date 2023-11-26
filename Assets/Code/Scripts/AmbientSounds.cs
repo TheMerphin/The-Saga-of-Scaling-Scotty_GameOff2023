@@ -37,6 +37,6 @@ public class AmbientSound : MonoBehaviour
     private void setAudioSourceRandomDirection()
     {
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
-        transform.position = randomDirection * MaxAudioSourceRadius;
+        transform.localPosition = randomDirection * MaxAudioSourceRadius;
     }
 }

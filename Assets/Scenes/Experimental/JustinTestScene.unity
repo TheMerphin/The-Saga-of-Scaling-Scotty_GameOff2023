@@ -168,96 +168,96 @@ MonoBehaviour:
   AmbientSounds:
   - name: AS1
     clip: {fileID: 8300000, guid: 653545c6c4e4ca84088fbef3c38867f7, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS2
     clip: {fileID: 8300000, guid: 6f602fdf90b61a648806f866487f98d3, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS3
     clip: {fileID: 8300000, guid: 9975a5f72080ae544b683cb5bb6173f5, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS4
     clip: {fileID: 8300000, guid: 4f2341d4ce6cb24429beb75390fd2af4, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS5
     clip: {fileID: 8300000, guid: 732e54ba5a1a0c74cbbdca26db4b1753, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS6
     clip: {fileID: 8300000, guid: f86eb3ce7d1593a4d98f1637ec58738c, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS7
     clip: {fileID: 8300000, guid: eab57509960dbeb459ebd9cf29e31918, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS8
     clip: {fileID: 8300000, guid: 846827f67d5fc8a4fb5bd67488159fb3, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS9
     clip: {fileID: 8300000, guid: f5aa766751d64c94b832bb0e72cb93c4, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: AS10
     clip: {fileID: 8300000, guid: d37099b1e619b7c4f8a72d4c2de0d7e4, type: 3}
-    volume: 1
-    volumeVariance: 0.5
+    volume: 0.75
+    volumeVariance: 0.2
     pitch: 1
-    pitchVariance: 0.4
+    pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
-  MinDelay: 6
-  MaxDelay: 12
+  MinDelay: 25
+  MaxDelay: 35
   MaxAudioSourceRadius: 8
 --- !u!82 &30782751
 AudioSource:
@@ -280,7 +280,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 15
+  MaxDistance: 12
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!43 &210336463
+--- !u!43 &373960303
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2293,6 +2293,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 5977943258634902625, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[0].second.m_AnimationSpeed
+      value: 7.0383887
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977943258634902625, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[1].second.m_AnimationSpeed
+      value: 7.5604477
+      objectReference: {fileID: 0}
     - target: {fileID: 6294236284124394032, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2420,6 +2428,66 @@ PrefabInstance:
     - target: {fileID: 6821022800219284855, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[0].second.m_AnimationSpeed
+      value: 1.9130065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[1].second.m_AnimationSpeed
+      value: 1.8166765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[2].second.m_AnimationSpeed
+      value: 1.26214
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[3].second.m_AnimationSpeed
+      value: 1.970778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[4].second.m_AnimationSpeed
+      value: 1.0760912
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[5].second.m_AnimationSpeed
+      value: 1.7872086
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[6].second.m_AnimationSpeed
+      value: 1.9211918
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[7].second.m_AnimationSpeed
+      value: 1.1706367
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[8].second.m_AnimationSpeed
+      value: 1.4710665
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[9].second.m_AnimationSpeed
+      value: 1.2738671
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[10].second.m_AnimationSpeed
+      value: 1.3721054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[11].second.m_AnimationSpeed
+      value: 1.4541602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[12].second.m_AnimationSpeed
+      value: 1.7870818
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[13].second.m_AnimationSpeed
+      value: 1.1441429
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918696350161228225, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[14].second.m_AnimationSpeed
+      value: 1.5103035
       objectReference: {fileID: 0}
     - target: {fileID: 7113241158274242577, guid: b310c578eaa1eb042b89a842caf52342, type: 3}
       propertyPath: m_AnchorMax.y
