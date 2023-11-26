@@ -402,13 +402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
   objectToSpawn: {fileID: 0}
-  monsterType: 5
-
-  soundVolume: 1
+  keyToSpawn: {fileID: 0}
   monsterType: 0
-
   movementSpeed: 1
   detectionRange: 6
   health: 1
@@ -428,7 +424,7 @@ MonoBehaviour:
   blueSmallSlimeAnimator: {fileID: 9100000, guid: 969decce2a5ca8e4b989550f5eaa55dc, type: 2}
   blueSmallSlimeSprite: {fileID: 5521048995198281748, guid: 2307097563c86854782bd1ac71ae42d6, type: 3}
   minotaurAnimator: {fileID: 9100000, guid: 9d8e9465f80e68043ad6e0113f771501, type: 2}
-  minotaurSprite: {fileID: -1326303995468374675, guid: 8ef7663280438ba4ab34cc8ed2d1c356, type: 3}
+  minotaurSprite: {fileID: 2162024211414562435, guid: 84245752bf2f52542a4061e100c7602a, type: 3}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

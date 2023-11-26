@@ -230,8 +230,8 @@ public class EnemyController : MonoBehaviour
         
     }
 
-    
-    
+
+  
 
     void SpawnNewMonsters()
     {
@@ -260,13 +260,18 @@ public class EnemyController : MonoBehaviour
             if (monsterType.Equals(MonsterType.MotherSlime)) 
             {
                 //k�nnte auch immer wieder slimes beschw�ren nicht erst beim tod
-                SpawnNewMonsters();
-                SpawnNewMonsters();
+                Instantiate(keyToSpawn, aiPath.position, Quaternion.identity);
+                for (int i = 0; i < 6; i++)
+                {
+                    SpawnNewMonsters();
+                }
             }
             if (monsterType.Equals(MonsterType.BlueBigSlime))
             {
-                SpawnNewMonsters();
-                SpawnNewMonsters();
+                for (int i = 0; i < 3; i++)
+                {
+                    SpawnNewMonsters();
+                }
             }
         }
         else

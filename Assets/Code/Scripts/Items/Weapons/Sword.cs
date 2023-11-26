@@ -72,12 +72,13 @@ public class Sword : Weapon
 
         var boxCast = Physics2D.BoxCastAll(attackPos + _attackOffset, attackBoxSize * playerTransformFactor, 0f, Vector2.zero, 0f, LayerMask.GetMask("Enemy"));
         boxCast.ToList().ForEach(hit => {
-            var enemyController = hit.transform.GetComponent<Transform>(); // Transform durch EnemyController swappen
+            EnemyController enemyController = hit.transform.GetComponent<EnemyController>(); // Transform durch EnemyController swappen
 
             if (enemyController != null)
             {
                 // TODO enemyController.Damage(this.damage);
                 print("Hit: " + enemyController.name);
+                enemyController.getAttacked(this.Damage);
             }
         });
 

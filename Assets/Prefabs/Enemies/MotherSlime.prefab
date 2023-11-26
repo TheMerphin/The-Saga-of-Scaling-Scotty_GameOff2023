@@ -403,6 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7781424995959787776, guid: b52b16aaf7692604c95daa7cf77d9cec, type: 3}
+  keyToSpawn: {fileID: 4818266114581667192, guid: 32acc69739ead0e47a82f667575f4532, type: 3}
   monsterType: 4
   movementSpeed: 1
   detectionRange: 6
