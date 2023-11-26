@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
         Goblin,
         Slime
     }
-
+    
     private AIPath aiPath;
     private Transform target;
     private float horizontalMovement, verticalMovement;
@@ -68,7 +68,6 @@ public class EnemyController : MonoBehaviour
         }
         */
     }
-
 
 
 
