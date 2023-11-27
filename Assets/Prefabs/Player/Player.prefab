@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 4980124221196295346}
   - component: {fileID: 3326738143053751273}
   - component: {fileID: 231196413306928107}
+  - component: {fileID: 2772721321673750662}
   m_Layer: 13
   m_Name: Player
   m_TagString: Player
@@ -321,3 +322,53 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+--- !u!114 &2772721321673750662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454894281491408428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82db6a3ac71c8b45a9d84bbd163cc50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stepsounds:
+  - name: Stone
+    clip: {fileID: 8300000, guid: 9b86658f7167ec2488eca61d9ec9be71, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
+    source: {fileID: 0}
+  - name: Wood
+    clip: {fileID: 8300000, guid: b219f669211823941b7a50c79acda42b, type: 3}
+    volume: 1
+    volumeVariance: 0.3
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
+    source: {fileID: 0}
+  - name: Sand
+    clip: {fileID: 8300000, guid: 0bb6155ac84634448bdb4556ca215bcd, type: 3}
+    volume: 1
+    volumeVariance: 0.3
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
+    source: {fileID: 0}
+  - name: Water
+    clip: {fileID: 8300000, guid: 95c723197df42de4282d293c20aa1ac9, type: 3}
+    volume: 1
+    volumeVariance: 0.3
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
+    source: {fileID: 0}
+  Floortypes: {fileID: 0}

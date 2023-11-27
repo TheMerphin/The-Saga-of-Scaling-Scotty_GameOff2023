@@ -469,13 +469,13 @@ public class PlayerController : MonoBehaviour
         FallOffGround(respawnPosition, 0);
     }
 
-    public void FallOffGround(Vector2 respawnPosition, float initialDelay)
+    public void FallOffGround(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
     {
         disableInputs = true;
-        StartCoroutine(FallOffGround_Coroutine(respawnPosition, initialDelay));
+        StartCoroutine(FallOffGround_Coroutine(respawnPosition, initialDelay, fallDepth));
     }
 
-    private IEnumerator FallOffGround_Coroutine(Vector2 respawnPosition, float initialDelay)
+    private IEnumerator FallOffGround_Coroutine(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
     {
         rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(initialDelay);
@@ -493,7 +493,7 @@ public class PlayerController : MonoBehaviour
 
         audioManager.Play("PlayerFalling");
 
-        while (startingPosY - 8 < transform.position.y)
+        while (startingPosY - fallDepth < transform.position.y)
         {
             if (Mathf.Abs(transform.position.y - (int)transform.position.y) >= 0.875f && spriteRenderer.sortingLayerName.Equals("1_OnGround"))
             {
@@ -503,6 +503,7 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
+        spriteRenderer.enabled = false;
         rb.gravityScale = 0f;
         rb.drag = originalDrag;
 
@@ -514,6 +515,7 @@ public class PlayerController : MonoBehaviour
         transform.position = respawnPosition;
         playerCollider.enabled = true;
 
+        spriteRenderer.enabled = true;
         spriteRenderer.sortingLayerName = "1_OnGround";
         spriteRenderer.sortingOrder = 0;
 
