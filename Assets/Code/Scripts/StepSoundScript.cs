@@ -27,7 +27,10 @@ public class StepSoundScript : MonoBehaviour
 
         if (Floortypes != null)
         {
-            currentFloortype = Floortypes.GetTile(new Vector3Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y), 0)).name;
+            currentFloortype = Floortypes.GetTile(new Vector3Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y), 0))?.name;
+
+            if (currentFloortype == null) return;
+
             if (currentFloortype.Equals("Floortypes_Stone")) { stepIndex = 0; }
             if (currentFloortype.Equals("Floortypes_Wood")) { stepIndex = 1; }
             if (currentFloortype.Equals("Floortypes_Sand")) { stepIndex = 2; }

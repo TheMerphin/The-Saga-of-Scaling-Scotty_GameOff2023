@@ -49,7 +49,13 @@ public class PitTrap : Trap
         }
 
         StartCoroutine(ActivateDynamicCollider());
-        base.TriggerTrap(null);
+        if ((int)player.ScalingLevelInfo.ScaleLevel < 1) {
+            base.TriggerTrap(player);
+        }
+        else
+        {
+            base.TriggerTrap(null);
+        }
 
         if(!oneTimeUse) StartCoroutine(ReactivateTrap());
     }

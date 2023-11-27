@@ -10,6 +10,8 @@ public abstract class Trap : MonoBehaviour
     protected Collider2D triggerAreaCollider;
     protected AudioManager audioManager;
 
+    protected PlayerController _player;
+
     [SerializeField]
     private string trapName;
     public string TrapName { get { return trapName; } set { trapName = value; } }
@@ -70,9 +72,18 @@ public abstract class Trap : MonoBehaviour
         audioManager.Play(trapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
 
-        if (player != null); //Invoke(print(trapName + " was activated. Applying " + damage + " Damage to " + player.name), damageDelay);
+        if (player != null)
+        {
+            _player = player;
+            Invoke("ApplyDamage", damageDelay);
+        }
 
         triggerAreaCollider.enabled = false;
         this.enabled = false;
+    }
+
+    private void ApplyDamage()
+    {
+        _player.updateHealth((int)-damage);
     }
 }

@@ -24,13 +24,15 @@ public class PlayerController : MonoBehaviour
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
-
-    GameManager gameManager;
+    private GameManager gameManager;
 
     private float interactCooldown;
 
     private PlayerScalingInfo scalingLevelInfo;
     public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
+
+    public int maxHealth = 10;
+    private int currentHealth;
 
     private float scaleCooldown;
 
@@ -71,11 +73,13 @@ public class PlayerController : MonoBehaviour
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
 
         gameManager = FindFirstObjectByType<GameManager>();
 
         gameMenuController.SelectSlot(selectedSlot);
-
+        gameMenuController.SetMaxHealth(maxHealth);
+        currentHealth = maxHealth;
         SetSelectedSlot(0);
     }
 
@@ -244,6 +248,9 @@ public class PlayerController : MonoBehaviour
             else if (items[selectedSlot] is Consumable)
             {
                 (items[selectedSlot] as Consumable).Consume();
+                audioManager.Play("Chug");
+                items[3] = null;
+                gameMenuController.SetInventorySlot(null, 3);
             }
         }
 
@@ -356,18 +363,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (item is Consumable)
         {
-            var consumable = (Consumable)item;
             slot = 3;
 
-            if (items[slot] != null && items[slot].GetType().Equals(consumable.GetType()))
-            {
-                (items[slot] as Consumable).Count++;
-            }
-            else
-            {
-                previousItem = items[slot];
-                items[slot] = consumable;
-            }
+            previousItem = items[slot];
+            items[slot] = (Consumable)item;
+
         }
         else if (item is Key)
         {
@@ -512,19 +512,44 @@ public class PlayerController : MonoBehaviour
 
         // Respawn
         yield return new WaitForSeconds(0.5f);
+        if (currentHealth > 0)
+        {
+            cinemachineCamera.Follow = transform;
+            transform.position = respawnPosition;
+            playerCollider.enabled = true;
+            light.enabled = true;
 
-        cinemachineCamera.Follow = transform;
+            spriteRenderer.enabled = true;
+            spriteRenderer.sortingLayerName = "1_OnGround";
+            spriteRenderer.sortingOrder = 0;
+            disableInputs = false;
+        }
+    }
 
-        transform.position = respawnPosition;
-        playerCollider.enabled = true;
-        light.enabled = true;
-        spriteRenderer.enabled = true;
-        spriteRenderer.sortingLayerName = "1_OnGround";
-        spriteRenderer.sortingOrder = 0;
 
-        // lose health
+    /*
+     * positive for heal 
+     * negative for damage
+    */
+    public void updateHealth(int newHealth)
+    {
+        if (currentHealth + newHealth <= 0)
+        {
+            currentHealth = 0;
+            disableInputs = true;
+            gameManager.GameOver();
+            
+        }
+        else if (currentHealth + newHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
 
-        disableInputs = false;
+        }
+        else
+        {
+            currentHealth = currentHealth + newHealth;
+        }
+        gameMenuController.SetHealth(currentHealth);
     }
 
     private IEnumerator ExitLevelViaStair(ExitController stair)

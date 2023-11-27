@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 5424c44d0c53fa748a571b312bda876c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7219668892641819008
+    second: Minifantasy_GuiSlidersGreen_0
+  - first:
+      213: -9158554660688690568
+    second: Minifantasy_GuiSlidersGreen_1
+  - first:
+      213: -6755676664568356891
+    second: Minifantasy_GuiSlidersGreen_2
+  - first:
+      213: 8897621147011998410
+    second: Minifantasy_GuiSlidersGreen_3
+  - first:
+      213: 5558112162885277968
+    second: Minifantasy_GuiSlidersGreen_4
+  - first:
+      213: 4788441833457242466
+    second: Minifantasy_GuiSlidersGreen_5
+  - first:
+      213: 3077876227964773764
+    second: Minifantasy_GuiSlidersGreen_6
+  - first:
+      213: 5883310031265015541
+    second: Minifantasy_GuiSlidersGreen_7
+  - first:
+      213: -619740970275403036
+    second: Minifantasy_GuiSlidersGreen_8
+  - first:
+      213: 8413401665090251663
+    second: Minifantasy_GuiSlidersGreen_9
+  - first:
+      213: -2338480322903128247
+    second: Minifantasy_GuiSlidersGreen_10
+  - first:
+      213: 1434974786529203469
+    second: Minifantasy_GuiSlidersGreen_11
+  - first:
+      213: -8723574919186417229
+    second: Minifantasy_GuiSlidersGreen_12
+  - first:
+      213: 984375255291183230
+    second: Minifantasy_GuiSlidersGreen_13
+  - first:
+      213: -5934862504490092427
+    second: Minifantasy_GuiSlidersGreen_14
+  - first:
+      213: -8474894487511642063
+    second: Minifantasy_GuiSlidersGreen_15
+  - first:
+      213: 2584898896936008471
+    second: Minifantasy_GuiSlidersGreen_16
+  - first:
+      213: 2820273849781619702
+    second: Minifantasy_GuiSlidersGreen_17
+  - first:
+      213: -6113132735475740080
+    second: Minifantasy_GuiSlidersGreen_18
+  - first:
+      213: -726655037045941903
+    second: Minifantasy_GuiSlidersGreen_19
+  - first:
+      213: -6331653492298360891
+    second: Minifantasy_GuiSlidersGreen_20
+  - first:
+      213: 8678640080543838542
+    second: Minifantasy_GuiSlidersGreen_21
+  - first:
+      213: 774334753790718968
+    second: Minifantasy_GuiSlidersGreen_22
+  - first:
+      213: -5434327229477208479
+    second: Minifantasy_GuiSlidersGreen_23
+  - first:
+      213: 4708764982436055362
+    second: Minifantasy_GuiSlidersGreen_24
+  - first:
+      213: 2096928491938857833
+    second: Minifantasy_GuiSlidersGreen_25
+  - first:
+      213: 3723668272896613704
+    second: Minifantasy_GuiSlidersGreen_26
+  - first:
+      213: -8190246991532041120
+    second: Minifantasy_GuiSlidersGreen_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0868522c4659ecb90800000000000000
+      internalID: -7219668892641819008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87207a96f0746e080800000000000000
+      internalID: -9158554660688690568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efd10fddd30f32a0800000000000000
+      internalID: -6755676664568356891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 146
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac267a5aa43ba7b70800000000000000
+      internalID: 8897621147011998410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 144
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0191e826091622d40800000000000000
+      internalID: 5558112162885277968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d6de2a76f37240800000000000000
+      internalID: 4788441833457242466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485a57e3f10d6ba20800000000000000
+      internalID: 3077876227964773764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f62b056d47b5a150800000000000000
+      internalID: 5883310031265015541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea8afdfedc3667f0800000000000000
+      internalID: -619740970275403036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b62600d3862c470800000000000000
+      internalID: 8413401665090251663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9474e1f398c0c8fd0800000000000000
+      internalID: -2338480322903128247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 130
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0517bc27fd0ae310800000000000000
+      internalID: 1434974786529203469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 118
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9f26a94d2afe680800000000000000
+      internalID: -8723574919186417229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70c059441439ad00800000000000000
+      internalID: 984375255291183230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57835151ff123ada0800000000000000
+      internalID: -5934862504490092427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 117
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130d3f29d50236a80800000000000000
+      internalID: -8474894487511642063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 101
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b7b24f9d76fd320800000000000000
+      internalID: 2584898896936008471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 101
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb8e89bf10a32720800000000000000
+      internalID: 2820273849781619702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 66
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05218257a2ac92ba0800000000000000
+      internalID: -6113132735475740080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179d0a208176ae5f0800000000000000
+      internalID: -726655037045941903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 68
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7d1bef1b27128a0800000000000000
+      internalID: -6331653492298360891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41784efb29b07870800000000000000
+      internalID: 8678640080543838542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 7
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f37fe02b5dfeba00800000000000000
+      internalID: 774334753790718968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 22
+        width: 7
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e37c55d246594b0800000000000000
+      internalID: -5434327229477208479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 21
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24946ecadc4e85140800000000000000
+      internalID: 4708764982436055362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 52
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96349697a59c91d10800000000000000
+      internalID: 2096928491938857833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 52
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d156bb0902da330800000000000000
+      internalID: 3723668272896613704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_GuiSlidersGreen_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 35
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c550741c5665e80800000000000000
+      internalID: -8190246991532041120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 02de1d9d86b6be8488febe6cc394b9d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_GuiSlidersGreen_0: -7219668892641819008
+      Minifantasy_GuiSlidersGreen_1: -9158554660688690568
+      Minifantasy_GuiSlidersGreen_10: -2338480322903128247
+      Minifantasy_GuiSlidersGreen_11: 1434974786529203469
+      Minifantasy_GuiSlidersGreen_12: -8723574919186417229
+      Minifantasy_GuiSlidersGreen_13: 984375255291183230
+      Minifantasy_GuiSlidersGreen_14: -5934862504490092427
+      Minifantasy_GuiSlidersGreen_15: -8474894487511642063
+      Minifantasy_GuiSlidersGreen_16: 2584898896936008471
+      Minifantasy_GuiSlidersGreen_17: 2820273849781619702
+      Minifantasy_GuiSlidersGreen_18: -6113132735475740080
+      Minifantasy_GuiSlidersGreen_19: -726655037045941903
+      Minifantasy_GuiSlidersGreen_2: -6755676664568356891
+      Minifantasy_GuiSlidersGreen_20: -6331653492298360891
+      Minifantasy_GuiSlidersGreen_21: 8678640080543838542
+      Minifantasy_GuiSlidersGreen_22: 774334753790718968
+      Minifantasy_GuiSlidersGreen_23: -5434327229477208479
+      Minifantasy_GuiSlidersGreen_24: 4708764982436055362
+      Minifantasy_GuiSlidersGreen_25: 2096928491938857833
+      Minifantasy_GuiSlidersGreen_26: 3723668272896613704
+      Minifantasy_GuiSlidersGreen_27: -8190246991532041120
+      Minifantasy_GuiSlidersGreen_3: 8897621147011998410
+      Minifantasy_GuiSlidersGreen_4: 5558112162885277968
+      Minifantasy_GuiSlidersGreen_5: 4788441833457242466
+      Minifantasy_GuiSlidersGreen_6: 3077876227964773764
+      Minifantasy_GuiSlidersGreen_7: 5883310031265015541
+      Minifantasy_GuiSlidersGreen_8: -619740970275403036
+      Minifantasy_GuiSlidersGreen_9: 8413401665090251663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

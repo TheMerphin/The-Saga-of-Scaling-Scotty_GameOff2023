@@ -1,5 +1,6 @@
 using UnityEngine.Audio;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -26,15 +27,20 @@ public class AudioManager : MonoBehaviour
 
 		foreach (Sound s in sounds)
 		{
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.loop = s.loop;
+			s.source = gameObject.AddComponent<AudioSource>();
+			s.source.clip = s.clip;
+			s.source.loop = s.loop;
 
-            s.source.outputAudioMixerGroup = mixerGroup;
-        }
-	}
+			s.source.outputAudioMixerGroup = mixerGroup;
+		}
+    }
 
-	public void AddSound(Sound sound)
+	public void ChangeVolume(float volume)
+    {
+        mixerGroup.audioMixer.SetFloat("Volume", volume);
+    }
+
+    public void AddSound(Sound sound)
 	{
 		if (sounds.Exists(item => item.name.Equals(sound.name))) return;
 
