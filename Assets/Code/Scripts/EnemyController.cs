@@ -87,7 +87,7 @@ public class EnemyController : MonoBehaviour
 
             case MonsterType.Wolf:
                 animator.runtimeAnimatorController = wolfAnimator;
-                monsterSprite.sprite = wolfSprite;
+                monsterSprite.sprite = wolfSprite;""
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 2f;
                 health = 5;
@@ -152,14 +152,6 @@ public class EnemyController : MonoBehaviour
     {
         ResetValuesBeforeFrame();
         EnemyAnimation();
-
-
-        // Test Method:
-        
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            getAttacked(1);
-        }
 
     }
 
