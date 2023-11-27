@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -691,7 +691,9 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 5d5ca9401df457840a5921f69691b90e, type: 3}
+      name: _Emission
     nameFileIdTable:
       Minifantasy_CreaturesTrollWalk_0: 2409859414604268188
       Minifantasy_CreaturesTrollWalk_1: 150438605684844281
