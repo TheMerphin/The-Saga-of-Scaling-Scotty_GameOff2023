@@ -157,7 +157,7 @@ MonoBehaviour:
   trapName: Pit Trap
   active: 1
   damage: 1
-  damageDelay: 2
+  damageDelay: 1.5
   trapAnimation: {fileID: 7400000, guid: 9ab8b167a945c0b4dad275c94bc1559a, type: 2}
   trapSound:
     name: PitTrap
