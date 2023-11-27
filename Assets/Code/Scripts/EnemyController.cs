@@ -249,7 +249,7 @@ public class EnemyController : MonoBehaviour
     {
         
         health = health - damage;
-        if (health <= 0f) 
+        if (health <= 0f && !dead) 
         {
             dead = true;
             aiPath.canMove = false;
@@ -282,7 +282,7 @@ public class EnemyController : MonoBehaviour
 
             
         }
-        else
+        else if(health >0)
         {
             gotHit = true;
         }
