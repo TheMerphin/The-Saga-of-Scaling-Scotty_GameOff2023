@@ -24,6 +24,10 @@ public abstract class Trap : MonoBehaviour
     public float Damage { get { return _damage; } set { _damage = value; } }
 
     [SerializeField]
+    private float damageDelay = 0;
+    public float DamageDelay { get { return damageDelay; } set { damageDelay = value; } }
+
+    [SerializeField]
     private AnimationClip trapAnimation;
     public AnimationClip TrapAnimation { get { return trapAnimation; } set { trapAnimation = value; } }
 
@@ -66,7 +70,7 @@ public abstract class Trap : MonoBehaviour
         audioManager.Play(trapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
 
-        if(player != null) print(trapName + " was activated. Applying " + damage + " Damage to " + player.name);
+        if (player != null); //Invoke(print(trapName + " was activated. Applying " + damage + " Damage to " + player.name), damageDelay);
 
         triggerAreaCollider.enabled = false;
         this.enabled = false;

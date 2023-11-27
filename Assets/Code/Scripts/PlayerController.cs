@@ -4,6 +4,7 @@ using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using static Toolbox;
 using static UnityEditor.Progress;
 
@@ -485,6 +486,8 @@ public class PlayerController : MonoBehaviour
         var originalDrag = rb.drag;
         var spriteRenderer = GetComponent<SpriteRenderer>();
         var cinemachineCamera = FindFirstObjectByType<CinemachineVirtualCamera>();
+        var light = GetComponentInChildren<Light2D>();
+        light.enabled = false;
         cinemachineCamera.Follow = null;
 
         rb.gravityScale = 0.7f;
@@ -514,7 +517,7 @@ public class PlayerController : MonoBehaviour
 
         transform.position = respawnPosition;
         playerCollider.enabled = true;
-
+        light.enabled = true;
         spriteRenderer.enabled = true;
         spriteRenderer.sortingLayerName = "1_OnGround";
         spriteRenderer.sortingOrder = 0;

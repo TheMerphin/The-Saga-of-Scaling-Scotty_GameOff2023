@@ -50,6 +50,7 @@ MonoBehaviour:
   trapName: Blade Trap
   active: 1
   damage: 1
+  damageDelay: 0.5
   trapAnimation: {fileID: 7400000, guid: 672a6564092202c429f9126013c54483, type: 2}
   trapSound:
     name: BladeTrap

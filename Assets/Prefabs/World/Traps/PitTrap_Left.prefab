@@ -157,6 +157,7 @@ MonoBehaviour:
   trapName: Pit Trap
   active: 1
   damage: 1
+  damageDelay: 2
   trapAnimation: {fileID: 7400000, guid: 9ab8b167a945c0b4dad275c94bc1559a, type: 2}
   trapSound:
     name: PitTrap
@@ -168,7 +169,9 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  oneTimeUse: 1
   playerRespawnPosition: {x: 17.6, y: 1.65}
+  pitDepth: 8
   linkedPitTraps: []
 --- !u!212 &1545534489576124573
 SpriteRenderer:
