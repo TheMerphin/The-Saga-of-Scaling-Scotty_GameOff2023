@@ -1,7 +1,5 @@
 using UnityEngine;
 using Pathfinding;
-using Unity.VisualScripting;
-using UnityEngine.UIElements;
 using System;
 
 public class EnemyController : MonoBehaviour

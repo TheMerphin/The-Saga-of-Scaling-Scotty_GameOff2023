@@ -10,8 +10,6 @@ public class GameMenuController : MonoBehaviour
 
     public Slider health;
 
-    private AudioManager audioManager;
-
     void Awake()
     {
         Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);

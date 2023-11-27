@@ -6,7 +6,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using static Toolbox;
-using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
