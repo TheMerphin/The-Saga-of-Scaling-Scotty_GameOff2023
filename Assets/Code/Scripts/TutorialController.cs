@@ -67,7 +67,7 @@ public class TutorialController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tutorialPrompts[tutorialStage].transform.position = new Vector2(player.transform.position.x - 3f, player.transform.position.y + 0.4f);
+        tutorialPrompts[tutorialStage].transform.position = new Vector2(player.transform.position.x - 3.5f, player.transform.position.y + 0.4f);
 
         if (tutorialStage == 4 && pitTrap != null && !pitTrap.Active)
         {
