@@ -2,6 +2,7 @@ using UnityEngine;
 using Pathfinding;
 using Unity.VisualScripting;
 using UnityEngine.UIElements;
+using System;
 
 public class EnemyController : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class EnemyController : MonoBehaviour
     //new monster
     public GameObject objectToSpawn;
     public GameObject keyToSpawn;
+    public Boolean dropsKey;
 
 
     private AIPath aiPath;
@@ -254,29 +256,37 @@ public class EnemyController : MonoBehaviour
             aiPath.enabled = false;
             animator.SetBool("dead", true);
 
-            if (monsterType.Equals(MonsterType.MotherSlime)) 
+            if (dropsKey)
             {
-                //k�nnte auch immer wieder slimes beschw�ren nicht erst beim tod
                 Instantiate(keyToSpawn, aiPath.position, Quaternion.identity);
-                for (int i = 0; i < 6; i++)
+            }
+
+            if (monsterType.Equals(MonsterType.MotherSlime))
+            {
+                GameObject keyDroppingSlime = Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
+                EnemyController keySlimeController = keyDroppingSlime.GetComponent<EnemyController>();
+                keySlimeController.dropsKey = true;
+                for (int i = 0; i < 4; i++)
                 {
-                    SpawnNewMonsters();
+                    Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
                 }
             }
             if (monsterType.Equals(MonsterType.BlueBigSlime))
             {
                 for (int i = 0; i < 3; i++)
                 {
-                    SpawnNewMonsters();
+                    Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
                 }
             }
+
+
+            
         }
         else
         {
             gotHit = true;
         }
-
-        
+             
     }
 
 
