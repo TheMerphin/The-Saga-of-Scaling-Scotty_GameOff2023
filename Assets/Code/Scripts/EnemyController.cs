@@ -229,21 +229,10 @@ public class EnemyController : MonoBehaviour
         
     }
 
-
-  
-
-    void SpawnNewMonsters()
-    {
-        Instantiate(objectToSpawn, aiPath.position, Quaternion.identity);
-    }
-
     public void hitPLayer()
     {
-       // playerController.updateHealth((int) -damage);
+       playerController.updateHealth((int) -damage);
     }
-
-
-
 
     public void getAttacked(float damage)
     {

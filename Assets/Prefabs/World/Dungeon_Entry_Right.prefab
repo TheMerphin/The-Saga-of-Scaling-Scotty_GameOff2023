@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 608372851457330224}
   - component: {fileID: 2792383789561520303}
   - component: {fileID: 3083075377588773926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dungeon_Entry_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
