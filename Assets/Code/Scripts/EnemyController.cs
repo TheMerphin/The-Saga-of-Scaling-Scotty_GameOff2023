@@ -39,8 +39,8 @@ public class EnemyController : MonoBehaviour
     public MonsterType monsterType;
     public float movementSpeed = 1;
     public float detectionRange = 3f;
-    public float health;
-    public float damage;
+    public float health = -1;
+    public float damage = -1;
     private PlayerController playerController;
 
 
@@ -83,8 +83,8 @@ public class EnemyController : MonoBehaviour
                 animator.runtimeAnimatorController = skeletonAnimator;
                 monsterSprite.sprite = skeletonSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                health = 4;
-                damage = 1;
+                if (health < 0) health = 4;
+                if (damage < 0) damage = 1;
                 break;
 
             case MonsterType.Wolf:
@@ -92,8 +92,8 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = wolfSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 2f;
-                health = 5;
-                damage = 1;
+                if (health < 0) health = 5;
+                if (damage < 0) damage = 1;
                 break;
 
             case MonsterType.Troll:
@@ -101,30 +101,30 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = trollSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 0.5f;
-                health = 10;
-                damage = 3;
+                if (health < 0) health = 10;
+                if (damage < 0) damage = 3;
                 break;
 
             case MonsterType.MotherSlime:
                 animator.runtimeAnimatorController = blueMotherSlimeAnimator;
                 monsterSprite.sprite = blueMotherSlimeSprite;
-                health = 15;
-                damage = 3; 
+                if (health < 0) health = 15;
+                if (damage < 0) damage = 3; 
                 break;
 
             case MonsterType.BlueBigSlime:
                 animator.runtimeAnimatorController = blueBigSlimeAnimator;
                 monsterSprite.sprite = blueBigSlimeSprite;
-                health = 10;
-                damage = 2;
+                if (health < 0) health = 10;
+                if (damage < 0) damage = 2;
                 break;
 
             case MonsterType.BlueSmallSlime:
                 animator.runtimeAnimatorController = blueSmallSlimeAnimator;
                 monsterSprite.sprite = blueSmallSlimeSprite;
                 movementSpeed = 3f;
-                health = 3;
-                damage = 1;
+                if (health < 0) health = 3;
+                if (damage < 0) damage = 1;
                 break;
 
             case MonsterType.Minotaur:
@@ -132,8 +132,8 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = minotaurSprite;
                 movementSpeed = 0.8f;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                health = 20;
-                damage = 5;
+                if (health < 0) health = 20;
+                if (damage < 0) damage = 5;
                 break;
 
             case MonsterType.Goblin:

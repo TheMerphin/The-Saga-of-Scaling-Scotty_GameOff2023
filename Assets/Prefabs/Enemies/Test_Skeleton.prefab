@@ -270,6 +270,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b40cd350d22314f9151b9f72b201fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 0}
+  keyToSpawn: {fileID: 0}
+  dropsKey: 0
+  monsterType: 0
+  movementSpeed: 1
+  detectionRange: 3
+  health: -1
+  damage: -1
+  skeletonAnimator: {fileID: 0}
+  skeletonSprite: {fileID: 0}
+  goblinAnimator: {fileID: 0}
+  goblinSprite: {fileID: 0}
+  wolfAnimator: {fileID: 0}
+  wolfSprite: {fileID: 0}
+  trollAnimator: {fileID: 0}
+  trollSprite: {fileID: 0}
+  blueMotherSlimeAnimator: {fileID: 0}
+  blueMotherSlimeSprite: {fileID: 0}
+  blueBigSlimeAnimator: {fileID: 0}
+  blueBigSlimeSprite: {fileID: 0}
+  blueSmallSlimeAnimator: {fileID: 0}
+  blueSmallSlimeSprite: {fileID: 0}
+  minotaurAnimator: {fileID: 0}
+  minotaurSprite: {fileID: 0}
 --- !u!70 &6618268834628518971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

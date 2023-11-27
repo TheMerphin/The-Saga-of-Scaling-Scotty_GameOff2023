@@ -75,8 +75,8 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 71f4230f4296af245bb1b5711e0c8f79, type: 2}
   - {fileID: 7400000, guid: 14ac50cff698d714fa2707628d181be8, type: 2}
   - {fileID: 7400000, guid: 4a4e098a95f05ae469357a84f9469fa3, type: 2}
-  attackBoxSize: {x: 1.2, y: 1.2}
-  attackOffset: {x: 0.6, y: 0.6}
+  attackBoxSize: {x: 1.3, y: 1.3}
+  attackOffset: {x: 0.52, y: 0.52}
 --- !u!212 &4843075939401372654
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5140,11 +5140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544350023120376093, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1544350023120376093, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1544350023120376093, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_SizeDelta.y
@@ -5156,7 +5156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544350023120376093, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1.4586
       objectReference: {fileID: 0}
     - target: {fileID: 1647918402291115455, guid: 0383ffbaeca5ead4c9eec35655fdf981, type: 3}
       propertyPath: m_AnchorMax.y

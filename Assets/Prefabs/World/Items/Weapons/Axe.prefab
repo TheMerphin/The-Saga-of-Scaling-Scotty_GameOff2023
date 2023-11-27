@@ -74,8 +74,8 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 9fedc2c15f1afeb498319433137aa416, type: 2}
   - {fileID: 7400000, guid: 0e4d3edcb2cc1b148a1cef2b2e4eb888, type: 2}
   - {fileID: 7400000, guid: 8ce22ae43552b23409c6c64aa41ae9a4, type: 2}
-  attackBoxSize: {x: 1.1, y: 1.1}
-  attackOffset: {x: 0.55, y: 0.55}
+  attackBoxSize: {x: 1.2, y: 1.2}
+  attackOffset: {x: 0.48, y: 0.48}
 --- !u!212 &1774876079990947437
 SpriteRenderer:
   m_ObjectHideFlags: 0

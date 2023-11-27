@@ -404,11 +404,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7781424995959787776, guid: b52b16aaf7692604c95daa7cf77d9cec, type: 3}
   keyToSpawn: {fileID: 4818266114581667192, guid: 32acc69739ead0e47a82f667575f4532, type: 3}
+  dropsKey: 0
   monsterType: 4
   movementSpeed: 1
   detectionRange: 6
-  health: 1
-  damage: 0
+  health: -1
+  damage: -1
   skeletonAnimator: {fileID: 9100000, guid: 24674092ed078604db2b6a20b93af436, type: 2}
   skeletonSprite: {fileID: -1347213925559123952, guid: 8cbc87d494bcd8e49986fae6b48a9f64, type: 3}
   goblinAnimator: {fileID: 9100000, guid: f6a38817ec2d954409c844dea6f30a67, type: 2}
