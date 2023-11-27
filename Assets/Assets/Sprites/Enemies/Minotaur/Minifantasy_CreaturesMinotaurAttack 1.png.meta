@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: f063e6789fbcf4a49bb079f36f6943ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4817754171871156025
+    second: Minifantasy_CreaturesMinotaurAttack_0
+  - first:
+      213: 1517887598783235414
+    second: Minifantasy_CreaturesMinotaurAttack_1
+  - first:
+      213: -4471715297430409043
+    second: Minifantasy_CreaturesMinotaurAttack_2
+  - first:
+      213: 2775621909589208452
+    second: Minifantasy_CreaturesMinotaurAttack_3
+  - first:
+      213: 3779742493083244918
+    second: Minifantasy_CreaturesMinotaurAttack_4
+  - first:
+      213: -41108445085577113
+    second: Minifantasy_CreaturesMinotaurAttack_5
+  - first:
+      213: 3905015404609459188
+    second: Minifantasy_CreaturesMinotaurAttack_6
+  - first:
+      213: 7424533815895771997
+    second: Minifantasy_CreaturesMinotaurAttack_7
+  - first:
+      213: -4747745320271330137
+    second: Minifantasy_CreaturesMinotaurAttack_8
+  - first:
+      213: 2320702000617801911
+    second: Minifantasy_CreaturesMinotaurAttack_9
+  - first:
+      213: 6993149785046465024
+    second: Minifantasy_CreaturesMinotaurAttack_10
+  - first:
+      213: 6702002416805912799
+    second: Minifantasy_CreaturesMinotaurAttack_11
+  - first:
+      213: 2086341126792992305
+    second: Minifantasy_CreaturesMinotaurAttack_12
+  - first:
+      213: -2207081627037377231
+    second: Minifantasy_CreaturesMinotaurAttack_13
+  - first:
+      213: -2726958143813846406
+    second: Minifantasy_CreaturesMinotaurAttack_14
+  - first:
+      213: 4740485329730098650
+    second: Minifantasy_CreaturesMinotaurAttack_15
+  - first:
+      213: 2748437684618145356
+    second: Minifantasy_CreaturesMinotaurAttack_16
+  - first:
+      213: 882790330617047586
+    second: Minifantasy_CreaturesMinotaurAttack_17
+  - first:
+      213: 2944636026697735371
+    second: Minifantasy_CreaturesMinotaurAttack_18
+  - first:
+      213: -6108574703337539165
+    second: Minifantasy_CreaturesMinotaurAttack_19
+  - first:
+      213: 8454001066258877748
+    second: Minifantasy_CreaturesMinotaurAttack_20
+  - first:
+      213: 5071770783419905404
+    second: Minifantasy_CreaturesMinotaurAttack_21
+  - first:
+      213: -1025818595674968286
+    second: Minifantasy_CreaturesMinotaurAttack_22
+  - first:
+      213: -4669852177036655588
+    second: Minifantasy_CreaturesMinotaurAttack_23
+  - first:
+      213: -1702740873878639813
+    second: Minifantasy_CreaturesMinotaurAttack_24
+  - first:
+      213: 6288273934353383060
+    second: Minifantasy_CreaturesMinotaurAttack_25
+  - first:
+      213: -5850165191117389610
+    second: Minifantasy_CreaturesMinotaurAttack_26
+  - first:
+      213: -7803483672806728240
+    second: Minifantasy_CreaturesMinotaurAttack_27
+  - first:
+      213: 8400704995931505433
+    second: Minifantasy_CreaturesMinotaurAttack_28
+  - first:
+      213: 8732123948804927945
+    second: Minifantasy_CreaturesMinotaurAttack_29
+  - first:
+      213: -2465420614357142078
+    second: Minifantasy_CreaturesMinotaurAttack_30
+  - first:
+      213: 6189586434125191671
+    second: Minifantasy_CreaturesMinotaurAttack_31
+  - first:
+      213: -7728532029975122701
+    second: Minifantasy_CreaturesMinotaurAttack_32
+  - first:
+      213: -497009125702593675
+    second: Minifantasy_CreaturesMinotaurAttack_33
+  - first:
+      213: -3771278627534938781
+    second: Minifantasy_CreaturesMinotaurAttack_34
+  - first:
+      213: -3509718482374612226
+    second: Minifantasy_CreaturesMinotaurAttack_35
+  - first:
+      213: -1431500423351995285
+    second: Minifantasy_CreaturesMinotaurAttack_36
+  - first:
+      213: 6617026168610626900
+    second: Minifantasy_CreaturesMinotaurAttack_37
+  - first:
+      213: -1061227221998878118
+    second: Minifantasy_CreaturesMinotaurAttack_38
+  - first:
+      213: 1967594627863482679
+    second: Minifantasy_CreaturesMinotaurAttack_39
+  - first:
+      213: -5504868914297609315
+    second: Minifantasy_CreaturesMinotaurAttack_40
+  - first:
+      213: 6524211393328379470
+    second: Minifantasy_CreaturesMinotaurAttack_41
+  - first:
+      213: 9116615462422346483
+    second: Minifantasy_CreaturesMinotaurAttack_42
+  - first:
+      213: -1432811047251299561
+    second: Minifantasy_CreaturesMinotaurAttack_43
+  - first:
+      213: 1524835940837981618
+    second: Minifantasy_CreaturesMinotaurAttack_44
+  - first:
+      213: -3859384921209308976
+    second: Minifantasy_CreaturesMinotaurAttack_45
+  - first:
+      213: 6661137038136882974
+    second: Minifantasy_CreaturesMinotaurAttack_46
+  - first:
+      213: -1296876831291314506
+    second: Minifantasy_CreaturesMinotaurAttack_47
+  - first:
+      213: -5954256096212682025
+    second: Minifantasy_CreaturesMinotaurAttack_48
+  - first:
+      213: -5978559829926464252
+    second: Minifantasy_CreaturesMinotaurAttack_49
+  - first:
+      213: 3214300217827980556
+    second: Minifantasy_CreaturesMinotaurAttack_50
+  - first:
+      213: -2949120214765149736
+    second: Minifantasy_CreaturesMinotaurAttack_51
+  - first:
+      213: 1779860042271550181
+    second: Minifantasy_CreaturesMinotaurAttack_52
+  - first:
+      213: 5851961323221769236
+    second: Minifantasy_CreaturesMinotaurAttack_53
+  - first:
+      213: 7791685370699136823
+    second: Minifantasy_CreaturesMinotaurAttack_54
+  - first:
+      213: 4764630614883935679
+    second: Minifantasy_CreaturesMinotaurAttack_55
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8a6723b16e32db0800000000000000
+      internalID: -4817754171871156025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655027e9abe901510800000000000000
+      internalID: 1517887598783235414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0faff01a641f1c0800000000000000
+      internalID: -4471715297430409043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d2bdfbb6df48620800000000000000
+      internalID: 2775621909589208452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6791da285c7547430800000000000000
+      internalID: 3779742493083244918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760d7654614fd6ff0800000000000000
+      internalID: -41108445085577113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3dc2222d6613630800000000000000
+      internalID: 3905015404609459188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bc75f2b2e390760800000000000000
+      internalID: 7424533815895771997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4443d29ce9c1eb0800000000000000
+      internalID: -4747745320271330137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8cc588c2ac43020800000000000000
+      internalID: 2320702000617801911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a3bce9da8ac0160800000000000000
+      internalID: 6993149785046465024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a68970bb420d50800000000000000
+      internalID: 6702002416805912799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136d8ce633c24fc10800000000000000
+      internalID: 2086341126792992305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d552e24fede51e0800000000000000
+      internalID: -2207081627037377231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7afd982406e72ad0800000000000000
+      internalID: -2726958143813846406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5538d8a4699c140800000000000000
+      internalID: 4740485329730098650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e26f62389642620800000000000000
+      internalID: 2748437684618145356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a2493e02d404c00800000000000000
+      internalID: 882790330617047586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccd22c6dd27dd820800000000000000
+      internalID: 2944636026697735371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9f0a30cabf93ba0800000000000000
+      internalID: -6108574703337539165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d4225bd25a25570800000000000000
+      internalID: 8454001066258877748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75b2f7f7ac826640800000000000000
+      internalID: 5071770783419905404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fadc81c6f83c1f0800000000000000
+      internalID: -1025818595674968286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14452adf2a513fb0800000000000000
+      internalID: -4669852177036655588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3beceb5236ae58e0800000000000000
+      internalID: -1702740873878639813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e3b7b93df644750800000000000000
+      internalID: 6288273934353383060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0c71211c900dea0800000000000000
+      internalID: -5850165191117389610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd5bc7b1f474b390800000000000000
+      internalID: -7803483672806728240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913c8595fac459470800000000000000
+      internalID: 8400704995931505433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1f237777cbe2970800000000000000
+      internalID: 8732123948804927945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5315b730119cdd0800000000000000
+      internalID: -2465420614357142078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurAttack_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9db986114d5e550800000000000000
+      internalID: 6189586434125191671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 29912b746e459cf4abd4ec6c69a8dd57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_CreaturesMinotaurAttack_0: -4817754171871156025
+      Minifantasy_CreaturesMinotaurAttack_1: 1517887598783235414
+      Minifantasy_CreaturesMinotaurAttack_10: 6993149785046465024
+      Minifantasy_CreaturesMinotaurAttack_11: 6702002416805912799
+      Minifantasy_CreaturesMinotaurAttack_12: 2086341126792992305
+      Minifantasy_CreaturesMinotaurAttack_13: -2207081627037377231
+      Minifantasy_CreaturesMinotaurAttack_14: -2726958143813846406
+      Minifantasy_CreaturesMinotaurAttack_15: 4740485329730098650
+      Minifantasy_CreaturesMinotaurAttack_16: 2748437684618145356
+      Minifantasy_CreaturesMinotaurAttack_17: 882790330617047586
+      Minifantasy_CreaturesMinotaurAttack_18: 2944636026697735371
+      Minifantasy_CreaturesMinotaurAttack_19: -6108574703337539165
+      Minifantasy_CreaturesMinotaurAttack_2: -4471715297430409043
+      Minifantasy_CreaturesMinotaurAttack_20: 8454001066258877748
+      Minifantasy_CreaturesMinotaurAttack_21: 5071770783419905404
+      Minifantasy_CreaturesMinotaurAttack_22: -1025818595674968286
+      Minifantasy_CreaturesMinotaurAttack_23: -4669852177036655588
+      Minifantasy_CreaturesMinotaurAttack_24: -1702740873878639813
+      Minifantasy_CreaturesMinotaurAttack_25: 6288273934353383060
+      Minifantasy_CreaturesMinotaurAttack_26: -5850165191117389610
+      Minifantasy_CreaturesMinotaurAttack_27: -7803483672806728240
+      Minifantasy_CreaturesMinotaurAttack_28: 8400704995931505433
+      Minifantasy_CreaturesMinotaurAttack_29: 8732123948804927945
+      Minifantasy_CreaturesMinotaurAttack_3: 2775621909589208452
+      Minifantasy_CreaturesMinotaurAttack_30: -2465420614357142078
+      Minifantasy_CreaturesMinotaurAttack_31: 6189586434125191671
+      Minifantasy_CreaturesMinotaurAttack_4: 3779742493083244918
+      Minifantasy_CreaturesMinotaurAttack_5: -41108445085577113
+      Minifantasy_CreaturesMinotaurAttack_6: 3905015404609459188
+      Minifantasy_CreaturesMinotaurAttack_7: 7424533815895771997
+      Minifantasy_CreaturesMinotaurAttack_8: -4747745320271330137
+      Minifantasy_CreaturesMinotaurAttack_9: 2320702000617801911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

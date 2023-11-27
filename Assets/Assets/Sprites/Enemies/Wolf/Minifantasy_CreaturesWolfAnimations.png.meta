@@ -1,0 +1,3143 @@
+fileFormatVersion: 2
+guid: 519021003b8942047806a865444da20b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3965566520588300523
+    second: Minifantasy_CreaturesWolfAnimations_0
+  - first:
+      213: -8723640830280070701
+    second: Minifantasy_CreaturesWolfAnimations_1
+  - first:
+      213: 568074403771475203
+    second: Minifantasy_CreaturesWolfAnimations_2
+  - first:
+      213: 1317383673791729278
+    second: Minifantasy_CreaturesWolfAnimations_3
+  - first:
+      213: 200077910479559961
+    second: Minifantasy_CreaturesWolfAnimations_4
+  - first:
+      213: 6365665248024713967
+    second: Minifantasy_CreaturesWolfAnimations_5
+  - first:
+      213: 7957660488087840445
+    second: Minifantasy_CreaturesWolfAnimations_6
+  - first:
+      213: 6152800346165241497
+    second: Minifantasy_CreaturesWolfAnimations_7
+  - first:
+      213: -2107448518932388498
+    second: Minifantasy_CreaturesWolfAnimations_8
+  - first:
+      213: -294935908489750815
+    second: Minifantasy_CreaturesWolfAnimations_9
+  - first:
+      213: -1133914924110148995
+    second: Minifantasy_CreaturesWolfAnimations_10
+  - first:
+      213: -5275303285247192960
+    second: Minifantasy_CreaturesWolfAnimations_11
+  - first:
+      213: 5362624758422161190
+    second: Minifantasy_CreaturesWolfAnimations_12
+  - first:
+      213: 3726723320688569584
+    second: Minifantasy_CreaturesWolfAnimations_13
+  - first:
+      213: 3419915511586352898
+    second: Minifantasy_CreaturesWolfAnimations_14
+  - first:
+      213: -21189114935143443
+    second: Minifantasy_CreaturesWolfAnimations_15
+  - first:
+      213: -4993577650791085206
+    second: Minifantasy_CreaturesWolfAnimations_16
+  - first:
+      213: 5114954103585166593
+    second: Minifantasy_CreaturesWolfAnimations_17
+  - first:
+      213: 75994376487183849
+    second: Minifantasy_CreaturesWolfAnimations_18
+  - first:
+      213: -6936286779459875137
+    second: Minifantasy_CreaturesWolfAnimations_19
+  - first:
+      213: -2308806378580307242
+    second: Minifantasy_CreaturesWolfAnimations_20
+  - first:
+      213: -3045535655315014781
+    second: Minifantasy_CreaturesWolfAnimations_21
+  - first:
+      213: 4946483285598422019
+    second: Minifantasy_CreaturesWolfAnimations_22
+  - first:
+      213: 2153443593533699696
+    second: Minifantasy_CreaturesWolfAnimations_23
+  - first:
+      213: -4173742727929378033
+    second: Minifantasy_CreaturesWolfAnimations_24
+  - first:
+      213: 7835119021974057170
+    second: Minifantasy_CreaturesWolfAnimations_25
+  - first:
+      213: -1110803033133086717
+    second: Minifantasy_CreaturesWolfAnimations_26
+  - first:
+      213: -5252626809965487051
+    second: Minifantasy_CreaturesWolfAnimations_27
+  - first:
+      213: -3877447956493757803
+    second: Minifantasy_CreaturesWolfAnimations_28
+  - first:
+      213: 8215080090335095111
+    second: Minifantasy_CreaturesWolfAnimations_29
+  - first:
+      213: -7370035751625965934
+    second: Minifantasy_CreaturesWolfAnimations_30
+  - first:
+      213: -7538695619056929592
+    second: Minifantasy_CreaturesWolfAnimations_31
+  - first:
+      213: 4321896966499531813
+    second: Minifantasy_CreaturesWolfAnimations_32
+  - first:
+      213: -4348446455822104370
+    second: Minifantasy_CreaturesWolfAnimations_33
+  - first:
+      213: 4091958735564735984
+    second: Minifantasy_CreaturesWolfAnimations_34
+  - first:
+      213: -498154025828394228
+    second: Minifantasy_CreaturesWolfAnimations_35
+  - first:
+      213: -6706602212420094037
+    second: Minifantasy_CreaturesWolfAnimations_36
+  - first:
+      213: -6039650067118442973
+    second: Minifantasy_CreaturesWolfAnimations_37
+  - first:
+      213: 3960160869863880966
+    second: Minifantasy_CreaturesWolfAnimations_38
+  - first:
+      213: -5947023307592995862
+    second: Minifantasy_CreaturesWolfAnimations_39
+  - first:
+      213: 5962003744904386596
+    second: Minifantasy_CreaturesWolfAnimations_40
+  - first:
+      213: 4115627284314318451
+    second: Minifantasy_CreaturesWolfAnimations_41
+  - first:
+      213: -8541737991683819579
+    second: Minifantasy_CreaturesWolfAnimations_42
+  - first:
+      213: 3893259682321344363
+    second: Minifantasy_CreaturesWolfAnimations_43
+  - first:
+      213: 4273190010933582664
+    second: Minifantasy_CreaturesWolfAnimations_44
+  - first:
+      213: 8631730824995231530
+    second: Minifantasy_CreaturesWolfAnimations_45
+  - first:
+      213: 1784247815072707060
+    second: Minifantasy_CreaturesWolfAnimations_46
+  - first:
+      213: 8197841132613410185
+    second: Minifantasy_CreaturesWolfAnimations_47
+  - first:
+      213: 4649520754440954657
+    second: Minifantasy_CreaturesWolfAnimations_48
+  - first:
+      213: 1455341414734668220
+    second: Minifantasy_CreaturesWolfAnimations_49
+  - first:
+      213: 7622393814387757731
+    second: Minifantasy_CreaturesWolfAnimations_50
+  - first:
+      213: 8878786799015289035
+    second: Minifantasy_CreaturesWolfAnimations_51
+  - first:
+      213: 2491287232871348837
+    second: Minifantasy_CreaturesWolfAnimations_52
+  - first:
+      213: 1751625306390992636
+    second: Minifantasy_CreaturesWolfAnimations_53
+  - first:
+      213: 7047559431249457837
+    second: Minifantasy_CreaturesWolfAnimations_54
+  - first:
+      213: 5237378501417000637
+    second: Minifantasy_CreaturesWolfAnimations_55
+  - first:
+      213: 7735732407712946269
+    second: Minifantasy_CreaturesWolfAnimations_56
+  - first:
+      213: -308815579919559349
+    second: Minifantasy_CreaturesWolfAnimations_57
+  - first:
+      213: 8679868248242769079
+    second: Minifantasy_CreaturesWolfAnimations_58
+  - first:
+      213: -3070651788271323835
+    second: Minifantasy_CreaturesWolfAnimations_59
+  - first:
+      213: 168054026721911564
+    second: Minifantasy_CreaturesWolfAnimations_60
+  - first:
+      213: 2097548832031087037
+    second: Minifantasy_CreaturesWolfAnimations_61
+  - first:
+      213: -6570814130568810906
+    second: Minifantasy_CreaturesWolfAnimations_62
+  - first:
+      213: 3576325999650878701
+    second: Minifantasy_CreaturesWolfAnimations_63
+  - first:
+      213: 9174237943510920169
+    second: Minifantasy_CreaturesWolfAnimations_64
+  - first:
+      213: 6793807472164747887
+    second: Minifantasy_CreaturesWolfAnimations_65
+  - first:
+      213: -764266642479674505
+    second: Minifantasy_CreaturesWolfAnimations_66
+  - first:
+      213: -4791004056596598364
+    second: Minifantasy_CreaturesWolfAnimations_67
+  - first:
+      213: -5327536045194493545
+    second: Minifantasy_CreaturesWolfAnimations_68
+  - first:
+      213: 2768782262313085536
+    second: Minifantasy_CreaturesWolfAnimations_69
+  - first:
+      213: 8693593384918342316
+    second: Minifantasy_CreaturesWolfAnimations_70
+  - first:
+      213: -6225675049548941710
+    second: Minifantasy_CreaturesWolfAnimations_71
+  - first:
+      213: -4278978012571756318
+    second: Minifantasy_CreaturesWolfAnimations_72
+  - first:
+      213: -2436270364393325984
+    second: Minifantasy_CreaturesWolfAnimations_73
+  - first:
+      213: 4718535657108908152
+    second: Minifantasy_CreaturesWolfAnimations_74
+  - first:
+      213: 7534067969782486845
+    second: Minifantasy_CreaturesWolfAnimations_75
+  - first:
+      213: -2427518984807111335
+    second: Minifantasy_CreaturesWolfAnimations_76
+  - first:
+      213: 6334447212273960231
+    second: Minifantasy_CreaturesWolfAnimations_77
+  - first:
+      213: -3921850209866756260
+    second: Minifantasy_CreaturesWolfAnimations_78
+  - first:
+      213: 3558624745023503231
+    second: Minifantasy_CreaturesWolfAnimations_79
+  - first:
+      213: 7436810016744137505
+    second: Minifantasy_CreaturesWolfAnimations_80
+  - first:
+      213: 4733745552576952863
+    second: Minifantasy_CreaturesWolfAnimations_81
+  - first:
+      213: 4207693936415817334
+    second: Minifantasy_CreaturesWolfAnimations_82
+  - first:
+      213: 3111950347955608155
+    second: Minifantasy_CreaturesWolfAnimations_83
+  - first:
+      213: -941545301258116576
+    second: Minifantasy_CreaturesWolfAnimations_84
+  - first:
+      213: 8057824195319116693
+    second: Minifantasy_CreaturesWolfAnimations_85
+  - first:
+      213: 4407566311446623561
+    second: Minifantasy_CreaturesWolfAnimations_86
+  - first:
+      213: 781402535277175802
+    second: Minifantasy_CreaturesWolfAnimations_87
+  - first:
+      213: 1218733224102085122
+    second: Minifantasy_CreaturesWolfAnimations_88
+  - first:
+      213: 5021180555481956089
+    second: Minifantasy_CreaturesWolfAnimations_89
+  - first:
+      213: 7960103426987034293
+    second: Minifantasy_CreaturesWolfAnimations_90
+  - first:
+      213: 1216709882439294635
+    second: Minifantasy_CreaturesWolfAnimations_91
+  - first:
+      213: 3846256023598077847
+    second: Minifantasy_CreaturesWolfAnimations_92
+  - first:
+      213: -564790255094071588
+    second: Minifantasy_CreaturesWolfAnimations_93
+  - first:
+      213: 8288936960407088637
+    second: Minifantasy_CreaturesWolfAnimations_94
+  - first:
+      213: 7800353972275650865
+    second: Minifantasy_CreaturesWolfAnimations_95
+  - first:
+      213: 594841743953538618
+    second: Minifantasy_CreaturesWolfAnimations_96
+  - first:
+      213: 235374581185541984
+    second: Minifantasy_CreaturesWolfAnimations_97
+  - first:
+      213: 2525225077446590982
+    second: Minifantasy_CreaturesWolfAnimations_98
+  - first:
+      213: -2422964593189610684
+    second: Minifantasy_CreaturesWolfAnimations_99
+  - first:
+      213: 2544704982842090233
+    second: Minifantasy_CreaturesWolfAnimations_100
+  - first:
+      213: 5509384980924080964
+    second: Minifantasy_CreaturesWolfAnimations_101
+  - first:
+      213: -8772268357644606807
+    second: Minifantasy_CreaturesWolfAnimations_102
+  - first:
+      213: 6351450279303365733
+    second: Minifantasy_CreaturesWolfAnimations_103
+  - first:
+      213: 836334390722742906
+    second: Minifantasy_CreaturesWolfAnimations_104
+  - first:
+      213: 7105323438586309037
+    second: Minifantasy_CreaturesWolfAnimations_105
+  - first:
+      213: 5512499296502871186
+    second: Minifantasy_CreaturesWolfAnimations_106
+  - first:
+      213: -5273327340183958712
+    second: Minifantasy_CreaturesWolfAnimations_107
+  - first:
+      213: -9195920626151788549
+    second: Minifantasy_CreaturesWolfAnimations_108
+  - first:
+      213: -5548422697524048377
+    second: Minifantasy_CreaturesWolfAnimations_109
+  - first:
+      213: 4338717960233834288
+    second: Minifantasy_CreaturesWolfAnimations_110
+  - first:
+      213: -2777167354752691939
+    second: Minifantasy_CreaturesWolfAnimations_111
+  - first:
+      213: 1857016779796432467
+    second: Minifantasy_CreaturesWolfAnimations_112
+  - first:
+      213: 1408584754720891330
+    second: Minifantasy_CreaturesWolfAnimations_113
+  - first:
+      213: -2235817638642372530
+    second: Minifantasy_CreaturesWolfAnimations_114
+  - first:
+      213: 8810643837940659432
+    second: Minifantasy_CreaturesWolfAnimations_115
+  - first:
+      213: 1361465889791962003
+    second: Minifantasy_CreaturesWolfAnimations_116
+  - first:
+      213: -2654890911657887399
+    second: Minifantasy_CreaturesWolfAnimations_117
+  - first:
+      213: -7804037625254113468
+    second: Minifantasy_CreaturesWolfAnimations_118
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f072f824a77f8c0800000000000000
+      internalID: -3965566520588300523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9001b72e66fe680800000000000000
+      internalID: -8723640830280070701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3056ac219a432e700800000000000000
+      internalID: 568074403771475203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e4145b879484210800000000000000
+      internalID: 1317383673791729278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d598dacc1d6c200800000000000000
+      internalID: 200077910479559961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feadf8bf0d2675850800000000000000
+      internalID: 6365665248024713967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db623ab6d0a4f6e60800000000000000
+      internalID: 7957660488087840445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996641fd053236550800000000000000
+      internalID: 6152800346165241497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ac9edcb6d0c2e0800000000000000
+      internalID: -2107448518932388498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e616f69a5d28ebf0800000000000000
+      internalID: -294935908489750815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a86ee52668340f0800000000000000
+      internalID: -1133914924110148995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080d360ac9b5ac6b0800000000000000
+      internalID: -5275303285247192960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627c77d2ecedb6a40800000000000000
+      internalID: 5362624758422161190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc6ec97d1bf7b330800000000000000
+      internalID: 3726723320688569584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fe3fdc90bf57f20800000000000000
+      internalID: 3419915511586352898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de39f2bbc98b4bff0800000000000000
+      internalID: -21189114935143443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b844e659f33bab0800000000000000
+      internalID: -4993577650791085206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105de9238a7fbf640800000000000000
+      internalID: 5114954103585166593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e522779b7cfd0100800000000000000
+      internalID: 75994376487183849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe4e029ceb5dbf90800000000000000
+      internalID: -6936286779459875137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2909dc4d875ffd0800000000000000
+      internalID: -2308806378580307242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b792a15751cb5d0800000000000000
+      internalID: -3045535655315014781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3044085375075a440800000000000000
+      internalID: 4946483285598422019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076ba64f98192ed10800000000000000
+      internalID: 2153443593533699696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b46e53a13e316c0800000000000000
+      internalID: -4173742727929378033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d07badfc3febbc60800000000000000
+      internalID: 7835119021974057170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3080da2d682a590f0800000000000000
+      internalID: -1110803033133086717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c5056febbea17b0800000000000000
+      internalID: -5252626809965487051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592102e80a9803ac0800000000000000
+      internalID: -3877447956493757803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749aec911d3d10270800000000000000
+      internalID: 8215080090335095111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eb762388f58b990800000000000000
+      internalID: -7370035751625965934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c47154b64c216790800000000000000
+      internalID: -7538695619056929592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cfa0484667afb30800000000000000
+      internalID: 4321896966499531813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8caebccf637a3c0800000000000000
+      internalID: -4348446455822104370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f584e43ace89c830800000000000000
+      internalID: 4091958735564735984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b51178d833619f0800000000000000
+      internalID: -498154025828394228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7f9d622dc5de2a0800000000000000
+      internalID: -6706602212420094037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326bdbd634ade2ca0800000000000000
+      internalID: -6039650067118442973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60973ad445155f630800000000000000
+      internalID: 3960160869863880966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb63f77fcde77da0800000000000000
+      internalID: -5947023307592995862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428139461da4db250800000000000000
+      internalID: 5962003744904386596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376e575a535ad1930800000000000000
+      internalID: 4115627284314318451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c73a397d86a57980800000000000000
+      internalID: -8541737991683819579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b672d1fbd03a70630800000000000000
+      internalID: 3893259682321344363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b9173bcab6d4b30800000000000000
+      internalID: 4273190010933582664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2751a4d3711ac770800000000000000
+      internalID: 8631730824995231530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1fca83febe2c810800000000000000
+      internalID: 1784247815072707060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d128a731594c170800000000000000
+      internalID: 8197841132613410185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1236240fd7a668040800000000000000
+      internalID: 4649520754440954657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1ac245e49623410800000000000000
+      internalID: 1455341414734668220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a297bcf9ce28c960800000000000000
+      internalID: 7622393814387757731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0ebb74d89c73b70800000000000000
+      internalID: 8878786799015289035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a33c4f984d29220800000000000000
+      internalID: 2491287232871348837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf615078fe50f4810800000000000000
+      internalID: 1751625306390992636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2f31196f5fdc160800000000000000
+      internalID: 7047559431249457837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe5a3b8ff7eea840800000000000000
+      internalID: 5237378501417000637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58153f93a7da5b60800000000000000
+      internalID: 7735732407712946269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45d9c1cdddd6bbf0800000000000000
+      internalID: -308815579919559349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcc3b11f26157870800000000000000
+      internalID: 8679868248242769079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5457b23b77ad265d0800000000000000
+      internalID: -3070651788271323835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0365d53f3c055200800000000000000
+      internalID: 168054026721911564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db99f38ac8dfb1d10800000000000000
+      internalID: 2097548832031087037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e2456ac57cfc4a0800000000000000
+      internalID: -6570814130568810906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de43f2a6c89a1a130800000000000000
+      internalID: 3576325999650878701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebe0eb6dc0715f70800000000000000
+      internalID: 9174237943510920169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a36ca96e3784e50800000000000000
+      internalID: 6793807472164747887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b8155b987c465f0800000000000000
+      internalID: -764266642479674505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1ba11c13fe28db0800000000000000
+      internalID: -4791004056596598364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791c712813ac016b0800000000000000
+      internalID: -5327536045194493545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ae2954cc0bc6620800000000000000
+      internalID: 2768782262313085536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa5eb97f19d5a870800000000000000
+      internalID: 8693593384918342316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2767f980785f999a0800000000000000
+      internalID: -6225675049548941710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e814f62b240e94c0800000000000000
+      internalID: -4278978012571756318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a3681f201a03ed0800000000000000
+      internalID: -2436270364393325984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878adf52e2b9b7140800000000000000
+      internalID: 4718535657108908152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37988cb6e26e8860800000000000000
+      internalID: 7534067969782486845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_76
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9552e094858bf4ed0800000000000000
+      internalID: -2427518984807111335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7258d00ad2a78e750800000000000000
+      internalID: 6334447212273960231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fc992530ac299c0800000000000000
+      internalID: -3921850209866756260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b7a08e956c26130800000000000000
+      internalID: 3558624745023503231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123e91eee4bd43760800000000000000
+      internalID: 7436810016744137505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3f66ef74a1b140800000000000000
+      internalID: 4733745552576952863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e31a3875bb46a30800000000000000
+      internalID: 4207693936415817334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a1c888a5edf2b20800000000000000
+      internalID: 3111950347955608155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022629a7985fee2f0800000000000000
+      internalID: -941545301258116576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5933b88d96423df60800000000000000
+      internalID: 8057824195319116693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94531cd3532da2d30800000000000000
+      internalID: 4407566311446623561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af329cd377918da00800000000000000
+      internalID: 781402535277175802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2024292096fc9e010800000000000000
+      internalID: 1218733224102085122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feb992ac11dea540800000000000000
+      internalID: 5021180555481956089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b68ee474e7f77e60800000000000000
+      internalID: 7960103426987034293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae5081113f92e010800000000000000
+      internalID: 1216709882439294635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79715c1a975a06530800000000000000
+      internalID: 3846256023598077847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdef38061467928f0800000000000000
+      internalID: -564790255094071588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdaba2bf38380370800000000000000
+      internalID: 8288936960407088637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1312cc71c9c604c60800000000000000
+      internalID: 7800353972275650865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3eaced1a6d414800800000000000000
+      internalID: 594841743953538618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06778bc3fe7344300800000000000000
+      internalID: 235374581185541984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602cc1724d66b0320800000000000000
+      internalID: 2525225077446590982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b95973a86ef5ed0800000000000000
+      internalID: -2422964593189610684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2287013bb905320800000000000000
+      internalID: 2544704982842090233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4432ade3374457c40800000000000000
+      internalID: 5509384980924080964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2a13cf764a24680800000000000000
+      internalID: -8772268357644606807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564ce6aa062e42850800000000000000
+      internalID: 6351450279303365733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac87082b14b9b00800000000000000
+      internalID: 836334390722742906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9a133950e2b9260800000000000000
+      internalID: 7105323438586309037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294f4a857e4508c40800000000000000
+      internalID: 5512499296502871186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bcaff29b061d6b0800000000000000
+      internalID: -5273327340183958712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffe88f99e6816080800000000000000
+      internalID: -9195920626151788549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e4d5214fa0003b0800000000000000
+      internalID: -5548422697524048377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03758505ff8363c30800000000000000
+      internalID: 4338717960233834288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11972241058579d0800000000000000
+      internalID: -2777167354752691939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356c4bd1ce275c910800000000000000
+      internalID: 1857016779796432467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c16b251f5c4c8310800000000000000
+      internalID: 1408584754720891330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e403b2a14b7c8f0e0800000000000000
+      internalID: -2235817638642372530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4ffeac3e1b54a70800000000000000
+      internalID: 8810643837940659432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b6cde6306e4e210800000000000000
+      internalID: 1361465889791962003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959f73538cee72bd0800000000000000
+      internalID: -2654890911657887399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f02fc902d72b390800000000000000
+      internalID: -7804037625254113468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b9a9de216bf84ebeff3a85af72141
+      internalID: -948829750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesWolfAnimations_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4633f342a0ced4ebfe6efc5ee063b9
+      internalID: -1353992166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a1c639fcb900b134b86a99e7fcb36b59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_CreaturesWolfAnimations_0: -3965566520588300523
+      Minifantasy_CreaturesWolfAnimations_1: -8723640830280070701
+      Minifantasy_CreaturesWolfAnimations_10: -1133914924110148995
+      Minifantasy_CreaturesWolfAnimations_100: 2544704982842090233
+      Minifantasy_CreaturesWolfAnimations_101: 5509384980924080964
+      Minifantasy_CreaturesWolfAnimations_102: -8772268357644606807
+      Minifantasy_CreaturesWolfAnimations_103: 6351450279303365733
+      Minifantasy_CreaturesWolfAnimations_104: 836334390722742906
+      Minifantasy_CreaturesWolfAnimations_105: 7105323438586309037
+      Minifantasy_CreaturesWolfAnimations_106: 5512499296502871186
+      Minifantasy_CreaturesWolfAnimations_107: -5273327340183958712
+      Minifantasy_CreaturesWolfAnimations_108: -9195920626151788549
+      Minifantasy_CreaturesWolfAnimations_109: -5548422697524048377
+      Minifantasy_CreaturesWolfAnimations_11: -5275303285247192960
+      Minifantasy_CreaturesWolfAnimations_110: 4338717960233834288
+      Minifantasy_CreaturesWolfAnimations_111: -2777167354752691939
+      Minifantasy_CreaturesWolfAnimations_112: 1857016779796432467
+      Minifantasy_CreaturesWolfAnimations_113: 1408584754720891330
+      Minifantasy_CreaturesWolfAnimations_114: -2235817638642372530
+      Minifantasy_CreaturesWolfAnimations_115: 8810643837940659432
+      Minifantasy_CreaturesWolfAnimations_116: 1361465889791962003
+      Minifantasy_CreaturesWolfAnimations_117: -2654890911657887399
+      Minifantasy_CreaturesWolfAnimations_118: -7804037625254113468
+      Minifantasy_CreaturesWolfAnimations_119: -948829750
+      Minifantasy_CreaturesWolfAnimations_12: 5362624758422161190
+      Minifantasy_CreaturesWolfAnimations_120: -1353992166
+      Minifantasy_CreaturesWolfAnimations_13: 3726723320688569584
+      Minifantasy_CreaturesWolfAnimations_14: 3419915511586352898
+      Minifantasy_CreaturesWolfAnimations_15: -21189114935143443
+      Minifantasy_CreaturesWolfAnimations_16: -4993577650791085206
+      Minifantasy_CreaturesWolfAnimations_17: 5114954103585166593
+      Minifantasy_CreaturesWolfAnimations_18: 75994376487183849
+      Minifantasy_CreaturesWolfAnimations_19: -6936286779459875137
+      Minifantasy_CreaturesWolfAnimations_2: 568074403771475203
+      Minifantasy_CreaturesWolfAnimations_20: -2308806378580307242
+      Minifantasy_CreaturesWolfAnimations_21: -3045535655315014781
+      Minifantasy_CreaturesWolfAnimations_22: 4946483285598422019
+      Minifantasy_CreaturesWolfAnimations_23: 2153443593533699696
+      Minifantasy_CreaturesWolfAnimations_24: -4173742727929378033
+      Minifantasy_CreaturesWolfAnimations_25: 7835119021974057170
+      Minifantasy_CreaturesWolfAnimations_26: -1110803033133086717
+      Minifantasy_CreaturesWolfAnimations_27: -5252626809965487051
+      Minifantasy_CreaturesWolfAnimations_28: -3877447956493757803
+      Minifantasy_CreaturesWolfAnimations_29: 8215080090335095111
+      Minifantasy_CreaturesWolfAnimations_3: 1317383673791729278
+      Minifantasy_CreaturesWolfAnimations_30: -7370035751625965934
+      Minifantasy_CreaturesWolfAnimations_31: -7538695619056929592
+      Minifantasy_CreaturesWolfAnimations_32: 4321896966499531813
+      Minifantasy_CreaturesWolfAnimations_33: -4348446455822104370
+      Minifantasy_CreaturesWolfAnimations_34: 4091958735564735984
+      Minifantasy_CreaturesWolfAnimations_35: -498154025828394228
+      Minifantasy_CreaturesWolfAnimations_36: -6706602212420094037
+      Minifantasy_CreaturesWolfAnimations_37: -6039650067118442973
+      Minifantasy_CreaturesWolfAnimations_38: 3960160869863880966
+      Minifantasy_CreaturesWolfAnimations_39: -5947023307592995862
+      Minifantasy_CreaturesWolfAnimations_4: 200077910479559961
+      Minifantasy_CreaturesWolfAnimations_40: 5962003744904386596
+      Minifantasy_CreaturesWolfAnimations_41: 4115627284314318451
+      Minifantasy_CreaturesWolfAnimations_42: -8541737991683819579
+      Minifantasy_CreaturesWolfAnimations_43: 3893259682321344363
+      Minifantasy_CreaturesWolfAnimations_44: 4273190010933582664
+      Minifantasy_CreaturesWolfAnimations_45: 8631730824995231530
+      Minifantasy_CreaturesWolfAnimations_46: 1784247815072707060
+      Minifantasy_CreaturesWolfAnimations_47: 8197841132613410185
+      Minifantasy_CreaturesWolfAnimations_48: 4649520754440954657
+      Minifantasy_CreaturesWolfAnimations_49: 1455341414734668220
+      Minifantasy_CreaturesWolfAnimations_5: 6365665248024713967
+      Minifantasy_CreaturesWolfAnimations_50: 7622393814387757731
+      Minifantasy_CreaturesWolfAnimations_51: 8878786799015289035
+      Minifantasy_CreaturesWolfAnimations_52: 2491287232871348837
+      Minifantasy_CreaturesWolfAnimations_53: 1751625306390992636
+      Minifantasy_CreaturesWolfAnimations_54: 7047559431249457837
+      Minifantasy_CreaturesWolfAnimations_55: 5237378501417000637
+      Minifantasy_CreaturesWolfAnimations_56: 7735732407712946269
+      Minifantasy_CreaturesWolfAnimations_57: -308815579919559349
+      Minifantasy_CreaturesWolfAnimations_58: 8679868248242769079
+      Minifantasy_CreaturesWolfAnimations_59: -3070651788271323835
+      Minifantasy_CreaturesWolfAnimations_6: 7957660488087840445
+      Minifantasy_CreaturesWolfAnimations_60: 168054026721911564
+      Minifantasy_CreaturesWolfAnimations_61: 2097548832031087037
+      Minifantasy_CreaturesWolfAnimations_62: -6570814130568810906
+      Minifantasy_CreaturesWolfAnimations_63: 3576325999650878701
+      Minifantasy_CreaturesWolfAnimations_64: 9174237943510920169
+      Minifantasy_CreaturesWolfAnimations_65: 6793807472164747887
+      Minifantasy_CreaturesWolfAnimations_66: -764266642479674505
+      Minifantasy_CreaturesWolfAnimations_67: -4791004056596598364
+      Minifantasy_CreaturesWolfAnimations_68: -5327536045194493545
+      Minifantasy_CreaturesWolfAnimations_69: 2768782262313085536
+      Minifantasy_CreaturesWolfAnimations_7: 6152800346165241497
+      Minifantasy_CreaturesWolfAnimations_70: 8693593384918342316
+      Minifantasy_CreaturesWolfAnimations_71: -6225675049548941710
+      Minifantasy_CreaturesWolfAnimations_72: -4278978012571756318
+      Minifantasy_CreaturesWolfAnimations_73: -2436270364393325984
+      Minifantasy_CreaturesWolfAnimations_74: 4718535657108908152
+      Minifantasy_CreaturesWolfAnimations_75: 7534067969782486845
+      Minifantasy_CreaturesWolfAnimations_76: -2427518984807111335
+      Minifantasy_CreaturesWolfAnimations_77: 6334447212273960231
+      Minifantasy_CreaturesWolfAnimations_78: -3921850209866756260
+      Minifantasy_CreaturesWolfAnimations_79: 3558624745023503231
+      Minifantasy_CreaturesWolfAnimations_8: -2107448518932388498
+      Minifantasy_CreaturesWolfAnimations_80: 7436810016744137505
+      Minifantasy_CreaturesWolfAnimations_81: 4733745552576952863
+      Minifantasy_CreaturesWolfAnimations_82: 4207693936415817334
+      Minifantasy_CreaturesWolfAnimations_83: 3111950347955608155
+      Minifantasy_CreaturesWolfAnimations_84: -941545301258116576
+      Minifantasy_CreaturesWolfAnimations_85: 8057824195319116693
+      Minifantasy_CreaturesWolfAnimations_86: 4407566311446623561
+      Minifantasy_CreaturesWolfAnimations_87: 781402535277175802
+      Minifantasy_CreaturesWolfAnimations_88: 1218733224102085122
+      Minifantasy_CreaturesWolfAnimations_89: 5021180555481956089
+      Minifantasy_CreaturesWolfAnimations_9: -294935908489750815
+      Minifantasy_CreaturesWolfAnimations_90: 7960103426987034293
+      Minifantasy_CreaturesWolfAnimations_91: 1216709882439294635
+      Minifantasy_CreaturesWolfAnimations_92: 3846256023598077847
+      Minifantasy_CreaturesWolfAnimations_93: -564790255094071588
+      Minifantasy_CreaturesWolfAnimations_94: 8288936960407088637
+      Minifantasy_CreaturesWolfAnimations_95: 7800353972275650865
+      Minifantasy_CreaturesWolfAnimations_96: 594841743953538618
+      Minifantasy_CreaturesWolfAnimations_97: 235374581185541984
+      Minifantasy_CreaturesWolfAnimations_98: 2525225077446590982
+      Minifantasy_CreaturesWolfAnimations_99: -2422964593189610684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

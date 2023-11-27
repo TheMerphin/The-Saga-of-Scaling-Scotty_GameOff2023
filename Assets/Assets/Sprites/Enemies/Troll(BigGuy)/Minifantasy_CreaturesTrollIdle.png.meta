@@ -1,0 +1,1726 @@
+fileFormatVersion: 2
+guid: f27fa621bb673e74b84609c9d18bbb60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4917857245902143833
+    second: Minifantasy_CreaturesTrollIdle_0
+  - first:
+      213: -526327314293398848
+    second: Minifantasy_CreaturesTrollIdle_1
+  - first:
+      213: -4690443844115628260
+    second: Minifantasy_CreaturesTrollIdle_2
+  - first:
+      213: 5999601332004064206
+    second: Minifantasy_CreaturesTrollIdle_3
+  - first:
+      213: 813094506270748983
+    second: Minifantasy_CreaturesTrollIdle_4
+  - first:
+      213: 6894438135240727494
+    second: Minifantasy_CreaturesTrollIdle_5
+  - first:
+      213: 8504270272564323112
+    second: Minifantasy_CreaturesTrollIdle_6
+  - first:
+      213: -91155254692123415
+    second: Minifantasy_CreaturesTrollIdle_7
+  - first:
+      213: 6927259904771836223
+    second: Minifantasy_CreaturesTrollIdle_8
+  - first:
+      213: -1432379975613996569
+    second: Minifantasy_CreaturesTrollIdle_9
+  - first:
+      213: -7399059356211410790
+    second: Minifantasy_CreaturesTrollIdle_10
+  - first:
+      213: -4976159444966645089
+    second: Minifantasy_CreaturesTrollIdle_11
+  - first:
+      213: -2486527987612160541
+    second: Minifantasy_CreaturesTrollIdle_12
+  - first:
+      213: -7323488901246382344
+    second: Minifantasy_CreaturesTrollIdle_13
+  - first:
+      213: 2552304039706974543
+    second: Minifantasy_CreaturesTrollIdle_14
+  - first:
+      213: -5138915883073546150
+    second: Minifantasy_CreaturesTrollIdle_15
+  - first:
+      213: 5742094524701715177
+    second: Minifantasy_CreaturesTrollIdle_16
+  - first:
+      213: -3611395324589248306
+    second: Minifantasy_CreaturesTrollIdle_17
+  - first:
+      213: 2959299147572215970
+    second: Minifantasy_CreaturesTrollIdle_18
+  - first:
+      213: 8193885376303556267
+    second: Minifantasy_CreaturesTrollIdle_19
+  - first:
+      213: -1705157110044085043
+    second: Minifantasy_CreaturesTrollIdle_20
+  - first:
+      213: -3716129010247703139
+    second: Minifantasy_CreaturesTrollIdle_21
+  - first:
+      213: 7932231486909331929
+    second: Minifantasy_CreaturesTrollIdle_22
+  - first:
+      213: -2471948048323834384
+    second: Minifantasy_CreaturesTrollIdle_23
+  - first:
+      213: 3623267184328938019
+    second: Minifantasy_CreaturesTrollIdle_24
+  - first:
+      213: 2462893646425346787
+    second: Minifantasy_CreaturesTrollIdle_25
+  - first:
+      213: -7223711114677717660
+    second: Minifantasy_CreaturesTrollIdle_26
+  - first:
+      213: -8952827948293947074
+    second: Minifantasy_CreaturesTrollIdle_27
+  - first:
+      213: -2510510982022082094
+    second: Minifantasy_CreaturesTrollIdle_28
+  - first:
+      213: 5221648420300693175
+    second: Minifantasy_CreaturesTrollIdle_29
+  - first:
+      213: 2785728979788194131
+    second: Minifantasy_CreaturesTrollIdle_30
+  - first:
+      213: -3502064661429910352
+    second: Minifantasy_CreaturesTrollIdle_31
+  - first:
+      213: -2297734726947605845
+    second: Minifantasy_CreaturesTrollIdle_32
+  - first:
+      213: 1519252479829830552
+    second: Minifantasy_CreaturesTrollIdle_33
+  - first:
+      213: 8378165867486057972
+    second: Minifantasy_CreaturesTrollIdle_34
+  - first:
+      213: 5693798327274440261
+    second: Minifantasy_CreaturesTrollIdle_35
+  - first:
+      213: 5927849272821872569
+    second: Minifantasy_CreaturesTrollIdle_36
+  - first:
+      213: 8867850183430439709
+    second: Minifantasy_CreaturesTrollIdle_37
+  - first:
+      213: 3839994402065113105
+    second: Minifantasy_CreaturesTrollIdle_38
+  - first:
+      213: -7246988239699438874
+    second: Minifantasy_CreaturesTrollIdle_39
+  - first:
+      213: 8789021079364745568
+    second: Minifantasy_CreaturesTrollIdle_40
+  - first:
+      213: 203939709596170928
+    second: Minifantasy_CreaturesTrollIdle_41
+  - first:
+      213: -1954138800693150474
+    second: Minifantasy_CreaturesTrollIdle_42
+  - first:
+      213: 8557538940407535393
+    second: Minifantasy_CreaturesTrollIdle_43
+  - first:
+      213: -6504617626484003356
+    second: Minifantasy_CreaturesTrollIdle_44
+  - first:
+      213: 96808608462586742
+    second: Minifantasy_CreaturesTrollIdle_45
+  - first:
+      213: -8400692724659705406
+    second: Minifantasy_CreaturesTrollIdle_46
+  - first:
+      213: -5104443164818095242
+    second: Minifantasy_CreaturesTrollIdle_47
+  - first:
+      213: 7051543180639505978
+    second: Minifantasy_CreaturesTrollIdle_48
+  - first:
+      213: -1427253977955037448
+    second: Minifantasy_CreaturesTrollIdle_49
+  - first:
+      213: 3567150673059163623
+    second: Minifantasy_CreaturesTrollIdle_50
+  - first:
+      213: -7083850220110890396
+    second: Minifantasy_CreaturesTrollIdle_51
+  - first:
+      213: -3850812866984344222
+    second: Minifantasy_CreaturesTrollIdle_52
+  - first:
+      213: 7913249451852798168
+    second: Minifantasy_CreaturesTrollIdle_53
+  - first:
+      213: -8496839210646587273
+    second: Minifantasy_CreaturesTrollIdle_54
+  - first:
+      213: -7530153532917424670
+    second: Minifantasy_CreaturesTrollIdle_55
+  - first:
+      213: -833234811804496411
+    second: Minifantasy_CreaturesTrollIdle_56
+  - first:
+      213: -3731068164650606454
+    second: Minifantasy_CreaturesTrollIdle_57
+  - first:
+      213: 7082307562706452588
+    second: Minifantasy_CreaturesTrollIdle_58
+  - first:
+      213: 4455343792014358925
+    second: Minifantasy_CreaturesTrollIdle_59
+  - first:
+      213: 6048963900781066578
+    second: Minifantasy_CreaturesTrollIdle_60
+  - first:
+      213: 3673575672937368339
+    second: Minifantasy_CreaturesTrollIdle_61
+  - first:
+      213: 7873732845120235904
+    second: Minifantasy_CreaturesTrollIdle_62
+  - first:
+      213: -3437651306790141110
+    second: Minifantasy_CreaturesTrollIdle_63
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aefbe904e240cbb0800000000000000
+      internalID: -4917857245902143833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2e4f3a81c12b8f0800000000000000
+      internalID: -526327314293398848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ff190cc2238eeb0800000000000000
+      internalID: -4690443844115628260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb001ccf9dd24350800000000000000
+      internalID: 5999601332004064206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731f61f3521b84b00800000000000000
+      internalID: 813094506270748983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb1ee8a4f6fdaf50800000000000000
+      internalID: 6894438135240727494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8236c1e51cc350670800000000000000
+      internalID: 8504270272564323112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6aa067c62cbef0800000000000000
+      internalID: -91155254692123415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f394bb26e22922060800000000000000
+      internalID: 6927259904771836223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e12522500a2f1ce0800000000000000
+      internalID: -1432379975613996569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a980df8a7b2415990800000000000000
+      internalID: -7399059356211410790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92ee01895121fab0800000000000000
+      internalID: -4976159444966645089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed6f4e28f31e7dd0800000000000000
+      internalID: -2486527987612160541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe81b455adbd5a90800000000000000
+      internalID: -7323488901246382344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49578d500b9b6320800000000000000
+      internalID: 2552304039706974543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58d9c24b37eea8b0800000000000000
+      internalID: -5138915883073546150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaaf8b1c8400bf40800000000000000
+      internalID: 5742094524701715177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0f956161fb1edc0800000000000000
+      internalID: -3611395324589248306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0882b45ea811920800000000000000
+      internalID: 2959299147572215970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba667d0365786b170800000000000000
+      internalID: 8193885376303556267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4379984a01658e0800000000000000
+      internalID: -1705157110044085043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9569a4aa58ad6cc0800000000000000
+      internalID: -3716129010247703139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d93665b282f41e60800000000000000
+      internalID: 7932231486909331929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd0074d850e1bdd0800000000000000
+      internalID: -2471948048323834384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3229148ae4e684230800000000000000
+      internalID: 3623267184328938019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2dfb2f8b4fd2220800000000000000
+      internalID: 2462893646425346787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465f799930930cb90800000000000000
+      internalID: -7223711114677717660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3100c64a6a21c380800000000000000
+      internalID: -8952827948293947074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d15bd7209fd82dd0800000000000000
+      internalID: -2510510982022082094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9002a295077840800000000000000
+      internalID: 5221648420300693175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35169c86fb5e8a620800000000000000
+      internalID: 2785728979788194131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b48503ceba266fc0800000000000000
+      internalID: -3502064661429910352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba27534907ecc10e0800000000000000
+      internalID: -2297734726947605845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b6360c418751510800000000000000
+      internalID: 1519252479829830552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51fc09779354470800000000000000
+      internalID: 8378165867486057972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54608ef596f640f40800000000000000
+      internalID: 5693798327274440261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7fa9ca183f34250800000000000000
+      internalID: 5927849272821872569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1301c802cee01b70800000000000000
+      internalID: 8867850183430439709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110649240966a4530800000000000000
+      internalID: 3839994402065113105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2184997968d6b90800000000000000
+      internalID: -7246988239699438874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069b4fefa10e8f970800000000000000
+      internalID: 8789021079364745568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba731ad51a84d200800000000000000
+      internalID: 203939709596170928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc70ee3d1181e4e0800000000000000
+      internalID: -1954138800693150474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1275096935c72c670800000000000000
+      internalID: 8557538940407535393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed2dad4bb4fab5a0800000000000000
+      internalID: -6504617626484003356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673cc9e9aeee75100800000000000000
+      internalID: 96808608462586742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c92377c97eba6b80800000000000000
+      internalID: -8400692724659705406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673c8d07cff5929b0800000000000000
+      internalID: -5104443164818095242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e8850892d1cd160800000000000000
+      internalID: 7051543180639505978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe0ab7a110613ce0800000000000000
+      internalID: -1427253977955037448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edacf733a0118130800000000000000
+      internalID: 3567150673059163623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ab734b1cb11bd90800000000000000
+      internalID: -7083850220110890396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26505e6991a2f8ac0800000000000000
+      internalID: -3850812866984344222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d89db4437281dd60800000000000000
+      internalID: 7913249451852798168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778bccf81c9251a80800000000000000
+      internalID: -8496839210646587273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eddd4e12458f7790800000000000000
+      internalID: -7530153532917424670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed47e37a51cf64f0800000000000000
+      internalID: -833234811804496411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a806b35b545983cc0800000000000000
+      internalID: -3731068164650606454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c604e216439694260800000000000000
+      internalID: 7082307562706452588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89f14bc29f84dd30800000000000000
+      internalID: 4455343792014358925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25977357e9c32f350800000000000000
+      internalID: 6048963900781066578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bc2f07c992bf230800000000000000
+      internalID: 3673575672937368339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a7b94e4e154d60800000000000000
+      internalID: 7873732845120235904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesTrollIdle_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43cd1599520b40d0800000000000000
+      internalID: -3437651306790141110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b2067cbea5adda41a6d33552e79fea8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 1e33a905f78850b4abeaa5797fbc9bce, type: 3}
+      name: _Emission
+    nameFileIdTable:
+      Minifantasy_CreaturesTrollIdle_0: -4917857245902143833
+      Minifantasy_CreaturesTrollIdle_1: -526327314293398848
+      Minifantasy_CreaturesTrollIdle_10: -7399059356211410790
+      Minifantasy_CreaturesTrollIdle_11: -4976159444966645089
+      Minifantasy_CreaturesTrollIdle_12: -2486527987612160541
+      Minifantasy_CreaturesTrollIdle_13: -7323488901246382344
+      Minifantasy_CreaturesTrollIdle_14: 2552304039706974543
+      Minifantasy_CreaturesTrollIdle_15: -5138915883073546150
+      Minifantasy_CreaturesTrollIdle_16: 5742094524701715177
+      Minifantasy_CreaturesTrollIdle_17: -3611395324589248306
+      Minifantasy_CreaturesTrollIdle_18: 2959299147572215970
+      Minifantasy_CreaturesTrollIdle_19: 8193885376303556267
+      Minifantasy_CreaturesTrollIdle_2: -4690443844115628260
+      Minifantasy_CreaturesTrollIdle_20: -1705157110044085043
+      Minifantasy_CreaturesTrollIdle_21: -3716129010247703139
+      Minifantasy_CreaturesTrollIdle_22: 7932231486909331929
+      Minifantasy_CreaturesTrollIdle_23: -2471948048323834384
+      Minifantasy_CreaturesTrollIdle_24: 3623267184328938019
+      Minifantasy_CreaturesTrollIdle_25: 2462893646425346787
+      Minifantasy_CreaturesTrollIdle_26: -7223711114677717660
+      Minifantasy_CreaturesTrollIdle_27: -8952827948293947074
+      Minifantasy_CreaturesTrollIdle_28: -2510510982022082094
+      Minifantasy_CreaturesTrollIdle_29: 5221648420300693175
+      Minifantasy_CreaturesTrollIdle_3: 5999601332004064206
+      Minifantasy_CreaturesTrollIdle_30: 2785728979788194131
+      Minifantasy_CreaturesTrollIdle_31: -3502064661429910352
+      Minifantasy_CreaturesTrollIdle_32: -2297734726947605845
+      Minifantasy_CreaturesTrollIdle_33: 1519252479829830552
+      Minifantasy_CreaturesTrollIdle_34: 8378165867486057972
+      Minifantasy_CreaturesTrollIdle_35: 5693798327274440261
+      Minifantasy_CreaturesTrollIdle_36: 5927849272821872569
+      Minifantasy_CreaturesTrollIdle_37: 8867850183430439709
+      Minifantasy_CreaturesTrollIdle_38: 3839994402065113105
+      Minifantasy_CreaturesTrollIdle_39: -7246988239699438874
+      Minifantasy_CreaturesTrollIdle_4: 813094506270748983
+      Minifantasy_CreaturesTrollIdle_40: 8789021079364745568
+      Minifantasy_CreaturesTrollIdle_41: 203939709596170928
+      Minifantasy_CreaturesTrollIdle_42: -1954138800693150474
+      Minifantasy_CreaturesTrollIdle_43: 8557538940407535393
+      Minifantasy_CreaturesTrollIdle_44: -6504617626484003356
+      Minifantasy_CreaturesTrollIdle_45: 96808608462586742
+      Minifantasy_CreaturesTrollIdle_46: -8400692724659705406
+      Minifantasy_CreaturesTrollIdle_47: -5104443164818095242
+      Minifantasy_CreaturesTrollIdle_48: 7051543180639505978
+      Minifantasy_CreaturesTrollIdle_49: -1427253977955037448
+      Minifantasy_CreaturesTrollIdle_5: 6894438135240727494
+      Minifantasy_CreaturesTrollIdle_50: 3567150673059163623
+      Minifantasy_CreaturesTrollIdle_51: -7083850220110890396
+      Minifantasy_CreaturesTrollIdle_52: -3850812866984344222
+      Minifantasy_CreaturesTrollIdle_53: 7913249451852798168
+      Minifantasy_CreaturesTrollIdle_54: -8496839210646587273
+      Minifantasy_CreaturesTrollIdle_55: -7530153532917424670
+      Minifantasy_CreaturesTrollIdle_56: -833234811804496411
+      Minifantasy_CreaturesTrollIdle_57: -3731068164650606454
+      Minifantasy_CreaturesTrollIdle_58: 7082307562706452588
+      Minifantasy_CreaturesTrollIdle_59: 4455343792014358925
+      Minifantasy_CreaturesTrollIdle_6: 8504270272564323112
+      Minifantasy_CreaturesTrollIdle_60: 6048963900781066578
+      Minifantasy_CreaturesTrollIdle_61: 3673575672937368339
+      Minifantasy_CreaturesTrollIdle_62: 7873732845120235904
+      Minifantasy_CreaturesTrollIdle_63: -3437651306790141110
+      Minifantasy_CreaturesTrollIdle_7: -91155254692123415
+      Minifantasy_CreaturesTrollIdle_8: 6927259904771836223
+      Minifantasy_CreaturesTrollIdle_9: -1432379975613996569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
