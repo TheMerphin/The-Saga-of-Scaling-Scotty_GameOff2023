@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: aa070c7149adefa42bebf089781f9beb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5521048995198281748
+    second: Minifantasy_CreaturesBlueSlimeIdle_0
+  - first:
+      213: 2021729846049887819
+    second: Minifantasy_CreaturesBlueSlimeIdle_1
+  - first:
+      213: 1604593592811143621
+    second: Minifantasy_CreaturesBlueSlimeIdle_2
+  - first:
+      213: -5370631971807086918
+    second: Minifantasy_CreaturesBlueSlimeIdle_3
+  - first:
+      213: -2362921149621754495
+    second: Minifantasy_CreaturesBlueSlimeIdle_4
+  - first:
+      213: -3986798245725219445
+    second: Minifantasy_CreaturesBlueSlimeIdle_5
+  - first:
+      213: 1416081531513725906
+    second: Minifantasy_CreaturesBlueSlimeIdle_6
+  - first:
+      213: -9164446028646963834
+    second: Minifantasy_CreaturesBlueSlimeIdle_7
+  - first:
+      213: 4087334115683173027
+    second: Minifantasy_CreaturesBlueSlimeIdle_8
+  - first:
+      213: 1179572796841785731
+    second: Minifantasy_CreaturesBlueSlimeIdle_9
+  - first:
+      213: -8302012085896714540
+    second: Minifantasy_CreaturesBlueSlimeIdle_10
+  - first:
+      213: 8099279014539165884
+    second: Minifantasy_CreaturesBlueSlimeIdle_11
+  - first:
+      213: -69873759451379914
+    second: Minifantasy_CreaturesBlueSlimeIdle_12
+  - first:
+      213: -5744465282716860384
+    second: Minifantasy_CreaturesBlueSlimeIdle_13
+  - first:
+      213: 852766299351904957
+    second: Minifantasy_CreaturesBlueSlimeIdle_14
+  - first:
+      213: -4181724542896242574
+    second: Minifantasy_CreaturesBlueSlimeIdle_15
+  - first:
+      213: 2485728166973277746
+    second: Minifantasy_CreaturesBlueSlimeIdle_16
+  - first:
+      213: 2620875857769019333
+    second: Minifantasy_CreaturesBlueSlimeIdle_17
+  - first:
+      213: -365229350489824610
+    second: Minifantasy_CreaturesBlueSlimeIdle_18
+  - first:
+      213: 4920688052079138733
+    second: Minifantasy_CreaturesBlueSlimeIdle_19
+  - first:
+      213: 125653208972868058
+    second: Minifantasy_CreaturesBlueSlimeIdle_20
+  - first:
+      213: -2721340515573096965
+    second: Minifantasy_CreaturesBlueSlimeIdle_21
+  - first:
+      213: -3488288976307203084
+    second: Minifantasy_CreaturesBlueSlimeIdle_22
+  - first:
+      213: 3993811139365647075
+    second: Minifantasy_CreaturesBlueSlimeIdle_23
+  - first:
+      213: -2507385824154245579
+    second: Minifantasy_CreaturesBlueSlimeIdle_24
+  - first:
+      213: -3589939608690961916
+    second: Minifantasy_CreaturesBlueSlimeIdle_25
+  - first:
+      213: -7315671391841655542
+    second: Minifantasy_CreaturesBlueSlimeIdle_26
+  - first:
+      213: 3982471167280235432
+    second: Minifantasy_CreaturesBlueSlimeIdle_27
+  - first:
+      213: 3393756641409150184
+    second: Minifantasy_CreaturesBlueSlimeIdle_28
+  - first:
+      213: -3387817217314998077
+    second: Minifantasy_CreaturesBlueSlimeIdle_29
+  - first:
+      213: -8103462841676204874
+    second: Minifantasy_CreaturesBlueSlimeIdle_30
+  - first:
+      213: -278214958228464253
+    second: Minifantasy_CreaturesBlueSlimeIdle_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41822523fc4be9c40800000000000000
+      internalID: 5521048995198281748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46db995590ae0c10800000000000000
+      internalID: 2021729846049887819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c140640f59a44610800000000000000
+      internalID: 1604593592811143621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6351d2daea775b0800000000000000
+      internalID: -5370631971807086918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185a984dbb7353fd0800000000000000
+      internalID: -2362921149621754495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85d5645e1c0ca8c0800000000000000
+      internalID: -3986798245725219445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3edd276aee6a310800000000000000
+      internalID: 1416081531513725906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685224b64e851d080800000000000000
+      internalID: -9164446028646963834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a281abf8b029b830800000000000000
+      internalID: 4087334115683173027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389f776853fae5010800000000000000
+      internalID: 1179572796841785731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6602b6ef359cc80800000000000000
+      internalID: -8302012085896714540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb002661a5b666070800000000000000
+      internalID: 8099279014539165884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63787cc9f22c70ff0800000000000000
+      internalID: -69873759451379914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0200917c24f8740b0800000000000000
+      internalID: -5744465282716860384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db27b4d5e62a5db00800000000000000
+      internalID: 852766299351904957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27003281fa787f5c0800000000000000
+      internalID: -4181724542896242574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23600a019941f7220800000000000000
+      internalID: 2485728166973277746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c738b6e4b83f5420800000000000000
+      internalID: 2620875857769019333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92e18e37d17eeaf0800000000000000
+      internalID: -365229350489824610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da79fa266bbc94440800000000000000
+      internalID: 4920688052079138733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad937b58de86eb100800000000000000
+      internalID: 125653208972868058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd1368283bdb3ad0800000000000000
+      internalID: -2721340515573096965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f35c4568ab179fc0800000000000000
+      internalID: -3488288976307203084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e233e5321edc6730800000000000000
+      internalID: 3993811139365647075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536af6ca0e9f33dd0800000000000000
+      internalID: -2507385824154245579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402deda32f8fd2ec0800000000000000
+      internalID: -3589939608690961916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a056ac311a3897a90800000000000000
+      internalID: -7315671391841655542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a349f53d64944730800000000000000
+      internalID: 3982471167280235432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca0593fab091f20800000000000000
+      internalID: 3393756641409150184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8bcf5b03e0cf0d0800000000000000
+      internalID: -3387817217314998077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4ff4fba77ba8f80800000000000000
+      internalID: -8103462841676204874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesBlueSlimeIdle_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d979338f4932cf0800000000000000
+      internalID: -278214958228464253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eeceb3d01591e5c4fb21cd4758d61614
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_CreaturesBlueSlimeIdle_0: 5521048995198281748
+      Minifantasy_CreaturesBlueSlimeIdle_1: 2021729846049887819
+      Minifantasy_CreaturesBlueSlimeIdle_10: -8302012085896714540
+      Minifantasy_CreaturesBlueSlimeIdle_11: 8099279014539165884
+      Minifantasy_CreaturesBlueSlimeIdle_12: -69873759451379914
+      Minifantasy_CreaturesBlueSlimeIdle_13: -5744465282716860384
+      Minifantasy_CreaturesBlueSlimeIdle_14: 852766299351904957
+      Minifantasy_CreaturesBlueSlimeIdle_15: -4181724542896242574
+      Minifantasy_CreaturesBlueSlimeIdle_16: 2485728166973277746
+      Minifantasy_CreaturesBlueSlimeIdle_17: 2620875857769019333
+      Minifantasy_CreaturesBlueSlimeIdle_18: -365229350489824610
+      Minifantasy_CreaturesBlueSlimeIdle_19: 4920688052079138733
+      Minifantasy_CreaturesBlueSlimeIdle_2: 1604593592811143621
+      Minifantasy_CreaturesBlueSlimeIdle_20: 125653208972868058
+      Minifantasy_CreaturesBlueSlimeIdle_21: -2721340515573096965
+      Minifantasy_CreaturesBlueSlimeIdle_22: -3488288976307203084
+      Minifantasy_CreaturesBlueSlimeIdle_23: 3993811139365647075
+      Minifantasy_CreaturesBlueSlimeIdle_24: -2507385824154245579
+      Minifantasy_CreaturesBlueSlimeIdle_25: -3589939608690961916
+      Minifantasy_CreaturesBlueSlimeIdle_26: -7315671391841655542
+      Minifantasy_CreaturesBlueSlimeIdle_27: 3982471167280235432
+      Minifantasy_CreaturesBlueSlimeIdle_28: 3393756641409150184
+      Minifantasy_CreaturesBlueSlimeIdle_29: -3387817217314998077
+      Minifantasy_CreaturesBlueSlimeIdle_3: -5370631971807086918
+      Minifantasy_CreaturesBlueSlimeIdle_30: -8103462841676204874
+      Minifantasy_CreaturesBlueSlimeIdle_31: -278214958228464253
+      Minifantasy_CreaturesBlueSlimeIdle_4: -2362921149621754495
+      Minifantasy_CreaturesBlueSlimeIdle_5: -3986798245725219445
+      Minifantasy_CreaturesBlueSlimeIdle_6: 1416081531513725906
+      Minifantasy_CreaturesBlueSlimeIdle_7: -9164446028646963834
+      Minifantasy_CreaturesBlueSlimeIdle_8: 4087334115683173027
+      Minifantasy_CreaturesBlueSlimeIdle_9: 1179572796841785731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

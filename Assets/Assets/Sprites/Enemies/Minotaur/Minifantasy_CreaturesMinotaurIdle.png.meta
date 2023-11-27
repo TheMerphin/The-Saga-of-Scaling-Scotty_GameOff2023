@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: 8ef7663280438ba4ab34cc8ed2d1c356
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1326303995468374675
+    second: Minifantasy_CreaturesMinotaurIdle_0
+  - first:
+      213: -4701223183233285418
+    second: Minifantasy_CreaturesMinotaurIdle_1
+  - first:
+      213: -4102789991425724548
+    second: Minifantasy_CreaturesMinotaurIdle_2
+  - first:
+      213: -7870328750362639584
+    second: Minifantasy_CreaturesMinotaurIdle_3
+  - first:
+      213: 927717736661064027
+    second: Minifantasy_CreaturesMinotaurIdle_4
+  - first:
+      213: 2457285665121174596
+    second: Minifantasy_CreaturesMinotaurIdle_5
+  - first:
+      213: -3711067073548107263
+    second: Minifantasy_CreaturesMinotaurIdle_6
+  - first:
+      213: 3879417232670574954
+    second: Minifantasy_CreaturesMinotaurIdle_7
+  - first:
+      213: 2814044774300230072
+    second: Minifantasy_CreaturesMinotaurIdle_8
+  - first:
+      213: -18049301687205030
+    second: Minifantasy_CreaturesMinotaurIdle_9
+  - first:
+      213: -1707452736132022447
+    second: Minifantasy_CreaturesMinotaurIdle_10
+  - first:
+      213: -3037123225676415267
+    second: Minifantasy_CreaturesMinotaurIdle_11
+  - first:
+      213: -3398995191889191594
+    second: Minifantasy_CreaturesMinotaurIdle_12
+  - first:
+      213: 5581381640518489792
+    second: Minifantasy_CreaturesMinotaurIdle_13
+  - first:
+      213: -9156115421115506173
+    second: Minifantasy_CreaturesMinotaurIdle_14
+  - first:
+      213: -8165127182395025055
+    second: Minifantasy_CreaturesMinotaurIdle_15
+  - first:
+      213: 553844830410749765
+    second: Minifantasy_CreaturesMinotaurIdle_16
+  - first:
+      213: 4124262098577206782
+    second: Minifantasy_CreaturesMinotaurIdle_17
+  - first:
+      213: -7665871854293646668
+    second: Minifantasy_CreaturesMinotaurIdle_18
+  - first:
+      213: -1859051452408331420
+    second: Minifantasy_CreaturesMinotaurIdle_19
+  - first:
+      213: 1965322939838710010
+    second: Minifantasy_CreaturesMinotaurIdle_20
+  - first:
+      213: 2833974693082199540
+    second: Minifantasy_CreaturesMinotaurIdle_21
+  - first:
+      213: 7665059764744894700
+    second: Minifantasy_CreaturesMinotaurIdle_22
+  - first:
+      213: 1556042491717688623
+    second: Minifantasy_CreaturesMinotaurIdle_23
+  - first:
+      213: 6261206692661950302
+    second: Minifantasy_CreaturesMinotaurIdle_24
+  - first:
+      213: 1909421451177393472
+    second: Minifantasy_CreaturesMinotaurIdle_25
+  - first:
+      213: -2386128363510979275
+    second: Minifantasy_CreaturesMinotaurIdle_26
+  - first:
+      213: -8686006308122088371
+    second: Minifantasy_CreaturesMinotaurIdle_27
+  - first:
+      213: -141961567978479324
+    second: Minifantasy_CreaturesMinotaurIdle_28
+  - first:
+      213: 1428800202444848119
+    second: Minifantasy_CreaturesMinotaurIdle_29
+  - first:
+      213: -9008048765030221747
+    second: Minifantasy_CreaturesMinotaurIdle_30
+  - first:
+      213: -6869996043096737774
+    second: Minifantasy_CreaturesMinotaurIdle_31
+  - first:
+      213: -1097921548029972848
+    second: Minifantasy_CreaturesMinotaurIdle_32
+  - first:
+      213: -8173674788508435459
+    second: Minifantasy_CreaturesMinotaurIdle_33
+  - first:
+      213: 2103759737746480718
+    second: Minifantasy_CreaturesMinotaurIdle_34
+  - first:
+      213: 2944666138895508989
+    second: Minifantasy_CreaturesMinotaurIdle_35
+  - first:
+      213: 5891600456358030833
+    second: Minifantasy_CreaturesMinotaurIdle_36
+  - first:
+      213: 6249413439879770743
+    second: Minifantasy_CreaturesMinotaurIdle_37
+  - first:
+      213: -5510566398445633031
+    second: Minifantasy_CreaturesMinotaurIdle_38
+  - first:
+      213: -2361274171151688223
+    second: Minifantasy_CreaturesMinotaurIdle_39
+  - first:
+      213: 6185406210578666986
+    second: Minifantasy_CreaturesMinotaurIdle_40
+  - first:
+      213: 7249530400092219101
+    second: Minifantasy_CreaturesMinotaurIdle_41
+  - first:
+      213: -5741512799234993193
+    second: Minifantasy_CreaturesMinotaurIdle_42
+  - first:
+      213: 6179467245148573022
+    second: Minifantasy_CreaturesMinotaurIdle_43
+  - first:
+      213: -6780718642764390547
+    second: Minifantasy_CreaturesMinotaurIdle_44
+  - first:
+      213: 5097871406366396606
+    second: Minifantasy_CreaturesMinotaurIdle_45
+  - first:
+      213: 6792894442955526642
+    second: Minifantasy_CreaturesMinotaurIdle_46
+  - first:
+      213: 7117753263150427349
+    second: Minifantasy_CreaturesMinotaurIdle_47
+  - first:
+      213: -7009101023885493226
+    second: Minifantasy_CreaturesMinotaurIdle_48
+  - first:
+      213: 7565267295319789734
+    second: Minifantasy_CreaturesMinotaurIdle_49
+  - first:
+      213: 3510440054037498796
+    second: Minifantasy_CreaturesMinotaurIdle_50
+  - first:
+      213: -1399714635419386665
+    second: Minifantasy_CreaturesMinotaurIdle_51
+  - first:
+      213: 684581275105465109
+    second: Minifantasy_CreaturesMinotaurIdle_52
+  - first:
+      213: -1773152631116257301
+    second: Minifantasy_CreaturesMinotaurIdle_53
+  - first:
+      213: 6860921135070104188
+    second: Minifantasy_CreaturesMinotaurIdle_54
+  - first:
+      213: -7485209393563861186
+    second: Minifantasy_CreaturesMinotaurIdle_55
+  - first:
+      213: 7662476001978030464
+    second: Minifantasy_CreaturesMinotaurIdle_56
+  - first:
+      213: -7851609666885801853
+    second: Minifantasy_CreaturesMinotaurIdle_57
+  - first:
+      213: -9044693208335424199
+    second: Minifantasy_CreaturesMinotaurIdle_58
+  - first:
+      213: -1488655571683586782
+    second: Minifantasy_CreaturesMinotaurIdle_59
+  - first:
+      213: 4450573152034570162
+    second: Minifantasy_CreaturesMinotaurIdle_60
+  - first:
+      213: 7058320315777080226
+    second: Minifantasy_CreaturesMinotaurIdle_61
+  - first:
+      213: 7419020656437720289
+    second: Minifantasy_CreaturesMinotaurIdle_62
+  - first:
+      213: -1431405135271641881
+    second: Minifantasy_CreaturesMinotaurIdle_63
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d1ded0b85089de0800000000000000
+      internalID: -1326303995468374675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d28c894c66e1ceb0800000000000000
+      internalID: -4701223183233285418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7faa058d36ff07c0800000000000000
+      internalID: -4102789991425724548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023471943b9f6c290800000000000000
+      internalID: -7870328750362639584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b591381cd5aefdc00800000000000000
+      internalID: 927717736661064027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444053d0b480a1220800000000000000
+      internalID: 2457285665121174596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102448f9824af7cc0800000000000000
+      internalID: -3711067073548107263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69cbd84b6576d530800000000000000
+      internalID: 3879417232670574954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1a53210de7d0720800000000000000
+      internalID: 2814044774300230072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a538d787140efbff0800000000000000
+      internalID: -18049301687205030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ff41078c8ed48e0800000000000000
+      internalID: -1707452736132022447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddef7728488f9d5d0800000000000000
+      internalID: -3037123225676415267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d1f22b1e754d0d0800000000000000
+      internalID: -3398995191889191594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6ddf6d70d057d40800000000000000
+      internalID: 5581381640518489792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3022fe12981fee080800000000000000
+      internalID: -9156115421115506173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169557b9614afae80800000000000000
+      internalID: -8165127182395025055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547b15950f6afa700800000000000000
+      internalID: 553844830410749765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd2d4207825c3930800000000000000
+      internalID: 4124262098577206782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2892ff92a5d9590800000000000000
+      internalID: -7665871854293646668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4630700cd825336e0800000000000000
+      internalID: -1859051452408331420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af043021dca364b10800000000000000
+      internalID: 1965322939838710010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f57c93e7fc445720800000000000000
+      internalID: 2833974693082199540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce832cbae33cf5a60800000000000000
+      internalID: 7665059764744894700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d1f36e66c289510800000000000000
+      internalID: 1556042491717688623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57f96d405644e650800000000000000
+      internalID: 6261206692661950302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d70fb71b0af7a10800000000000000
+      internalID: 1909421451177393472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535a17845e4c2eed0800000000000000
+      internalID: -2386128363510979275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca49f784b157780800000000000000
+      internalID: -8686006308122088371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421a2e0c4b6a70ef0800000000000000
+      internalID: -141961567978479324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb3bb9c63e14d310800000000000000
+      internalID: 1428800202444848119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d483af8ff5bfcf280800000000000000
+      internalID: -9008048765030221747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21831e26ffed8a0a0800000000000000
+      internalID: -6869996043096737774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e2d6a4b2663c0f0800000000000000
+      internalID: -1097921548029972848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb7369f516419e80800000000000000
+      internalID: -8173674788508435459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed525d55e023d10800000000000000
+      internalID: 2103759737746480718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5ecf6704e8dd820800000000000000
+      internalID: 2944666138895508989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdefb7666b23c150800000000000000
+      internalID: 5891600456358030833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772f59aa9606ab650800000000000000
+      internalID: 6249413439879770743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1c17d8e098683b0800000000000000
+      internalID: -5510566398445633031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edd233e6a11b3fd0800000000000000
+      internalID: -2361274171151688223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae559054d2af6d550800000000000000
+      internalID: 6185406210578666986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd664ed3d718b9460800000000000000
+      internalID: 7249530400092219101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d35d38678c0250b0800000000000000
+      internalID: -5741512799234993193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d0e3028b0e1c550800000000000000
+      internalID: 6179467245148573022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fd828f15c06e1a0800000000000000
+      internalID: -6780718642764390547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0171fc8074fb640800000000000000
+      internalID: 5097871406366396606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1d61d6185354e50800000000000000
+      internalID: 6792894442955526642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc65f0a1e657c260800000000000000
+      internalID: 7117753263150427349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c7a7c21cbaabe90800000000000000
+      internalID: -7009101023885493226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a09a68c58a3df860800000000000000
+      internalID: 7565267295319789734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab453a41a697b030800000000000000
+      internalID: 3510440054037498796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc79e084f6339ce0800000000000000
+      internalID: -1399714635419386665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5139b8aea0f108900800000000000000
+      internalID: 684581275105465109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be724c9931f7467e0800000000000000
+      internalID: -1773152631116257301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ac2dfeb63e63f50800000000000000
+      internalID: 6860921135070104188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f753307b13f1890800000000000000
+      internalID: -7485209393563861186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0891bd58355965a60800000000000000
+      internalID: 7662476001978030464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388af3a8b9a790390800000000000000
+      internalID: -7851609666885801853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93567c6a27bca7280800000000000000
+      internalID: -9044693208335424199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dc4e015ab375be0800000000000000
+      internalID: -1488655571683586782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf39ed93bc93cd30800000000000000
+      internalID: 4450573152034570162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abd0dc3ee034f160800000000000000
+      internalID: 7058320315777080226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e47148baf7a5f660800000000000000
+      internalID: 7419020656437720289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minifantasy_CreaturesMinotaurIdle_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecb6760d90a22ce0800000000000000
+      internalID: -1431405135271641881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d4c0b77547c6b4a45afae71b0f8ba3b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minifantasy_CreaturesMinotaurIdle_0: -1326303995468374675
+      Minifantasy_CreaturesMinotaurIdle_1: -4701223183233285418
+      Minifantasy_CreaturesMinotaurIdle_10: -1707452736132022447
+      Minifantasy_CreaturesMinotaurIdle_11: -3037123225676415267
+      Minifantasy_CreaturesMinotaurIdle_12: -3398995191889191594
+      Minifantasy_CreaturesMinotaurIdle_13: 5581381640518489792
+      Minifantasy_CreaturesMinotaurIdle_14: -9156115421115506173
+      Minifantasy_CreaturesMinotaurIdle_15: -8165127182395025055
+      Minifantasy_CreaturesMinotaurIdle_16: 553844830410749765
+      Minifantasy_CreaturesMinotaurIdle_17: 4124262098577206782
+      Minifantasy_CreaturesMinotaurIdle_18: -7665871854293646668
+      Minifantasy_CreaturesMinotaurIdle_19: -1859051452408331420
+      Minifantasy_CreaturesMinotaurIdle_2: -4102789991425724548
+      Minifantasy_CreaturesMinotaurIdle_20: 1965322939838710010
+      Minifantasy_CreaturesMinotaurIdle_21: 2833974693082199540
+      Minifantasy_CreaturesMinotaurIdle_22: 7665059764744894700
+      Minifantasy_CreaturesMinotaurIdle_23: 1556042491717688623
+      Minifantasy_CreaturesMinotaurIdle_24: 6261206692661950302
+      Minifantasy_CreaturesMinotaurIdle_25: 1909421451177393472
+      Minifantasy_CreaturesMinotaurIdle_26: -2386128363510979275
+      Minifantasy_CreaturesMinotaurIdle_27: -8686006308122088371
+      Minifantasy_CreaturesMinotaurIdle_28: -141961567978479324
+      Minifantasy_CreaturesMinotaurIdle_29: 1428800202444848119
+      Minifantasy_CreaturesMinotaurIdle_3: -7870328750362639584
+      Minifantasy_CreaturesMinotaurIdle_30: -9008048765030221747
+      Minifantasy_CreaturesMinotaurIdle_31: -6869996043096737774
+      Minifantasy_CreaturesMinotaurIdle_32: -1097921548029972848
+      Minifantasy_CreaturesMinotaurIdle_33: -8173674788508435459
+      Minifantasy_CreaturesMinotaurIdle_34: 2103759737746480718
+      Minifantasy_CreaturesMinotaurIdle_35: 2944666138895508989
+      Minifantasy_CreaturesMinotaurIdle_36: 5891600456358030833
+      Minifantasy_CreaturesMinotaurIdle_37: 6249413439879770743
+      Minifantasy_CreaturesMinotaurIdle_38: -5510566398445633031
+      Minifantasy_CreaturesMinotaurIdle_39: -2361274171151688223
+      Minifantasy_CreaturesMinotaurIdle_4: 927717736661064027
+      Minifantasy_CreaturesMinotaurIdle_40: 6185406210578666986
+      Minifantasy_CreaturesMinotaurIdle_41: 7249530400092219101
+      Minifantasy_CreaturesMinotaurIdle_42: -5741512799234993193
+      Minifantasy_CreaturesMinotaurIdle_43: 6179467245148573022
+      Minifantasy_CreaturesMinotaurIdle_44: -6780718642764390547
+      Minifantasy_CreaturesMinotaurIdle_45: 5097871406366396606
+      Minifantasy_CreaturesMinotaurIdle_46: 6792894442955526642
+      Minifantasy_CreaturesMinotaurIdle_47: 7117753263150427349
+      Minifantasy_CreaturesMinotaurIdle_48: -7009101023885493226
+      Minifantasy_CreaturesMinotaurIdle_49: 7565267295319789734
+      Minifantasy_CreaturesMinotaurIdle_5: 2457285665121174596
+      Minifantasy_CreaturesMinotaurIdle_50: 3510440054037498796
+      Minifantasy_CreaturesMinotaurIdle_51: -1399714635419386665
+      Minifantasy_CreaturesMinotaurIdle_52: 684581275105465109
+      Minifantasy_CreaturesMinotaurIdle_53: -1773152631116257301
+      Minifantasy_CreaturesMinotaurIdle_54: 6860921135070104188
+      Minifantasy_CreaturesMinotaurIdle_55: -7485209393563861186
+      Minifantasy_CreaturesMinotaurIdle_56: 7662476001978030464
+      Minifantasy_CreaturesMinotaurIdle_57: -7851609666885801853
+      Minifantasy_CreaturesMinotaurIdle_58: -9044693208335424199
+      Minifantasy_CreaturesMinotaurIdle_59: -1488655571683586782
+      Minifantasy_CreaturesMinotaurIdle_6: -3711067073548107263
+      Minifantasy_CreaturesMinotaurIdle_60: 4450573152034570162
+      Minifantasy_CreaturesMinotaurIdle_61: 7058320315777080226
+      Minifantasy_CreaturesMinotaurIdle_62: 7419020656437720289
+      Minifantasy_CreaturesMinotaurIdle_63: -1431405135271641881
+      Minifantasy_CreaturesMinotaurIdle_7: 3879417232670574954
+      Minifantasy_CreaturesMinotaurIdle_8: 2814044774300230072
+      Minifantasy_CreaturesMinotaurIdle_9: -18049301687205030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
