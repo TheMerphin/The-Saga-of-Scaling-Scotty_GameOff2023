@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeedFactor: 1
+  maxHealth: 10
 --- !u!50 &4980124221196295346
 Rigidbody2D:
   serializedVersion: 4
@@ -336,7 +337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stepsounds:
   - name: Stone
-    clip: {fileID: 8300000, guid: 9b86658f7167ec2488eca61d9ec9be71, type: 3}
+    clip: {fileID: 8300000, guid: 7b6d755c732ad5a4dbb6bc80ba39f6ae, type: 3}
     volume: 0.5
     volumeVariance: 0.2
     pitch: 1
@@ -372,3 +373,4 @@ MonoBehaviour:
     mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
     source: {fileID: 0}
   Floortypes: {fileID: 0}
+  PitchFactor: 1
