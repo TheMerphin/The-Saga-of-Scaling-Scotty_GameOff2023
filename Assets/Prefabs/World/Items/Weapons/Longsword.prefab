@@ -62,7 +62,7 @@ MonoBehaviour:
   attackSpeedMultiplier: 0.7
   attackSound:
     name: LongswordAttack
-    clip: {fileID: 8300000, guid: 4490b69481d012341a91a89eef8913b4, type: 3}
+    clip: {fileID: 8300000, guid: 728417cd12ffbb2468639a51feb42a60, type: 3}
     volume: 1
     volumeVariance: 0.1
     pitch: 1.7
