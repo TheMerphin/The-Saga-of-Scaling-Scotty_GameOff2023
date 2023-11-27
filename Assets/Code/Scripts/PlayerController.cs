@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour
 
     private bool disableInputs = false;
 
+    private StepSoundScript stepSoundController;
+
     /**
      * Contains four items with the following mapping:
      * 0 -> WeaponType.Melee
@@ -76,6 +78,8 @@ public class PlayerController : MonoBehaviour
         gameManager = FindFirstObjectByType<GameManager>();
 
         gameManager = FindFirstObjectByType<GameManager>();
+
+        stepSoundController = GetComponent<StepSoundScript>();
 
         gameMenuController.SelectSlot(selectedSlot);
         gameMenuController.SetMaxHealth(maxHealth);
@@ -423,6 +427,7 @@ public class PlayerController : MonoBehaviour
     {
         var targetScalingInfo = GetScaleStructByScaleLevel(targetScaleLevel);
         var currentTransformScale = scalingLevelInfo.TransformScale;
+        var currentStepSoundPitch = scalingLevelInfo.StepSoundPitchModifier;
         var currentMovementSpeed = scalingLevelInfo.MovementSpeedModifier;
 
         var totalDuration = 1f;
@@ -446,6 +451,9 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("movementSpeedMultiplier", movementSpeedLerp);
             movementSpeedFactor = movementSpeedLerp;
 
+            var stepSoundPitchLerp = Mathf.Lerp(currentStepSoundPitch, targetScalingInfo.StepSoundPitchModifier, i / ticks);
+            stepSoundController.PitchFactor = stepSoundPitchLerp;
+
             if (i == ticks / 2f) scalingLevelInfo = targetScalingInfo;
             yield return new WaitForSeconds(totalDuration / ticks);
         }
@@ -459,6 +467,8 @@ public class PlayerController : MonoBehaviour
 
     private void UpdatePlayerScaling()
     {
+        stepSoundController.PitchFactor = scalingLevelInfo.StepSoundPitchModifier;
+
         animator.SetFloat("movementSpeedMultiplier", scalingLevelInfo.MovementSpeedModifier);
         movementSpeedFactor = scalingLevelInfo.MovementSpeedModifier;
 

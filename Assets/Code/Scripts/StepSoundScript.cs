@@ -8,6 +8,7 @@ public class StepSoundScript : MonoBehaviour
     [Tooltip("please attach the tilemap \"Floortype\" here.")]
     public Tilemap Floortypes;
 
+    public float PitchFactor = 1f;
 
     private AudioSource stepPlayer;
     private string currentFloortype;
@@ -16,6 +17,7 @@ public class StepSoundScript : MonoBehaviour
     private void Awake()
     {
         stepPlayer = gameObject.AddComponent<AudioSource>();
+        stepPlayer.outputAudioMixerGroup = Stepsounds[0].mixerGroup;
     }
 
     public void DoStep()
@@ -36,7 +38,7 @@ public class StepSoundScript : MonoBehaviour
             if (currentFloortype.Equals("Floortypes_Sand")) { stepIndex = 2; }
             if (currentFloortype.Equals("Floortypes_Water")) { stepIndex = 3; }
             stepPlayer.volume = Stepsounds[stepIndex].volume * (1f + Random.Range(-Stepsounds[stepIndex].volumeVariance / 2f, Stepsounds[stepIndex].volumeVariance / 2f));
-            stepPlayer.pitch = Stepsounds[stepIndex].pitch * (1f + Random.Range(-Stepsounds[stepIndex].pitchVariance / 2f, Stepsounds[stepIndex].pitchVariance / 2f));
+            stepPlayer.pitch = Stepsounds[stepIndex].pitch * (1f + Random.Range(-Stepsounds[stepIndex].pitchVariance / 2f, Stepsounds[stepIndex].pitchVariance / 2f)) * PitchFactor;
             stepPlayer.PlayOneShot(Stepsounds[stepIndex].clip);
         }
     }

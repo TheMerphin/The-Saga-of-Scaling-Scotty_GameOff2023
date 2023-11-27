@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public string[] levelSceneNames;
     private int levelIndex = 0;
     public GameObject gameOverScreen;
+    public GameObject finishedScreen;
 
     void Awake()
     {
@@ -90,7 +91,16 @@ public class GameManager : MonoBehaviour
     public void ProgressToNextLevel()
     {
         levelIndex++;
-        StartCoroutine(SwitchLevel(true));
+
+        if (levelIndex >= levelSceneNames.Length)
+        {
+            finishedScreen.SetActive(true);
+            PauseGame(true);
+        }
+        else
+        {
+            StartCoroutine(SwitchLevel(true));
+        }
     }
 
     private IEnumerator SwitchLevel(bool fadeIn)

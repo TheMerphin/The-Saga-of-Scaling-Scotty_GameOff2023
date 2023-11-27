@@ -10,15 +10,15 @@ public struct PlayerScalingInfo
     public float MovementSpeedModifier;
     public float AttackSpeedModifier;
     public float AttackDamageModifier;
-    public float HealthModifier;
+    public float StepSoundPitchModifier;
 
-    public PlayerScalingInfo(ScaleLevel scaleLevel, float playerScale, float movementSpeedModifier, float attackSpeedModifier, float attackDamageModifier, float healthModifier)
+    public PlayerScalingInfo(ScaleLevel scaleLevel, float playerScale, float movementSpeedModifier, float attackSpeedModifier, float attackDamageModifier, float stepSoundPitchModifier)
     {
         this.ScaleLevel = scaleLevel;
         this.TransformScale = playerScale;
         this.MovementSpeedModifier = movementSpeedModifier;
         this.AttackSpeedModifier = attackSpeedModifier;
         this.AttackDamageModifier = attackDamageModifier;
-        this.HealthModifier = healthModifier;
+        this.StepSoundPitchModifier = stepSoundPitchModifier;
     }
 }
