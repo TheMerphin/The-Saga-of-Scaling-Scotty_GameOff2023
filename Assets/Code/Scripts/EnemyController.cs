@@ -71,6 +71,7 @@ public class EnemyController : MonoBehaviour
         GameObject player = GameObject.FindWithTag("Player");
         target = player.transform;
         playerController = player.GetComponent<PlayerController>();
+        CapsuleCollider2D capsuleCollider2D = this.GetComponent<CapsuleCollider2D>();
 
         animator = GetComponentInChildren<Animator>();
         SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
@@ -79,6 +80,7 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Skeleton:
                 animator.runtimeAnimatorController = skeletonAnimator;
                 monsterSprite.sprite = skeletonSprite;
+                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 health = 4;
                 damage = 1;
                 break;
@@ -86,6 +88,7 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Wolf:
                 animator.runtimeAnimatorController = wolfAnimator;
                 monsterSprite.sprite = wolfSprite;
+                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 2f;
                 health = 5;
                 damage = 1;
@@ -94,6 +97,7 @@ public class EnemyController : MonoBehaviour
             case MonsterType.Troll:
                 animator.runtimeAnimatorController = trollAnimator;
                 monsterSprite.sprite = trollSprite;
+                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 0.5f;
                 health = 10;
                 damage = 3;
@@ -125,6 +129,7 @@ public class EnemyController : MonoBehaviour
                 animator.runtimeAnimatorController = minotaurAnimator;
                 monsterSprite.sprite = minotaurSprite;
                 movementSpeed = 0.8f;
+                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 health = 20;
                 damage = 5;
                 break;
