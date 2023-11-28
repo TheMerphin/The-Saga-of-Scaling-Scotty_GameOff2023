@@ -185,3 +185,12 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 09864dbf7b2dec349a786cd2f739290d, type: 3}
+    volume: 0.6
+    volumeVariance: 0.2
+    pitch: 1.1
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

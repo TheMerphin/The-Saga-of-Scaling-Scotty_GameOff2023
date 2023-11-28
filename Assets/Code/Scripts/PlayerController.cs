@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
 
     private bool disableInputs = false;
 
+    private bool isDead = false;
+
     private StepSoundScript stepSoundController;
 
     /**
@@ -542,12 +544,16 @@ public class PlayerController : MonoBehaviour
     */
     public void updateHealth(int newHealth)
     {
+        if (isDead) return;
+
         if (currentHealth + newHealth <= 0)
         {
             currentHealth = 0;
             disableInputs = true;
+            isDead = true;
+            animator.SetBool("isDead", true);
+            audioManager.Play("PlayerDeath");
             gameManager.GameOver();
-            
         }
         else if (currentHealth + newHealth >= maxHealth)
         {
