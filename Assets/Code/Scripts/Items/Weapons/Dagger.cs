@@ -57,8 +57,7 @@ public class Dagger : Weapon
 
             if (enemyController != null)
             {
-                // TODO enemyController.Damage(this.damage);
-                print("Hit: " + enemyController.name + " with " + this.Damage);
+                //print("Hit: " + enemyController.name + " with " + this.Damage);
                 enemyController.getAttacked(this.Damage);
             }
         });

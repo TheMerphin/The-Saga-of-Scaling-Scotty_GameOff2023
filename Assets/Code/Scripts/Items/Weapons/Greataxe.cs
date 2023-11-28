@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 using static Toolbox;
@@ -31,6 +32,16 @@ public class Greataxe : Weapon
 
     public override void Attack()
     {
+        StartCoroutine("DelayedDamage");
+
+        audioManager.Play(AttackSound.name);
+
+    }
+
+
+    public IEnumerator DelayedDamage()
+    {
+        yield return new WaitForSeconds(0.5f);
         var attackDirection = player.GetPlayerFacingDirection();
         var attackPos = (Vector2)player.transform.position;
 
@@ -53,17 +64,16 @@ public class Greataxe : Weapon
 
         var boxCast = Physics2D.BoxCastAll(attackPos + _attackOffset, attackBoxSize * playerTransformFactor, 0f, Vector2.zero, 0f, LayerMask.GetMask("Enemy"));
         boxCast.ToList().ForEach(hit => {
-            var enemyController = hit.transform.GetComponent<Transform>(); // Transform durch EnemyController swappen
+        EnemyController enemyController = hit.transform.GetComponent<EnemyController>(); // Transform durch EnemyController swappen
 
             if (enemyController != null)
             {
-                // TODO enemyController.Damage(this.damage);
                 print("Hit: " + enemyController.name + " with " + this.Damage);
+                enemyController.getAttacked(this.Damage);
             }
-        });
-
-        audioManager.Play(AttackSound.name);
+        });      
     }
+
 
     public override void OnPlayerScaleChange(PlayerScalingInfo updatedScalingLevelInfo)
     {
