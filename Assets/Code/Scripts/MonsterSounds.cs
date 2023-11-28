@@ -92,7 +92,7 @@ public class MonsterSounds : MonoBehaviour
     }
     public void playWolfDeath()
     {
-        MonsterAudioSource.PlayOneShot(WolfHurt);
+        MonsterAudioSource.PlayOneShot(WolfDeath);
     }
     //Troll
     public void playTrollStep()

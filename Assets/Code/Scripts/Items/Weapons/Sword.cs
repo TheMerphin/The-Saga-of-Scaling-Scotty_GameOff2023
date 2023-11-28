@@ -76,8 +76,7 @@ public class Sword : Weapon
 
             if (enemyController != null)
             {
-                // TODO enemyController.Damage(this.damage);
-                print("Hit: " + enemyController.name);
+                //print("Hit: " + enemyController.name);
                 enemyController.getAttacked(this.Damage);
             }
         });
