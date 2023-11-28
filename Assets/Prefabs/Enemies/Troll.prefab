@@ -60,6 +60,26 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: eb3c4da12db7e61438f5dbb068de2e39, type: 2}
+    - target: {fileID: 5960544042324556545, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962223800211937563, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618268834628518971, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618268834628518971, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618268834628518971, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 7781424995959787776, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
       propertyPath: m_Name
       value: Troll

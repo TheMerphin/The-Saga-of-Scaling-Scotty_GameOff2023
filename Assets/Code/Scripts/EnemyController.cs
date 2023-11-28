@@ -32,6 +32,9 @@ public class EnemyController : MonoBehaviour
     private bool dead = false;
     private MonsterSounds monsterSounds;
 
+    private ParticleSystem movementParticles;
+    private ParticleSystem damageParticles;
+    private ParticleSystem deathParticles;
 
     // Settings for the monster
     public MonsterType monsterType;
@@ -75,6 +78,10 @@ public class EnemyController : MonoBehaviour
 
         animator = GetComponentInChildren<Animator>();
         SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
+
+        damageParticles = transform.GetChild(0).GetComponent<ParticleSystem>();
+        movementParticles = transform.GetChild(1).GetComponent<ParticleSystem>();
+        deathParticles = transform.GetChild(2).GetComponent<ParticleSystem>();
 
         switch (monsterType) {
             case MonsterType.Skeleton:
@@ -197,6 +204,7 @@ public class EnemyController : MonoBehaviour
             aiPath.canMove = true;
             aiPath.enabled = true;
             animator.SetBool("moving", true);
+            movementParticles.Play();
         }
 
 
@@ -234,7 +242,7 @@ public class EnemyController : MonoBehaviour
 
     public void getAttacked(float damage)
     {
-        
+        damageParticles.Play();
         health = health - damage;
         if (health <= 0f && !dead) 
         {
@@ -242,6 +250,7 @@ public class EnemyController : MonoBehaviour
             aiPath.canMove = false;
             aiPath.enabled = false;
             animator.SetBool("dead", true);
+            deathParticles.Play();
 
             if (dropsKey)
             {
@@ -284,7 +293,7 @@ public class EnemyController : MonoBehaviour
         animator.SetBool("BR", false);
         animator.SetBool("BL", false);
 
-        
+        movementParticles.Pause();
         animator.SetBool("moving", false);
 
         if (!attack)
