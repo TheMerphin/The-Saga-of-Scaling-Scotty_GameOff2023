@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trapName: Falling Stone Trap
   active: 1
-  damage: 1
+  damage: 2
   damageDelay: 1.5
   trapAnimation: {fileID: 7400000, guid: 3357207313ad160459bbfa4dafc1b435, type: 2}
   trapSound:

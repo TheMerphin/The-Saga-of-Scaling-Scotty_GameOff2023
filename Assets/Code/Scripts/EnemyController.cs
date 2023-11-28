@@ -88,7 +88,7 @@ public class EnemyController : MonoBehaviour
                 animator.runtimeAnimatorController = skeletonAnimator;
                 monsterSprite.sprite = skeletonSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                if (health < 0) health = 4;
+                if (health < 0) health = 8;
                 if (damage < 0) damage = 1;
                 break;
 
@@ -97,7 +97,7 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = wolfSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 2f;
-                if (health < 0) health = 5;
+                if (health < 0) health = 6;
                 if (damage < 0) damage = 1;
                 break;
 
@@ -106,29 +106,29 @@ public class EnemyController : MonoBehaviour
                 monsterSprite.sprite = trollSprite;
                 capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
                 movementSpeed = 0.5f;
-                if (health < 0) health = 10;
+                if (health < 0) health = 24;
                 if (damage < 0) damage = 3;
                 break;
 
             case MonsterType.MotherSlime:
                 animator.runtimeAnimatorController = blueMotherSlimeAnimator;
                 monsterSprite.sprite = blueMotherSlimeSprite;
-                if (health < 0) health = 15;
+                if (health < 0) health = 80;
                 if (damage < 0) damage = 3; 
                 break;
 
             case MonsterType.BlueBigSlime:
                 animator.runtimeAnimatorController = blueBigSlimeAnimator;
                 monsterSprite.sprite = blueBigSlimeSprite;
-                if (health < 0) health = 10;
-                if (damage < 0) damage = 2;
+                if (health < 0) health = 8;
+                if (damage < 0) damage = 1;
                 break;
 
             case MonsterType.BlueSmallSlime:
                 animator.runtimeAnimatorController = blueSmallSlimeAnimator;
                 monsterSprite.sprite = blueSmallSlimeSprite;
                 movementSpeed = 3f;
-                if (health < 0) health = 3;
+                if (health < 0) health = 1;
                 if (damage < 0) damage = 1;
                 break;
 

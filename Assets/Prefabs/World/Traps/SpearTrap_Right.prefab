@@ -49,7 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trapName: Spear Trap
   active: 1
-  damage: 1
+  damage: 2
+  damageDelay: 0
   trapAnimation: {fileID: 7400000, guid: 1832638bb50bc0b4ba601c4a67f6e9e3, type: 2}
   trapSound:
     name: SpearTrap
