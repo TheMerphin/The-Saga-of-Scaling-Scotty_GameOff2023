@@ -555,7 +555,11 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
 
-        if (newHealth <= 0f) damageParticles.Play();
+        if (newHealth <= 0f)
+        {
+            audioManager.Play("PlayerHurt");
+            damageParticles.Play();
+        }
 
         if (currentHealth + newHealth <= 0)
         {

@@ -3317,14 +3317,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 6108301240363243619, guid: 0a99e1a9e7809fc439e8f7840be3cbdf, type: 3}
-      propertyPath: sounds.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 467ab78636e377448ba1f4d6fd97470c, type: 3}
-    - target: {fileID: 6108301240363243619, guid: 0a99e1a9e7809fc439e8f7840be3cbdf, type: 3}
-      propertyPath: sounds.Array.data[0].volume
-      value: 0.3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3564,7 +3556,8 @@ MonoBehaviour:
     Footsteps Stone (11).wav by Wdomino under CC0 at https://freesound.org/people/Wdomino/sounds/517124/\r\n-
     Man Dying by Under7dude under CC0 at https://freesound.org/people/Under7dude/sounds/163442/\r\n-
     Wet Pineapple Break.wav by minituffy under CC0 at https://freesound.org/people/minituffy/sounds/385963/\r\n-
-    Drop - Water by mattfinarelli under CC0 at https://freesound.org/people/mattfinarelli/sounds/533146/\r\n "
+    Drop - Water by mattfinarelli under CC0 at https://freesound.org/people/mattfinarelli/sounds/533146/\r\n-
+    Hurt 1 - (Male) by Christopherderp under CC0 at https://freesound.org/people/Christopherderp/sounds/342229/"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a4a5704805a1224fb616720b8a27579, type: 2}
   m_sharedMaterial: {fileID: 6424678381082771400, guid: 6a4a5704805a1224fb616720b8a27579, type: 2}

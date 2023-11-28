@@ -127,7 +127,7 @@ public class EnemyController : MonoBehaviour
             case MonsterType.BlueSmallSlime:
                 animator.runtimeAnimatorController = blueSmallSlimeAnimator;
                 monsterSprite.sprite = blueSmallSlimeSprite;
-                movementSpeed = 3f;
+                movementSpeed = 1.5f;
                 if (health < 0) health = 1;
                 if (damage < 0) damage = 1;
                 break;

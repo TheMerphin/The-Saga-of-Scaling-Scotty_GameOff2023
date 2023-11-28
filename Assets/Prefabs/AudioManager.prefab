@@ -51,8 +51,8 @@ MonoBehaviour:
   mixerGroup: {fileID: 24300002, guid: 2aba9c5009613694ab672ef0bc6a6995, type: 2}
   sounds:
   - name: MenuTheme
-    clip: {fileID: 8300000, guid: 3945ce11347197a4c95f1790dd98dc0f, type: 3}
-    volume: 0.6
+    clip: {fileID: 8300000, guid: 467ab78636e377448ba1f4d6fd97470c, type: 3}
+    volume: 0.3
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -187,10 +187,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerDeath
     clip: {fileID: 8300000, guid: 09864dbf7b2dec349a786cd2f739290d, type: 3}
-    volume: 0.6
+    volume: 0.4
     volumeVariance: 0.2
     pitch: 1.1
     pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: 7fb714dec807a69489fedfe7affe2f4f, type: 3}
+    volume: 0.5
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.5
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
