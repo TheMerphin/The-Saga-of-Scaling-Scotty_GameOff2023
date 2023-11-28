@@ -7,6 +7,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject creditsMenu;
     public GameObject settingsMenu;
+    public GameObject titleScreen;
 
     AudioManager audioManager;
 
@@ -17,6 +18,14 @@ public class MainMenuController : MonoBehaviour
         settingsMenu.SetActive(false);
 
         audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
+    private void Update()
+    {
+        if (Input.anyKeyDown && titleScreen.activeSelf)
+        {
+            titleScreen.SetActive(false);
+        }
     }
 
     private void Start()
