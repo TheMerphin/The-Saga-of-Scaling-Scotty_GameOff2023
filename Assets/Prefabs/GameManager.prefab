@@ -48,3 +48,5 @@ MonoBehaviour:
   levelSceneNames:
   - Level_0_Tutorial
   - Level_1
+  gameOverScreen: {fileID: 0}
+  finishedScreen: {fileID: 0}
