@@ -602,7 +602,7 @@ public class PlayerController : MonoBehaviour
             transform.Translate(walkingDirection * Time.deltaTime * 2.5f);
 
             if (Mathf.Abs(transform.position.x - startingPosX) >= 1f && spriteRenderer.sortingOrder == 0) spriteRenderer.sortingOrder = 1;
-            if (Mathf.Abs(transform.position.x - startingPosX) >= 1f) spriteRenderer.color = spriteRenderer.color.WithAlpha(2f - Mathf.Abs(transform.position.x - startingPosX));
+            if (Mathf.Abs(transform.position.x - startingPosX) >= 1f) spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 2f - Mathf.Abs(transform.position.x - startingPosX));
 
             yield return new WaitForEndOfFrame();
         }
