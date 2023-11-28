@@ -41,6 +41,9 @@ public class PlayerController : MonoBehaviour
 
     private StepSoundScript stepSoundController;
 
+    private ParticleSystem movementParticles;
+    private ParticleSystem damageParticles;
+
     /**
      * Contains four items with the following mapping:
      * 0 -> WeaponType.Melee
@@ -81,6 +84,9 @@ public class PlayerController : MonoBehaviour
         gameManager = FindFirstObjectByType<GameManager>();
 
         stepSoundController = GetComponent<StepSoundScript>();
+
+        damageParticles = transform.GetChild(0).GetComponent<ParticleSystem>();
+        movementParticles = transform.GetChild(1).GetComponent<ParticleSystem>();
 
         gameMenuController.SelectSlot(selectedSlot);
         gameMenuController.SetMaxHealth(maxHealth);
@@ -232,6 +238,7 @@ public class PlayerController : MonoBehaviour
         if (horizontalMovement != 0f | verticalMovement != 0f)
         {
             animator.SetBool("isMoving", true);
+            movementParticles.Play();
         }
     }
 
@@ -306,6 +313,8 @@ public class PlayerController : MonoBehaviour
         if (scaleCooldown > 0f) scaleCooldown -= 0.01f;
 
         horizontalMovement = verticalMovement = 0f;
+
+        movementParticles.Pause();
     }
 
     private void SetSelectedSlot(int slot)
@@ -545,6 +554,8 @@ public class PlayerController : MonoBehaviour
     public void updateHealth(int newHealth)
     {
         if (isDead) return;
+
+        if (newHealth <= 0f) damageParticles.Play();
 
         if (currentHealth + newHealth <= 0)
         {
