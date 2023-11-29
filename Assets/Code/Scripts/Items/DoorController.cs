@@ -64,6 +64,7 @@ public class DoorController : MonoBehaviour
     private void DisableDoor()
     {
         transform.GetChild(1).GetComponent<Collider2D>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
         var objectPrompter = GetComponent<ObjectPrompter>();
         objectPrompter.DisablePrompt = true;
         objectPrompter.enabled = false;

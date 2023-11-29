@@ -538,7 +538,7 @@ MonoBehaviour:
   tierClass: 0
   canBePickedUp: 1
   count: 1
-  healthRegenerated: 2
+  healthRegenerated: 6
 --- !u!212 &1102174674330116066
 SpriteRenderer:
   m_ObjectHideFlags: 0

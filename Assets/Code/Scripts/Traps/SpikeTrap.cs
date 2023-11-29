@@ -15,7 +15,7 @@ public class SpikeTrap : Trap
 
     private IEnumerator ActivateDelay(PlayerController player)
     {
-        yield return new WaitForSeconds(0.21f);
+        yield return new WaitForSeconds(0.23f);
         audioManager.Play(TrapSound.name);
         animator.SetTrigger(animatorTriggerTrapId);
         var boxCast = Physics2D.BoxCast(transform.position, Vector2.one, 0f, Vector2.zero, 0f, LayerMask.GetMask("Player"));

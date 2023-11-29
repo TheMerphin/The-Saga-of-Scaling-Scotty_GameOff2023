@@ -58,7 +58,7 @@ MonoBehaviour:
   tierClass: 0
   canBePickedUp: 1
   weaponType: 0
-  damage: 1
+  damage: 2
   attackSpeedMultiplier: 1.2
   attackSound:
     name: MeleeAttack_Dagger
