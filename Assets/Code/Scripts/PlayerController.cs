@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     public int maxHealth = 10;
     private int currentHealth;
 
-    private float scaleCooldown;
+    private bool scaleCooldown = false;
 
     private bool disableInputs = false;
 
@@ -60,7 +60,6 @@ public class PlayerController : MonoBehaviour
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
         selectedSlot = 0;
         interactCooldown = 0f;
-        scaleCooldown = 0f;
         scalingLevelInfo = GetScaleStructByScaleLevel(ScaleLevel.Normal);
         transform.localScale = Vector3.one;
     }
@@ -266,21 +265,19 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.LeftShift)) && scaleCooldown > 0f)
+        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.LeftShift)) && scaleCooldown)
         {
             audioManager.Play("OnCooldown");
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && scaleCooldown <= 0f && (int)scalingLevelInfo.ScaleLevel < 1)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !scaleCooldown && (int)scalingLevelInfo.ScaleLevel < 1)
         {
             ScalePlayerUp();
-            scaleCooldown = 4f;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftControl) && scaleCooldown <= 0f && (int)scalingLevelInfo.ScaleLevel > -1)
+        if (Input.GetKeyDown(KeyCode.LeftControl) && !scaleCooldown && (int)scalingLevelInfo.ScaleLevel > -1)
         {
             ScalePlayerDown();
-            scaleCooldown = 4f;
         }
 
         float mouseScroll = Input.GetAxis("Mouse ScrollWheel");
@@ -298,7 +295,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3) && selectedSlot != 2) SetSelectedSlot(2);
         if (Input.GetKeyDown(KeyCode.Alpha4) && selectedSlot != 3) SetSelectedSlot(3);
     }
-
     private void ResetValuesBeforeFrame()
     {
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
@@ -310,7 +306,6 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isMoving", false);
 
         if (interactCooldown > 0f) interactCooldown -= 0.01f;
-        if (scaleCooldown > 0f) scaleCooldown -= 0.01f;
 
         horizontalMovement = verticalMovement = 0f;
 
@@ -435,6 +430,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Scale(ScaleLevel targetScaleLevel)
     {
+        StartCoroutine(ScaleCooldown());
+
         var targetScalingInfo = GetScaleStructByScaleLevel(targetScaleLevel);
         var currentTransformScale = scalingLevelInfo.TransformScale;
         var currentStepSoundPitch = scalingLevelInfo.StepSoundPitchModifier;
@@ -473,6 +470,13 @@ public class PlayerController : MonoBehaviour
 
         var weapon = items[selectedSlot] as Weapon;
         if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
+    }
+
+    private IEnumerator ScaleCooldown()
+    {
+        scaleCooldown = true;
+        yield return new WaitForSeconds(1.75f);
+        scaleCooldown = false;
     }
 
     private void UpdatePlayerScaling()
