@@ -16,11 +16,13 @@ public class EnemyController : MonoBehaviour
         Minotaur
     }
 
+    public RuntimeAnimatorController enemyAnimator;
+    public Sprite idleSprite;
 
-    //new monster
+    //spawnable Objects
     public GameObject objectToSpawn;
     public GameObject keyToSpawn;
-    public Boolean dropsKey;
+    public bool dropsKey;
 
 
     private AIPath aiPath;
@@ -45,32 +47,20 @@ public class EnemyController : MonoBehaviour
     private PlayerController playerController;
 
 
-    public RuntimeAnimatorController skeletonAnimator;
-    public Sprite skeletonSprite;
-    public RuntimeAnimatorController goblinAnimator;
-    public Sprite goblinSprite;
-    public RuntimeAnimatorController wolfAnimator;
-    public Sprite wolfSprite;
-    public RuntimeAnimatorController trollAnimator;
-    public Sprite trollSprite;
-    public RuntimeAnimatorController blueMotherSlimeAnimator;
-    public Sprite blueMotherSlimeSprite;
-    public RuntimeAnimatorController blueBigSlimeAnimator;
-    public Sprite blueBigSlimeSprite;
-    public RuntimeAnimatorController blueSmallSlimeAnimator;
-    public Sprite blueSmallSlimeSprite;
-    public RuntimeAnimatorController minotaurAnimator;
-    public Sprite minotaurSprite;
+
+
+
     void Awake()
     {
 
-
+        // Connect to AudioSource
         monsterSounds = gameObject.GetComponentInChildren<MonsterSounds>();
         monsterSounds.setAudioSource(gameObject.GetComponentInChildren<AudioSource>());
   
         aiPath = GetComponent<AIPath>();
         aiPath.maxSpeed = movementSpeed;
         
+        // Set Target
         GameObject player = GameObject.FindWithTag("Player");
         target = player.transform;
         playerController = player.GetComponent<PlayerController>();
@@ -79,77 +69,16 @@ public class EnemyController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         SpriteRenderer monsterSprite = GetComponentInChildren<SpriteRenderer>();
 
+
+        // Particle System
         damageParticles = transform.GetChild(0).GetComponent<ParticleSystem>();
         movementParticles = transform.GetChild(1).GetComponent<ParticleSystem>();
         deathParticles = transform.GetChild(2).GetComponent<ParticleSystem>();
 
-        switch (monsterType) {
-            case MonsterType.Skeleton:
-                animator.runtimeAnimatorController = skeletonAnimator;
-                monsterSprite.sprite = skeletonSprite;
-                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                if (health < 0) health = 8;
-                if (damage < 0) damage = 1;
-                break;
 
-            case MonsterType.Wolf:
-                animator.runtimeAnimatorController = wolfAnimator;
-                monsterSprite.sprite = wolfSprite;
-                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                movementSpeed = 2f;
-                if (health < 0) health = 6;
-                if (damage < 0) damage = 1;
-                break;
 
-            case MonsterType.Troll:
-                animator.runtimeAnimatorController = trollAnimator;
-                monsterSprite.sprite = trollSprite;
-                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                movementSpeed = 0.5f;
-                if (health < 0) health = 24;
-                if (damage < 0) damage = 3;
-                break;
-
-            case MonsterType.MotherSlime:
-                animator.runtimeAnimatorController = blueMotherSlimeAnimator;
-                monsterSprite.sprite = blueMotherSlimeSprite;
-                if (health < 0) health = 80;
-                if (damage < 0) damage = 3; 
-                break;
-
-            case MonsterType.BlueBigSlime:
-                animator.runtimeAnimatorController = blueBigSlimeAnimator;
-                monsterSprite.sprite = blueBigSlimeSprite;
-                if (health < 0) health = 8;
-                if (damage < 0) damage = 1;
-                break;
-
-            case MonsterType.BlueSmallSlime:
-                animator.runtimeAnimatorController = blueSmallSlimeAnimator;
-                monsterSprite.sprite = blueSmallSlimeSprite;
-                movementSpeed = 1.5f;
-                if (health < 0) health = 1;
-                if (damage < 0) damage = 1;
-                break;
-
-            case MonsterType.Minotaur:
-                animator.runtimeAnimatorController = minotaurAnimator;
-                monsterSprite.sprite = minotaurSprite;
-                movementSpeed = 0.8f;
-                capsuleCollider2D.offset = new Vector2(0.06f, -0.07f);
-                if (health < 0) health = 20;
-                if (damage < 0) damage = 5;
-                break;
-
-            case MonsterType.Goblin:
-                Debug.Log("Sneaky Gobbos");
-                break;
-
-            default:
-                Debug.Log("No Monster");
-                break;
-
-        }
+        animator.runtimeAnimatorController = enemyAnimator;
+        monsterSprite.sprite = idleSprite;
 
         aiPath.maxSpeed = movementSpeed;
 

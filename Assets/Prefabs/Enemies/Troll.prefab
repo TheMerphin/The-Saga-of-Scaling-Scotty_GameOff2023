@@ -9,9 +9,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2635214574862303370, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635214574862303370, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2635214574862303370, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: idleSprite
+      value: 
+      objectReference: {fileID: 2623206554616441613, guid: 611c2d7f5eb433743a8e3d609aec2b9a, type: 3}
+    - target: {fileID: 2635214574862303370, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
       propertyPath: monsterType
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2635214574862303370, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
+      propertyPath: enemyAnimator
+      value: 
+      objectReference: {fileID: 9100000, guid: f8b6c2e34d88a0e41bb0313da85d58c6, type: 2}
     - target: {fileID: 2697933265895527395, guid: e9d3157683078824aadf5c9c1535b64a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.601816
