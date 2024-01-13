@@ -15,9 +15,9 @@ public class EntityStatInt : EntityStat<int>
         RoundFunction = roundFunction;
     }
 
-    protected override int CalculateValue()
+    public override int CalculateValue()
     {
-        var value = Value;
+        var value = BaseValue;
 
         Modifiers.ForEach(modifierEntry => {
             switch (modifierEntry.Type)
@@ -33,7 +33,7 @@ public class EntityStatInt : EntityStat<int>
         return value + TemporaryAdditive;
     }
 
-    protected override Range<int> CalculateValueRange()
+    public override Range<int> CalculateValueRange()
     {
         var valueRange = ValueRange;
 
@@ -54,17 +54,17 @@ public class EntityStatInt : EntityStat<int>
 
     public override void Update(int additive)
     {
-        if (ValueRange.IsInRange(Value + additive))
+        if (ValueRange.IsInRange(BaseValue + additive))
         {
-            Value += additive;
+            BaseValue += additive;
         }
         else if (additive >= 0)
         {
-            Value = ValueRange.Max;
+            BaseValue = ValueRange.Max;
         }
         else
         {
-            Value = ValueRange.Min;
+            BaseValue = ValueRange.Min;
         }
     }
 }

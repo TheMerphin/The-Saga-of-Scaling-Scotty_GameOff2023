@@ -27,11 +27,11 @@ public class StatManager : MonoBehaviour
 
         if (entityStat is EntityStatFloat)
         {
-            return (int) ((EntityStatFloat)entityStat).Value;
+            return (int) ((EntityStatFloat)entityStat).CalculateValue();
         }
         else
         {
-            return ((EntityStatInt)entityStat).Value;
+            return ((EntityStatInt)entityStat).CalculateValue();
         }
     }
 
@@ -41,11 +41,11 @@ public class StatManager : MonoBehaviour
 
         if (entityStat is EntityStatFloat)
         {
-            return (entityStat as EntityStatFloat).Value;
+            return (entityStat as EntityStatFloat).CalculateValue();
         }
         else
         {
-            return (entityStat as EntityStatInt).Value;
+            return (entityStat as EntityStatInt).CalculateValue();
         }
     }
 
@@ -55,12 +55,12 @@ public class StatManager : MonoBehaviour
 
         if (entityStat is EntityStatFloat)
         {
-            var floatRange = (entityStat as EntityStatFloat).ValueRange;
+            var floatRange = (entityStat as EntityStatFloat).CalculateValueRange();
             return RangeInt.of((int)floatRange.Min, (int)floatRange.Max);
         }
         else
         {
-            return (entityStat as EntityStatInt).ValueRange;
+            return (entityStat as EntityStatInt).CalculateValueRange();
         }
     }
 
@@ -70,11 +70,11 @@ public class StatManager : MonoBehaviour
 
         if (entityStat is EntityStatFloat)
         {
-            return (entityStat as EntityStatFloat).ValueRange;
+            return (entityStat as EntityStatFloat).CalculateValueRange();
         }
         else
         {
-            var intRange = (entityStat as EntityStatInt).ValueRange;
+            var intRange = (entityStat as EntityStatInt).CalculateValueRange();
             return RangeFloat.of(intRange.Min, intRange.Max);
         }
     }
@@ -108,11 +108,34 @@ public class StatManager : MonoBehaviour
         {
             if (entityStat is EntityStatFloat)
             {
-                (entityStat as EntityStatFloat).Value = value;
+                (entityStat as EntityStatFloat).BaseValue = value;
+                (entityStat as EntityStatFloat).TemporaryAdditive = 0;
             }
             else
             {
-                (entityStat as EntityStatInt).Value = (int) value;
+                (entityStat as EntityStatInt).BaseValue = (int) value;
+                (entityStat as EntityStatInt).TemporaryAdditive = 0;
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    public bool IncreaseTemporaryAdditive(string statIdentifier, float value)
+    {
+        var entityStat = EntityStats.Find(x => x.DisplayName.Equals(statIdentifier));
+
+        if (entityStat != null)
+        {
+            if (entityStat is EntityStatFloat)
+            {
+                (entityStat as EntityStatFloat).TemporaryAdditive += value;
+            }
+            else
+            {
+                (entityStat as EntityStatInt).TemporaryAdditive += (int) value;
             }
 
             return true;

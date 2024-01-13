@@ -2,9 +2,9 @@ public class EntityStatFloat : EntityStat<float>
 {
     public EntityStatFloat(string displayName, RangeFloat valueRange, float initialValue, params StatModifier[] modifiers) : base(displayName, valueRange, initialValue, modifiers) {}
 
-    protected override float CalculateValue()
+    public override float CalculateValue()
     {
-        var value = Value;
+        var value = BaseValue;
 
         Modifiers.ForEach(modifierEntry => {
             switch (modifierEntry.Type)
@@ -20,7 +20,7 @@ public class EntityStatFloat : EntityStat<float>
         return value + TemporaryAdditive;
     }
 
-    protected override Range<float> CalculateValueRange()
+    public override Range<float> CalculateValueRange()
     {
         var valueRange = ValueRange;
 
@@ -41,17 +41,29 @@ public class EntityStatFloat : EntityStat<float>
 
     public override void Update(float additive)
     {
-        if (ValueRange.IsInRange(Value + additive))
+        if (ValueRange.IsInRange(BaseValue + additive))
         {
-            Value += additive;
+            // Decrease TemporaryAdditive first
+            if (additive < 0 && TemporaryAdditive > 0)
+            {
+                TemporaryAdditive += additive;
+
+                if (TemporaryAdditive < 0)
+                {
+                    additive = TemporaryAdditive;
+                    TemporaryAdditive = 0;
+                }
+            }
+
+            BaseValue += additive;
         }
         else if (additive >= 0)
         {
-            Value = ValueRange.Max;
+            BaseValue = ValueRange.Max;
         }
         else
         {
-            Value = ValueRange.Min;
+            BaseValue = ValueRange.Min;
         }
     }
 }

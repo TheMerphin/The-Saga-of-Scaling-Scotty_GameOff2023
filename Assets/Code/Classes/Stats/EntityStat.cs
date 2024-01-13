@@ -32,27 +32,27 @@ public abstract class EntityStat
  */
 public abstract class EntityStat<T> : EntityStat where T : struct, IComparable, IComparable<T>, IConvertible, IEquatable<T>, IFormattable
 {
-    public Range<T> ValueRange { get { return CalculateValueRange(); } set { ValueRange = value; } }
+    public Range<T> ValueRange { get; set; }
 
-    public T Value { get { return CalculateValue(); } set { Value = value; } }
+    public T BaseValue { get; set; }
 
-    // Can exceed the total value beyond max value range
+    // Can exceed the total value beyond max value range, when the EntityStat gets decreased, gets decreased first. Gets wiped when the base value gets set.
     public T TemporaryAdditive { get; set; }
 
     public EntityStat(string displayName, Range<T> valueRange, T initialValue, params StatModifier[] modifiers)
     {
         DisplayName = displayName;
         ValueRange = valueRange;
-        Value = initialValue;
+        BaseValue = initialValue;
 
         Modifiers = new List<StatModifier>();
         Modifiers.AddRange(modifiers);
         Modifiers.Sort((x, y) => x.Type.CompareTo(y.Type));
     }
 
-    protected abstract T CalculateValue();
+    public abstract T CalculateValue();
 
-    protected abstract Range<T> CalculateValueRange();
+    public abstract Range<T> CalculateValueRange();
 
     public abstract void Update(T additive);
 }
