@@ -13,12 +13,9 @@ public class PlayerController : MonoBehaviour, IDamageable
     private Collider2D playerCollider;
 
     private Animator animator;
-    private AnimatorOverrideController animatorOverrideController;
-    private AnimationClipOverrides attackClipOverrides;
 
     private float horizontalMovement, verticalMovement;
     private bool isFacingTL, isFacingBR, isFacingBL, isFacingTR;
-    private int selectedSlot;
 
     private GameMenuController gameMenuController;
     private AudioManager audioManager;
@@ -31,6 +28,8 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     private StatManager statManager;
 
+    private ItemManager itemManager;
+
     private bool scaleCooldown = false;
 
     private bool disableInputs = false;
@@ -42,24 +41,12 @@ public class PlayerController : MonoBehaviour, IDamageable
     private ParticleSystem movementParticles;
     private ParticleSystem damageParticles;
 
-    /**
-     * Contains four items with the following mapping:
-     * 0 -> WeaponType.Melee
-     * 1 -> WeaponType.Range
-     * 2 -> WeaponType.Special
-     * 3 -> Consumable
-     * 4 -> invisible Key slot
-     */
-    private Item[] items;
-
     public static string STAT_ID_HEALTH = "Health";
     public static string STAT_ID_MOVEMENT_SPEED_FACTOR = "MovementSpeedFactor";
 
     private void Awake()
     {
-        items = new Item[5];
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
-        selectedSlot = 0;
         interactCooldown = 0f;
         scalingLevelInfo = GetScaleStructByScaleLevel(ScaleLevel.Normal);
         transform.localScale = Vector3.one;
@@ -70,12 +57,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
-
-        animatorOverrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
-        animator.runtimeAnimatorController = animatorOverrideController;
-
-        attackClipOverrides = new AnimationClipOverrides(animatorOverrideController.overridesCount);
-        animatorOverrideController.GetOverrides(attackClipOverrides);
+        itemManager = GetComponent<ItemManager>();
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -94,12 +76,9 @@ public class PlayerController : MonoBehaviour, IDamageable
             new EntityStatFloat(STAT_ID_MOVEMENT_SPEED_FACTOR, RangeFloat.of(0, 2), 1)
             );
 
-        gameMenuController.SelectSlot(selectedSlot);
         gameMenuController.SetMaxHealth(statManager.GetIntValueRange(STAT_ID_HEALTH).Max);
-        SetSelectedSlot(0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         ResetValuesBeforeFrame();
@@ -140,13 +119,13 @@ public class PlayerController : MonoBehaviour, IDamageable
             if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null && item.CanBePickedUp == 1)
             {
                 interactCooldown = 1f;
-                PickUpItem(item);
+                itemManager.PickUpItem(item);
                 return;
             }
 
             if (chest != null)
             {
-                if (chest.KeyRequired && items[4] != null && (items[4] as Key).Unlocks.Contains(chest.LockType))
+                if (chest.KeyRequired && itemManager.CarriesKey() && itemManager.GetKey().Unlocks.Contains(chest.LockType))
                 {
                     chest.UpdatePrompt(true);
                 }
@@ -155,9 +134,9 @@ public class PlayerController : MonoBehaviour, IDamageable
                     chest.UpdatePrompt(false);
                 }
 
-                if (Input.GetKeyDown(KeyCode.F) && chest.KeyRequired && items[4] != null && chest.OpenChest(items[4] as Key))
+                if (Input.GetKeyDown(KeyCode.F) && chest.KeyRequired && itemManager.CarriesKey() && chest.OpenChest(itemManager.GetKey()))
                 {
-                    items[4] = null;
+                    itemManager.ClearSlot(4);
                 }
                 else if (Input.GetKeyDown(KeyCode.F))
                 {
@@ -167,7 +146,7 @@ public class PlayerController : MonoBehaviour, IDamageable
 
             if (door != null)
             {
-                if (!door.KeyRequired || (door.KeyRequired && items[4] != null && (items[4] as Key).Unlocks.Contains(door.LockType)))
+                if (!door.KeyRequired || (door.KeyRequired && itemManager.CarriesKey() && itemManager.GetKey().Unlocks.Contains(door.LockType)))
                 {
                     door.UpdatePrompt(true);
                 }
@@ -176,9 +155,9 @@ public class PlayerController : MonoBehaviour, IDamageable
                     door.UpdatePrompt(false);
                 }
 
-                if (Input.GetKeyDown(KeyCode.F) && door.KeyRequired && items[4] != null && door.OpenDoor(items[4] as Key))
+                if (Input.GetKeyDown(KeyCode.F) && door.KeyRequired && itemManager.CarriesKey() && door.OpenDoor(itemManager.GetKey()))
                 {
-                    items[4] = null;
+                    itemManager.ClearSlot(4);
                 }
                 else if (Input.GetKeyDown(KeyCode.F))
                 {
@@ -253,7 +232,8 @@ public class PlayerController : MonoBehaviour, IDamageable
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (items[selectedSlot] is Weapon)
+            var selectedItem = itemManager.GetSelectedItem();
+            if (selectedItem is Weapon)
             {
                 var currentClips = animator.GetCurrentAnimatorClipInfo(0);
                 var firstClip = currentClips.Length > 0 ? currentClips[0].clip : null;
@@ -261,15 +241,14 @@ public class PlayerController : MonoBehaviour, IDamageable
                 if (firstClip == null || (firstClip != null && !firstClip.name.Contains("Attack")))
                 {
                     animator.SetTrigger("Attack");
-                    (items[selectedSlot] as Weapon).Attack();
+                    (selectedItem as Weapon).Attack();
                 }
             }
-            else if (items[selectedSlot] is Consumable)
+            else if (selectedItem is Consumable)
             {
-                (items[selectedSlot] as Consumable).Consume();
-                audioManager.Play("Chug");
-                items[3] = null;
-                gameMenuController.SetInventorySlot(null, 3);
+                (selectedItem as Consumable).Consume();
+                audioManager.Play("Chug"); // TODO should be called inside the specific consumable
+                itemManager.ClearSlot(3);
             }
         }
 
@@ -288,20 +267,20 @@ public class PlayerController : MonoBehaviour, IDamageable
             ScalePlayerDown();
         }
 
-        float mouseScroll = Input.GetAxis("Mouse ScrollWheel");
-        if (mouseScroll < 0f && selectedSlot < 3)
+        var mouseScroll = Input.GetAxis("Mouse ScrollWheel");
+        if (mouseScroll < 0f)
         {
-            SetSelectedSlot(selectedSlot + 1);
+            itemManager.AdvanceSelectedSlot();
         }
-        else if (mouseScroll > 0f && selectedSlot > 0)
+        else
         {
-            SetSelectedSlot(selectedSlot - 1);
+            itemManager.RetreadSelectedSlot();
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && selectedSlot != 0) SetSelectedSlot(0);
-        if (Input.GetKeyDown(KeyCode.Alpha2) && selectedSlot != 1) SetSelectedSlot(1);
-        if (Input.GetKeyDown(KeyCode.Alpha3) && selectedSlot != 2) SetSelectedSlot(2);
-        if (Input.GetKeyDown(KeyCode.Alpha4) && selectedSlot != 3) SetSelectedSlot(3);
+        if (Input.GetKeyDown(KeyCode.Alpha1)) itemManager.SetSelectedSlot(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) itemManager.SetSelectedSlot(1);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) itemManager.SetSelectedSlot(2);
+        if (Input.GetKeyDown(KeyCode.Alpha4)) itemManager.SetSelectedSlot(3);
     }
     private void ResetValuesBeforeFrame()
     {
@@ -318,84 +297,6 @@ public class PlayerController : MonoBehaviour, IDamageable
         horizontalMovement = verticalMovement = 0f;
 
         movementParticles.Pause();
-    }
-
-    private void SetSelectedSlot(int slot)
-    {
-        selectedSlot = slot;
-        UpdateItemAnimations();
-        gameMenuController.SelectSlot(selectedSlot);
-    }
-
-    private void UpdateItemAnimations()
-    {
-        if (items[selectedSlot] is Weapon)
-        {
-            var weapon = (Weapon)items[selectedSlot];
-
-            // Swap attack animations
-            attackClipOverrides["AttackTR"] = weapon.AttackAnimations[0];
-            attackClipOverrides["AttackBR"] = weapon.AttackAnimations[1];
-            attackClipOverrides["AttackBL"] = weapon.AttackAnimations[2];
-            attackClipOverrides["AttackTL"] = weapon.AttackAnimations[3];
-
-            animator.Rebind();
-            animatorOverrideController.ApplyOverrides(attackClipOverrides);
-            UpdatePlayerScaling();
-        }
-    }
-
-    private void PickUpItem(Item item)
-    {
-        item.PickUp(transform);
-        UpdateInventory(item);
-        UpdateItemAnimations();
-    }
-
-    private void UpdateInventory(Item item)
-    {
-        Item previousItem = null;
-        var slot = -1;
-        if (item is Weapon)
-        {
-            var weapon = (Weapon)item;
-            switch (weapon.WeaponType)
-            {
-                case WeaponType.Melee:
-                    slot = 0;
-                    previousItem = items[slot];
-                    items[slot] = item;
-                    break;
-                case WeaponType.Range:
-                    slot = 1;
-                    previousItem = items[slot];
-                    items[slot] = item;
-                    break;
-                case WeaponType.Special:
-                    slot = 2;
-                    previousItem = items[slot];
-                    items[slot] = item;
-                    break;
-            }
-        }
-        else if (item is Consumable)
-        {
-            slot = 3;
-
-            previousItem = items[slot];
-            items[slot] = (Consumable)item;
-
-        }
-        else if (item is Key)
-        {
-            previousItem = items[4];
-            items[4] = item;
-        }
-
-        if (previousItem != null) previousItem.Drop();
-
-        // Update UI
-        if (item is not Key) gameMenuController.SetInventorySlot(item.Icon, slot);
     }
 
     private void ScalePlayerUp()
@@ -474,10 +375,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         }
 
         // Update items
-        Array.ForEach(items, item => { if (item != null) item.OnPlayerScaleChange(scalingLevelInfo); });
-
-        var weapon = items[selectedSlot] as Weapon;
-        if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
+        itemManager.OnPlayerScaleChange(scalingLevelInfo);
     }
 
     private IEnumerator ScaleCooldown()
@@ -485,17 +383,6 @@ public class PlayerController : MonoBehaviour, IDamageable
         scaleCooldown = true;
         yield return new WaitForSeconds(1.75f);
         scaleCooldown = false;
-    }
-
-    private void UpdatePlayerScaling()
-    {
-        stepSoundController.PitchFactor = scalingLevelInfo.StepSoundPitchModifier;
-
-        animator.SetFloat("movementSpeedMultiplier", scalingLevelInfo.MovementSpeedModifier);
-        statManager.SetStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, scalingLevelInfo.MovementSpeedModifier);
-
-        var weapon = items[selectedSlot] as Weapon;
-        if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
 
     //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
@@ -605,16 +492,6 @@ public class PlayerController : MonoBehaviour, IDamageable
         spriteRenderer.color = Color.white;
     }
 
-    public void ClearInventory()
-    {
-        gameMenuController.SetInventorySlot(null, 0);
-        gameMenuController.SetInventorySlot(null, 1);
-        gameMenuController.SetInventorySlot(null, 2);
-        gameMenuController.SetInventorySlot(null, 3);
-
-        items = new Item[5];
-    }
-
     public void TakeDamage(float damage)
     {
         UpdateHealth((int) -damage);
@@ -645,6 +522,6 @@ public class PlayerController : MonoBehaviour, IDamageable
             }
         }
 
-        gameMenuController.SetHealth((int)statManager.GetIntValue(STAT_ID_HEALTH));
+        gameMenuController.SetHealth(statManager.GetIntValue(STAT_ID_HEALTH));
     }
 }

@@ -53,7 +53,7 @@ public class TutorialController : MonoBehaviour
             () => { },
             () => { },
             () => { pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f , 0f), Quaternion.identity).GetComponent<PitTrap>(); pitTrap.PlayerRespawnPosition = new Vector2(34.5f, 41.5f); },
-            () => { player.ClearInventory(); },
+            () => { player.GetComponent<ItemManager>().ClearInventory(); },
 };
     }
 
