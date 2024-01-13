@@ -31,7 +31,7 @@ public class Dagger : Weapon
 
     public override void Attack()
     {
-        var attackDirection = player.GetPlayerFacingDirection();
+        var attackDirection = player.GetOrientation();
         var attackPos = (Vector2)player.transform.position;
 
         Vector2 _attackOffset;

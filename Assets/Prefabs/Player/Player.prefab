@@ -14706,6 +14706,7 @@ GameObject:
   - component: {fileID: 3326738143053751273}
   - component: {fileID: 231196413306928107}
   - component: {fileID: 2772721321673750662}
+  - component: {fileID: 8903223415744284049}
   m_Layer: 13
   m_Name: Player
   m_TagString: Player
@@ -14818,7 +14819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacf4b3def0f1974cbc4a72395f55729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeedFactor: 1
+  MovementSpeedFactor: 1
   maxHealth: 20
 --- !u!50 &4980124221196295346
 Rigidbody2D:
@@ -14983,3 +14984,16 @@ MonoBehaviour:
     source: {fileID: 0}
   Floortypes: {fileID: 0}
   PitchFactor: 1
+--- !u!114 &8903223415744284049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454894281491408428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367f0e4af87049647af7d3d7b8f1a37b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntityStats: []

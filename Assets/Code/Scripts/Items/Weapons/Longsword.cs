@@ -41,7 +41,7 @@ public class Longsword : Weapon
     public IEnumerator DelayedDamage()
     {
         yield return new WaitForSeconds(0.5f);
-        var attackDirection = player.GetPlayerFacingDirection();
+        var attackDirection = player.GetOrientation();
         var attackPos = (Vector2)player.transform.position;
 
         Vector2 _attackOffset;

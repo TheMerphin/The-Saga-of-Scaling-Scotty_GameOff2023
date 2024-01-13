@@ -7,9 +7,8 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using static Toolbox;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamageable
 {
-    public float movementSpeedFactor = 1f;
     private Rigidbody2D rb;
     private Collider2D playerCollider;
 
@@ -30,8 +29,7 @@ public class PlayerController : MonoBehaviour
     private PlayerScalingInfo scalingLevelInfo;
     public PlayerScalingInfo ScalingLevelInfo { get { return scalingLevelInfo; } set { scalingLevelInfo = value; } }
 
-    public int maxHealth = 10;
-    private int currentHealth;
+    private StatManager statManager;
 
     private bool scaleCooldown = false;
 
@@ -53,6 +51,9 @@ public class PlayerController : MonoBehaviour
      * 4 -> invisible Key slot
      */
     private Item[] items;
+
+    public static string STAT_ID_HEALTH = "Health";
+    public static string STAT_ID_MOVEMENT_SPEED_FACTOR = "MovementSpeedFactor";
 
     private void Awake()
     {
@@ -87,9 +88,14 @@ public class PlayerController : MonoBehaviour
         damageParticles = transform.GetChild(0).GetComponent<ParticleSystem>();
         movementParticles = transform.GetChild(1).GetComponent<ParticleSystem>();
 
+        statManager = GetComponent<StatManager>();
+        statManager.AddStats(
+            new EntityStatInt(STAT_ID_HEALTH, RangeInt.of(0, 10), 10),
+            new EntityStatFloat(STAT_ID_MOVEMENT_SPEED_FACTOR, RangeFloat.of(0, 2), 1)
+            );
+
         gameMenuController.SelectSlot(selectedSlot);
-        gameMenuController.SetMaxHealth(maxHealth);
-        currentHealth = maxHealth;
+        gameMenuController.SetMaxHealth(statManager.GetIntValueRange(STAT_ID_HEALTH).Max);
         SetSelectedSlot(0);
     }
 
@@ -100,10 +106,29 @@ public class PlayerController : MonoBehaviour
         HandleInput();
     }
 
-    private void LateUpdate()
+    void LateUpdate()
     {
         if (disableInputs) return;
 
+        HandleInteraction();
+        HandleDungeonExits();
+    }
+
+    void FixedUpdate()
+    {
+        if (horizontalMovement > 0.01f || horizontalMovement < -0.01f)
+        {
+            rb.AddForce(new Vector2(horizontalMovement * statManager.GetFloatValue(STAT_ID_MOVEMENT_SPEED_FACTOR) * 2f, 0f), ForceMode2D.Impulse);
+        }
+
+        if (verticalMovement > 0.01f || verticalMovement < -0.01f)
+        {
+            rb.AddForce(new Vector2(0f, verticalMovement * statManager.GetFloatValue(STAT_ID_MOVEMENT_SPEED_FACTOR) * 1.75f), ForceMode2D.Impulse);
+        }
+    }
+
+    public void HandleInteraction()
+    {
         var interactable = Physics2D.CircleCast(transform.position, 1.5f, Vector2.zero, 0f, LayerMask.GetMask("Interactable"));
         if (interactable.collider != null)
         {
@@ -166,33 +191,16 @@ public class PlayerController : MonoBehaviour
                 prompter.ShowPrompt(true);
             }
         }
+    }
 
-        var trapCast = Physics2D.CircleCastAll(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Trap"));
-        Array.ForEach(trapCast, trap =>
-        {
-            var trapController = trap.collider.GetComponent<Trap>();
-            if (trapController != null) trapController.TriggerTrap(this);
-        });
-
+    public void HandleDungeonExits()
+    {
         var exitCast = Physics2D.CircleCast(transform.position, 0.01f, Vector2.zero, 0f, LayerMask.GetMask("Exit"));
-        if(exitCast.collider != null)
+        if (exitCast.collider != null)
         {
             var exitController = exitCast.collider.GetComponent<ExitController>();
             if (exitController != null) StartCoroutine(ExitLevelViaStair(exitController));
         };
-    }
-
-    private void FixedUpdate()
-    {
-        if (horizontalMovement > 0.01f || horizontalMovement < -0.01f)
-        {
-            rb.AddForce(new Vector2(horizontalMovement * movementSpeedFactor * 2f, 0f), ForceMode2D.Impulse);
-        }
-
-        if (verticalMovement > 0.01f || verticalMovement < -0.01f)
-        {
-            rb.AddForce(new Vector2(0f, verticalMovement * movementSpeedFactor * 1.75f), ForceMode2D.Impulse);
-        }
     }
 
     private void HandleInput()
@@ -420,7 +428,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(Scale(targetScaleLevel));
     }
 
-    public DiagonalDirection GetPlayerFacingDirection()
+    public DiagonalDirection GetOrientation()
     {
         if (isFacingTL) return DiagonalDirection.UpLeft;
         if (isFacingTR) return DiagonalDirection.UpRight;
@@ -456,7 +464,7 @@ public class PlayerController : MonoBehaviour
 
             var movementSpeedLerp = Mathf.Lerp(currentMovementSpeed, targetScalingInfo.MovementSpeedModifier, i / ticks);
             animator.SetFloat("movementSpeedMultiplier", movementSpeedLerp);
-            movementSpeedFactor = movementSpeedLerp;
+            statManager.UpdateStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, movementSpeedLerp);
 
             var stepSoundPitchLerp = Mathf.Lerp(currentStepSoundPitch, targetScalingInfo.StepSoundPitchModifier, i / ticks);
             stepSoundController.PitchFactor = stepSoundPitchLerp;
@@ -484,22 +492,26 @@ public class PlayerController : MonoBehaviour
         stepSoundController.PitchFactor = scalingLevelInfo.StepSoundPitchModifier;
 
         animator.SetFloat("movementSpeedMultiplier", scalingLevelInfo.MovementSpeedModifier);
-        movementSpeedFactor = scalingLevelInfo.MovementSpeedModifier;
+        statManager.UpdateStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, scalingLevelInfo.MovementSpeedModifier);
 
         var weapon = items[selectedSlot] as Weapon;
         if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
     }
+
+    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
     public void FallOffGround(Vector2 respawnPosition)
     {
         FallOffGround(respawnPosition, 0);
     }
 
+    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
     public void FallOffGround(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
     {
         disableInputs = true;
         StartCoroutine(FallOffGround_Coroutine(respawnPosition, initialDelay, fallDepth));
     }
 
+    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
     private IEnumerator FallOffGround_Coroutine(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
     {
         rb.velocity = Vector2.zero;
@@ -536,7 +548,7 @@ public class PlayerController : MonoBehaviour
 
         // Respawn
         yield return new WaitForSeconds(0.5f);
-        if (currentHealth > 0)
+        if (statManager.GetIntValue(STAT_ID_HEALTH) > 0)
         {
             cinemachineCamera.Follow = transform;
             transform.position = respawnPosition;
@@ -548,42 +560,6 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.sortingOrder = 0;
             disableInputs = false;
         }
-    }
-
-
-    /*
-     * positive for heal 
-     * negative for damage
-    */
-    public void updateHealth(int newHealth)
-    {
-        if (isDead) return;
-
-        if (newHealth <= 0f)
-        {
-            audioManager.Play("PlayerHurt");
-            damageParticles.Play();
-        }
-
-        if (currentHealth + newHealth <= 0)
-        {
-            currentHealth = 0;
-            disableInputs = true;
-            isDead = true;
-            animator.SetBool("isDead", true);
-            audioManager.Play("PlayerDeath");
-            gameManager.GameOver();
-        }
-        else if (currentHealth + newHealth >= maxHealth)
-        {
-            currentHealth = maxHealth;
-
-        }
-        else
-        {
-            currentHealth = currentHealth + newHealth;
-        }
-        gameMenuController.SetHealth(currentHealth);
     }
 
     private IEnumerator ExitLevelViaStair(ExitController stair)
@@ -637,5 +613,38 @@ public class PlayerController : MonoBehaviour
         gameMenuController.SetInventorySlot(null, 3);
 
         items = new Item[5];
+    }
+
+    public void TakeDamage(float damage)
+    {
+        UpdateHealth((int) -damage);
+    }
+
+    /*
+     * Updates the player health by adding a value. Can be negative to remove health.
+    */
+    public void UpdateHealth(int additive)
+    {
+        if (isDead) return;
+
+        statManager.UpdateStatValue(STAT_ID_HEALTH, additive);
+
+        // Damaged
+        if (additive <= 0f)
+        {
+            audioManager.Play("PlayerHurt");
+            damageParticles.Play();
+
+            if (statManager.GetIntValue(STAT_ID_HEALTH) <= 0)
+            {
+                disableInputs = true;
+                isDead = true;
+                animator.SetBool("isDead", true);
+                audioManager.Play("PlayerDeath");
+                gameManager.GameOver();
+            }
+        }
+
+        gameMenuController.SetHealth((int)statManager.GetIntValue(STAT_ID_HEALTH));
     }
 }

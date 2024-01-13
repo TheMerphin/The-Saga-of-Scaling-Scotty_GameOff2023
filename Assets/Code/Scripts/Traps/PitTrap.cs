@@ -33,29 +33,32 @@ public class PitTrap : Trap
         dynamicCollider = transform.GetChild(0).GetComponent<Collider2D>();
     }
 
-    public override void TriggerTrap(PlayerController player)
+    public override void TriggerTrap(GameObject triggeringObject, bool isDamageable)
     {
         if (!Active) return;
 
         spriteRenderer.sortingLayerName = "-1_BelowGround";
 
+        var player = triggeringObject.GetComponent<PlayerController>();
         if (player != null)
         {
-            Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null));
+            Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null, false));
             if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
             {
                 player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f, pitDepth);
             }
+
+            if ((int)player.ScalingLevelInfo.ScaleLevel < 1)
+            {
+                base.TriggerTrap(player.gameObject, isDamageable);
+            }
+            else
+            {
+                base.TriggerTrap(null, false);
+            }
         }
 
         StartCoroutine(ActivateDynamicCollider());
-        if ((int)player.ScalingLevelInfo.ScaleLevel < 1) {
-            base.TriggerTrap(player);
-        }
-        else
-        {
-            base.TriggerTrap(null);
-        }
 
         if(!oneTimeUse) StartCoroutine(ReactivateTrap());
     }

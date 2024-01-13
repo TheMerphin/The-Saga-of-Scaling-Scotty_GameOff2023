@@ -39,7 +39,7 @@ public class Sword : Weapon
 
     public override void Attack()
     {
-        var attackDirection = player.GetPlayerFacingDirection();
+        var attackDirection = player.GetOrientation();
         var attackPos = (Vector2)player.transform.position;
 
         Vector2 particlesOffset = Vector2.zero;
