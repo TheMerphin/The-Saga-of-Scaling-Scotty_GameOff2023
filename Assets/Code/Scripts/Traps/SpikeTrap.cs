@@ -8,6 +8,8 @@ public class SpikeTrap : Trap
         if (!Active) return;
         Active = false;
 
+        _triggerObject = triggeringObject;
+
         StartCoroutine(ActivateDelay(triggeringObject));
 
         triggerAreaCollider.enabled = false;

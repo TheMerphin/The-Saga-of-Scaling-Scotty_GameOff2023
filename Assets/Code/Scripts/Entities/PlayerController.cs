@@ -464,7 +464,7 @@ public class PlayerController : MonoBehaviour, IDamageable
 
             var movementSpeedLerp = Mathf.Lerp(currentMovementSpeed, targetScalingInfo.MovementSpeedModifier, i / ticks);
             animator.SetFloat("movementSpeedMultiplier", movementSpeedLerp);
-            statManager.UpdateStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, movementSpeedLerp);
+            statManager.SetStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, movementSpeedLerp);
 
             var stepSoundPitchLerp = Mathf.Lerp(currentStepSoundPitch, targetScalingInfo.StepSoundPitchModifier, i / ticks);
             stepSoundController.PitchFactor = stepSoundPitchLerp;
@@ -492,7 +492,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         stepSoundController.PitchFactor = scalingLevelInfo.StepSoundPitchModifier;
 
         animator.SetFloat("movementSpeedMultiplier", scalingLevelInfo.MovementSpeedModifier);
-        statManager.UpdateStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, scalingLevelInfo.MovementSpeedModifier);
+        statManager.SetStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, scalingLevelInfo.MovementSpeedModifier);
 
         var weapon = items[selectedSlot] as Weapon;
         if (weapon != null) animator.SetFloat("attackSpeedMultiplier", weapon.AttackSpeedMultiplier);
