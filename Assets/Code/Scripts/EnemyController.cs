@@ -237,7 +237,7 @@ public class EnemyController : MonoBehaviour
 
     public void hitPLayer()
     {
-       playerController.updateHealth((int) -damage);
+       playerController.UpdateHealth((int) -damage);
     }
 
     public void getAttacked(float damage)

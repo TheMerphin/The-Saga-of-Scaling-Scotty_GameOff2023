@@ -1,10 +1,10 @@
 public class HealthPotion : Consumable
 {
-
-    public int healthRegenerated=2;
+    public int healthRegenerated = 2;
     public override void Consume()
     {
-        base.player.updateHealth(healthRegenerated);
+        audioManager.Play("Chug");
+        base.player.UpdateHealth(healthRegenerated);
         Destroy(this.gameObject);
     }
 }

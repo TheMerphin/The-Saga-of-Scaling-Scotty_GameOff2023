@@ -52,8 +52,8 @@ public class TutorialController : MonoBehaviour
             () => { stageExitCollider.enabled = true; },
             () => { },
             () => { },
-            () => { pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f , 0f), Quaternion.identity).GetComponent<PitTrap>(); pitTrap.PlayerRespawnPosition = new Vector2(34.5f, 41.5f); },
-            () => { player.ClearInventory(); },
+            () => { pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f , 0f), Quaternion.identity).GetComponent<PitTrap>(); pitTrap.EntityRespawnPosition = new Vector2(34.5f, 41.5f); },
+            () => { player.GetComponent<ItemManager>().ClearInventory(); },
 };
     }
 
@@ -80,7 +80,7 @@ public class TutorialController : MonoBehaviour
         pitTrap = null;
         yield return new WaitForSeconds(1);
         pitTrap = Instantiate(pitTrapPrefab, new Vector3(41.5f, 41.5f, 0f), Quaternion.identity).GetComponent<PitTrap>();
-        pitTrap.PlayerRespawnPosition = new Vector2(34.5f, 41.5f);
+        pitTrap.EntityRespawnPosition = new Vector2(34.5f, 41.5f);
     }
 
     private void LateUpdate()

@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PitTrap : Trap 
@@ -14,8 +13,8 @@ public class PitTrap : Trap
     public bool OneTimeUse { get { return oneTimeUse; } set { oneTimeUse = value; } }
 
     [SerializeField]
-    private Vector2 playerRespawnPosition;
-    public Vector2 PlayerRespawnPosition { get { return playerRespawnPosition; } set { playerRespawnPosition = value; } }
+    private Vector2 entityRespawnPosition;
+    public Vector2 EntityRespawnPosition { get { return entityRespawnPosition; } set { entityRespawnPosition = value; } }
 
     [SerializeField]
     private float pitDepth = 8f;
@@ -33,29 +32,42 @@ public class PitTrap : Trap
         dynamicCollider = transform.GetChild(0).GetComponent<Collider2D>();
     }
 
-    public override void TriggerTrap(PlayerController player)
+    public override void TriggerTrap(GameObject triggeringObject, bool isDamageable)
     {
         if (!Active) return;
 
         spriteRenderer.sortingLayerName = "-1_BelowGround";
 
-        if (player != null)
-        {
-            Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null));
-            if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
-            {
-                player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f, pitDepth);
-            }
-        }
+        Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null, false));
 
-        StartCoroutine(ActivateDynamicCollider());
-        if ((int)player.ScalingLevelInfo.ScaleLevel < 1) {
-            base.TriggerTrap(player);
+        var edgeFallBehaviour = triggeringObject.GetComponent<EdgeFallBehaviour>();
+        if (edgeFallBehaviour != null && edgeFallBehaviour.enabled)
+        {
+            var player = triggeringObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
+                {
+                    edgeFallBehaviour.FallOffGround(entityRespawnPosition, 0.075f, pitDepth);
+                    base.TriggerTrap(edgeFallBehaviour.gameObject, isDamageable);
+                }
+                else
+                {
+                    base.TriggerTrap(null, false);
+                }
+            }
+            else
+            {
+                edgeFallBehaviour.FallOffGround(entityRespawnPosition, 0.075f, pitDepth, false);
+                base.TriggerTrap(edgeFallBehaviour.gameObject, edgeFallBehaviour.GetComponent<IDamageable>() != null);
+            }
         }
         else
         {
-            base.TriggerTrap(null);
+            base.TriggerTrap(null, false);
         }
+
+        StartCoroutine(ActivateDynamicCollider());
 
         if(!oneTimeUse) StartCoroutine(ReactivateTrap());
     }

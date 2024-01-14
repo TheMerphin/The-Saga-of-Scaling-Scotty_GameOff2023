@@ -19,7 +19,7 @@ public class GameMenuController : MonoBehaviour
 
     public void SetInventorySlot(Sprite itemIcon, int slot)
     {
-        //Array.ForEach(itemIcons, itemIcon => itemIcon.enabled = false);
+        if (slot >= itemIcons.Length) return;
 
         itemIcons[slot].enabled = itemIcon != null;
         itemIcons[slot].sprite = itemIcon;

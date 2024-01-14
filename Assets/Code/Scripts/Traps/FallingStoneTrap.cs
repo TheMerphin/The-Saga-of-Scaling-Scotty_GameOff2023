@@ -43,13 +43,13 @@ public class FallingStone : Trap
         audioManager.AddSound(stoneHitSound);
     }
 
-    public override void TriggerTrap(PlayerController player)
+    public override void TriggerTrap(GameObject triggeringObject, bool isDamageable)
     {
         if (!Active) return;
 
         shadowAnimator.SetTrigger(animatorTriggerTrapId);
 
-        base.TriggerTrap(player);
+        base.TriggerTrap(triggeringObject, isDamageable);
     }
 
     public void PlayHitGroundSound()
