@@ -1,13 +1,11 @@
-using Cinemachine;
 using System;
 using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 using static Toolbox;
 
-public class PlayerController : MonoBehaviour, IDamageable
+public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
 {
     private Rigidbody2D rb;
     private Collider2D playerCollider;
@@ -30,9 +28,11 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     private ItemManager itemManager;
 
+    private EdgeFallBehaviour edgeFallBehaviour;
+
     private bool scaleCooldown = false;
 
-    private bool disableInputs = false;
+    private bool disableInputs;
 
     private bool isDead = false;
 
@@ -41,12 +41,9 @@ public class PlayerController : MonoBehaviour, IDamageable
     private ParticleSystem movementParticles;
     private ParticleSystem damageParticles;
 
-    public static string STAT_ID_HEALTH = "Health";
-    public static string STAT_ID_MOVEMENT_SPEED_FACTOR = "MovementSpeedFactor";
-
     private void Awake()
     {
-        isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;
+        isFacingBL = isFacingBR = isFacingTL = isFacingTR = disableInputs = false;
         interactCooldown = 0f;
         scalingLevelInfo = GetScaleStructByScaleLevel(ScaleLevel.Normal);
         transform.localScale = Vector3.one;
@@ -58,6 +55,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         playerCollider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
         itemManager = GetComponent<ItemManager>();
+        edgeFallBehaviour = GetComponent<EdgeFallBehaviour>();
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -72,11 +70,11 @@ public class PlayerController : MonoBehaviour, IDamageable
 
         statManager = GetComponent<StatManager>();
         statManager.AddStats(
-            new EntityStatInt(STAT_ID_HEALTH, RangeInt.of(0, 10), 10),
-            new EntityStatFloat(STAT_ID_MOVEMENT_SPEED_FACTOR, RangeFloat.of(0, 2), 1)
+            new EntityStatInt(StatManager.STAT_ID_HEALTH, RangeInt.of(0, 10), 10),
+            new EntityStatFloat(StatManager.STAT_ID_MOVEMENT_SPEED_FACTOR, RangeFloat.of(0, 2), 1)
             );
 
-        gameMenuController.SetMaxHealth(statManager.GetIntValueRange(STAT_ID_HEALTH).Max);
+        gameMenuController.SetMaxHealth(statManager.GetIntValueRange(StatManager.STAT_ID_HEALTH).Max);
     }
 
     void Update()
@@ -97,12 +95,12 @@ public class PlayerController : MonoBehaviour, IDamageable
     {
         if (horizontalMovement > 0.01f || horizontalMovement < -0.01f)
         {
-            rb.AddForce(new Vector2(horizontalMovement * statManager.GetFloatValue(STAT_ID_MOVEMENT_SPEED_FACTOR) * 2f, 0f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(horizontalMovement * statManager.GetFloatValue(StatManager.STAT_ID_MOVEMENT_SPEED_FACTOR) * 2f, 0f), ForceMode2D.Impulse);
         }
 
         if (verticalMovement > 0.01f || verticalMovement < -0.01f)
         {
-            rb.AddForce(new Vector2(0f, verticalMovement * statManager.GetFloatValue(STAT_ID_MOVEMENT_SPEED_FACTOR) * 1.75f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(0f, verticalMovement * statManager.GetFloatValue(StatManager.STAT_ID_MOVEMENT_SPEED_FACTOR) * 1.75f), ForceMode2D.Impulse);
         }
     }
 
@@ -365,7 +363,7 @@ public class PlayerController : MonoBehaviour, IDamageable
 
             var movementSpeedLerp = Mathf.Lerp(currentMovementSpeed, targetScalingInfo.MovementSpeedModifier, i / ticks);
             animator.SetFloat("movementSpeedMultiplier", movementSpeedLerp);
-            statManager.SetStatValue(STAT_ID_MOVEMENT_SPEED_FACTOR, movementSpeedLerp);
+            statManager.SetStatValue(StatManager.STAT_ID_MOVEMENT_SPEED_FACTOR, movementSpeedLerp);
 
             var stepSoundPitchLerp = Mathf.Lerp(currentStepSoundPitch, targetScalingInfo.StepSoundPitchModifier, i / ticks);
             stepSoundController.PitchFactor = stepSoundPitchLerp;
@@ -383,70 +381,6 @@ public class PlayerController : MonoBehaviour, IDamageable
         scaleCooldown = true;
         yield return new WaitForSeconds(1.75f);
         scaleCooldown = false;
-    }
-
-    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
-    public void FallOffGround(Vector2 respawnPosition)
-    {
-        FallOffGround(respawnPosition, 0);
-    }
-
-    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
-    public void FallOffGround(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
-    {
-        disableInputs = true;
-        StartCoroutine(FallOffGround_Coroutine(respawnPosition, initialDelay, fallDepth));
-    }
-
-    //TODO add to general script which enables entities to fall off ground (and possibly into lava/water as well)
-    private IEnumerator FallOffGround_Coroutine(Vector2 respawnPosition, float initialDelay, float fallDepth = 8)
-    {
-        rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(initialDelay);
-
-        playerCollider.enabled = false;
-        var startingPosY = transform.position.y;
-        var originalDrag = rb.drag;
-        var spriteRenderer = GetComponent<SpriteRenderer>();
-        var cinemachineCamera = FindFirstObjectByType<CinemachineVirtualCamera>();
-        var light = GetComponentInChildren<Light2D>();
-        light.enabled = false;
-        cinemachineCamera.Follow = null;
-
-        rb.gravityScale = 0.7f;
-        rb.drag = 0f;
-        rb.velocityY = -1f;
-
-        audioManager.Play("PlayerFalling");
-
-        while (startingPosY - fallDepth < transform.position.y)
-        {
-            if (Mathf.Abs(transform.position.y - (int)transform.position.y) >= 0.875f && spriteRenderer.sortingLayerName.Equals("1_OnGround"))
-            {
-                spriteRenderer.sortingLayerName = "-1_BelowGround";
-                spriteRenderer.sortingOrder = 1;
-            }
-            yield return new WaitForEndOfFrame();
-        }
-
-        spriteRenderer.enabled = false;
-        rb.gravityScale = 0f;
-        rb.drag = originalDrag;
-
-        // Respawn
-        yield return new WaitForSeconds(0.5f);
-        if (statManager.GetIntValue(STAT_ID_HEALTH) > 0)
-        {
-            cinemachineCamera.Follow = transform;
-            transform.position = respawnPosition;
-            playerCollider.enabled = true;
-            light.enabled = true;
-
-            spriteRenderer.enabled = true;
-            spriteRenderer.sortingLayerName = "1_OnGround";
-            spriteRenderer.sortingOrder = 0;
-            disableInputs = false;
-        }
     }
 
     private IEnumerator ExitLevelViaStair(ExitController stair)
@@ -504,7 +438,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     {
         if (isDead) return;
 
-        statManager.UpdateStatValue(STAT_ID_HEALTH, additive);
+        statManager.UpdateStatValue(StatManager.STAT_ID_HEALTH, additive);
 
         // Damaged
         if (additive <= 0f)
@@ -512,7 +446,7 @@ public class PlayerController : MonoBehaviour, IDamageable
             audioManager.Play("PlayerHurt");
             damageParticles.Play();
 
-            if (statManager.GetIntValue(STAT_ID_HEALTH) <= 0)
+            if (statManager.GetIntValue(StatManager.STAT_ID_HEALTH) <= 0)
             {
                 disableInputs = true;
                 isDead = true;
@@ -522,6 +456,16 @@ public class PlayerController : MonoBehaviour, IDamageable
             }
         }
 
-        gameMenuController.SetHealth(statManager.GetIntValue(STAT_ID_HEALTH));
+        gameMenuController.SetHealth(statManager.GetIntValue(StatManager.STAT_ID_HEALTH));
+    }
+
+    public void DisableActivity()
+    {
+        disableInputs = true;
+    }
+
+    public void EnableActivity()
+    {
+        disableInputs = false;
     }
 }

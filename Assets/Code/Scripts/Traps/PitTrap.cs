@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PitTrap : Trap 
@@ -14,8 +13,8 @@ public class PitTrap : Trap
     public bool OneTimeUse { get { return oneTimeUse; } set { oneTimeUse = value; } }
 
     [SerializeField]
-    private Vector2 playerRespawnPosition;
-    public Vector2 PlayerRespawnPosition { get { return playerRespawnPosition; } set { playerRespawnPosition = value; } }
+    private Vector2 entityRespawnPosition;
+    public Vector2 EntityRespawnPosition { get { return entityRespawnPosition; } set { entityRespawnPosition = value; } }
 
     [SerializeField]
     private float pitDepth = 8f;
@@ -39,23 +38,33 @@ public class PitTrap : Trap
 
         spriteRenderer.sortingLayerName = "-1_BelowGround";
 
-        var player = triggeringObject.GetComponent<PlayerController>();
-        if (player != null)
-        {
-            Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null, false));
-            if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
-            {
-                player.GetComponent<PlayerController>().FallOffGround(playerRespawnPosition, 0.075f, pitDepth);
-            }
+        Array.ForEach(linkedPitTraps, pitTrap => pitTrap.TriggerTrap(null, false));
 
-            if ((int)player.ScalingLevelInfo.ScaleLevel < 1)
+        var edgeFallBehaviour = triggeringObject.GetComponent<EdgeFallBehaviour>();
+        if (edgeFallBehaviour != null && edgeFallBehaviour.enabled)
+        {
+            var player = triggeringObject.GetComponent<PlayerController>();
+            if (player != null)
             {
-                base.TriggerTrap(player.gameObject, isDamageable);
+                if ((int)player.ScalingLevelInfo.ScaleLevel < 1 || linkedPitTraps.Length > 0)
+                {
+                    edgeFallBehaviour.FallOffGround(entityRespawnPosition, 0.075f, pitDepth);
+                    base.TriggerTrap(edgeFallBehaviour.gameObject, isDamageable);
+                }
+                else
+                {
+                    base.TriggerTrap(null, false);
+                }
             }
             else
             {
-                base.TriggerTrap(null, false);
+                edgeFallBehaviour.FallOffGround(entityRespawnPosition, 0.075f, pitDepth, false);
+                base.TriggerTrap(edgeFallBehaviour.gameObject, edgeFallBehaviour.GetComponent<IDamageable>() != null);
             }
+        }
+        else
+        {
+            base.TriggerTrap(null, false);
         }
 
         StartCoroutine(ActivateDynamicCollider());

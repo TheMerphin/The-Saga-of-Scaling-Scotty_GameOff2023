@@ -9,6 +9,9 @@ using UnityEngine;
  */
 public class StatManager : MonoBehaviour
 {
+    public static string STAT_ID_HEALTH = "Health";
+    public static string STAT_ID_MOVEMENT_SPEED_FACTOR = "MovementSpeedFactor";
+
     public readonly List<EntityStat> EntityStats = new();
 
     public void AddStats(params EntityStat[] entityStats)
