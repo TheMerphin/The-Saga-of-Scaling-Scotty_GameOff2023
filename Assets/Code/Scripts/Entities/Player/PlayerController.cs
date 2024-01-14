@@ -28,8 +28,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
 
     private ItemManager itemManager;
 
-    private EdgeFallBehaviour edgeFallBehaviour;
-
     private bool scaleCooldown = false;
 
     private bool disableInputs;
@@ -55,7 +53,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
         playerCollider = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
         itemManager = GetComponent<ItemManager>();
-        edgeFallBehaviour = GetComponent<EdgeFallBehaviour>();
 
         gameMenuController = FindFirstObjectByType<GameMenuController>();
         audioManager = FindFirstObjectByType<AudioManager>();
@@ -245,7 +242,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
             else if (selectedItem is Consumable)
             {
                 (selectedItem as Consumable).Consume();
-                audioManager.Play("Chug"); // TODO should be called inside the specific consumable
                 itemManager.ClearSlot(3);
             }
         }
