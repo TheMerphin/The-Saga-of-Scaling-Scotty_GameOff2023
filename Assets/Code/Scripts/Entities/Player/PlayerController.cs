@@ -272,9 +272,9 @@ public class PlayerController : MonoBehaviour, IDamageable
         {
             itemManager.AdvanceSelectedSlot();
         }
-        else
+        else if (mouseScroll > 0f)
         {
-            itemManager.RetreadSelectedSlot();
+            itemManager.RetreatSelectedSlot();
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1)) itemManager.SetSelectedSlot(0);

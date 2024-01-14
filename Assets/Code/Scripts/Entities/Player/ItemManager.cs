@@ -99,7 +99,7 @@ public class ItemManager : MonoBehaviour
         }
     }
 
-    public void RetreadSelectedSlot()
+    public void RetreatSelectedSlot()
     {
         if (selectedSlot > 0)
         {
