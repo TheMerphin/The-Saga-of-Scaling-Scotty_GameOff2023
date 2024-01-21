@@ -53,11 +53,10 @@ public class Axe : Weapon
 
         var boxCast = Physics2D.BoxCastAll(attackPos + _attackOffset, attackBoxSize * playerTransformFactor, 0f, Vector2.zero, 0f, LayerMask.GetMask("Enemy"));
         boxCast.ToList().ForEach(hit => {
-            EnemyController enemyController = hit.transform.GetComponent<EnemyController>(); // Transform durch EnemyController swappen
+            EnemyController enemyController = hit.transform.GetComponent<EnemyController>();
 
             if (enemyController != null)
             {
-                //print("Hit: " + enemyController.name + " with " + this.Damage);
                 enemyController.getAttacked(this.Damage);
             }
         });

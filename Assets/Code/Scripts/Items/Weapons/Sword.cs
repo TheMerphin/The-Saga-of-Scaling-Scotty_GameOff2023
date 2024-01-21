@@ -43,7 +43,6 @@ public class Sword : Weapon
         var attackPos = (Vector2)player.transform.position;
 
         Vector2 particlesOffset = Vector2.zero;
-        Quaternion particlesRotation = Quaternion.identity;
 
         Vector2 _attackOffset;
         switch (attackDirection)
@@ -51,32 +50,27 @@ public class Sword : Weapon
             case DiagonalDirection.UpRight:
                 _attackOffset = attackOffset * new Vector2(1f, 1f) * playerTransformFactor;
                 particlesOffset = new Vector2(0.25f, 0.15f);
-                particlesRotation = Quaternion.Euler(0, 0, 10f);
                 break;
             case DiagonalDirection.UpLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, 1f) * playerTransformFactor;
                 particlesOffset = new Vector2(-0.25f, 0.15f);
-                particlesRotation = Quaternion.Euler(0, 0, 70f);
                 break;
             case DiagonalDirection.DownLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, -1f) * playerTransformFactor;
                 particlesOffset = new Vector2(-0.25f, 0.45f);
-                particlesRotation = Quaternion.Euler(0, 0, 190f);
                 break;
             default: // DiagonalDirection.DownRight
                 _attackOffset = attackOffset * new Vector2(1f, -1f) * playerTransformFactor;
                 particlesOffset = new Vector2(0.25f, 0.45f);
-                particlesRotation = Quaternion.Euler(0, 0, 250f);
                 break;
         }
 
         var boxCast = Physics2D.BoxCastAll(attackPos + _attackOffset, attackBoxSize * playerTransformFactor, 0f, Vector2.zero, 0f, LayerMask.GetMask("Enemy"));
         boxCast.ToList().ForEach(hit => {
-            EnemyController enemyController = hit.transform.GetComponent<EnemyController>(); // Transform durch EnemyController swappen
+            EnemyController enemyController = hit.transform.GetComponent<EnemyController>();
 
             if (enemyController != null)
             {
-                //print("Hit: " + enemyController.name);
                 enemyController.getAttacked(this.Damage);
             }
         });
@@ -84,7 +78,7 @@ public class Sword : Weapon
         audioManager.Play(AttackSound.name);
 
         attackParticles.transform.localPosition = particlesOffset;
-        attackParticles.transform.localRotation = particlesRotation;
+        attackParticles.transform.localRotation = Quaternion.identity;
         attackParticles.Play();
     }
 
