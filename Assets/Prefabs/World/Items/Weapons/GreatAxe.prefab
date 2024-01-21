@@ -60,8 +60,8 @@ MonoBehaviour:
   damage: 7
   attackSpeedMultiplier: 0.6
   attackSound:
-    name: GreatAxeAttack
-    clip: {fileID: 8300000, guid: a47aaf075514f634193a471289850da3, type: 3}
+    name: GreatAxeAttackDown
+    clip: {fileID: 8300000, guid: ebc7834ae11b3754f8ce751d2b14c4f5, type: 3}
     volume: 1
     volumeVariance: 0.1
     pitch: 1.7
@@ -74,6 +74,16 @@ MonoBehaviour:
   - {fileID: 7400000, guid: d8a98b11da5920d4188696e0ce797f30, type: 2}
   - {fileID: 7400000, guid: e012dc6537d95984eb76ba70264488cc, type: 2}
   - {fileID: 7400000, guid: 6112877f9801f0f4e9314ac5316b35ee, type: 2}
+  attackSoundUp:
+    name: GreatAxeAttackUp
+    clip: {fileID: 8300000, guid: 60d3c7b07f69a034890c3f52bc3e72d2, type: 3}
+    volume: 1
+    volumeVariance: 0.1
+    pitch: 1.7
+    pitchVariance: 0.1
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
   attackBoxSize: {x: 1.6, y: 1.6}
   attackOffset: {x: 0.64, y: 0.64}
 --- !u!212 &1774876079990947437

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using Weapons;
 using static Toolbox;
 
 public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
@@ -233,10 +234,9 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
                 var currentClips = animator.GetCurrentAnimatorClipInfo(0);
                 var firstClip = currentClips.Length > 0 ? currentClips[0].clip : null;
 
-                if (firstClip == null || (firstClip != null && !firstClip.name.Contains("Attack")))
+                if (firstClip == null || !firstClip.name.Contains("Attack"))
                 {
                     animator.SetTrigger("Attack");
-                    (selectedItem as Weapon).Attack();
                 }
             }
             else if (selectedItem is Consumable)
@@ -276,6 +276,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
         if (Input.GetKeyDown(KeyCode.Alpha3)) itemManager.SetSelectedSlot(2);
         if (Input.GetKeyDown(KeyCode.Alpha4)) itemManager.SetSelectedSlot(3);
     }
+
     private void ResetValuesBeforeFrame()
     {
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = false;

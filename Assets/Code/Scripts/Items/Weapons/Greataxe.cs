@@ -1,10 +1,14 @@
-using System.Collections;
+using System;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using static Toolbox;
 
 public class Greataxe : Weapon
 {
+    [SerializeField]
+    private Sound attackSoundUp;
+
     public Vector2 attackBoxSize = new Vector2(1.4f, 1.4f);
     public Vector2 attackOffset = new Vector2(0.7f, 0.7f);
     private float playerTransformFactor = 1f;
@@ -30,18 +34,15 @@ public class Greataxe : Weapon
         Gizmos.DrawWireCube(transform.position + (Vector3)((attackOffset * 1.75f) * new Vector2(-1f, -1f)), attackBoxSize * 1.75f);
     }
 
-    public override void Attack()
+    protected override void Start()
     {
-        StartCoroutine("DelayedDamage");
+        base.Start();
 
-        audioManager.Play(AttackSound.name);
-
+        audioManager.AddSound(attackSoundUp);
     }
 
-
-    public IEnumerator DelayedDamage()
+    public override void Attack()
     {
-        yield return new WaitForSeconds(0.5f);
         var attackDirection = player.GetOrientation();
         var attackPos = (Vector2)player.transform.position;
 
@@ -64,16 +65,21 @@ public class Greataxe : Weapon
 
         var boxCast = Physics2D.BoxCastAll(attackPos + _attackOffset, attackBoxSize * playerTransformFactor, 0f, Vector2.zero, 0f, LayerMask.GetMask("Enemy"));
         boxCast.ToList().ForEach(hit => {
-        EnemyController enemyController = hit.transform.GetComponent<EnemyController>(); // Transform durch EnemyController swappen
+            EnemyController enemyController = hit.transform.GetComponent<EnemyController>();
 
             if (enemyController != null)
             {
-                print("Hit: " + enemyController.name + " with " + this.Damage);
                 enemyController.getAttacked(this.Damage);
             }
-        });      
+        });
+
+        audioManager.Play(AttackSound.name);
     }
 
+    public void PlayAttackSlashUp()
+    {
+        audioManager.Play(attackSoundUp.name);
+    }
 
     public override void OnPlayerScaleChange(PlayerScalingInfo updatedScalingLevelInfo)
     {

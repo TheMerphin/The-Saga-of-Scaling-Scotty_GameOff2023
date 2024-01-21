@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using UnityEngine;
-using static Toolbox;
 
 public abstract class Weapon : Item
 {
