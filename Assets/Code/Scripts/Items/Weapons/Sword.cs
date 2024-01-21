@@ -43,6 +43,7 @@ public class Sword : Weapon
         var attackPos = (Vector2)player.transform.position;
 
         Vector2 particlesOffset = Vector2.zero;
+        Quaternion particlesRotation = Quaternion.identity;
 
         Vector2 _attackOffset;
         switch (attackDirection)
@@ -50,18 +51,22 @@ public class Sword : Weapon
             case DiagonalDirection.UpRight:
                 _attackOffset = attackOffset * new Vector2(1f, 1f) * playerTransformFactor;
                 particlesOffset = new Vector2(0.25f, 0.15f);
+                particlesRotation = Quaternion.Euler(0, 0, 10f);
                 break;
             case DiagonalDirection.UpLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, 1f) * playerTransformFactor;
                 particlesOffset = new Vector2(-0.25f, 0.15f);
+                particlesRotation = Quaternion.Euler(0, 0, 70f);
                 break;
             case DiagonalDirection.DownLeft:
                 _attackOffset = attackOffset * new Vector2(-1f, -1f) * playerTransformFactor;
                 particlesOffset = new Vector2(-0.25f, 0.45f);
+                particlesRotation = Quaternion.Euler(0, 0, 190f);
                 break;
             default: // DiagonalDirection.DownRight
                 _attackOffset = attackOffset * new Vector2(1f, -1f) * playerTransformFactor;
                 particlesOffset = new Vector2(0.25f, 0.45f);
+                particlesRotation = Quaternion.Euler(0, 0, 250f);
                 break;
         }
 
@@ -78,7 +83,7 @@ public class Sword : Weapon
         audioManager.Play(AttackSound.name);
 
         attackParticles.transform.localPosition = particlesOffset;
-        attackParticles.transform.localRotation = Quaternion.identity;
+        attackParticles.transform.localRotation = particlesRotation;
         attackParticles.Play();
     }
 
