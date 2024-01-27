@@ -19,19 +19,19 @@ public class TutorialController : MonoBehaviour
 
     [Header("Stage 1 - Items")]
     [SerializeField]
-    private DoorController door1;
+    private LockController door1;
 
     [Header("Stage 2 - Enemies")]
     [SerializeField]
-    private DoorController door2;
+    private LockController door2;
 
     [Header("Stage 3 - Traps")]
     [SerializeField]
-    private DoorController door3;
+    private LockController door3;
 
     [Header("Stage 4 - Scaling")]
     [SerializeField]
-    private DoorController door4;
+    private LockController door4;
     [SerializeField]
     private GameObject pitTrapPrefab;
     private PitTrap pitTrap;

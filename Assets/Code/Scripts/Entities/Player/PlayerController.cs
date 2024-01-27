@@ -108,8 +108,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
         if (interactable.collider != null)
         {
             var item = interactable.collider.GetComponent<Item>();
-            var door = interactable.collider.GetComponent<DoorController>();
-            var chest = interactable.collider.GetComponent<ChestController>();
+            var unlockable = interactable.collider.GetComponent<LockController>();
             var prompter = interactable.collider.GetComponent<ObjectPrompter>();
 
             if (Input.GetKeyDown(KeyCode.F) && interactCooldown <= 0f && item != null && item.CanBePickedUp == 1)
@@ -119,45 +118,24 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
                 return;
             }
 
-            if (chest != null)
+            if (unlockable != null)
             {
-                if (chest.KeyRequired && itemManager.CarriesKey() && itemManager.GetKey().Unlocks.Contains(chest.LockType))
+                if (!unlockable.KeyRequired() || (itemManager.CarriesKey() && itemManager.GetKey().Unlocks.Contains(unlockable.LockType)))
                 {
-                    chest.UpdatePrompt(true);
+                    unlockable.UpdateKeyPrompt(true);
                 }
                 else
                 {
-                    chest.UpdatePrompt(false);
+                    unlockable.UpdateKeyPrompt(false);
                 }
 
-                if (Input.GetKeyDown(KeyCode.F) && chest.KeyRequired && itemManager.CarriesKey() && chest.OpenChest(itemManager.GetKey()))
+                if (Input.GetKeyDown(KeyCode.F) && unlockable.KeyRequired() && itemManager.CarriesKey() && unlockable.Unlock(itemManager.GetKey()))
                 {
                     itemManager.ClearSlot(4);
                 }
                 else if (Input.GetKeyDown(KeyCode.F))
                 {
-                    chest.OpenChest();
-                }
-            }
-
-            if (door != null)
-            {
-                if (!door.KeyRequired || (door.KeyRequired && itemManager.CarriesKey() && itemManager.GetKey().Unlocks.Contains(door.LockType)))
-                {
-                    door.UpdatePrompt(true);
-                }
-                else
-                {
-                    door.UpdatePrompt(false);
-                }
-
-                if (Input.GetKeyDown(KeyCode.F) && door.KeyRequired && itemManager.CarriesKey() && door.OpenDoor(itemManager.GetKey()))
-                {
-                    itemManager.ClearSlot(4);
-                }
-                else if (Input.GetKeyDown(KeyCode.F))
-                {
-                    door.OpenDoor();
+                    unlockable.Unlock();
                 }
             }
 

@@ -4,13 +4,13 @@ public class Key : Item
 {
     [Header("Key Settings")]
     [SerializeField]
-    private Unlocks[] unlocks;
-    public Unlocks[] Unlocks { get { return unlocks; } set { unlocks = value; } }
+    private LockType[] unlocks;
+    public LockType[] Unlocks { get { return unlocks; } set { unlocks = value; } }
 }
 
-public enum Unlocks
+public enum LockType
 {
     None,
-    Chests,
-    Doors
+    Chest,
+    Door
 }
