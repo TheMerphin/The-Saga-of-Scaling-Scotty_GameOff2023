@@ -3,7 +3,6 @@ using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
-using Weapons;
 using static Toolbox;
 
 public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
