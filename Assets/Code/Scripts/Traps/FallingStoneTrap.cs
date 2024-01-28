@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using static Toolbox;
 
 public class FallingStone : Trap
 {

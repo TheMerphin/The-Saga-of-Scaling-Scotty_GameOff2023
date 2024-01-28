@@ -1,6 +1,5 @@
 using System.Linq;
 using UnityEngine;
-using static Toolbox;
 
 public class Dagger : Weapon
 {
