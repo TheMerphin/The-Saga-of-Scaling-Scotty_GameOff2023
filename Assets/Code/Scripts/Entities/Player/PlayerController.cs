@@ -3,7 +3,6 @@ using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
-using static Toolbox;
 
 public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
 {
@@ -43,7 +42,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
     {
         isFacingBL = isFacingBR = isFacingTL = isFacingTR = disableInputs = false;
         interactCooldown = 0f;
-        scalingLevelInfo = GetScaleStructByScaleLevel(ScaleLevel.Normal);
+        scalingLevelInfo = ScaleLevelUtils.GetScaleStructByScaleLevel(ScaleLevel.Normal);
         transform.localScale = Vector3.one;
     }
 
@@ -173,7 +172,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var mouseDirection = (mousePos - playerPos).normalized;
 
-        switch (GetDiagonalDirection(mouseDirection))
+        switch (DiagonalDirectionUtils.GetDiagonalDirection(mouseDirection))
         {
             case DiagonalDirection.UpRight:
                 isFacingTR = true;
@@ -313,7 +312,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IActivityToggle
     {
         StartCoroutine(ScaleCooldown());
 
-        var targetScalingInfo = GetScaleStructByScaleLevel(targetScaleLevel);
+        var targetScalingInfo = ScaleLevelUtils.GetScaleStructByScaleLevel(targetScaleLevel);
         var currentTransformScale = scalingLevelInfo.TransformScale;
         var currentStepSoundPitch = scalingLevelInfo.StepSoundPitchModifier;
         var currentMovementSpeed = scalingLevelInfo.MovementSpeedModifier;

@@ -1,8 +1,5 @@
-using System;
 using System.Linq;
-using TMPro;
 using UnityEngine;
-using static Toolbox;
 
 public class Greataxe : Weapon
 {

@@ -1,5 +1,3 @@
-using static Toolbox;
-
 public struct PlayerScalingInfo
 {
     public ScaleLevel ScaleLevel;

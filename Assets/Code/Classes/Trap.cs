@@ -1,5 +1,4 @@
 using UnityEngine;
-using static Toolbox;
 
 public abstract class Trap : MonoBehaviour
 {
